@@ -6,9 +6,8 @@
 
 # Summer School: Introduction to Ancient Metagenomics
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- Practical Introduction to Ancient Metagenomics
+- Learn how to run a project analysis from A-Z
 
 [About](#about)
 [Apply](apply.md)
