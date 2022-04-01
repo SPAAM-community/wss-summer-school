@@ -1,10 +1,6 @@
 <!-- _coverpage.md -->
 
-<div>
-<img src="assets/images/logos/SPAAM-Logo-Full-Colour.svg" width=25%>
-</div>
-
-# Summer School: Introduction to Ancient Metagenomics
+<img src="assets/images/logos/WSS-SPAAM-summerschool_logo_name.svg" width=50%%>
 
 - Practical Introduction to Ancient Metagenomics
 - Learn how to run a project analysis from A-Z
