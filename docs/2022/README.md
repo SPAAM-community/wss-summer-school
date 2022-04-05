@@ -6,7 +6,7 @@ The summer school will be a 5 day **Practical** workshop (block practicum). Atte
 
 ## Who
 
-The course is aimed at masters students and first- or second-year level PhD students, to a maximum of 25 participants.
+The course is aimed at masters students and early-stage PhD students, to a maximum of 25 participants.
 
 ## Where
 
@@ -20,11 +20,14 @@ The summer school will be provisionally held between 1st-5th August, 09:00-17:00
 
 ### DAY 1
 
-**Lecture** Introduction to NGS data:
-What is NGS sequencing and what does its data look like?
-**Practical** BareBonesBash:
-Introduction to the UNIX command line. How to navigate and batch-manipulate files.
-**Round table** Introductions
+- **Lecture** Introduction to NGS data:
+  - What is NGS sequencing and what does its data look like?
+- **Practical** BareBonesBash 1:
+  - Introduction to the UNIX command line.
+- **Practical** BareBonesBash 2:
+  - How to navigate and batch-manipulate files.
+- **Round table** Introductions
+  - Welcome - let's get to know eachother
 
 ### DAY 2
 
