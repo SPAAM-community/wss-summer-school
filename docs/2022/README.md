@@ -61,7 +61,9 @@ The summer school will be provisionally held between 1st-5th August, 09:00-17:00
 - **Practical** Genome mapping
   - Why and how do we map against a reference? What parameters are important for aDNA?
 - **Practical** Genome assembly
+  - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Roundtable** Databases
+  - Why are databases so important? What impact does database selection have on my results? What pitfalls should I watch out for?
 
 ### DAY 5
 
