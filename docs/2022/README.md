@@ -22,57 +22,57 @@ The summer school will be provisionally held between 1st-5th August, 09:00-17:00
 
 ### DAY 1
 
-- **Lecture** Introduction to NGS data: 
+- **Lecture** Introduction to NGS data: _James Fellows Yates_
   - What is NGS sequencing and what does its data look like?
-- **Practical** BareBonesBash 1:
+- **Practical** BareBonesBash 1: _Aida Andrades Valtueña and Thiseas Lamnidis_
   - Introduction to the UNIX command line.
-- **Practical** BareBonesBash 2:
+- **Practical** BareBonesBash 2: _Aida Andrades Valtueña and Thiseas Lamnidis_
   - How to navigate and batch-manipulate files.
 - **Round table** Introductions
   - Welcome - let's get to know eachother
 
 ### DAY 2
 
-- **Lecture** Introduction to ancient DNA
+- **Lecture** Introduction to ancient DNA: _Christina Warinner_
   - How to identify and handle DNA from ancient contexts
-- **Practical** Bytesize git
+- **Practical** Bytesize git: _James Fellows Yates and Megan Michel_
   - What is git and github? How to clone a repository? What does commit/pull/push mean?
-- **Practical** ancientMetagenomeDir
+- **Practical** ancientMetagenomeDir: _James Fellows Yates and Megan Michel_
   - Where to get ancient metagenomic comparative data, and why is metadata important?
   - Git practice
-- **Practical** nf-core/eager:
+- **Practical** nf-core/eager: _James Fellows Yates and Megan Michel_
   - How do I quality control NGS aDNA data? How do I remove adapters and contamination? How to perform taxonomic profiling?
 - **Round table** Project organisation
   - How to structure my project analysis folders? How to reproducibly document my work?
 
 ### DAY 3
 
-- **Lecture** Introduction to Metagenomics
+- **Lecture** Introduction to Metagenomics: _TBA_
   - What are the questions tackled in metagenomics? What are the challenges?
-- **Practical** Introduction to R and the tidyverse
+- **Practical** Introduction to R and the tidyverse: _Clemens Schmid_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2
-- **Practical** Taxonomic Profiling, OTU Tables and Visualisation
+- **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Irina Velsko_
   - R practice. How to normalise OTU tables? How do I remove contamination?
 - **Round table** Taxonomic Classifiers
   - How do I pick a taxonomic classifier? What is best for aDNA?
 
 ### DAY 4
 
-- **Lecture** Introduction to microbial genomics
+- **Lecture** Introduction to microbial genomics: _Alexander Herbig_
   - How can we learn from studying the genomes of microbes? What questions can we ask?
-- **Practical** Genome mapping
+- **Practical** Genome mapping: _Alexander Herbig and Alina Hiss_
   - Why and how do we map against a reference? What parameters are important for aDNA?
-- **Practical** Genome assembly
+- **Practical** Genome assembly: _Alexander Hübner_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Roundtable** Databases
   - Why are databases so important? What impact does database selection have on my results? What pitfalls should I watch out for?
 
 ### DAY 5
 
-- **Lecture** Evolutionary Biology
+- **Lecture** Evolutionary Biology: TBA
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
-- **Practical** Phylogenomics
+- **Practical** Phylogenomics: _Aida Andrades Valtueña and Arthur Kocher_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
-- **Practical** Functional Genomics
+- **Practical** Functional Genomics: _Irina Velsko_
   - How can we infer genomic function from sequences? What sort of analysis can we do?
 - **Round table** Workshop recap
