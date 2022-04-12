@@ -2,9 +2,9 @@
 
 ## What
 
-The **Ancient Metagenomics Summer School** will be a 5 day **practical** workshop (block practicum). Attendees who participate in the entire course will be eligible for 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework). 
+The **Ancient Metagenomics Summer School** will be a 5 day **practical** workshop (block practicum). Attendees who participate in the entire course will be eligible for 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
 
-The course is taught by scientific staff at the Max Planck Institute for Evolutionary Anthropology and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Prof. Dr. Christina Warinner and James Fellows Yates. 
+The course is taught by scientific staff at the Max Planck Institute for Evolutionary Anthropology and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Prof. Dr. Christina Warinner and James Fellows Yates.
 
 ## Who
 
@@ -12,11 +12,15 @@ The course is aimed at masters students and early-stage PhD students, to a maxim
 
 ## Where
 
-This summer school will be held virtually on the online platform gather.town. More details to follow. 
+This summer school will be held virtually on the online platform gather.town. More details to follow.
 
 ## When
 
 The summer school will be provisionally held between 1st-5th August, 09:00-17:00 CEST (Berlin Time).
+
+## What
+
+You will need access to the internet, and a terminal of some form (see this editions page [Resources](2022/resources) for suggestions)
 
 ## Contents Overview
 
