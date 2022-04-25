@@ -21,18 +21,16 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches for validating and analysis of ancient oral microbiomes and palaeogenomic data in general.
 
-🇺🇸 **Christina Warinner** is ...
+🇺🇸 **Christina Warinner** is Group Leader of Microbiome Sciences at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and Associate Professor of Anthropology at Harvard University. She serves on the Leadership Team of the Max Planck-Harvard Research Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), and is a Professor in the Faculty of Biological Sciences at Friedrich Schiller University in Jena, Germany. Her research focuses on the use of metagenomics and paleoproteomics to better understand past human diet, health, and the evolution of the human microbiome.
 
 ## Instructors
 
 <div class="avatar">
 
-<!--
 <div class ="member">
 <div class="square"><a href="https://twitter.com/aidaanva" target="_blank"><img src="assets/images/headshots/ANDRADES_VALTUENA_Aida.jpg" alt="Avatar" /></a></div>
 <p>Aida Andrades Valtueña</p>
 </div>
--->
 
 <div class ="member">
 <div class="square"><a href="https://twitter.com/alexhbnr" target="_blank"><img src="assets/images/headshots/HUEBNER_Alex.jpg" alt="Avatar" /></a></div>
@@ -51,9 +49,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 </div>
 
-<!--
-🇪🇸 **Aida Andrades Valtueña** is
--->
+🇪🇸 **Aida Andrades Valtueña** is a geneticist interested in pathogen evolution, with particular interest in prehistoric pathogens. She has been exploring new methods to analyse ancient pathogen data to understand their past function and ecology to inform models of pathogen emergence.
 
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
 
