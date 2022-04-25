@@ -8,7 +8,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 <div class="avatar">
 
 <div class ="member">
-<div class="square"><a href="https://www.jafy.eu/" target="_blank"><img src="assets/images/headshots/FELLOWS_YATES_James.jpeg" alt="Avatar" /></a></div>
+<div class="square"><a href="https://www.jafy.eu/" target="_blank"><img src="assets/images/headshots/FELLOWS_YATES_James.jpg" alt="Avatar" /></a></div>
 <p>James Fellows Yates</p>
 </div>
 
@@ -27,21 +27,39 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 <div class="avatar">
 
+<!--
 <div class ="member">
 <div class="square"><a href="https://twitter.com/aidaanva" target="_blank"><img src="assets/images/headshots/ANDRADES_VALTUENA_Aida.jpg" alt="Avatar" /></a></div>
 <p>Aida Andrades Valtueña</p>
 </div>
+-->
+
+<div class ="member">
+<div class="square"><a href="https://twitter.com/alexhbnr" target="_blank"><img src="assets/images/headshots/HUEBNER_Alex.jpg" alt="Avatar" /></a></div>
+<p>Alex Hübner</p>
+</div>
+
+<div class ="member">
+<div class="square"><a href="https://www.researchgate.net/profile/Arthur-Kocher" target="_blank"><img src="assets/images/headshots/KOCHER_Arthur.jpg" alt="Avatar" /></a></div>
+<p>Arthur Kocher</p>
+</div>
 
 <div class ="member">
 <div class="square"><a href="https://twitter.com/TCLamnidis" target="_blank"><img src="assets/images/headshots/LAMNIDIS_Thiseas.jpg" alt="Avatar" /></a></div>
-<p>Aida Andrades Valtueña</p>
+<p>Thiseas C. Lamnidis</p>
 </div>
 
 </div>
 
+<!--
 🇪🇸 **Aida Andrades Valtueña** is
+-->
 
-🇬🇷 **Thiseas Lamnidis** is
+🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
+
+🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
+
+🇫🇷 **Arthur Kocher** initially trained as a veterinarian. He then pursued a PhD in the field of disease ecology, during which he studied the impact of biodiversity changes on the transmission of zoonotic diseases using molecular tools such as DNA metabarcoding. During his Post-Docs, he extended his research focus to evolutionary aspects of pathogens, which he currently investigates using ancient genomic data and Bayesian phylogenetics.
 
 <style>
 .member {
