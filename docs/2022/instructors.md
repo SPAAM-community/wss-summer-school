@@ -43,6 +43,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://twitter.com/FzzyToothSweatr" target="_blank"><img src="assets/images/headshots/VELSKO_Irina.jpeg" alt="Avatar" /></a></div>
+<p>Irina Velsko</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://twitter.com/TCLamnidis" target="_blank"><img src="assets/images/headshots/LAMNIDIS_Thiseas.jpg" alt="Avatar" /></a></div>
 <p>Thiseas C. Lamnidis</p>
 </div>
@@ -53,9 +58,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
 
-🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
-
 🇫🇷 **Arthur Kocher** initially trained as a veterinarian. He then pursued a PhD in the field of disease ecology, during which he studied the impact of biodiversity changes on the transmission of zoonotic diseases using molecular tools such as DNA metabarcoding. During his Post-Docs, he extended his research focus to evolutionary aspects of pathogens, which he currently investigates using ancient genomic data and Bayesian phylogenetics.
+
+🇺🇸 **Irina Velsko** is a postdoc in the Microbiome group of the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. She did her PhD work on oral microbiology and immunology of the living, and now works on oral microbiomes of the living and the dead. Her work focuses on the evolution and ecology of dental plaque biofilms, both modern and ancient, and the complex interplay between microbiomes and their hosts.
+
+🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
 <style>
 .member {
