@@ -43,6 +43,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://www.eva.mpg.de/archaeogenetics/research-groups/computational-pathogenomics/" target="_blank"><img src="assets/images/headshots/HISS_Alina.jpg" alt="Avatar" /></a></div>
+<p>Alina Hiß</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://www.researchgate.net/profile/Arthur-Kocher" target="_blank"><img src="assets/images/headshots/KOCHER_Arthur.jpg" alt="Avatar" /></a></div>
 <p>Arthur Kocher</p>
 </div>
@@ -74,6 +79,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 🇩🇪 **Alexander Herbig** is a bioinformatician and group leader for Computational Pathogenomics at the Max Planck Institute for Evolutionary Anthropology. His main interest is in studying the evolution of human pathogens and in methods development for pathogen detection and bacterial genomics.
 
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
+
+🇩🇪 **Alina Hiss** is a PhD student in the Computational Pathogenomics group at the Max Planck Institute for Evolutionary Anthropology. She is interested in the evolution of human pathogens and working on material from the Carpathian basin to gain insights about the presence and spread of pathogens in the region during the Early Medieval period.
 
 🇫🇷 **Arthur Kocher** initially trained as a veterinarian. He then pursued a PhD in the field of disease ecology, during which he studied the impact of biodiversity changes on the transmission of zoonotic diseases using molecular tools such as DNA metabarcoding. During his Post-Docs, he extended his research focus to evolutionary aspects of pathogens, which he currently investigates using ancient genomic data and Bayesian phylogenetics.
 
