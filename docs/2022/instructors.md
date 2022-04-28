@@ -19,7 +19,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 </div>
 
-🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches for validating and analysis of ancient oral microbiomes and palaeogenomic data in general.
+🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
 
 🇺🇸 **Christina Warinner** is Group Leader of Microbiome Sciences at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and Associate Professor of Anthropology at Harvard University. She serves on the Leadership Team of the Max Planck-Harvard Research Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), and is a Professor in the Faculty of Biological Sciences at Friedrich Schiller University in Jena, Germany. Her research focuses on the use of metagenomics and paleoproteomics to better understand past human diet, health, and the evolution of the human microbiome.
 
@@ -33,6 +33,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://www.eva.mpg.de/archaeogenetics/research-groups/computational-pathogenomics/" target="_blank"><img src="assets/images/headshots/HERBIG_Alexander.webp" alt="Avatar" /></a></div>
+<p>Alexander Herbig</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://twitter.com/alexhbnr" target="_blank"><img src="assets/images/headshots/HUEBNER_Alex.jpg" alt="Avatar" /></a></div>
 <p>Alex Hübner</p>
 </div>
@@ -40,6 +45,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 <div class ="member">
 <div class="square"><a href="https://www.researchgate.net/profile/Arthur-Kocher" target="_blank"><img src="assets/images/headshots/KOCHER_Arthur.jpg" alt="Avatar" /></a></div>
 <p>Arthur Kocher</p>
+</div>
+
+<div class ="member">
+<div class="square"><a href="https://nevrome.de" target="_blank"><img src="assets/images/headshots/SCHMID_Clemens.JPG" alt="Avatar" /></a></div>
+<p>Clemens Schmid</p>
 </div>
 
 <div class ="member">
@@ -56,9 +66,13 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇪🇸 **Aida Andrades Valtueña** is a geneticist interested in pathogen evolution, with particular interest in prehistoric pathogens. She has been exploring new methods to analyse ancient pathogen data to understand their past function and ecology to inform models of pathogen emergence.
 
+🇩🇪 **Alexander Herbig** is a bioinformatician and group leader for Computational Pathogenomics at the Max Planck Institute for Evolutionary Anthropology. His main interest is in studying the evolution of human pathogens and in methods development for pathogen detection and bacterial genomics.
+
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
 
 🇫🇷 **Arthur Kocher** initially trained as a veterinarian. He then pursued a PhD in the field of disease ecology, during which he studied the impact of biodiversity changes on the transmission of zoonotic diseases using molecular tools such as DNA metabarcoding. During his Post-Docs, he extended his research focus to evolutionary aspects of pathogens, which he currently investigates using ancient genomic data and Bayesian phylogenetics.
+
+🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
 
 🇺🇸 **Irina Velsko** is a postdoc in the Microbiome group of the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. She did her PhD work on oral microbiology and immunology of the living, and now works on oral microbiomes of the living and the dead. Her work focuses on the evolution and ecology of dental plaque biofilms, both modern and ancient, and the complex interplay between microbiomes and their hosts.
 
