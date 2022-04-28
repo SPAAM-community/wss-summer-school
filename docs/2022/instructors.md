@@ -58,6 +58,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://scholar.harvard.edu/megan-michel/home" target="_blank"><img src="assets/images/headshots/MICHEL_Megan.jpg" alt="Avatar" /></a></div>
+<p>Megan Michel</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://twitter.com/TCLamnidis" target="_blank"><img src="assets/images/headshots/LAMNIDIS_Thiseas.jpg" alt="Avatar" /></a></div>
 <p>Thiseas C. Lamnidis</p>
 </div>
@@ -75,6 +80,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
 
 🇺🇸 **Irina Velsko** is a postdoc in the Microbiome group of the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. She did her PhD work on oral microbiology and immunology of the living, and now works on oral microbiomes of the living and the dead. Her work focuses on the evolution and ecology of dental plaque biofilms, both modern and ancient, and the complex interplay between microbiomes and their hosts.
+
+🇺🇸 **Megan Michel** is a PhD student jointly affiliated with the Archaeogenetics Department at the Max Planck Institute for Evolutionary Anthropology and the Human Evolutionary Biology Department at Harvard University. Her research focuses on using computational genomic analyses to understand how pathogens have co-evolved with their hosts over the course of human history.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
