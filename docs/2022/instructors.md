@@ -19,7 +19,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 </div>
 
-🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
+🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches and high-quality pipelines for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
 
 🇺🇸 **Christina Warinner** is Group Leader of Microbiome Sciences at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and Associate Professor of Anthropology at Harvard University. She serves on the Leadership Team of the Max Planck-Harvard Research Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), and is a Professor in the Faculty of Biological Sciences at Friedrich Schiller University in Jena, Germany. Her research focuses on the use of metagenomics and paleoproteomics to better understand past human diet, health, and the evolution of the human microbiome.
 
@@ -63,6 +63,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://maximeborry.com/" target="_blank"><img src="assets/images/headshots/BORRY_Maxime.png" alt="Avatar" /></a></div>
+<p>Maxime Borry</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://scholar.harvard.edu/megan-michel/home" target="_blank"><img src="assets/images/headshots/MICHEL_Megan.jpg" alt="Avatar" /></a></div>
 <p>Megan Michel</p>
 </div>
@@ -87,6 +92,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
 
 🇺🇸 **Irina Velsko** is a postdoc in the Microbiome group of the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. She did her PhD work on oral microbiology and immunology of the living, and now works on oral microbiomes of the living and the dead. Her work focuses on the evolution and ecology of dental plaque biofilms, both modern and ancient, and the complex interplay between microbiomes and their hosts.
+
+🇫🇷 **Maxime Borry** is a doctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate degree in biology, he first decided to dive in the studies of population and our environment. After realizing he wanted to focus more on the statistical part and the data analysis, he switched back to a Bioinformatics MSc. In his PhD, he focuses on developing new validation tools and applying machine learning techniques to ancient metagenomic samples.
 
 🇺🇸 **Megan Michel** is a PhD student jointly affiliated with the Archaeogenetics Department at the Max Planck Institute for Evolutionary Anthropology and the Human Evolutionary Biology Department at Harvard University. Her research focuses on using computational genomic analyses to understand how pathogens have co-evolved with their hosts over the course of human history.
 
