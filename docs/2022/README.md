@@ -4,11 +4,13 @@
 
 The **Ancient Metagenomics Summer School** will be a 5 day **practical** workshop (block praktikum). Attendees who participate in the entire course will be eligible for 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
 
-The course is taught by scientific staff at the Max Planck Institute for Evolutionary Anthropology and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Prof. Dr. Christina Warinner and James Fellows Yates.
+The course is taught by scientific staff at the Max Planck Institute for Evolutionary Anthropology and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Prof. Dr. Christina Warinner (christina_warinner@eva_mpg.de) and James Fellows Yates (james_fellows_yates@eva.mpg.de).
 
 ## Who
 
 The course is aimed at masters students and early-stage PhD students, to a maximum of 25 participants.
+
+You can meet the instructors [here](/2022/instructors.md).
 
 ## Where
 
