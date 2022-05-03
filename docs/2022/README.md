@@ -61,7 +61,7 @@ You will need access to the internet, and a terminal of some form (see this edit
 
 - **Lecture** Introduction to Metagenomics: _TBA_
   - What are the questions tackled in metagenomics? What are the challenges?
-- **Practical** Introduction to R and the tidyverse: _Clemens Schmid_
+- **Practical** Introduction to R and the tidyverse: _Clemens Schmid and Nikolay Oskolkov_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2
 - **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Irina Velsko_
   - R practice. How to normalise OTU tables? How do I remove contamination?
@@ -74,7 +74,7 @@ You will need access to the internet, and a terminal of some form (see this edit
   - How can we learn from studying the genomes of microbes? What questions can we ask?
 - **Practical** Genome mapping: _Alexander Herbig and Alina Hiss_
   - Why and how do we map against a reference? What parameters are important for aDNA?
-- **Practical** Genome assembly: _Alexander Hübner_
+- **Practical** Genome assembly: _Alexander Hübner and Nikolay Oskolkov_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Roundtable** Databases
   - Why are databases so important? What impact does database selection have on my results? What pitfalls should I watch out for?

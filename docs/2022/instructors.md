@@ -73,6 +73,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
+<div class="square"><a href="https://twitter.com/nikolayoskolkov" target="_blank"><img src="assets/images/headshots/OSKOLKOV_Nikolay.jpg" alt="Avatar" /></a></div>
+<p>Nikolay Oskolkov</p>
+</div>
+
+<div class ="member">
 <div class="square"><a href="https://twitter.com/TCLamnidis" target="_blank"><img src="assets/images/headshots/LAMNIDIS_Thiseas.jpg" alt="Avatar" /></a></div>
 <p>Thiseas C. Lamnidis</p>
 </div>
@@ -96,6 +101,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 🇫🇷 **Maxime Borry** is a doctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he is now working on the completion of his PhD, focused on developing new tools and data analysis of ancient metagenomic samples.
 
 🇺🇸 **Megan Michel** is a PhD student jointly affiliated with the Archaeogenetics Department at the Max Planck Institute for Evolutionary Anthropology and the Human Evolutionary Biology Department at Harvard University. Her research focuses on using computational genomic analyses to understand how pathogens have co-evolved with their hosts over the course of human history.
+
+🇷🇺 **Nikolay Oskolkov** is a bioinformatician at Lund University and the bioinformatics platform of SciLifeLab, Sweden. He defended his PhD in theoretical physics in 2007, and switched to life sciences in 2012. His research interests include mathematical statistics and machine learning applied to genetics and genomics, single cell and ancient metagenomics data analysis.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
