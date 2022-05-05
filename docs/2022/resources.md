@@ -3,6 +3,10 @@
 This edition of the summerschool will feature heavy use of the command-line.
 We ask that you have access to a modern web browser, and/or a terminal system.
 
+## GitHub account
+
+Although the skills learnt in this workshop will be transferable between different platforms (e.g. GitLab, BitBucket etc.). This workshop will heavily use GitHub for training in `git`. Participants will need to create an account at [github.com](https://github.com) if they have not already done so.
+
 ## Terminal or Shell
 
 If you are working on a Linux or Mac OSX operating system, you should have a terminal by default. Try searching in your application list, or pressing `ctrl + alt + t` on your keyboard.
