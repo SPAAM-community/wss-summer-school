@@ -68,11 +68,16 @@ range of participants backgrounds and current research are.
 
 ### Questions to think about
 
+- Why is Illumina sequencing technologies useful for aDNA?
+- What problems can the 2-colour chemistry technology of NextSeq and NovaSeqs cause in downstream analysis?
+- Why is 'Index-Hopping' a problem?
+- What is good software to evaluate the quality of your sequencing runs?
+
 ### Material
 
-```bash
-test
-```
+_Example_
+
+<iframe src="/assets/slides/example-1a.html" height="400px"></iframe>
 
 ## Practical 1B: Bare Bones Bash 1
 
@@ -84,9 +89,8 @@ test
 
 ### Material
 
-```bash
-test
-```
+All teaching material for BareBonesBash can be found on the [BareBonesBash
+website](https://barebonesbash.github.io/)
 
 ## Practical 1C: Bare Bones Bash 2
 
@@ -98,6 +102,5 @@ test
 
 ### Material
 
-```bash
-test
-```
+All teaching material for BareBonesBash can be found on the [BareBonesBash
+website](https://barebonesbash.github.io/)
