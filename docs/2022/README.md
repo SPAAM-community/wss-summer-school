@@ -61,10 +61,10 @@ You will need access to the internet, and a terminal of some form (see this edit
 
 - **Lecture** Introduction to Metagenomics: _TBA_
   - What are the questions tackled in metagenomics? What are the challenges?
-- **Practical** Introduction to R and the tidyverse: _Clemens Schmid and Nikolay Oskolkov_
-  - How to read/write files and run statistical analyses? How to make figures with ggplot2
+- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Nikolay Oskolkov_ / _Maxime Borry_
+  - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
 - **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Irina Velsko_
-  - R practice. How to normalise OTU tables? How do I remove contamination?
+  - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Round table** Taxonomic Classifiers
   - How do I pick a taxonomic classifier? What is best for aDNA?
 
