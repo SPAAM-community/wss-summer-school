@@ -77,7 +77,7 @@ range of participants backgrounds and current research are.
 
 _Example_
 
-<iframe src="/assets/slides/example-1a.html" height="400px"></iframe>
+<iframe src="assets/slides/example-1a.html" height="400px"></iframe>
 
 ## Practical 1B: Bare Bones Bash 1
 
