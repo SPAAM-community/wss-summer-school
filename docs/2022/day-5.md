@@ -12,7 +12,9 @@
 
 **Instructors**: Aida Andrades Valtueña and Arthur Kocher
 
-**Abstract**: TBC
+**Abstract**: Phylogenetic trees are central tools for studying the evolution of microorganisms, as they provide essential information about their relationships and timing of divergence between microbial strains.
+
+In this session, we will introduce basic phylogenetic concepts and definitions, and provide guidance on how to interpret phylogenetic trees. We will then learn how to reconstruct phylogenetic trees from DNA sequences using various methods ranging from distance-based methods to probabilistic approaches, including maximum likelihood and Bayesian phylogenetics. In particular, we will learn how to use ancient genomic data to reconstruct time-calibrated trees with BEAST2.
 
 ### Practical 5C: Functional Genomics
 
