@@ -18,7 +18,7 @@ In this session we will explore how to use R for a simple, standard data science
 
 This session will be targeted at beginners without much previous experience with R or programming and will kickstart your journey to master this powerful tool.
 
-🛈 This session will be held in parallel to the Introduction to Python and Pandas. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you no experience with neither R nor Python.
+🛈 This session will be held in parallel to the Introduction to Python and Pandas. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you have no experience with neither R nor Python.
 
 ### Practical 3B-2: - Introduction to Python and Pandas
 
@@ -26,7 +26,7 @@ This session will be targeted at beginners without much previous experience with
 
 **Abstract**: TBC
 
-🛈 This session will be held in parallel to the Introduction to R. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you no experience with neither R nor Python.
+🛈 This session will be held in parallel to the Introduction to R. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you have no experience with neither R nor Python.
 
 ### Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
 
