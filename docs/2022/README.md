@@ -63,6 +63,7 @@ You will need access to the internet, and a terminal of some form (see this edit
   - What are the questions tackled in metagenomics? What are the challenges?
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Nikolay Oskolkov_ / _Maxime Borry_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
+  - (Note: Parallel sessions partcipants can choose which to attend based on their prior experience)
 - **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Irina Velsko_
   - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Round table** Taxonomic Classifiers
