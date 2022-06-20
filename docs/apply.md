@@ -1,7 +1,5 @@
 # Apply
 
-Applications for the 2022 edition of the **Introduction to Ancient Metagenomics** is now open.
+Applications for the 2022 edition of the **Introduction to Ancient Metagenomics** is now closed.
 
-The application form can be found accessed here: [https://survey.academiccloud.de/index.php/415663](https://survey.academiccloud.de/index.php/415663)
-
-The deadline for applications is **June 1st 2022**.
+The deadline for applications was **June 1st 2022**. Decision emails will be sent in the next few weeks.
