@@ -24,13 +24,17 @@ DNA sequence output of NGS sequencing machines.
 
 **Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
 
-**Abstract**: TBC
+**Abstract**: Computational work in metagenomics often involves connecting to remote servers to run analyses via the use of command line tools. Bash is a programming language that is used as the main command line interface of most UNIX systems, and hence most remote servers a user will encounter. By learning bash, users can work more efficiently and reproducibly on these remote servers.
+
+In this session we will introduce the basic concepts of bash and the command line. Students will learn how to move around the filesystem and interact with files, how to chain multiple commands together using "pipes", and how to use loops and regular expressions to simplify the running of repetitive tasks.
+
+Finally, students will learn how to create a bash script of their own, that can run a set of commands in sequence. This session requires no prior knowledge of bash or the command line and is meant to serve as an entry-level introduction to basic programming concepts that can be applicable in other programming languages too.
 
 ### Practical 1C: BareBonesBash 2
 
 **Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
 
-**Abstract**: TBC
+**Abstract**: See Above
 
 ### Roundtable: Introductions
 
@@ -77,7 +81,7 @@ range of participants backgrounds and current research are.
 
 _Example_
 
-<iframe src="assets/slides/example-1a.html" height="400px"></iframe>
+<iframe src="assets/slides/2022/example-1a.html" height="400px"></iframe>
 
 ## Practical 1B: Bare Bones Bash 1
 

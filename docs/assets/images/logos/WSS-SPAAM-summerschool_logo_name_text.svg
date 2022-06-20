@@ -3,7 +3,7 @@
    inkscape:export-ydpi="300.00006"
    inkscape:export-xdpi="300.00006"
    inkscape:export-filename="/home/fellows/Documents/github/spaam-workshop/AncientMetagenomeDir/assets/images/spaam-AncientMetaGenomdir_logo.png"
-   sodipodi:docname="WSS-SPAAM-summerschool_logo_name.svg"
+   sodipodi:docname="WSS-SPAAM-summerschool_logo_name_text.svg"
    inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
    id="svg8"
    version="1.1"
@@ -21,7 +21,6 @@
      id="defs2">
     <style
        id="style859">.cls-1{fill:#ee4890;}.cls-2{fill:#fc6;}.cls-3{fill:#2ab675;}.cls-4{fill:#74d1f6;}</style>
-
   </defs>
   <sodipodi:namedview
      inkscape:pagecheckerboard="true"
@@ -48,7 +47,9 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:snap-bbox="true">
+     inkscape:snap-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        originy="-531.87544"
        originx="-378.42886"

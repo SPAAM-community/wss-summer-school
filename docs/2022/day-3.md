@@ -24,7 +24,12 @@ This session will be targeted at beginners without much previous experience with
 
 **Instructors**: _Maxime Borry_
 
-**Abstract**: TBC
+**Abstract**: While R has traditionally been the language of choice for statistical programming for many years, Python has taken away some of the hegemony thanks to its numerous available libraries for machine and deep learning. With its ever increasing collection of libraries for statistics and bioinformatics, Python has now become one the most used language in the bioinformatics community.
+
+In this tutorial mirroring to the R session, we will learn how to use the Python libraries Pandas for importing, cleaning, and manipulating data tables, and producing simple plots with the Python sister library of ggplot2, plotnine.
+
+We will also get ourselves familiar with the Jupyter notebook environment, often used by many high performance computing clusters as an interactive scripting interface.
+This session is meant for participants with a basic experience in R/tidyverse, but assumes no prior knowledge of Python/Jupyter.
 
 🛈 This session will be held in parallel to the Introduction to R. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you have no experience with neither R nor Python.
 

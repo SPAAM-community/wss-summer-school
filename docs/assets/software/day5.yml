@@ -1,0 +1,13 @@
+name: phylogenomics-functional
+channels:
+  - r
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - beast2
+  - humann3
+  - tracer
+  - conda-forge::rstudio-desktop
+  - r::r-tidyverse
+  - humann3

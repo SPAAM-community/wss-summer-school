@@ -1,0 +1,23 @@
+name: microbial-genomics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bwa
+  - igv
+  - gatk
+  - fastp
+  - megahit
+  - bowtie2
+  - samtools
+  - bioawk
+  - diamond
+  - metabat2
+  - maxbin2
+  - concoct
+  - metawrap
+  - checkm
+  - gunc
+  - pydamage
+  - prokka

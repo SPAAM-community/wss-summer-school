@@ -1,0 +1,10 @@
+name: r-python
+channels:
+  - r
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - conda-forge::rstudio-desktop
+  - conda-forge::jupyter
+  - r::r-tidyverse

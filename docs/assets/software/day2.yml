@@ -1,0 +1,8 @@
+name: eager
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - nf-core
+  - nextflow

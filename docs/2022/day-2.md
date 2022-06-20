@@ -30,8 +30,6 @@ AncientMetagenomeDir is a community project from the SPAAM community to make anc
 
 **Abstract**: TBC
 
-### Practical 2E:
-
 ### Roundtable: Project organisation
 
 **Chairs**: TBC
