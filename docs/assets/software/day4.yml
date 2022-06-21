@@ -17,7 +17,7 @@ dependencies:
   - maxbin2
   - concoct
   - metawrap
-  - checkm
+  - checkm-genome
   - gunc
   - pydamage
   - prokka
