@@ -1,8 +1,9 @@
-name: eager
+name: r-python
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - nf-core
-  - nextflow
+  - conda-forge::rstudio-desktop
+  - conda-forge::jupyter
+  - conda-forge::r-tidyverse
