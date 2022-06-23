@@ -1,6 +1,5 @@
 name: phylogenomics-functional
 channels:
-  - r
   - conda-forge
   - bioconda
   - defaults
