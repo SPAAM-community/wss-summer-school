@@ -1,9 +1,8 @@
-name: r-python
+name: git-eager
 channels:
   - conda-forge
   - bioconda
   - defaults
 dependencies:
-  - conda-forge::rstudio-desktop
-  - conda-forge::jupyter
-  - conda-forge::r-tidyverse
+  - bioconda::nextflow
+  - bioconda::nf-core
