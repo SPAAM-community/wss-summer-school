@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - conda-forge::rstudio-desktop
-  - conda-forge::jupyter
   - conda-forge::r-tidyverse
   - bioconda::beast2
   - bioconda::tracer
