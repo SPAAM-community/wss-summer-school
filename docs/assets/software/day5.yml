@@ -4,8 +4,9 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - beast2
-  - tracer
   - conda-forge::rstudio-desktop
+  - conda-forge::jupyter
   - conda-forge::r-tidyverse
-  - humann
+  - bioconda::beast2
+  - bioconda::tracer
+  - bioconda::humann
