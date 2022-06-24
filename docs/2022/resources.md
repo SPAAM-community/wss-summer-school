@@ -3,18 +3,15 @@
 This edition of the summerschool will feature heavy use of the command-line.
 We ask that you have access to a modern web browser, and/or a terminal system.
 
+## Accessing Compute Nodes
+
+For the 2022 edition of the summer school, we will be using cloud computing nodes kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud).
+
+For each confirmed participant, you will recieve your own node for the duration of the summer school. Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2022/denbi-registration)
+
 ## GitHub account
 
 Although the skills learnt in this workshop will be transferable between different platforms (e.g. GitLab, BitBucket etc.). This workshop will heavily use GitHub for training in `git`. Participants will need to create an account at [github.com](https://github.com) if they have not already done so.
-
-## Terminal or Shell
-
-If you are working on a Linux or Mac OSX operating system, you should have a terminal by default. Try searching in your application list, or pressing `ctrl + alt + t` on your keyboard.
-
-If you are using Windows or Chrome OS we have the following suggestions:
-
-- Google Chrome: the browser offers an 'in built' terminal via the [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd?hl=en) extension. This will give you access to a terminal you can use to the teaching servers.
-- pUTTY: a standalone SHH client that offers a way to enter the remote terminal used in the classes.
 
 ## Software and Data
 
