@@ -42,6 +42,10 @@ Once you've recieved your link, each participant will need to open the link in t
 
 If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials'.
 
+## Schedule
+
+Subject to change
+
 ## Contents Overview
 
 ### DAY 1

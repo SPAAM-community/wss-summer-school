@@ -1,9 +1,7 @@
 # Resources
 
-This edition of the summerschool will feature heavy use of the command-line.
-We ask that you have access to a modern web browser, and/or a terminal system.
-
-## Accessing Compute Nodes
+This edition of the summerschool will feature heavy use of the command-line. However
+we will provide this to participants if they have a a modern web browser.
 
 ## GitHub account
 
