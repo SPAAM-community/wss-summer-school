@@ -14,7 +14,11 @@ You can meet the instructors [here](/2022/instructors.md).
 
 ## Where
 
-This summer school will be held virtually on the online platform gather.town. More details to follow.
+We will be running this virtual edition of the SPAAM Summer School Introduction to Metagenomics on [Gather.Town](https://gather.town), on the SPAAM workspace [here](https://app.gather.town/app/PlXjb0deog0B4JCq/spaam-community).
+
+If you're not familiar with this platform please see the documentation on the gather.town website, or [this 'Quick Start' video from nf-core](https://nf-co.re/events/2022/bytesize-37-gathertown).
+
+> ⚠️ If you're using Mac/OSX we highly recommend using the desktop app of gather.town rather than your webbrowser, for optimisation purposes.
 
 ## When
 
@@ -28,7 +32,15 @@ Note the following additional dates:
 
 ## What
 
-You will need access to the internet, and a terminal of some form (see this editions page [Resources](2022/resources) for suggestions)
+You will need access to the internet, and a modern web browser.
+
+Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
+
+Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2022/denbi-registration).
+
+Once you've recieved your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
+
+If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials'.
 
 ## Contents Overview
 

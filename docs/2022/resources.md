@@ -5,10 +5,6 @@ We ask that you have access to a modern web browser, and/or a terminal system.
 
 ## Accessing Compute Nodes
 
-For the 2022 edition of the summer school, we will be using cloud computing nodes kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud).
-
-For each confirmed participant, you will recieve your own node for the duration of the summer school. Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2022/denbi-registration)
-
 ## GitHub account
 
 Although the skills learnt in this workshop will be transferable between different platforms (e.g. GitLab, BitBucket etc.). This workshop will heavily use GitHub for training in `git`. Participants will need to create an account at [github.com](https://github.com) if they have not already done so.
