@@ -4,7 +4,7 @@
 
 ### Lecture 3A: Introduction to Metagenomics
 
-**Instructors**: _TBA_
+**Instructors**: Christina Warinner
 
 **Abstract**: TBC
 

@@ -46,6 +46,18 @@ If you get a message about permissions for 'colour mangement', please use the pa
 
 Subject to change
 
+| **Time**    | **Session Type** | **Day 1**                    | **Day 2**                                                               | **Day 3**                                                                             | **Day 4**                              | **Day 5**                |
+| ----------- | ---------------- | ---------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------- | ------------------------ |
+| 09:00-10:15 | Theoretical      | 1A: Introduction to NGS data | 2A: Introduction to ancient DNA                                         | 3A: Introduction to Metagenomics                                                      | 4A: Introduction to microbial genomics | 5A: Evolutionary Biology |
+| 10:15-10:30 |                  | Break                        | Break                                                                   | Break                                                                                 | Break                                  | Break                    |
+| 10:30-12:30 | Practical        | 1B: BareBonesBash 1          | 2B: Introduction to Git(Hub) & 2C: Introduction to AncientMetagenomeDir | 3B-1: Introduction to R and the tidyverse & 3B-2: - Introduction to Python and Pandas | 4B: Genome mapping                     | 5B: Phylogenomics        |
+| 12:30-13:30 |                  | Lunch                        | Lunch                                                                   | Lunch                                                                                 | Lunch                                  | Lunch                    |
+| 13:30-15:30 | Practical        | 1C: BareBonesBash 2          | 2D: Introduction to nf-core/eager                                       | 3C: Taxonomic Profiling, OTU Tables and Visualisation                                 | 4C: Genome assembly                    | 5C: Functional Genomics  |
+| 15:30-15:45 |                  | Break                        | Break                                                                   | Break                                                                                 | Break                                  | Break                    |
+| 15:45-17:00 | Roundtable       | Introductions                | Project Organization                                                    | Taxonomic Classifiers                                                                 | Databases                              | Social                   |
+
+All times CEST (Berlin Time)
+
 ## Contents Overview
 
 ### DAY 1
