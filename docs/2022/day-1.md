@@ -2,6 +2,12 @@
 
 ## Day Overview
 
+### Welcome Introduction
+
+**Instructors**: James Fellows Yates and Christina Warinner
+
+Introduction to the course and general organisation details.
+
 ### Lecture 1A: Introduction to NGS data
 
 **Instructors**: James Fellows Yates
@@ -43,6 +49,12 @@ Finally, students will learn how to create a bash script of their own, that can 
 We will go around the group and introduce ourselves, to get familiar what the
 range of participants backgrounds and current research are.
 
+## Welcome Presentation
+
+### Material
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4BvNdBFVhar9tYMN_P2fESJV3jx4UNZtKwIBxA8uB8XDxDWUGE_6j-siqXuOTwCmI4Q21eRO9KbXJ/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ## Lecture 1A: Introduction to NGS data
 
 ### Resources
@@ -79,9 +91,7 @@ range of participants backgrounds and current research are.
 
 ### Material
 
-_Example_
-
-<iframe src="assets/slides/2022/example-1a.html" height="400px"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA8VEi99wl-vMrZDAItfQ7GlXEjyVJEm-Np6j-GBfzGWDz709lOh-IFh2LKzV3WJGUAQ9HvhxHfich/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 1B: Bare Bones Bash 1
 
