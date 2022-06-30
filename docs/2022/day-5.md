@@ -42,6 +42,14 @@ In this open session, participants can ask anything about the contents of the co
 test
 ```
 
+## Software
+
+For today's practical sessions, please activate the `phylogenomics-functional` conda [environment](2022/resources#software-and-data)
+
+```bash
+conda activate phylogenomics-functional
+```
+
 ## Practical 5B: Phylogenomics
 
 ### Resources

@@ -50,6 +50,14 @@ We will discuss the various ways how to structure analysis folders for your rese
 test
 ```
 
+## Software
+
+For today's practical sessions, please activate the `git-eager` conda [environment](2022/resources#software-and-data)
+
+```bash
+conda activate git-eager
+```
+
 ## Practical 2B: Introduction to Git(Hub)
 
 ### Resources

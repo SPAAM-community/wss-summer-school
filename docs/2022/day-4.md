@@ -46,6 +46,14 @@ Arguably, _which_ databases to use are even more important than classifiers when
 test
 ```
 
+## Software
+
+For today's practical sessions, please activate the `microbial-genomics` conda [environment](2022/resources#software-and-data)
+
+```bash
+conda activate microbial-genomics
+```
+
 ## Practical 4B: Genome mapping
 
 ### Resources

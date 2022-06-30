@@ -10,18 +10,98 @@ Although the skills learnt in this workshop will be transferable between differe
 ## Software and Data
 
 We will be using the following software during the summer school.
-While you will not need to install these yourself for the summer school, we provide links here to the software used for installation and usage in your own time.
 
-### Software
+While **you will not need to install these yourself for the summer school**, we provide links here to the software used for installation and usage in your own time.
 
-- [git](https://git-scm.com/) (normally installed by default on all UNIX based operating systems e.g. Linux, OSX)
-- [R](https://www.r-project.org/)
-- [tidyverse](https://www.tidyverse.org/)
+If you wish to use conda to install the tools, environment files are available for you in the links below.
+
+You can download the minimal version of (mini)conda from [here](https://docs.conda.io/en/latest/miniconda.html#miniconda). Once installed, to create the conda environment from the files listed below, you can run the following
+
+```bash
+conda env create -f <env_file>.yml
+```
+
+Note: you only have to run the environment creation once.
+
+Follow the instructions as prompted (yes to running `conda init`, and we DO recommend running the `conda config` command). Once created, you can see a list of environments with
+
+```bash
+conda env list
+```
+
+To load the relevant environment, you can run
+
+```bash
+conda activate <name_of_envonment>.yml
+```
+
+and the software will be available on your command line. You can deactivate the environment with `conda deactivate`.
+
+### Day 1
+
+This day only uses a base Unix environment.
+
+### Day 2
+
+The conda environment (`git-eager`) for day 2 is available [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day2.yml), and includes:
+
 - [nextflow](https://www.nextflow.io/)
-- [conda](https://docs.conda.io/en/latest/miniconda.html)
+- [nf-core tools](https://nf-co.re/tools)
 - [nf-core/eager](https://nf-co.re/eager)
 
-### Data
+Software used in day two and not included in the conda environment are as follows:
+
+- [git](https://git-scm.com/) (normally installed by default on all UNIX based operating systems e.g. Linux, OSX)
+
+### Day 3
+
+The conda environment (`r-python`) for day 3 is available [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day3.yml), and includes:
+
+- [r](https://www.r-project.org/)
+- [r studio (desktop)](https://www.rstudio.com/products/rstudio/)
+- [tidyverse](https://www.tidyverse.org/)
+- [python](https://www.python.org/)
+- [jupyter](https://jupyter.org/)
+
+### Day 4
+
+The conda environment (`microbial-genomics`) for day 4 is available [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day4.yml), and includes:
+
+- [bwa](http://bio-bwa.sourceforge.net/)
+- [igv](https://igv.org/)
+- [gatk](https://gatk.broadinstitute.org/hc/en-us)
+- [fastp](https://github.com/OpenGene/fastp)
+- [megahit](https://github.com/voutcn/megahit)
+- [bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
+- [samtools](http://www.htslib.org/)
+- [bioawk](https://github.com/lh3/bioawk)
+- [diamond](https://github.com/bbuchfink/diamond)
+- [metabat2](https://bitbucket.org/berkeleylab/metabat/src/master/)
+- [maxbin2](https://sourceforge.net/projects/maxbin/#:~:text=MaxBin%20is%20a%20software%20for,coverage%20information%20or%20sequencing%20reads.)
+- [concoct](https://concoct.readthedocs.io/en/latest/)
+- [metawrap](https://github.com/bxlab/metaWRAP)
+- [checkm-genome](https://ecogenomics.github.io/CheckM/#:~:text=CheckM%20provides%20a%20set%20of,copy%20within%20a%20phylogenetic%20lineage.)
+- [gunc](https://grp-bork.embl-community.io/gunc/)
+- [pydamage](https://pydamage.readthedocs.io/en/0.7/)
+- [prokka](https://github.com/tseemann/prokka)
+
+### Day 5
+
+The conda environment (`phylogenomics-functional`) for day 5 is available [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day5.yml), and includes:
+
+- [r](https://www.r-project.org/)
+- [r studio (desktop)](https://www.rstudio.com/products/rstudio/)
+- [tidyverse](https://www.tidyverse.org/)
+- [beast2](https://www.beast2.org/)\_
+- [tracer](http://tree.bio.ed.ac.uk/software/tracer/)
+- [humann3](https://huttenhower.sph.harvard.edu/humann/)
+
+Software used in day two and not included in the conda environment are as follows:
+
+- [tempest](https://beast.community/tempest)
+- [mega](https://www.megasoftware.net/)
+
+## Data
 
 - [AncientMetagenomeDir](https://github.com/SPAAM-community/AncientMetagenomeDir/)
 - [ENA](https://www.ebi.ac.uk/ena/browser/view/)

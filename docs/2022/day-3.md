@@ -59,6 +59,14 @@ Which taxonomic classifier to pick is a context dependent question. Each classif
 test
 ```
 
+## Software
+
+For today's practical sessions, please activate the `r-python` conda [environment](2022/resources#software-and-data)
+
+```bash
+conda activate r-python
+```
+
 ## Practical 3B-1: Introduction to R and the tidyverse
 
 ### Resources
