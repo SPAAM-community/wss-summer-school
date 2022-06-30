@@ -52,6 +52,7 @@ The conda environment (`git-eager`) for day 2 is available [here](https://github
 Software used in day two and not included in the conda environment are as follows:
 
 - [git](https://git-scm.com/) (normally installed by default on all UNIX based operating systems e.g. Linux, OSX)
+- [AMDirT](https://github.com/SPAAM-community/AMDirT/tree/dev) while the tool itself is not within the conda environment, all dependencies are in the conda environment. Use the instructions in the AMDirT GitHub to install, and ignore warnings during conda creation.
 
 ### Day 3
 
