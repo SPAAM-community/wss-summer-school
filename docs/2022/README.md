@@ -87,7 +87,7 @@ All times CEST (Berlin Time)
 
 ### DAY 3
 
-- **Lecture** Introduction to Metagenomics: _TBA_
+- **Lecture** Introduction to Metagenomics: _Christina Warinner_
   - What are the questions tackled in metagenomics? What are the challenges?
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Nikolay Oskolkov_ / _Maxime Borry_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
@@ -110,7 +110,7 @@ All times CEST (Berlin Time)
 
 ### DAY 5
 
-- **Lecture** Evolutionary Biology: TBA
+- **Lecture** Evolutionary Biology: _Sebastian Duchene_
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
 - **Practical** Phylogenomics: _Aida Andrades Valtueña and Arthur Kocher_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data

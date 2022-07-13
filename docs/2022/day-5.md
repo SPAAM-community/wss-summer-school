@@ -4,7 +4,7 @@
 
 ### Lecture 5A: Evolutionary Biology
 
-**Instructors**: TBC
+**Instructors**: Sebastian Duchene
 
 **Abstract**: TBC
 

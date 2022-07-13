@@ -57,6 +57,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 <p>Clemens Schmid</p>
 </div>
 
+</div>
+<div class="avatar">
 <div class ="member">
 <div class="square"><a href="https://twitter.com/FzzyToothSweatr" target="_blank"><img src="assets/images/headshots/VELSKO_Irina.jpeg" alt="Avatar" /></a></div>
 <p>Irina Velsko</p>
@@ -75,6 +77,11 @@ ancient metagenomics in the 2022 edition of the summer school.
 <div class ="member">
 <div class="square"><a href="https://twitter.com/nikolayoskolkov" target="_blank"><img src="assets/images/headshots/OSKOLKOV_Nikolay.jpg" alt="Avatar" /></a></div>
 <p>Nikolay Oskolkov</p>
+</div>
+
+<div class ="member">
+<div class="square"><a href="https://twitter.com/sebduchene" target="_blank"><img src="assets/images/headshots/DUCHENE_Sebastian.jpeg" alt="Avatar" /></a></div>
+<p>Sebastian Duchene</p>
 </div>
 
 <div class ="member">
@@ -103,6 +110,8 @@ ancient metagenomics in the 2022 edition of the summer school.
 🇺🇸 **Megan Michel** is a PhD student jointly affiliated with the Archaeogenetics Department at the Max Planck Institute for Evolutionary Anthropology and the Human Evolutionary Biology Department at Harvard University. Her research focuses on using computational genomic analyses to understand how pathogens have co-evolved with their hosts over the course of human history.
 
 🇷🇺 **Nikolay Oskolkov** is a bioinformatician at Lund University and the bioinformatics platform of SciLifeLab, Sweden. He defended his PhD in theoretical physics in 2007, and switched to life sciences in 2012. His research interests include mathematical statistics and machine learning applied to genetics and genomics, single cell and ancient metagenomics data analysis.
+
+🇦🇺 **Sebastian Duchene** is an Australian Research Council Fellow at the Doherty Institute for Infection and Immunity at the University of Melbourne, Australia. Prior to joining the University of Melbourne he obtained his PhD and conducted postdoctoral work at the University of Sydney. His research is in molecular evolution and epidemiology of infectious pathogens, notably viruses and bacteria, and developing Bayesian phylodynamic methods.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
