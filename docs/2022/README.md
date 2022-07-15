@@ -32,7 +32,7 @@ Note the following additional dates:
 
 ## What
 
-You will need access to the internet, and a modern web browser.
+You will need access to the internet, and a modern web browser - either Google Chrome or Firefox. Please note, if using Firefox, please turn on clipboard support using [these](https://sudoedit.com/firefox-async-clipboard/) instructions.
 
 Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
 
