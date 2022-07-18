@@ -68,9 +68,7 @@ conda activate git-eager
 
 ### Material
 
-```bash
-test
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR07xSxl-AaB6df4Mu4BN4X41U5SM41fKy0gvZ7sSSPtqRoF2RqFth-aduhN9nkRpkdzP0N6fb5x5Ok/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 2C: Introduction to AncientMetagenomeDir
 
@@ -100,6 +98,4 @@ test
 
 ### Material
 
-```bash
-test
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

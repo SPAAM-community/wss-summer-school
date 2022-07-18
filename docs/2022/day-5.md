@@ -64,7 +64,7 @@ conda activate phylogenomics-functional
 test
 ```
 
-### Practical 5C: Functional Genomics
+## Practical 5C: Functional Genomics
 
 ### Resources
 

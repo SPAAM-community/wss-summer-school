@@ -91,9 +91,7 @@ test
 
 ### Material
 
-```bash
-test
-```
+<iframe src="assets/slides/2022/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
 

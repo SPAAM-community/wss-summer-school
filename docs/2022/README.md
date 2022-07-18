@@ -71,6 +71,8 @@ All times CEST (Berlin Time)
 - **Round table** Introductions
   - Welcome - let's get to know eachother
 
+Slides and materials for day 1 can be found [here](2022/day-1.md).
+
 ### DAY 2
 
 - **Lecture** Introduction to ancient DNA: _Christina Warinner_
@@ -85,6 +87,8 @@ All times CEST (Berlin Time)
 - **Round table** Project organisation
   - How to structure my project analysis folders? How to reproducibly document my work?
 
+Slides and materials for day 2 can be found [here](2022/day-2.md).
+
 ### DAY 3
 
 - **Lecture** Introduction to Metagenomics: _Christina Warinner_
@@ -97,6 +101,8 @@ All times CEST (Berlin Time)
 - **Round table** Taxonomic Classifiers
   - How do I pick a taxonomic classifier? What is best for aDNA?
 
+Slides and materials for day 3 can be found [here](2022/day-3.md).
+
 ### DAY 4
 
 - **Lecture** Introduction to microbial genomics: _Alexander Herbig_
@@ -108,6 +114,8 @@ All times CEST (Berlin Time)
 - **Roundtable** Databases
   - Why are databases so important? What impact does database selection have on my results? What pitfalls should I watch out for?
 
+Slides and materials for day 4 can be found [here](2022/day-4.md).
+
 ### DAY 5
 
 - **Lecture** Evolutionary Biology: _Sebastian Duchene_
@@ -117,3 +125,5 @@ All times CEST (Berlin Time)
 - **Practical** Functional Genomics: _Irina Velsko_
   - How can we infer genomic function from sequences? What sort of analysis can we do?
 - **Round table** Workshop recap
+
+Slides and materials for day 5 can be found [here](2022/day-5.md).

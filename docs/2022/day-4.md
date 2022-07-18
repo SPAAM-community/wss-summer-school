@@ -64,9 +64,7 @@ conda activate microbial-genomics
 
 ### Material
 
-```bash
-test
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJ9ZUd53kHpZkROVNy_RDIv6XhtbHF5w_WAtEDm6_ZXb2zf0v8DZHLYIWyzzWjFc1fPn7J9fI8n_bN/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 4C: Genome assembly
 
