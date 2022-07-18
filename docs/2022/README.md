@@ -71,7 +71,7 @@ All times CEST (Berlin Time)
 - **Round table** Introductions
   - Welcome - let's get to know eachother
 
-Slides and materials for day 1 can be found [here](2022/day-1?id=day-one).
+Slides and materials for day 1 can be found [here](2022/day-1).
 
 ### DAY 2
 
@@ -87,7 +87,7 @@ Slides and materials for day 1 can be found [here](2022/day-1?id=day-one).
 - **Round table** Project organisation
   - How to structure my project analysis folders? How to reproducibly document my work?
 
-Slides and materials for day 2 can be found [here](2022/day-2?id=day-two).
+Slides and materials for day 2 can be found [here](2022/day-2).
 
 ### DAY 3
 
@@ -101,7 +101,7 @@ Slides and materials for day 2 can be found [here](2022/day-2?id=day-two).
 - **Round table** Taxonomic Classifiers
   - How do I pick a taxonomic classifier? What is best for aDNA?
 
-Slides and materials for day 3 can be found [here](2022/day-3?id=day-three).
+Slides and materials for day 3 can be found [here](2022/day-3).
 
 ### DAY 4
 
@@ -114,7 +114,7 @@ Slides and materials for day 3 can be found [here](2022/day-3?id=day-three).
 - **Roundtable** Databases
   - Why are databases so important? What impact does database selection have on my results? What pitfalls should I watch out for?
 
-Slides and materials for day 4 can be found [here](2022/day-4?id=day-four).
+Slides and materials for day 4 can be found [here](2022/day-4).
 
 ### DAY 5
 
@@ -126,4 +126,4 @@ Slides and materials for day 4 can be found [here](2022/day-4?id=day-four).
   - How can we infer genomic function from sequences? What sort of analysis can we do?
 - **Round table** Workshop recap
 
-Slides and materials for day 5 can be found [here](2022/day-5?id=day-five).
+Slides and materials for day 5 can be found [here](2022/day-5).
