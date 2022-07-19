@@ -69,17 +69,15 @@ conda activate r-python
 
 ## Practical 3B-1: Introduction to R and the tidyverse
 
-### Resources
+### Resources & Readings
 
-### Readings
-
-### Questions to think about
+- Grolemund, G., Wickham, H. 2017. R for Data Science. [Online Version available here](https://r4ds.had.co.nz)
+- Chang, W. 2013. R Graphics Cookbook. [Online Version available here](https://r-graphics.org)
+- Wickham, H. 2014. Tidy Data. Journal of Statistical Software, 59(10), 1–23. https://doi.org/10.18637/jss.v059.i10
 
 ### Material
 
-```bash
-test
-```
+The material for this course is available [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h) with a rendered version of the presentation [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf).
 
 ## Practical 3B-2: Introduction to Python and Pandas
 
