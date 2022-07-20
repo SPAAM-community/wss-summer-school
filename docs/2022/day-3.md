@@ -77,7 +77,9 @@ conda activate r-python
 
 ### Material
 
-The material for this course is available [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h) with a rendered version of the presentation [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf).
+<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nevrome/spaam_r_tidyverse_intro_2h/main/presentation.pdf&embedded=true" width="960" height="569"></iframe>
+
+<!--The material for this course is available [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h) with a rendered version of the presentation [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf). -->
 
 ## Practical 3B-2: Introduction to Python and Pandas
 
