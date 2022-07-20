@@ -18,8 +18,8 @@ dependencies:
   - metabat2
   - maxbin2
   - concoct
-  - metawrap
   - checkm-genome
   - gunc
   - pydamage
   - prokka
+  - k8
