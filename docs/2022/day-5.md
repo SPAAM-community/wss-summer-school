@@ -37,8 +37,8 @@ In this open session, participants can ask anything about the contents of the co
 ### Readings
 
 - Vernikos, G. S. 2020. “A Review of Pangenome Tools and Recent Studies.” In The Pangenome: Diversity, Dynamics and Evolution of Genomes, edited by Hervé Tettelin and Duccio Medini. Cham (CH): Springer. [https://doi.org/10.1007/978-3-030-38281-0](https://doi.org/10.1007/978-3-030-38281-0).
-- Westbrook, Anthony, Jordan Ramsdell, Taruna Schuelke, Louisa Normington, R. Daniel Bergeron, W. Kelley Thomas, and Matthew D. MacManes. 2017. “PALADIN: Protein Alignment for Functional Profiling Whole Metagenome Shotgun Data.” Bioinformatics 33 (10): 1473–78. [https://doi.org/10.1093/bioinformatics/btx021](https://doi.org/10.1093/bioinformatics/btx021).
-- Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. 2018. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15 (11): 962–68. [https://doi.org/10.1038/s41592-018-0176-y](https://doi.org/10.1038/s41592-018-0176-y)
+- Westbrook, Anthony, Jordan Ramsdell, Taruna Schuelke, Louisa Normington, R. Daniel Bergeron, W. Kelley Thomas, and Matthew D. MacManes. 2017. “PALADIN: Protein Alignment for Functional Profiling Whole Metagenome Shotgun Data.” Bioinformatics 33 (10): 1473-78. [https://doi.org/10.1093/bioinformatics/btx021](https://doi.org/10.1093/bioinformatics/btx021).
+- Franzosa, Eric A., Lauren J. McIver, Gholamali Rahnavard, Luke R. Thompson, Melanie Schirmer, George Weingart, Karen Schwarzberg Lipson, et al. 2018. “Species-Level Functional Profiling of Metagenomes and Metatranscriptomes.” Nature Methods 15 (11): 962-68. [https://doi.org/10.1038/s41592-018-0176-y](https://doi.org/10.1038/s41592-018-0176-y)
 
 ### Questions to think about
 
@@ -64,9 +64,7 @@ conda activate phylogenomics-functional
 
 ### Material
 
-```bash
-test
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSexn0hc-7Qt2o5jarBzZ3WMLZ4jcjj0fd_QgLYpm5y0tNC_KLnMT00pA6uvpOomQ/embed?start=false&loop=true&delayms=10000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 5C: Functional Genomics
 
