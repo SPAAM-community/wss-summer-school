@@ -103,7 +103,11 @@ range of participants backgrounds and current research are.
 
 ### Material
 
-All teaching material for BareBonesBash can be found on the [BareBonesBash
+For a full screen version on the presentation and press <kbd class="keybd">f</kbd> on your keyboard, or click [here](https://spaam-community.github.io/wss-summer-school/#/assets/slides/2022/1bc-barebonesbash/bbb1/session1.html)
+
+[Intro to Bash](../../assets/slides/2022/1bc-barebonesbash/bbb1/session1.html ":include :type=iframe width=100% height=600px")
+
+The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
 
 ## Practical 1C: Bare Bones Bash 2
@@ -116,5 +120,9 @@ website](https://barebonesbash.github.io/)
 
 ### Material
 
-All teaching material for BareBonesBash can be found on the [BareBonesBash
+For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard, or click [here](https://spaam-community.github.io/wss-summer-school/#/assets/slides/2022/1bc-barebonesbash/bbb2/session2.html)
+
+[Intro to Bash](../../assets/slides/2022/1bc-barebonesbash/bbb2/session2.html ":include :type=iframe width=100% height=600px")
+
+The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
