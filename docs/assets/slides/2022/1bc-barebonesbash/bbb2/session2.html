@@ -1,0 +1,2339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boosted Bare Bones Bash</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700);
+      @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,300i,400,400i,700);
+      @import url(https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700);
+
+
+      /* font/size formatting */
+      body {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 300;
+        color: #000000;
+      }
+
+      h1 {
+        font-family: 'Roboto Slab', sans-serif;
+        color: #7570b3;
+        font-weight: 400;
+        font-size: 40px;
+      }
+
+      h2 {
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #7570b3;
+      }
+
+      h3 {
+        font-family: 'Raleway', sans-serif;
+        color: #7570b3;
+      }
+
+      /* improve font size modifications - https://github.com/yihui/xaringan/wiki/Font-Size */
+
+      .huge { font-size: 160% }
+      .large { font-size: 130% }
+      .medium { font-size: 90% }
+      .small { font-size: 70% }
+      .tiny{font-size: 40%}
+
+      /* https://github.com/gnab/remark/issues/305#issuecomment-403309989 */
+      blockquote {
+        border-left: 0.3em solid #ccc;
+        padding: 0 15px;
+        font-style: italic;
+        color: #777;
+        quotes: "\201C""\201D""\2018""\2019";
+        font-size: 18px;
+      }
+
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono'; color: grey;
+      }
+
+      /* Two-column layouts */
+      .cols {
+        display: flex;
+      }
+      .left-column  { width: 49%; float: left; }
+      .right-column { width: 49%; float: right; }
+
+      .left-column-33  { width: 33%; float: left; }
+      .right-column-66 { width: 66%; float: right; }
+
+      .left-column-66  { width: 66%; float: left; }
+      .right-column-33 { width: 33%; float: right; }
+
+      .right-column ~ p { clear: both; }
+      .right-column ~ ul { clear: both; }
+
+      /* use with e.g. <div class=vertical-center"> */
+      .vertical-center {
+         margin: 0;
+         position: absolute;
+         top: 50%;
+         -ms-transform: translateY(-50%);
+         transform: translateY(-50%);
+      }
+
+
+      .vertical-center-with-title {
+         margin: 0;
+         position: absolute;
+         top: 60%;
+         -ms-transform: translateY(-50%);
+         transform: translateY(-50%);
+      }
+
+
+      /* For progress bar */
+      .remark-slide-number {
+        position: inherit;
+      }
+
+      .remark-slide-number .progress-bar-container {
+        position: absolute;
+        bottom: 0;
+        height: 4px;
+        display: block;
+        left: 0;
+        right: 0;
+      }
+
+      .remark-slide-number .progress-bar {
+        height: 100%;
+        background-color: #6a3d9a;
+      }
+
+    /* Header and Footer from
+    https://github.com/gnab/remark/issues/501#issuecomment-392961900/
+    */
+
+    div.my-header {
+      background-color: #7570b3;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      height: 10px;
+      width: 100%;
+      text-align: left;
+    }
+
+    div.my-footer img {
+      height: 75px;
+      width: 75px;
+      bottom: 5px;
+      right: 5px;
+      position: fixed;
+    }
+
+  /* Comment  */
+  .remark-slide-content {
+    font-size: 20px;
+
+  }
+
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source" bar>
+
+layout: true
+<div class="my-header"></div>
+   <div class="my-footer"><img src="../bbb1/.images/BareBonesBash_Icon.png" /></div>
+
+
+---
+
+class: center, middle
+
+# .tiny[_Boosted_ Bespoke]
+# .large[**Bare Bones Bash**]
+## .tiny[Brought By Blissfully Baffled Bioinformaticians]
+
+Thiseas C. Lamnidis
+
+Aida Andrades Valtueña
+<br/>
+<br/>
+<br/>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a>
+.small[<br />This work is licensed under a <br/> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.]
+
+
+---
+
+# Aims of this session
+
+
+- Aim:
+
+  - Get more familiar with text modification with bash
+
+--
+
+- Objectives:
+  - How to find stuff?
+  - Concept: for loop  for and while loops?
+  - Regular expressions (aka "Regex")
+  - How to write a conditional statement (if/else)
+  - _Simple_ text modification with `sed` (i.e. witchcraft)
+  - How to write a simple bash script
+
+???
+
+--
+
+.left-column[
+<p align="center">
+  <img title="Source https://giphy.com/gifs/comedy-retro-musical-UjYw9fdCEPwU8" src="https://media.giphy.com/media/UjYw9fdCEPwU8/giphy.gif" width=55% >
+</p>
+]
+
+--
+
+.right-column[
+<p align="center">
+  <img title="Source: https://giphy.com/gifs/bethesda-elder-scrolls-online-necromancer-zumog-phoom-hsaHwzGKJucbXRa7B6" src="https://media.giphy.com/media/hsaHwzGKJucbXRa7B6/giphy.gif" width=70% >
+</p>
+]
+
+---
+
+class: center middle
+
+# Preparation!
+
+
+---
+#Preparation
+
+You should have a folder and a metadata file from Session 1:
+
+- Boosted-BBB-images
+
+- Boosted-BBB-meta: what does this file contain?
+
+--
+
+It contains metadata that will be use to sort the images in a nice structure in our messy folder
+
+---
+
+class: middle,center
+
+<p align="center">
+  <img title="Source: https://giphy.com/gifs/mario-super-64-WZdlab0U3AkSc
+" src="https://media.giphy.com/media/WZdlab0U3AkSc/giphy.gif">
+</p>
+
+Make sure to `cd` back to `~/boosted_barebonesbash` now!
+
+???
+
+OK! Recap done! LETS'A GO!
+
+---
+
+#Outline
+
+.large[
+- Where is my stuff??
+- Concept: for loops
+- How to rename stuff
+- Concept: Regular expressions
+- While loop: to infinity and beyond!
+- Conditionals: IF/ELSE
+- Modifying files: SED, PASTE
+]
+
+???
+JAMES
+
+---
+
+# Where is my stuff??
+
+```bash
+$ find # Don't run yet!
+```
+
+How can you search for files and directories hidden in layers and layers
+(of your very organised 😉) directories?
+
+<p align="center">
+  <img title="https://giphy.com/gifs/download-find-funsubstancea-XSJIE5xMWA9HO
+" src="https://media.giphy.com/media/XSJIE5xMWA9HO/giphy.gif">
+</p>
+
+---
+
+# Where is my stuff??
+```bash
+$ find Boosted-BBB/  # Don't run yet!
+```
+- **First** part of the `find` command: _the place to look from_
+
+  - e.g. `.` to indicate 'here'
+--
+
+  - Could also use `~/`
+--
+
+  - Could use absolute path e.g. `/home/aida/`
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+> **Question** What is the difference between `Boosted-BBB/` and `/home/aida/boosted_barebonesbash/Boosted-BBB/`?
+
+---
+
+# Where is my stuff??
+```bash
+$ find Boosted-BBB/ -type f # Don't run yet!
+```
+- **First** part of the `find` command: _the place to look from_
+  - e.g. `.` to indicate 'here'
+  - Could also use `~/`
+  - Could use absolute path e.g. `/home/james/`
+
+- **Second** part of the `find` command: _what type of things to look for?_
+  - Use `-type` to define the filetype:
+     - __f__ile
+     - __d__irectory
+
+
+---
+
+# Where is my stuff??
+```bash
+$ find Boosted-BBB/ -type f -name  # Don't run yet!
+```
+- **First** part of the `find` command: _the place to look from_
+  - e.g. `.` to indicate 'here'
+  - Could also use `~/`
+  - Could use absolute path e.g. `/home/james/`
+
+- **Second** part of the `find` command: _what type of things to look for?_
+  - Use `-type` to define the filetype:
+     - __f__ile
+     - __d__irectory
+
+- **Third** part of the `find` command: _what to look in_?
+  - Use `-name` to say 'look in _names_ of things'
+
+<br/>
+<br/>
+
+---
+
+# Where is my stuff??
+```bash
+$ find Boosted-BBB/ -type f -name '*JPG*'  # Now GO!
+```
+- **First** part of the `find` command: _the place to look from_
+  - e.g. `.` to indicate 'here'
+  - Could also use `~/`
+  - Could use absolute path e.g. `/home/james/`
+
+- **Second** part of the `find` command: _what type of things to look for?_
+  - Use `-type` to define the filetype:
+     - __f__ile
+     - __d__irectory
+
+- **Third** part of the `find` command: _what to look in_?
+  - Use `-name` to say 'look in _names_ of things'
+
+- **Finally** after `-name` we give the the 'strings' to search for
+  - Use wildcards (`*`) for maximum laziness!
+
+---
+# Where is my stuff??
+
+We are looking for all files with the suffix `JPG`.
+
+Let's first set the suffix we want to a variable, so we can easily change it in the future.
+
+```bash
+$ suffix="JPG"
+```
+--
+
+We can now call on this variable in our search. Try the following command:
+
+```bash
+$ find Boosted-BBB/ -type f -name '*$suffix*'
+```
+--
+**That found no files!!** Our original `find` command confirms that these files exist!
+
+--
+
+.left-column-66[
+Now look at the command below:
+
+```bash
+$ find Boosted-BBB/ -type f -name "*$suffix*"
+```
+
+What has changed here? Run the second command.
+]
+???
+This time the command finds the files! What in 'tarnation is going on!?
+
+---
+
+# Where is my stuff??
+
+We are looking for all files with the suffix `JPG`.
+
+Let's first set the suffix we want to a variable, so we can easily change it in the future.
+
+```bash
+$ suffix="JPG"
+```
+
+We can now call on this variable in our search. Try the following command:
+
+```bash
+$ find Boosted-BBB/ -type f -name '*$suffix*'
+```
+
+**That found no files!!** Our original `find` command confirms that these files exist!
+.left-column-66[
+Now look at the command below:
+```bash
+$ find Boosted-BBB/ -type f -name "*$suffix*"
+```
+What has changed here? Run the second command.]
+
+.right-column-33[
+<p align="center"><img src="https://tenor.com/view/nagato-naruto-shippuden-nagato-kid-nani-apa-gif-12417317.gif" title="Source: https://tenor.com/view/nagato-naruto-shippuden-nagato-kid-nani-apa-gif-12417317.gif" width="70%">
+</p>
+]
+
+???
+This time the command finds the files! What in tarnation is going on!?
+---
+
+# Cleaning up the filenames
+
+It seems that wherever the files are from have completely mangled the file names (`.JPG.MP3.TXT`... WHAT?!)
+
+Lets clean up the filenames, and then we can sort the files into categories.
+
+???
+Reward to anyone who uses `whatis` or `man`
+
+---
+
+# Cleaning up the filenames
+
+It seems that wherever the files are from have completely mangled the file names (`.JPG.MP3.TXT`... WHAT?!)
+
+Lets clean up the filenames, and then we can sort the files into categories.
+
+We will need to repeat the clean up for each of the file names...
+
+--
+
+So, How do I **repeat** a command multiple times on a list of things?
+
+---
+
+# Concept: for loops
+
+- **for** loops allow us to go through a list of things and perform some actions. Let's see an example:
+
+--
+
+```bash
+$ Variable=Yes
+$ for i in Greece Spain Britain; do
+>  echo "Does $i have lovely food? $Variable"
+> done
+
+```
+--
+```
+Does Greece have lovely food? Yes
+Does Spain have lovely food? Yes
+Does Britain have lovely food? Yes
+
+```
+
+--
+- The for loop went through the list `Greece Spain Britain` and printed a statement with each item in the list
+
+--
+
+- Let's clean up the file names with a for loop!
+
+---
+
+# Cleaning up the filenames
+
+But how should we remove the weird endings???
+
+--
+
+**We first show an example that uses `cut` and `rev`.**
+
+Any guesses what these commands might do?
+
+--
+
+  - `rev`: reverses a character string
+  - `cut`: cuts a string into multiple pieces
+
+.left-column[
+<p align="center">
+  <img style="transform: scaleX(-1)" src="https://media.giphy.com/media/mUGRVgAkamLZe/giphy.gif" title="Source: https://giphy.com/gifs/pony-mUGRVgAkamLZe" width="90%">
+</p>
+]
+
+.right-column[
+<p align="center">
+  <img style="transform: scaleX(-1)" src="https://media.giphy.com/media/2GdACZsbRnTmo/giphy.gif" title="Source: https://giphy.com/gifs/movie-photoset-2GdACZsbRnTmo" width="83%">
+</p>
+]
+
+???
+
+Reward to anyone who uses `whatis` or `man`
+
+---
+
+# Cleaning up filenames
+
+Let's try this out!
+
+```bash
+$ echo "aBcDeF 654321" | rev
+```
+```
+123456 FeDcBa
+```
+
+--
+`cut` needs some arguments.
+ - `-d` specifies the field **d**elimiter we are using. Here it is space (`" "`).
+ - `-f` specifies which **f**ield we wish to cut out (the second one).
+
+```bash
+$ echo "aBcDeF 654321" | cut -d " " -f 2
+```
+```
+654321
+```
+
+---
+
+# Cleaning up filenames
+
+Using these tools, we can start cleaning up the desired filenames like this:
+
+```bash
+$ for file in $(find Boosted-BBB/ -type f -name "*$suffix*"); do
+>   new_name=$(echo $file | rev | cut -d "." -f 2-999 | rev)
+>   echo $file $new_name
+>   #mv $file $new_name
+> done
+```
+Use `echo` to make a 'dry-run', and when you're happy with the proposed output
+uncomment the `mv` command and re-run the `for` loop.
+
+--
+
+**BUT WAIT! This code is cumbersome to write, read and understand.**
+<p align="center"><img src="https://tenor.com/view/what-confused-ugh-blackadder-rowan-atkinson-gif-11050590.gif" title="Source: https://tenor.com/view/what-confused-ugh-blackadder-rowan-atkinson-gif-11050590.gif" width="40%">
+</p>
+???
+So let's take a step-by-step look at what just happened.
+
+---
+
+# Wait, what just happened?
+
+`$()` tells bash to run the commands within parentheses and interpret the output as a string, which is then assigned to the variable `new_name`
+
+--
+
+#####We start out with a filepath:
+```
+~/boosted_barebonesbash/Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3.TXT
+```
+
+--
+
+#####We `rev`erse the filename:
+```
+TXT.3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB/hsabsenoberab_detsoob/~
+```
+
+--
+
+#####We `cut` the string at each `-d`elimiter (`.`), and keep everything after the first delimiter (`-f`ields `2-999`):
+```
+    3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB/hsabsenoberab_detsoob/~
+```
+--
+
+#####We `rev`erse what is left back to its original orientation:
+```
+~/boosted_barebonesbash/Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3
+```
+--
+
+#####We then rename the file to the new filename with `mv`.
+
+
+---
+# Writing pretty code
+
+It is a good idea to avoid clunky code like what you just saw.
+
+How to make this code simpler? **Do not run this code!**
+
+```bash
+$ for file in $(find Boosted-BBB/ -type f -name "*$suffix*"); do
+>   new_name=$(echo $file | rev | cut -d "." -f 2-999 | rev)
+>   echo $file $new_name
+>   # mv $file $new_name
+> done
+```
+
+--
+We can make it shorter and better with **parameter expansion** (the magic).
+???
+Remember how we were saying a variable is like a box that you can put anything inside? Imagine being sent baking ingredients in the mail, and making a strudel out of the ingredients as you open the package!
+--
+
+<p align="center"><img src="https://tenor.com/view/fantastic-beasts-fantastic-beasts-and-where-to-find-them-strudel-magic-food-gif-7865320.gif" title="Source: https://tenor.com/view/fantastic-beasts-fantastic-beasts-and-where-to-find-them-strudel-magic-food-gif-7865320.gif" width="50%">
+</p>
+
+---
+# Writing pretty code
+We can now rewrite this code. **DO NOT RUN THIS CODE!**
+```bash
+$ for file in $(find Boosted-BBB/ -type f -name "*$suffix*"); do
+>   new_name=$(echo $file | rev | cut -d "." -f 2-999 | rev)
+>   echo $file $new_name
+>   # mv $file $new_name
+> done
+```
+--
+To this:
+
+```bash
+$ for file in $(find Boosted-BBB/ -type f -name "*JPG*"); do
+>   echo ${file} ${file%.*}
+>   # mv ${file} ${file%.*}
+> done
+```
+
+Try dry-running both and check the result is the same! Is there a difference in runtime? 
+
+???
+Note that Rev/cut is still useful in languages, Bash expansion is for bash!
+
+--
+
+.left-column-66[
+Result: **0.051s** versus **0.003s** when running echo!
+]
+
+.right-column-33[
+<p align="center">
+  <img src="https://media.giphy.com/media/S9v6L1tFHk0pptZzCh/giphy.gif" title="Source: https://giphy.com/gifs/stickergiant-fast-zoom-on-my-way-S9v6L1tFHk0pptZzCh/links" width="50%">
+</p>
+]
+
+???
+Notice that this time around, I added ".JPG" at the end of the new filenames manually, since our approach removes it.
+This code should run faster, especially when dealing with many more files!
+
+It is much more efficient since parameter expansion is one command, instead of 4 commands strung together.
+
+--
+
+When sure it works, remove the comment in the 2nd codeblock to rename!
+
+---
+
+# Almost done!
+We now have all the files named similarly, but some things are still a bit off. The file suffix `JPG` is conventionally written in lowercase characters (`jpg`).
+
+Let's change all filename suffixes to be in lowercase letters!
+
+
+<p align="center">
+  <img src="https://media.giphy.com/media/l3diMwu8XYh6sa6VG/giphy.gif" title="Source: https://giphy.com/gifs/laffmobbslafftracks-laff-mobbs-tracks-episode-108-l3diMwu8XYh6sa6VG" width="30%">
+</p>
+
+???
+AIDA
+
+--
+
+Can be done with parameter expansion, but we can use **reg**ular **ex**pressions to do this without a for loop.
+
+???
+Remember, a string is fancy computer lingo for a sequence of characters and/or numbers. i.e. text
+
+--
+
+ - Regex is an important concept. You will find them in most programming languages.
+
+ - Syntax can vary from language to language, but here's how they work in bash.
+
+
+---
+
+# Concept: Regular expressions
+- Special strings and characters that define a 'search pattern'
+- Used in 'Search' or 'Search/Replace' functions e.g. in excel!
+- You have already used them!
+
+--
+
+To prepare, download the following file
+
+```bash
+$ wget git.io/Boosted-BBB-regex
+$ mv Boosted-BBB-regex regex.txt
+```
+???
+As usual, Mac users should use `curl -LO`
+
+--
+
+Let's also look at the contents.
+
+```bash
+$ cat regex.txt
+```
+
+???
+Technically, all the wildcards you have used are regex!
+
+---
+# Regex Basics
+
+.left-column-66[
+
+Three regex special character 'categories' 
+]
+
+--
+
+.left-column-66[
+- `.`, `*`, `^`, `$` (etc.): special characters that are translated to regex function **first** ('escaped' with `\` to find the literal symbol) 
+]
+
+--
+
+.left-column-66[
+- `\t`, `\w`, `\D` (etc.): **letter-based** special characters that must have `\` to be 'translated'  
+]
+
+--
+
+.left-column-66[
+- `[]`, `()`, (etc.): range, grouping, or 'capturing' matching regex within **brackets**  
+]
+
+---
+
+# Regex Basics
+
+.left-column-66[
+
+Three regex special character 'categories'  
+
+- `.`, `*`, `^`, `$` (etc.): special characters that are translated to regex function **first** ('escaped' with `\` to find the literal symbol) 
+
+- `\t`, `\w`, `\D` (etc.): **letter-based** special characters that must have `\` to be 'translated'  
+
+- `[]`, `()`, (etc.): range, grouping, or 'capturing' matching regex within **brackets**  
+
+]
+
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+bear  
+beer  
+br  
+ber  
+be\*r  
+rear  
+]
+???
+When you `cat regex.txt`, you should see the following printed on your screen. 
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep '.ear' regex.txt
+```
+
+> Finds strings containing: any character + ear
+
+
+- `.` : match any character
+
+<p align="center">
+  <img src="https://media.giphy.com/media/zlqDsYtuoyR9e/giphy.gif" title="Source: https://media.giphy.com/media/zlqDsYtuoyR9e/giphy.gif" width="50%">
+</p>
+
+]
+.right-column-33[
+**pear**  
+pier  
+pir  
+per  
+par  
+pur  
+**bear**  
+beer  
+br  
+ber  
+be\*r  
+**rear**  
+]
+
+
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'p[iea]r' regex.txt
+```
+
+> String starting with p+ one of i or e or a +r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+]
+.right-column-33[
+pear  
+pier  
+**pir**  
+**per**  
+**par**  
+pur  
+bear  
+beer  
+br  
+ber  
+be\*r  
+rear  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'p[^iea]r' regex.txt
+```
+
+> String starting with p+ any character except i, e or a+r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+**pur**  
+bear  
+beer  
+br  
+ber  
+be\*r  
+rear  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'be*r' regex.txt
+```
+
+> String that starts with b+ zero or multiple 'e' +r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+
+<p align="center">
+  <img src="https://media.giphy.com/media/Zw3oBUuOlDJ3W/giphy.gif" title="Source: https://giphy.com/gifs/beer-cheers-shaun-of-the-dead-Zw3oBUuOlDJ3W" width="50%">
+</p>
+
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+bear  
+**beer**  
+**br**  
+**ber**  
+be\*r  
+rear  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'be\*r' regex.txt
+```
+
+> String 'be*r' 
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+- `\`: do not interpret next character
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+bear  
+beer  
+br  
+ber  
+**be\*r**  
+rear  
+]
+???
+Normally, `*` would be interpreted to `match 0 or more of the preceding items`. 
+
+But because we have "escaped" interpretation with `\`, it is treated as an asterisk character (*).
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'be\+r' regex.txt
+```
+
+> String starting with b+ one or multiple 'e'+r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+- `\`: do not interpret next character
+- `\+`: match 1 or more of the preceding items
+
+<p align="center">
+  <img src="https://media.giphy.com/media/RqbkeCZGgipSo/giphy.gif" title="Source: https://giphy.com/gifs/dreaming-the-simpsons-RqbkeCZGgipSo" width="50%">
+</p>
+
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+bear  
+**beer**  
+br  
+**ber**  
+be\*r  
+rear  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'be\?r' regex.txt
+```
+
+> String starting with b+ zero or one 'e'+r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+- `\`: do not interpret next character
+- `\+`: match 1 or more of the preceding items
+- `\?`: match 0 or 1 of the preceding items
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+bear  
+beer  
+**br**  
+**ber**  
+be\*r  
+rear  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep '^[rb]\+' regex.txt
+```
+
+> Lines starting with one or multiple of: r or b 
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+- `\`: do not interpret next character
+- `\+`: match 1 or more of the preceding items
+- `\?`: match 0 or 1 of the preceding items
+- `^`: the beginning of the line
+
+<p align="center">
+  <img src="https://media.giphy.com/media/J0ySNzZ5APILC/giphy.gif" title="Source: https://giphy.com/gifs/man-weekend-the-J0ySNzZ5APILC/links" width="50%">
+</p>
+
+]
+.right-column-33[
+pear  
+pier  
+pir  
+per  
+par  
+pur  
+**bear**  
+**beer**  
+**br**  
+**ber**  
+**be\*r**  
+**rear**  
+]
+
+---
+# Regex Basics
+.left-column-66[
+```{bash}
+$ grep 'r$' regex.txt
+```
+
+> Lines ending with r
+
+- `.` : match any character
+- `[]`: match range of characters within []
+- `[^]`: match range of characters except the ones in the bracket
+- `*`: match 0 or more of the preceding items
+- `\`: do not interpret next character
+- `\+`: match 1 or more of the preceding items
+- `\?`: match 0 or 1 of the preceding items
+- `^`: the beginning of the line
+- `$`: the end of the line
+
+> This can be intimidating, however there are lots of resources on the internet
+> (reminder: Google _everything_!) to help, such as: [https://regex101.com/](https://regex101.com/).
+> Note that regex's can be slightly different per shell and language!
+
+]
+.right-column-33[
+**pear**  
+**pier**  
+**pir**  
+**per**  
+**par**  
+**pur**  
+**bear**  
+**beer**  
+**br**  
+**ber**  
+**be\*r**  
+**rear**  
+]
+
+???
+https://www.rexegg.com/regex-quickstart.html: website describing regex characters and its variations with different languages
+
+---
+# Regex example
+```
+fanta.JPG
+BydgoszczForest.JPG
+snore.JPG
+Bubobubo.JPG
+giacomo.JPG
+netsukeJapan.JPG
+nomnom.JPG
+pompeii.JPG
+AlopochenaegyptiacaArnhem.JPG
+exhibitRoyal.JPG
+stretch.JPG
+weimanarer.JPG
+excited.JPG
+licorne.JPG
+angry.JPG
+```
+Which Regex would you use to find all the files ending with .JPG??
+--
+
+```bash
+$ find Boosted-BBB/ -type f -name '*.JPG'
+```
+
+???
+So if we want to match a specific set of characters, that always follow a `.` and precede the end of the line, which regex characters do we need?
+
+---
+# `rename`
+
+`rename` lets you apply a regex to the name of files to rename them.
+
+To convert all suffixes in the directory to lowercase characters:
+```bash
+$ find Boosted-BBB/ -type f -name '*.JPG' | rename 's/\.JPG$/.jpg/'
+```
+
+> Check with `find` whether the names are now as you expect!
+
+???
+JAMES  
+By default, Macs do NOT have `rename` installed.
+The substitution is written similarly to what it is used in parameter expansion 
+
+Notice that the syntax of this substitution is similar to the one used in parameter expansion! (except with an extra `/`)
+
+--
+
+.left-column[
+
+No `for` loop needed (yay for pipes!)!
+
+The expression given to `rename` has three parts, separated by `/`
+]
+
+.right-column[
+<p align="center">
+  <img src="https://media1.tenor.com/images/16669249a63fd292abcdd549a33b1333/tenor.gif?itemid=10650902" title="Source: https://tenor.com/view/friends-phoebe-gif-10650902" width="50%">
+</p>
+
+]
+
+ - First, we define we want to **s**ubstitute the regex matches for another string
+
+--
+
+ - Second, we define the regex to query. `\.JPG$`
+
+???
+Why do we need the `\` before the `.`?
+
+To interpret the `.` as a literal `.` and not "any character"
+
+--
+
+> Remember: to _escape_ a character (so read as an actual character, not as a regex), use `\` before it
+
+ - Finally, we specify what we want to substitute matches with, which is `.jpg`
+
+???
+The substitute string is NOT a regex, so we do not need to escape the `.`
+
+Optionally you can specify option after the final `/`. For e.g. putting a `j` it will look for multiple matches in each line instead.
+
+---
+# Onwards!
+
+Ok, so we can now use find to see all the new and pretty filepaths:
+```bash
+$ suffix="jpg"
+$ find Boosted-BBB/ -type f -name "*${suffix}"
+```
+<p align="center">
+  <img src="https://media.giphy.com/media/yJFeycRK2DB4c/giphy.gif
+" title="Source: https://media.giphy.com/media/yJFeycRK2DB4c/giphy.gif
+" width="40%">
+</p>
+--
+
+We can finally start sorting the pictures into categories!
+
+To do that, we need to keep track of all the file names. We can easily gather this information using a **redirect**!
+
+---
+
+# Let's redirect!
+
+We can get a list of all the file names by redirecting the `stdout` of the `find` command.
+
+```bash
+$ suffix="jpg"
+$ find Boosted-BBB/ -type f -name "*${suffix}" > File_names.txt
+```
+???
+JAMES
+--
+
+This time, nothing was printed on your screen, because you redirected that output into a file.
+
+You can `cat` the resulting file to see that everything worked.
+
+<p align="center"><img src="https://media.giphy.com/media/JqDeI2yjpSRgdh35oe/giphy.gif" title="Source: https://media.giphy.com/media/JqDeI2yjpSRgdh35oe/" width="35%">
+</p>
+
+---
+
+# Getting parts of a filepath
+
+Before moving on, there are two useful commands you should know.
+
+`basename` will tell you the file name, while stripping the path to the file.
+```bash
+$ basename data/Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
+```
+```
+bubobubo.JPG.MP3.TXT
+```
+
+--
+
+`dirname` does the opposite. It will tell you the path to the directory that a file is in, while omitting the name of the file.
+```bash
+$ dirname data/Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
+```
+```
+data/Boosted-BBB//Having/the/time/of/your/life
+```
+
+---
+
+# Reading from a file
+
+Ok, so you now have a file with all the paths to the images we need. But the folder structure is still a mess. It's time to read the contents of the file with a `while` loop!
+
+--
+
+A `while` loop is a special type of repeating code that keeps going until it is interrupted.
+
+--
+
+We will also use `read`. This command takes the contents of the file and loads them into a specified variable.
+
+<p align="center"><img src="https://media.giphy.com/media/WoWm8YzFQJg5i/source.gif" title="Source: https://giphy.com/gifs/cartoons-comics-sea-reading-WoWm8YzFQJg5i" width="35%">
+</p>
+
+---
+
+# Reading from a file
+
+Ok, so you now have a file with all the paths to the images we need. But the folder structure is still a mess. It's time to read the contents of the file with a `while` loop!
+
+A `while` loop is a special type of repeating code that keeps going until it is interrupted.
+
+We will also use `read`. This command takes the contents of the file and loads them into a specified variable.
+
+```bash
+$ mkdir images
+$ while read filepath; do
+>   echo "${filepath}" images/$(basename ${filepath})
+>   # mv ${filepath} images/$(basename ${filepath})
+> done < File_names.txt
+```
+
+When you're ready, uncomment the `mv` command to move each file from the
+original location into the new location!
+
+> Question: in this context, why do you have to use 'basename' for the target directory?
+
+???
+First, we make the directory `images`, then the `while` loop reads through the contents of each line in `File_names.txt`.
+
+`read` puts the contents of the line in the variable `fname` and then the code in the loop is executed. 
+
+With the redirect after `done` we give the while loop `File_names.txt` as input.
+
+---
+
+# Concept: While Loops
+
+We have previously seen the concept of `for` loop:
+
+```bash
+$ for file in file1 file2 file3 file4; do
+>   echo "${file}"
+> done
+```
+
+`For` loops repeat a set of code for a set of items, by changing the value of a variable in each iteration.
+
+---
+
+# Concept: While Loops
+
+`For` loops are finite, they go through your list and stop when they run out of things.
+
+--
+
+Instead, a `while` loop keeps going until a statement is false.
+```bash
+$ while [statement]; do     #means while statement is true do
+>   [whatever you want to do]
+> done
+```
+
+--
+
+An easy **pseudocode** example:
+
+???
+Pseudocode is code-like syntax, but a computer will NOT understand it. the code below won't work if you try to copy it over.
+
+--
+.left-column[
+```bash
+$ n=3
+$ while n > 0; do
+>   echo $n
+>   n=$n - 1
+> done
+```
+]
+.right-column[
+```
+3
+2
+1
+```
+]
+
+---
+# Concept: While Loops
+Didn't you say while loop are infinite? **Pseudocode**:
+.left-column[
+```bash
+$ n=3
+$ while n < 5; do
+>   echo $n
+>   n=$n - 1
+> done
+```
+]
+.right-column[
+<p align="center"><img src="https://media.giphy.com/media/U2BASTIsaw8WQ/source.gif" title="Source: https://giphy.com/gifs/elevator-berlin-lift-U2BASTIsaw8WQ" width="90%">
+</p>
+]
+--
+.left-column[
+- Always include a stop!
+  - i.e. ensure your condition will eventually become 'false'!
+- Emergencies: Ctrl + C (cancel the loop)
+]
+--
+
+.left-column-66[
+Following our example from the beginning...
+
+```bash
+$ while read filepath; do
+>   echo "${filepath}" images/$(basename ${filepath})
+>   # mv ${filepath} images/$(basename ${filepath})
+> done < File_names.txt
+```
+]
+
+.right-column-33[
+  ...the condition `read filepath` becomes false when there are no more lines in the file `File_names.txt` (i.e. '`EOF`')
+]
+
+???
+Programmer lingo: `EOF` means end of file! 
+
+---
+
+# Pasting things side by side!
+
+As you remember from the beginning, we downloaded a metadata file, which
+includes different metadata categories for each file.
+
+Lets look in the file!
+
+```bash
+$ cat Boosted-BBB-meta.tsv
+```
+
+???
+You wanted to minimise the time you spend typing while on hunting for your best images, so you didn't type the category name, but codes A B C for each one.
+
+--
+
+Now we can put together a list that states which category each image is part of.
+
+???
+In the metadata file, you have the names of the images, and you have the categories of each too.
+
+--
+
+You can use `paste` to paste the two lists together, and save the results!
+
+```bash
+$ ls -1 images/* | paste - Boosted-BBB-meta.tsv # > Annotations.txt
+```
+???
+`ls -1` forces the output into a single column. `paste` accepts the `stdin` and puts it at the position of `-`.
+--
+```
+images/alopochenaegyptiacaArnhem.jpg	alopochenaegyptiacaArnhem	C	Funny
+images/angry.jpg	angry	B	Artwork
+images/bubobubo.jpg	bubobubo	C	Normal
+...
+images/snore.jpg	snore	B	Normal
+images/stretch.jpg	stretch	B	Funny
+images/weimanarer.jpg	weimanarer	A	Normal
+```
+
+>Disclaimer: literally pastes columns, no matching done. Only works if both columns are in the corresponding order
+???
+Check that the file name matches the second column of each row. When u are satisfied, remove the `#` and save the output into `Annotations.txt`.
+
+You now have a meta-data sheet for each jpg!
+
+---
+
+# Editing text with `sed`
+
+To share these images with your internet friends, you need to properly specify the category names.
+
+Let's add the actual category names to the `Annotations.txt`.
+
+???
+THISEAS
+
+--
+
+You can use `sed`, short for **s**tream **ed**itor, with a regex to edit the contents of a datastream on-the-fly.
+
+
+
+```bash
+$ sed 's/A/dog/' Annotations.txt
+```
+
+--
+.left-column-33[
+```
+images/alopochenaegyptiacadogrnhem.jpg	alopochenaegyptiacaArnhem	C	Funny
+images/angry.jpg	angry	B	dogrtwork
+images/bubobubo.jpg	bubobubo	C	Normal
+...
+images/snore.jpg	snore	B	Normal
+images/stretch.jpg	stretch	B	Funny
+images/weimanarer.jpg	weimanarer	dog	Normal
+```
+
+**Uh-oh!**]
+???
+Do you see what went wrong? Don't worry, your file has not been changed in any way.
+--
+.right-column-66[
+<p align="center"><img src="https://media.giphy.com/media/3ohzdYJK1wAdPWVk88/giphy.gif" title="Source: https://media.giphy.com/media/3ohzdYJK1wAdPWVk88/" width="40%">
+</p>]
+
+???
+What happened here? How can we fix it?
+
+Pattern matches the first A in a line with `dog`. We should make our regex more specific.
+We know the value we want is a column, and hence it is surrounded by TABs! 
+Change pattern to 's/\tA\t/\tdog\t/' to only match a single character column.
+
+---
+
+# Editing text with `sed`
+
+```bash
+$ sed 's/\tA\t/\tdog\t/' Annotations.txt
+```
+```
+images/alopochenaegyptiacaArnhem.jpg	alopochenaegyptiacaArnhem	C	Funny
+images/angry.jpg	angry	B	Artwork
+images/bubobubo.jpg	bubobubo	C	Normal
+...
+images/snore.jpg	snore	B	Normal
+images/stretch.jpg	stretch	B	Funny
+images/weimanarer.jpg	weimanarer	dog	Normal
+```
+> On Macs, `sed` does not recognise `\t`.You will need to type in a tab character.
+
+???
+Much better!
+
+Ensure your replacement also has tabs!
+--
+
+Use `-e` to provide multiple regular **e**xpressions to `sed`.
+```bash
+$ sed -e 's/\tA\t/\tdog\t/' -e 's/\tB\t/\tcat\t/' -e 's/\tC\t/\tbird\t/' Annotations.txt
+```
+???
+Check the results for any errors.
+
+--
+
+When you are happy with the results, it is time to save the edits.
+
+`sed` can edit a file **i**n place, with the `-i` option.
+```bash
+$ sed -i -e 's/\tA\t/\tdog\t/' -e 's/\tB\t/\tcat\t/' -e 's/\tC\t/\tbird\t/' Annotations.txt
+```
+???
+On Mac, the `-i` option needs an argument so replace it with `-i ''`
+
+---
+
+# Cleanin' up my closet
+
+.left-column-33[
+
+Lets actually organise our into descriptive folders based our metadata file!
+
+<p align="center">
+  <img src="https://media.giphy.com/media/ZylxniYTM4rOfltszT/giphy.gif" title="Source: https://giphy.com/gifs/queen-the-show-must-go-on-ZylxniYTM4rOfltszT" width="60%">
+</p>
+
+
+For this, we need to use `conditionals`. This is a comparison of two things,
+and if they are the same something happens, if different, something else happens.
+
+The most basic conditional is an `if else` statement.
+]
+
+--
+
+.right-column-66[
+
+The basic syntax is like this
+
+```bash
+$ if [[ ${my_variable} == "banana" ]]; then
+>   echo "Monkey takes a banana and runs away happy."
+> else
+>   echo "Monkey doesn't want that."
+> fi
+```
+
+You can have sequential conditions too with `elif`, short for **el**se **if**.
+
+```bash
+$ if [[ ${my_variable} == "banana" ]]; then
+>   echo "Monkey takes a banana and runs away happy."
+> elif [[ ${my_variable} == "mango" ]]; then
+>   echo "Monkey takes a mango and eats it while staring at you."
+> else
+>   echo "Monkey doesn't want that."
+> fi
+```
+]
+
+???
+Can you guess what would happen here depending on the contents of `my_variable`?
+
+my_variable="banana"
+
+my_variable="mango"
+
+my_variable="pear"
+
+---
+# Conditions of conditionals
+
+- `[[` behaves different to `[`. Usually, `[[` is what you want. [_Long story, trust us._]
+
+--
+
+- You can evaluate mathematical equations with `((`
+
+--
+
+.left-column[
+```bash
+$ if (( 5 - 2 == 3)); then
+>   echo "YES"
+> fi
+```
+```
+YES
+```
+]
+---
+# Conditions of conditionals
+
+- `[[` behaves different to `[`. Usually, `[[` is what you want. [_Long story, trust us._]
+
+- You can evaluate mathematical equations with `((`
+- `!` can be used as a "not".
+
+???
+Turning a TRUE into FALSE and vice versa.
+
+--
+
+.left-column[
+```bash
+$ if (( 5 - 2 == 3)); then
+>   echo "YES"
+> fi
+```
+```
+YES
+```
+]
+
+.right-column[
+```bash
+$ if ! (( 5 - 2 == 3)); then
+>   echo "YES"
+> else
+>   echo "NO"
+> fi
+```
+```
+NO
+```
+]
+
+???
+
+`!` can act as a "not" with square brackets as well.
+
+---
+
+# Conditions of conditionals
+
+- Some options can be used to check if files exist, or is a variable has non-zero length.
+
+--
+
+```bash
+$ if [[ -f Annotations.txt ]]; then
+>   echo "File exists."
+> fi
+
+$ if [[ -n ${banana} ]]; then
+>   echo "Variable is set."
+> else
+>   echo "Variable is NOT set."
+> fi
+```
+```
+File exists.
+Variable is NOT set.
+```
+
+---
+
+# Conditions of conditionals
+
+- You can even combine multiple conditionals
+  - `&&`: 'AND' - both must evaluate true 
+  - `||`: 'OR' - at least one must evaluate true
+
+--
+
+```bash
+$ LifeUniverseEverything=42
+$ hitchhikers="awesome"
+## AND
+$ if [[ ${LifeUniverseEverything} == 42  && ${hitchhikers} == "awesome" ]]; then
+>   echo "Don't panic!"
+> fi
+```
+--
+```bash
+$ LifeUniverseEverything=41
+$ hitchhikers="awesome"
+## OR
+$ if [[ ${LifeUniverseEverything} == 42  || ${hitchhikers} == "awesome" ]]; then
+>   echo "Still don't panic!"
+> fi
+```
+
+.left-column[
+<p align="center"><img src="https://media.giphy.com/media/BVlWY2vMZgLG8/source.gif" title="Source: https://giphy.com/gifs/life-answer-42-BVlWY2vMZgLG8/" width="40%">
+</p>
+]
+
+.right-column[
+> Play around with the variables to get a feel!
+]
+---
+
+## Sorting the images by category
+
+We now want to create a directory for each category, and move images into each.
+
+--
+
+Let's add some conditionals! Before running, remember to try a _dry run_ with `echo`!
+
+--
+
+```bash
+$ cd ~/boosted_barebonesbash/
+
+## Parse the annotations file into variables
+$ while read line; do
+>   image_name=$(echo "${line}" | cut -f1)
+>   animal=$(echo "${line}" | cut -f3)
+> 
+>   echo "${image_name}    ${animal}"
+> 
+> done < Annotations.txt
+```
+```
+images/alopochenaegyptiacaArnhem.jpg    bird
+images/angry.jpg    cat
+images/bubobubo.jpg    bird
+images/bydgoszczForest.jpg    bird
+[...]
+images/pompeii.jpg    dog
+images/snore.jpg    cat
+images/stretch.jpg    cat
+images/weimanarer.jpg    dog
+```
+
+---
+
+## Sorting the images by category
+
+We now want to create a directory for each category, and move images into each.
+
+Let's add some conditionals! Before running, remember to try a _dry run_ with `echo`!
+
+```bash
+$ cd ~/boosted_barebonesbash/
+
+## Parse the annotations file into variables
+$ while read line; do
+>   image_name=$(echo "${line}" | cut -f1)
+>   animal=$(echo "${line}" | cut -f3)
+>  
+>   # echo "${image_name}    ${animal}"
+>  
+>   ## Make a new directory for each animal, if one doesn't exist.
+>   mkdir -p images/${animal}
+>  
+>  
+>  
+>  
+>  
+>  
+>  
+>  
+>  
+>  
+> done < Annotations.txt
+```
+
+---
+
+## Sorting the images by category
+
+We now want to create a directory for each category, and move images into each.
+
+Let's add some conditionals! Before running, remember to try a _dry run_ with `echo`!
+
+```bash
+$ cd ~/boosted_barebonesbash/
+
+## Parse the annotations file into variables
+$ while read line; do
+>   image_name=$(echo "${line}" | cut -f1)
+>   animal=$(echo "${line}" | cut -f3)
+> 
+>   # echo "${image_name}    ${animal}"
+> 
+>   ## Make a new directory for each animal, if one doesn't exist.
+>   mkdir -p images/${animal}
+> 
+>   ## If animal matches one of the three, move the image.
+>   if [[ ${animal} == "cat" ]]; then
+>     mv ${image_name} images/cat/
+>   elif [[ ${animal} == "dog" ]]; then
+>     mv ${image_name} images/dog/
+>   elif [[ ${animal} == "bird" ]]; then
+>     mv ${image_name} images/bird/
+>   fi
+> 
+> done < Annotations.txt
+```
+
+---
+
+# Housekeeping
+
+Let's see if everything moved where we wanted.
+
+```bash
+$ find ~/boosted_barebonesbash/images/ -type f -name "*jpg"
+```
+--
+```
+/home/lamnidis/boosted_barebonesbash/images/cat/snore.jpg
+/home/lamnidis/boosted_barebonesbash/images/cat/giacomo.jpg
+/home/lamnidis/boosted_barebonesbash/images/cat/excited.jpg
+/home/lamnidis/boosted_barebonesbash/images/cat/angry.jpg
+/home/lamnidis/boosted_barebonesbash/images/cat/stretch.jpg
+/home/lamnidis/boosted_barebonesbash/images/dog/licorne.jpg
+/home/lamnidis/boosted_barebonesbash/images/dog/fanta.jpg
+/home/lamnidis/boosted_barebonesbash/images/dog/weimanarer.jpg
+/home/lamnidis/boosted_barebonesbash/images/dog/pompeii.jpg
+/home/lamnidis/boosted_barebonesbash/images/dog/nomnom.jpg
+/home/lamnidis/boosted_barebonesbash/images/bird/alopochenaegyptiacaArnhem.jpg
+/home/lamnidis/boosted_barebonesbash/images/bird/bubobubo.jpg
+/home/lamnidis/boosted_barebonesbash/images/bird/netsukeJapan.jpg
+/home/lamnidis/boosted_barebonesbash/images/bird/bydgoszczForest.jpg
+/home/lamnidis/boosted_barebonesbash/images/bird/exhibitRoyal.jpg
+```
+Good! Everything moved into the correct subfolder!
+
+---
+
+# I have to do this every day!
+
+We are already being lazy by getting the computer to loop through each file.
+
+But what do you do if you have to do the same thing EVERYDAY? 
+
+Do you really wanna write all the commands every time?!
+
+<p align="center"><img src="https://media.giphy.com/media/iE4lKpKqwe7QIQCPjG/giphy.gif" title="Source: https://giphy.com/gifs/memecandy-iE4lKpKqwe7QIQCPjG" width="30%">
+</p>
+
+???
+AIDA
+
+--
+
+The ultimate goal of anyone working on the command line is to make a program which you can run with a single command and it does all the work for you.
+
+That program is called a **_script_**.
+
+---
+
+# What's a script?
+
+Similar to a play/movie script that tells actors what to do and the sequence in which they should do it, a computer script is a file containing all the commands that you want the computer to perform in a given order.
+
+
+So let's start writing your first script `first_script.sh`! Open a text editor, we will use `nano`
+
+```bash
+$ nano first_script.sh
+```
+
+???
+
+This will open a nano viewer window in your terminal.
+
+--
+
+<p align="center"><img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" title="Source: https://media.giphy.com/media/26tn33aiTi1jkl6H6/" width="60%">
+</p>
+
+
+---
+
+# Your first script!
+
+The first thing you almost always need to do with any script is to specify which language the script is using. This is done with a 'shebang'
+
+<p align="center"><img src="https://media.giphy.com/media/3o6Mbi2vzeke98ApAA/giphy.gif" title="Source: https://giphy.com/gifs/season-14-the-simpsons-14x5-3o6Mbi2vzeke98ApAA
+" width="30%">
+</p>
+
+It consists of a `#!` to indicate it's a shebang, then a path to a list that *unix stores locations of all programs in.
+
+On the first line of your text editor window, type:
+
+```bash
+#! /usr/bin/env bash
+```
+???
+In most cases, your shebang will be that exact path plus the language you are using.
+e.g.
+
+`#! /usr/bin/env bash`
+
+`#! /usr/bin/env python`
+
+---
+
+# Your first script!
+
+For your first script we want the program to print "Hello world!"
+
+How did we told bash to print something in screen?
+--
+
+```bash
+#! /usr/bin/env bash
+
+echo "Hello world"
+```
+save the file by presing **Ctrl+X**, press **"Y"** to confimr you want to save and press enter to save it as `first_script.sh`.
+
+--
+
+That's it! You've made your first script!
+
+---
+# How do you run a script?
+
+Now to run the script, we do:
+
+```bash
+$ bash ./first_script.sh
+```
+--
+```
+Hello world
+```
+
+<p align="center"><img src="https://media.giphy.com/media/PnUatAYWMEMvmiwsyx/source.gif" title="Source: https://giphy.com/gifs/SpongeBobMovie-spongebob-squarepant-PnUatAYWMEMvmiwsyx" width="30%">
+  </p>
+  
+---
+# Input Variables
+
+So now we want to change our script to instead of saying `Hello world`, it say `Hello <your_name>`
+
+So our script looked like:
+
+```bash
+#! /usr/bin/env bash
+
+echo "Hello world"
+```
+
+We can use variables for the arguments passed to a script.
+
+--
+
+Wait... what are arguments??
+
+--
+
+It is a user supplied value that the script will use to perform the tasks
+
+---
+# Input Variables
+
+In Bash, the arguments passed on the command line can be called `${1}`,`${2}` ...
+
+`${1}` is the first argument
+
+--
+
+`${2}` is the second argument
+
+--
+
+`${3}` is the third argument
+
+--
+
+and so on.
+
+--
+
+<p align="center"><img src="https://media.giphy.com/media/vSJyRUtORbQC4/source.gif" title="Source: https://giphy.com/gifs/friends-argument-vSJyRUtORbQC4" width="30%">
+</p>
+
+Let's go back to our script and change the printing message
+
+---
+# Input Variables
+
+This is our script from before:
+
+```bash
+#! /usr/bin/env bash
+
+
+
+echo "Hello world"
+```
+
+--
+
+First, we want to pass our name to the script as an argument.
+
+---
+# Input Variables
+
+This is our script from before:
+
+```bash
+#! /usr/bin/env bash
+
+name=${1}
+
+echo "Hello world"
+```
+
+First, we want to pass our name to the script as an argument.
+
+--
+
+Then, we want to print out "Hello < name >" instead of "Hello World".
+
+---
+# Input Variables
+
+This is our script from before:
+
+```bash
+#! /usr/bin/env bash
+
+name=${1}
+
+echo "Hello ${name}"
+```
+
+First, we want to pass our name to the script as an argument.
+
+Then, we want to print out "Hello < name >" instead of "Hello World".
+
+--
+
+The script now needs an argument to run, so we will run:
+```bash
+$ bash ./first_script.sh Aida
+```
+--
+
+.left-column[
+```
+Hello Aida
+```
+]
+
+.column-right[
+<p>
+  <img src="../bbb1/.images/bbb_aida.svg" width="10%">
+</p>
+]
+
+---
+# Best practices when coding
+
+There are a few best practices that you should follow when writing code, to ensure that anyone can understand your code.
+
+--
+
+- Comment your code: add a short description of the steps. So in our first_script.sh, we should include:
+
+--
+
+```bash
+#! /usr/bin/env bash
+
+## Read name from positional arguments
+name=${1}
+
+## Printing Hello and the specified variable into screen
+echo "Hello ${name}"
+```
+
+--
+
+- Give variables informative names.
+
+--
+
+- Try to have all bash variables in `${}`. This helps distinguish them visually and ensures all variables are interpreted correctly.
+
+--
+
+- Keep the code simple: try to simplify your code instead of having 1,000 lines
+--
+
+  - Avoid duplicating code.
+  
+---
+# Good coding practices
+
+Add a help message. In our basic script, we could add the following:
+
+```bash
+#! /usr/bin/env bash
+
+name=${1}
+
+if [[ ${name} == "--help" || ${name} == "-h" ]]; then
+  ## Print help message
+  echo "This script prints Hello <your_name> into screen."
+  echo "To run it type: bash ./first_script.sh <your_name>"
+else
+  ## Printing Hello and the specified variable into screen
+  echo "Hello ${name}"
+ fi
+```
+--
+
+.left-column[
+You will often go back to old scripts and not remember the options and arguments they need.
+
+Having help text will make it easier to remember.
+]
+
+.right-column[
+<p align="center"><img src="https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif" title="Source: https://giphy.com/gifs/cat-fire-rescue-phJ6eMRFYI6CQ" width="40%">
+</p>
+]
+
+---
+# Debugging your code
+
+- Try your code outside the script
+
+???
+JAMES
+
+--
+
+- Add print statements to check the variables/commands render properly
+
+--
+
+- Write the script by its functional parts. 
+ - Think what you want your script to do
+ - Write/Draw the steps to do
+ - Write code for the first step -> try it -> write code for the next step -> try it -> repeat until the end
+ - Simplify your code
+
+--
+
+.left-column[
+- Explain your code to someone else! Talking through the logic of it will often make the problem obvious.
+ - This is called the Rubber ducky approach, as many programmers have a rubber duck on their desk to explain their code to.
+]
+
+.right-column[
+<p align="center"><img src="https://media.giphy.com/media/aQrYT4WVN55aU/source.gif" title="Source: https://giphy.com/gifs/cheezburger-wtf-australia-aQrYT4WVN55aU" width="60%">
+</p>
+]
+
+
+
+---
+# Things to keep in mind
+
+- Code for the same task can be written in multiple ways
+
+  - Some code is more **efficient** -> a.k.a runs faster.
+  - Some code is more **readable**.
+--
+
+  - Some code is _both!_
+--
+
+  - Some code is neither...
+
+  .left-column[
+  <p align="center"><img src="https://media.giphy.com/media/3o7ZetIsjtbkgNE1I4/giphy.gif" title="Source: https://giphy.com/gifs/justin-g-run-away-fast-3o7ZetIsjtbkgNE1I4" width="80%">
+  </p>
+  ]
+  
+  .right-column[
+  <p align="center"><img src="https://media.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif" title="Source: https://giphy.com/gifs/baby-story-reading-8dYmJ6Buo3lYY" width="80%">
+  </p>
+  ]
+
+--
+
+- Practice makes perfect: the more you do it, the more you learn.
+
+---
+
+# .huge[Quiz time!]
+
+---
+# Time to practice!
+
+Your task now will be to generate a script to perform the image sorting that we have shown you in this presentation __and email it to us__.
+
+**BUT:** This time you will need to make __an extra subdirectory within each of the categories__ with the secondary description of the images!
+> That is column 3 of the metadata file. (Artwork, Baby, Funny, Historical, Normal)
+
+???
+This is your "homework assignment". Just like last time, you can do it here with our help, or on your own.
+At the end of this session we will show you our solution and run you through it.
+
+--
+
+For this, please make a new directory and download the data again:
+
+.left-column-66[
+```bash
+$ mkdir ~/boosted_barebonesbash_scripting
+$ cd ~/boosted_barebonesbash_scripting
+
+## Get images zip and metadata file
+$ wget git.io/Boosted-BBB-images # On Mac: `curl -LO`
+$ wget git.io/Boosted-BBB-meta # On Mac: `curl -LO`
+
+## Unzip image folders and rename metadata file
+$ unzip Boosted-BBB-images
+$ mv Boosted-BBB-meta  \
+~/boosted_barebonesbash_scripting/Boosted-BBB-meta.tsv
+```
+]
+
+--
+
+.right-column-33[
+You are set up to start now!
+
+
+<p align="center"><img src="https://media.giphy.com/media/nQz8YdVnMipdC/giphy.gif" title="Source: https://giphy.com/gifs/cute-adorable-puppy-nQz8YdVnMipdC" width="70%">
+</p>
+]
+
+---
+
+# Today I learned...
+
+- `find` to locate files or directories
+- What is a for loop
+- Regular expressions for weird and wonderful pattern matching
+- `rename` for renaming files
+- While loops (reading contents of files)
+- `sed` for on-the-fly string manipulation _within_ files
+- If statements and conditionals (if this, then do that, else do this)
+- Scripts and arguments (now you're a programmer! Yes, you!)
+
+---
+
+# Rerun: Enter the janitor!
+
+Despite being lazy - you should ALWAYS keep your room tidy.
+
+- This stops losing files
+- Prevents getting lost in a maze of directories
+- Accidentally permanently deleting a days worth of work .small[
+
+\[_don't ask how many times this has happened._\]]
+
+--
+
+.left-column[
+Lets remove:
+  - the  `boosted_barebonesbash` directory 
+  - **all of its contents**. 
+
+```bash
+$ cd ~     # Don't delete a directory 
+         # while we are still in it! 
+$ rm -r boosted_barebonesbash*
+```
+]
+
+--
+
+.right-column[
+<p align="center"><img src="https://media.giphy.com/media/VzwrrgjLyRzJS/giphy.gif" title="Source: https://giphy.com/gifs/scrubs-janitor-VzwrrgjLyRzJS" width="70%">
+</p>
+]
+
+---
+
+# There is more!
+
+- This was a reduced version of previous BBB series
+
+- You can find all the slides and walkthroughs here: https://barebonesbash.github.io/#/
+
+
+---
+
+# Thanks to...
+
+- Stephan Schiffels 
+  - for giving support and advice on cluster setup in our initial runs of BBB
+
+- James Fellows Yates
+  - Creator of many of those slides for the BBB courses we've given
+
+- [Google](https://google.com)
+  - Pretty much teaching all of this
+
+- [giphy](https://giphy.com/), [tenor](https://tenor.com)
+  - For procrastination
+
+- [fontawesome.com](https://fontawesome.com/) 
+  - for icons for making the logo
+
+???
+THISEAS
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+      /*ratio: "16:9", from: https://github.com/gnab/remark/issues/86#issuecomment-36157045*/
+      slideNumberFormat: (current, total) => `
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: ${current/total*100}%">
+          </div>
+        </div>
+      `
+    });
+    </script>
+  </body>
+</html>
