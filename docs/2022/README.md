@@ -122,7 +122,7 @@ Slides and materials for day 4 can be found [here](2022/day-4).
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
 - **Practical** Phylogenomics: _Aida Andrades Valtueña and Arthur Kocher_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
-- **Practical** Functional Genomics: _Irina Velsko_
+- **Practical** Functional Genomics: _Irina Velsko and James Fellows Yates_
   - How can we infer genomic function from sequences? What sort of analysis can we do?
 - **Round table** Workshop recap
 

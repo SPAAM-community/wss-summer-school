@@ -58,7 +58,18 @@ conda activate microbial-genomics
 
 ### Resources
 
+Software:
+
+- [BWA](http://bio-bwa.sourceforge.net/)
+- [samtools](http://www.htslib.org/)
+- [GATK](https://gatk.broadinstitute.org/hc/en-us)
+- [MultiVCFAnalyzer](https://github.com/alexherbig/MultiVCFAnalyzer)
+- [IGV](https://software.broadinstitute.org/software/igv/)
+
 ### Readings
+
+- Spyrou, M. A., Bos, K. I., Herbig, A., & Krause, J. (2019). "Ancient pathogen genomics as an emerging tool for infectious disease research." Nature reviews. Genetics, 20(6), 323–340. [https://doi.org/10.1038/s41576-019-0119-1](https://doi.org/10.1038/s41576-019-0119-1)
+- Bos, K. I., Kühnert, D., Herbig, A., Esquivel-Gomez, L. R., Andrades Valtueña, A., Barquera, R., Giffin, K., Kumar Lankapalli, A., Nelson, E. A., Sabin, S., Spyrou, M. A., & Krause, J. (2019). "Paleomicrobiology: Diagnosis and Evolution of Ancient Pathogens." Annual review of microbiology, 73, 639–666. [https://doi.org/10.1146/annurev-micro-090817-062436](https://doi.org/10.1146/annurev-micro-090817-062436)
 
 ### Questions to think about
 
@@ -72,10 +83,13 @@ conda activate microbial-genomics
 
 ### Readings
 
+- Chen et al. (Genome Research, 2020): Accurate and complete genomes from metagenomes (doi: 10.1101/gr.258640.119)
+- Meyer, Fritz et al. (Nature Methods, 2022): Critical Assessment of Metagenome Interpretation: the second round of challenges (doi: 10.1038/s41592-022-01431-4)
+- Wibowo et al. (Nature, 2021): Reconstruction of ancient microbial genomes from the human gut (doi: 10.1038/s41586-021-03532-0)
+- Maixner et al. (Current Biology, 2021): Hallstatt miners consumed blue cheese and beer during the Iron Age and retained a non-Westernized gut microbiome until the Baroque period (doi: 10.1016/j.cub.2021.09.031)
+
 ### Questions to think about
 
 ### Material
 
-```bash
-test
-```
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiyXe-6yn1hfaoibwI8DBYHubQxEd_WEvXte6JqyyjnuY8DXfP64360tRvhmRxOPAoM4Gt6hqKG5ts/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
