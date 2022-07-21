@@ -122,7 +122,7 @@ website](https://barebonesbash.github.io/)
 
 For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
 
-[Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/2bc-barebonesbash/bbb2/session2.html ":include :type=iframe width=100% height=600px")
+[Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/1bc-barebonesbash/bbb2/session2.html ":include :type=iframe width=100% height=600px")
 
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
