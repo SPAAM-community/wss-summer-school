@@ -8,7 +8,7 @@ The course is taught by scientific staff at the Max Planck Institute for Evoluti
 
 ## Who
 
-The course is aimed at masters students and early-stage PhD students, to a maximum of 25 participants.
+The course is aimed at masters students and early-stage PhD students, to a maximum of 30 participants.
 
 You can meet the instructors [here](/2022/instructors.md).
 
@@ -22,7 +22,7 @@ If you're not familiar with this platform please see the documentation on the ga
 
 ## When
 
-The summer school will be provisionally held between 1st-5th August, 09:00-17:00 CEST (Berlin Time).
+The summer school is being held between 1st-5th August, 09:00-17:00 CEST (Berlin Time).
 
 Note the following additional dates:
 
