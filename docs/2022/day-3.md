@@ -91,7 +91,7 @@ conda activate r-python
 
 ### Material
 
-<iframe src="assets/slides/2022/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="assets/slides/2022/3b2-python-pandas/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
 
@@ -103,6 +103,4 @@ conda activate r-python
 
 ### Material
 
-```bash
-test
-```
+This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/microbiome_tutorial). However, it will already be installed on compute nodes during the summer school.
