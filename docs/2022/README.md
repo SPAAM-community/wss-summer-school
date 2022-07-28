@@ -54,7 +54,7 @@ Subject to change
 | 12:30-13:30 |                  | Lunch                        | Lunch                                                                   | Lunch                                                                                 | Lunch                                  | Lunch                    |
 | 13:30-15:30 | Practical        | 1C: BareBonesBash 2          | 2D: Introduction to nf-core/eager                                       | 3C: Taxonomic Profiling, OTU Tables and Visualisation                                 | 4C: Genome assembly                    | 5C: Functional Genomics  |
 | 15:30-15:45 |                  | Break                        | Break                                                                   | Break                                                                                 | Break                                  | Break                    |
-| 15:45-17:00 | Roundtable       | Introductions                | Project Organization                                                    | Taxonomic Classifiers                                                                 | Databases                              | Social                   |
+| 15:45-17:00 | Roundtable       | Introductions                | Project Organization                                                    | Taxonomic Classifiers                                                                 | Databases                              | Dinner (Leipzig Only)                   |
 
 All times CEST (Berlin Time)
 

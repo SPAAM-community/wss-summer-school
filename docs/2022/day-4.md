@@ -6,7 +6,11 @@
 
 **Instructors**: Alexander Herbig
 
-**Abstract**: TBC
+**Abstract**: The field of microbial genomics aims at the reconstruction and comparative analyses of genomes for gaining insights into the genetic foundation and evolution of various functional aspects such as virulence mechanisms in pathogens.
+
+Including data from ancient samples into this comparative assessment allows for studying these evolutionary changes through time. This, for example, provides insights into the emergence of human pathogens and their development in conjunction with human cultural transitions.
+
+In this lecture I will provide examples for how to utilise data from ancient genomes in comparative studies of human pathogens and today's practical sessions will highlight methodologies for the reconstruction of microbial genomes.
 
 ### Practical 4B: Genome mapping
 
