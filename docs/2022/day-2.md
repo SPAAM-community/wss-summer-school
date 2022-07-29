@@ -68,6 +68,7 @@ conda activate git-eager
 - https://ohshitgit.com/
 
 ### Readings
+
 - Chacon, Scott, and Ben Straub. 2022. Pro Git. Second Edition. The Expert’s Voice. Apress.
 
 ### Questions to think about
