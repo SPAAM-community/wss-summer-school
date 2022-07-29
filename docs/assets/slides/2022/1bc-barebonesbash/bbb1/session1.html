@@ -148,7 +148,7 @@
 
 layout: true
 <div class="my-header"></div>
-   <div class="my-footer"><img src="../bbb1/.images/BareBonesBash_Icon.png" /></div>
+   <div class="my-footer"><img src="../../_images/BareBonesBash_Icon.png" /></div>
 
 
 ---
@@ -183,6 +183,7 @@ Aida Andrades Valtueña
 - Objectives
   - What is a terminal? What is a command prompt?
   - What is the difference between Absolute and Relative paths?
+  - How can you move around the filesystem and interact with files and/or directories?
   - What are data streams, pipes, and redirects?
   - Finding documentation for bash tools.
   - What is a variable?
@@ -397,7 +398,7 @@ You see a friendly-looking metalhead, and decide to ask them for directions!
 
 ]
 
-.left-column-33[<p align="center"><img src="../bbb1/.images/bbb_james.png" width="35%" > <figcaption align="center"><i>A friendly-looking metalhead.</i></figcaption></p>
+.left-column-33[<p align="center"><img src="../../_images/bbb_james.png" width="35%" > <figcaption align="center"><i>A friendly-looking metalhead.</i></figcaption></p>
 ]
 
 .medium[
@@ -425,7 +426,7 @@ Not sure how to get back to Leipzig Hbf to apply those directions, you decide to
 --
 
 .left-column-33[
-<p align="center"><img src="../bbb1/.images/bbb_aida.png" width="35%" > <figcaption align="center"><i>A friendly-looking local.</i></figcaption></p>
+<p align="center"><img src="../../_images/bbb_aida.png" width="35%" > <figcaption align="center"><i>A friendly-looking local.</i></figcaption></p>
 ]
 
 <br><br><br>
@@ -534,22 +535,35 @@ You should also see the current directory in your command prompt change!
 
 # Basic bash commands
 
+- **Download** a remote file to your computer
+```bash
+$ wget git.io/Boosted-BBB-meta
+```
+???
+if you ls now you will see that a file called `Boosted-BBB-meta` has been downloaded.
+
+--
+
 - **Copy** a file or directory to a new location
 ```bash
-$ cp /path/to/Boosted-BBB-meta.tsv .
+$ cp Boosted-BBB-meta Boosted-BBB-meta.tsv
+```
+???
+A copy of the file now exists with a slightly different name than the original
+
+--
+
+- **Remove** (delete) files
+```bash
+rm Boosted-BBB-meta
 ```
 
 ???
-Notice how you can mix absolute and relative paths in the same command without issue!
+Only the copy exists now.
 
 ---
 
 # Basic bash commands
-
-- **Copy** a file or directory to a new location
-```bash
-$ cp /path/to/Boosted-BBB-meta.tsv .
-```
 
 - Con**cat**enate file contents to screen
 ```bash
@@ -559,11 +573,6 @@ $ cat Boosted-BBB-meta.tsv
 ---
 
 # Basic bash commands
-
-- **Copy** a file or directory to a new location
-```bash
-$ cp /path/to/Boosted-BBB-meta.tsv .
-```
 
 - Con**cat**enate file contents to screen
 ```bash
@@ -579,11 +588,6 @@ $ tail -n 10 Boosted-BBB-meta.tsv
 ---
 
 # Basic bash commands
-
-- **Copy** a file or directory to a new location
-```bash
-$ cp /path/to/Boosted-BBB-meta.tsv .
-```
 
 - Con**cat**enate file contents to screen
 ```bash
@@ -1037,10 +1041,6 @@ $ echo ${foo/BBB/BareBonesBash}  # Change BBB to BareBonesBash
 /home/thiseas/folder/subfolder/BBB.is.bae.txt
 /home/thiseas/folder/subfolder/BareBonesBash.is.bae.txt
 ```
---
-
-<p align="center"><img src="https://media.giphy.com/media/b7sNm0aR2EOqI/giphy.gif" title="Source: https://giphy.com/gifs/teachers-b7sNm0aR2EOqI" width="30%">
-</p>
 
 ---
 
@@ -1214,12 +1214,6 @@ __All the cool hackers say:__
   - "_string_" and not "_text_".
   - "_float_" and not "_decimal_".
   - Some of these terms can be language specific.
-
----
-class: middle, center
-
-# KAHOOT!
-
 
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
