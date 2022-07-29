@@ -221,13 +221,33 @@ class: center middle
 
 You should have a folder and a metadata file from Session 1:
 
-- Boosted-BBB-images
+```bash
+$ cd ~/BareBonesBash
+```
 
 - Boosted-BBB-meta: what does this file contain?
 
 --
 
 It contains metadata that will be use to sort the images in a nice structure in our messy folder
+
+--
+
+- Let's download the messy folder from our collaborator:
+
+```bash
+$ wget git.io/Boosted-BBB-images -O Boosted-BBB.zip
+```
+
+--
+
+Since it is a zip file we need to unzip it, which command should we use?
+
+--
+
+```bash
+$ unzip Boosted-BBB.zip
+```
 
 ---
 
@@ -238,7 +258,7 @@ class: middle,center
 " src="https://media.giphy.com/media/WZdlab0U3AkSc/giphy.gif">
 </p>
 
-Make sure to `cd` back to `~/boosted_barebonesbash` now!
+Make sure to `cd` back to `~/BareBonesBash` now!
 
 ???
 
@@ -303,7 +323,7 @@ $ find Boosted-BBB/  # Don't run yet!
 <br/>
 <br/>
 
-> **Question** What is the difference between `Boosted-BBB/` and `/home/aida/boosted_barebonesbash/Boosted-BBB/`?
+> **Question** What is the difference between `Boosted-BBB/` and `/home/aida/Boosted-BBB/`?
 
 ---
 
@@ -580,27 +600,27 @@ So let's take a step-by-step look at what just happened.
 
 #####We start out with a filepath:
 ```
-~/boosted_barebonesbash/Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3.TXT
+Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3.TXT
 ```
 
 --
 
 #####We `rev`erse the filename:
 ```
-TXT.3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB/hsabsenoberab_detsoob/~
+TXT.3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB
 ```
 
 --
 
 #####We `cut` the string at each `-d`elimiter (`.`), and keep everything after the first delimiter (`-f`ields `2-999`):
 ```
-    3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB/hsabsenoberab_detsoob/~
+    3PM.GPJ.atnaf/wol/era/sthgil/eht/dna/thgin/yadirF/BBB-detsooB
 ```
 --
 
 #####We `rev`erse what is left back to its original orientation:
 ```
-~/boosted_barebonesbash/Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3
+Boosted-BBB/Friday/night/and/the/lights/are/low/fanta.JPG.MP3
 ```
 --
 
@@ -1234,7 +1254,7 @@ Before moving on, there are two useful commands you should know.
 
 `basename` will tell you the file name, while stripping the path to the file.
 ```bash
-$ basename data/Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
+$ basename Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
 ```
 ```
 bubobubo.JPG.MP3.TXT
@@ -1244,10 +1264,10 @@ bubobubo.JPG.MP3.TXT
 
 `dirname` does the opposite. It will tell you the path to the directory that a file is in, while omitting the name of the file.
 ```bash
-$ dirname data/Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
+$ dirname Boosted-BBB//Having/the/time/of/your/life/bubobubo.JPG.MP3.TXT
 ```
 ```
-data/Boosted-BBB//Having/the/time/of/your/life
+Boosted-BBB//Having/the/time/of/your/life
 ```
 
 ---
@@ -1722,7 +1742,7 @@ Let's add some conditionals! Before running, remember to try a _dry run_ with `e
 --
 
 ```bash
-$ cd ~/boosted_barebonesbash/
+$ cd ~/Boosted-BBB/
 
 ## Parse the annotations file into variables
 $ while read line; do
@@ -1754,7 +1774,7 @@ We now want to create a directory for each category, and move images into each.
 Let's add some conditionals! Before running, remember to try a _dry run_ with `echo`!
 
 ```bash
-$ cd ~/boosted_barebonesbash/
+$ cd ~/Boosted-BBB/
 
 ## Parse the annotations file into variables
 $ while read line; do
@@ -1787,7 +1807,7 @@ We now want to create a directory for each category, and move images into each.
 Let's add some conditionals! Before running, remember to try a _dry run_ with `echo`!
 
 ```bash
-$ cd ~/boosted_barebonesbash/
+$ cd ~/Boosted-BBB/
 
 ## Parse the annotations file into variables
 $ while read line; do
@@ -1818,25 +1838,25 @@ $ while read line; do
 Let's see if everything moved where we wanted.
 
 ```bash
-$ find ~/boosted_barebonesbash/images/ -type f -name "*jpg"
+$ find ~/BareBonesBash/Boosted-BBB/images/ -type f -name "*jpg"
 ```
 --
 ```
-/home/lamnidis/boosted_barebonesbash/images/cat/snore.jpg
-/home/lamnidis/boosted_barebonesbash/images/cat/giacomo.jpg
-/home/lamnidis/boosted_barebonesbash/images/cat/excited.jpg
-/home/lamnidis/boosted_barebonesbash/images/cat/angry.jpg
-/home/lamnidis/boosted_barebonesbash/images/cat/stretch.jpg
-/home/lamnidis/boosted_barebonesbash/images/dog/licorne.jpg
-/home/lamnidis/boosted_barebonesbash/images/dog/fanta.jpg
-/home/lamnidis/boosted_barebonesbash/images/dog/weimanarer.jpg
-/home/lamnidis/boosted_barebonesbash/images/dog/pompeii.jpg
-/home/lamnidis/boosted_barebonesbash/images/dog/nomnom.jpg
-/home/lamnidis/boosted_barebonesbash/images/bird/alopochenaegyptiacaArnhem.jpg
-/home/lamnidis/boosted_barebonesbash/images/bird/bubobubo.jpg
-/home/lamnidis/boosted_barebonesbash/images/bird/netsukeJapan.jpg
-/home/lamnidis/boosted_barebonesbash/images/bird/bydgoszczForest.jpg
-/home/lamnidis/boosted_barebonesbash/images/bird/exhibitRoyal.jpg
+~/BareBonesBash/Boosted-BBB/images/cat/snore.jpg
+~/BareBonesBash/Boosted-BBB/images/cat/giacomo.jpg
+~/BareBonesBash/Boosted-BBB/images/cat/excited.jpg
+~/BareBonesBash/Boosted-BBB/images/cat/angry.jpg
+~/BareBonesBash/Boosted-BBB/images/cat/stretch.jpg
+~/BareBonesBash/Boosted-BBB/images/dog/licorne.jpg
+~/BareBonesBash/Boosted-BBB/images/dog/fanta.jpg
+~/BareBonesBash/Boosted-BBB/images/dog/weimanarer.jpg
+~/BareBonesBash/Boosted-BBB/images/dog/pompeii.jpg
+~/BareBonesBash/Boosted-BBB/images/dog/nomnom.jpg
+~/BareBonesBash/Boosted-BBB/images/bird/alopochenaegyptiacaArnhem.jpg
+~/BareBonesBash/Boosted-BBB/images/bird/bubobubo.jpg
+~/BareBonesBash/Boosted-BBB/images/bird/netsukeJapan.jpg
+~/BareBonesBash/Boosted-BBB/images/bird/bydgoszczForest.jpg
+~/BareBonesBash/Boosted-BBB/images/bird/exhibitRoyal.jpg
 ```
 Good! Everything moved into the correct subfolder!
 
@@ -2220,8 +2240,8 @@ For this, please make a new directory and download the data again:
 
 .left-column-66[
 ```bash
-$ mkdir ~/boosted_barebonesbash_scripting
-$ cd ~/boosted_barebonesbash_scripting
+$ mkdir ~/Boosted-BBB_scripting
+$ cd ~/Boosted-BBB_scripting
 
 ## Get images zip and metadata file
 $ wget git.io/Boosted-BBB-images # On Mac: `curl -LO`
@@ -2230,7 +2250,7 @@ $ wget git.io/Boosted-BBB-meta # On Mac: `curl -LO`
 ## Unzip image folders and rename metadata file
 $ unzip Boosted-BBB-images
 $ mv Boosted-BBB-meta  \
-~/boosted_barebonesbash_scripting/Boosted-BBB-meta.tsv
+~/Boosted-BBB_scripting/Boosted-BBB-meta.tsv
 ```
 ]
 
@@ -2273,13 +2293,13 @@ Despite being lazy - you should ALWAYS keep your room tidy.
 
 .left-column[
 Lets remove:
-  - the  `boosted_barebonesbash` directory 
+  - the  `Boosted-BBB` directory 
   - **all of its contents**. 
 
 ```bash
 $ cd ~     # Don't delete a directory 
          # while we are still in it! 
-$ rm -r boosted_barebonesbash*
+$ rm -r Boosted-BBB*
 ```
 ]
 
