@@ -63,6 +63,7 @@ conda activate git-eager
 ## Practical 2B: Introduction to Git(Hub)
 
 ### Resources
+
 - https://www.atlassian.com/git/tutorials
 - https://ohshitgit.com/
 
