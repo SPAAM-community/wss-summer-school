@@ -72,6 +72,7 @@ conda activate git-eager
 - Chacon, Scott, and Ben Straub. 2022. Pro Git. Second Edition. The Expert’s Voice. Apress.
 
 ### Questions to think about
+
 1. Why is using a version control software for tracking data and code important? 
 2. How can using Git(Hub) help me to collaborate on group projects? 
 
@@ -100,12 +101,14 @@ conda activate git-eager
 ## Practical 2D: Introduction to nf-core/eager
 
 ### Resources
-- nf-core/eager pipeline docuemntation: https://nf-co.re/eager
-- nf-core/eager parameter documentation: https://nf-co.re/eager/2.4.4/parameters
-- nf-core/eager GUI: https://nf-co.re/eager/launch
-- nf-core tower documentaiton: https://help.tower.nf/22.2/
+
+- nf-core/eager pipeline docuemntation: [https://nf-co.re/eager](https://nf-co.re/eager)
+- nf-core/eager parameter documentation: [https://nf-co.re/eager/2.4.4/parameters](https://nf-co.re/eager/2.4.4/parameters)
+- nf-core/eager GUI: [https://nf-co.re/eager/launch](https://help.tower.nf/22.2/)
+- nf-core tower documentation: [https://help.tower.nf/22.2/](https://help.tower.nf/22.2/)
 
 ### Readings
+
 - Fellows Yates, James A., Thiseas C. Lamnidis, Maxime Borry, Aida Andrades Valtueña, Zandra Fagernäs, Stephen Clayton, Maxime U. Garcia, Judith Neukamm, and Alexander Peltzer. 2021. “Reproducible, Portable, and Efficient Ancient Genome Reconstruction with Nf-Core/eager.” PeerJ 9 (March): e10947. https://doi.org/10.7717/peerj.10947.
 - Peltzer, Alexander, Günter Jäger, Alexander Herbig, Alexander Seitz, Christian Kniep, Johannes Krause, and Kay Nieselt. 12/2016. “EAGER: Efficient Ancient Genome Reconstruction.” Genome Biology 17 (1). https://doi.org/10.1186/s13059-016-0918-z.
 - Schubert, Mikkel, Luca Ermini, Clio Der Sarkissian, Hákon Jónsson, Aurélien Ginolhac, Robert Schaefer, Michael D. Martin, et al. 2014. “Characterization of Ancient and Modern Genomes by SNP Detection and Phylogenomic and Metagenomic Analysis Using PALEOMIX.” Nature Protocols 9 (5): 1056–82. https://doi.org/10.1038/nprot.2014.063.
@@ -117,5 +120,6 @@ conda activate git-eager
 2. How can the design of the nf-core/eager pipeline help researchers comply with the FAIR princples for management of scientific data?
 3. What metrics do you use to evaluate the success/failure of ancient DNA sequencing experiments? How can these measures be evaluated when using nf-core/eager for data preprocessing and analysis?
 ### Material
+
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
