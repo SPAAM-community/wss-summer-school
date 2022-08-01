@@ -103,6 +103,8 @@ range of participants backgrounds and current research are.
 - [https://barebonesbash.github.io](https://barebonesbash.github.io)
 - [https://regex.io/](https://regex.io/)
 - [https://stackoverflow.com/](https://stackoverflow.com/)
+- [https://wiki.bash-hackers.org/](https://wiki.bash-hackers.org/)
+- [https://devhints.io/bash](https://devhints.io/bash)
 
 ### Material
 
