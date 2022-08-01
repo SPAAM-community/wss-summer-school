@@ -44,7 +44,7 @@ Finally, students will learn how to create a bash script of their own, that can 
 
 ### Roundtable: Introductions
 
-**Chairs**: TBC
+**Chairs**: Tina Warinner and James Fellows Yates
 
 We will go around the group and introduce ourselves, to get familiar what the
 range of participants backgrounds and current research are.

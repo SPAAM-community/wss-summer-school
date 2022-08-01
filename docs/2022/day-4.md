@@ -32,7 +32,7 @@ In this session, we will show you how to prepare your sequencing data and subseq
 
 ### Roundtable: Databases
 
-**Chairs**: TBC
+**Chairs**: Maxime Borry and James Fellows Yates
 
 Arguably, _which_ databases to use are even more important than classifiers when it comes to metagenomics. What is in and not in your database can greatly influence your output results. In this roundtable we will discuss how to select and create databases, and also strategies to get around issues such as computational limitations when constructing and using databases.
 
