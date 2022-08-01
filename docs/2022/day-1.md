@@ -97,9 +97,12 @@ range of participants backgrounds and current research are.
 
 ### Resources
 
-### Readings
-
-### Questions to think about
+- [https://google.com](https://google.com) (no, not kidding, should always be your first solution!)
+- [https://wiki.bash-hackers.org/syntax/pe#substring_removal](https://wiki.bash-hackers.org/syntax/pe#substring_removal)
+- [https://linux.die.net/](https://linux.die.net/)
+- [https://barebonesbash.github.io](https://barebonesbash.github.io)
+- [https://regex.io/](https://regex.io/)
+- [https://stackoverflow.com/](https://stackoverflow.com/)
 
 ### Material
 
@@ -111,14 +114,6 @@ The teaching material for the FULL BareBonesBash course can be found on the [Bar
 website](https://barebonesbash.github.io/)
 
 ## Practical 1C: Bare Bones Bash 2
-
-### Resources
-
-### Readings
-
-### Questions to think about
-
-### Material
 
 For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
 
