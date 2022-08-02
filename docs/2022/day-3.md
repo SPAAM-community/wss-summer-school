@@ -41,7 +41,7 @@ This session is meant for participants with a basic experience in R/tidyverse, b
 
 ### Roundtable: Taxonomic Classifers
 
-**Chairs**: TBC
+**Chairs**: Irina Velsko and James Fellows Yates
 
 Which taxonomic classifier to pick is a context dependent question. Each classifier will has it's advantages and disadvantages depending on the type of data you have, and what research question you have. In this round table participants can ask for advice as to what to consider when selecting a particular classifier or classifiers for their projects.
 

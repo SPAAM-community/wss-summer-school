@@ -44,7 +44,7 @@ Finally, students will learn how to create a bash script of their own, that can 
 
 ### Roundtable: Introductions
 
-**Chairs**: TBC
+**Chairs**: Tina Warinner and James Fellows Yates
 
 We will go around the group and introduce ourselves, to get familiar what the
 range of participants backgrounds and current research are.
@@ -97,9 +97,14 @@ range of participants backgrounds and current research are.
 
 ### Resources
 
-### Readings
-
-### Questions to think about
+- [https://google.com](https://google.com) (no, not kidding, should always be your first solution!)
+- [https://wiki.bash-hackers.org/syntax/pe#substring_removal](https://wiki.bash-hackers.org/syntax/pe#substring_removal)
+- [https://linux.die.net/](https://linux.die.net/)
+- [https://barebonesbash.github.io](https://barebonesbash.github.io)
+- [https://regex.io/](https://regex.io/)
+- [https://stackoverflow.com/](https://stackoverflow.com/)
+- [https://wiki.bash-hackers.org/](https://wiki.bash-hackers.org/)
+- [https://devhints.io/bash](https://devhints.io/bash)
 
 ### Material
 
@@ -111,14 +116,6 @@ The teaching material for the FULL BareBonesBash course can be found on the [Bar
 website](https://barebonesbash.github.io/)
 
 ## Practical 1C: Bare Bones Bash 2
-
-### Resources
-
-### Readings
-
-### Questions to think about
-
-### Material
 
 For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
 

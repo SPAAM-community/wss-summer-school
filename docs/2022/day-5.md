@@ -24,11 +24,9 @@ In this session, we will introduce basic phylogenetic concepts and definitions, 
 
 **Abstract**: The value of microbial taxonomy lies in the implied biochemical properties of a given taxon. Historically taxonomy was determined by growth characteristics and cell properties, and more recently through genomic and genetic similarity. The genomic content of microbial taxa, specifically the presence or absence of genes, determine how those taxa interact with their environment, including all the biochemical processes they participate in, both internally and externally. Strains within any microbial species may have different genetic content and therefore may behave strikingly differently in the same environment, which cannot be determined through taxonomic profiling. Functionally profiling a microbial community, or determining all of the genes present independent of the species they are derived from, reveals the biochemical reactions and metabolic products the community may perform and produce, respectively. This approach may provide insights to community activity and environmental interactions that are hidden when using taxonomic approaches alone. In this session we will perform functional profiling of metagenomic communities to assess their genetic content and inferred metabolic pathways.
 
-### Roundtable: Workshop Recap
+### Roundtable: Social (Leipzig Only)
 
-**Chairs**: TBC
-
-In this open session, participants can ask anything about the contents of the course. Participants can also ask for general advice for their own ancient metagenomics projects.
+Those present in Leipzig can join for a summer school dinner.
 
 ## Lecture 5A: Evolutionary Biology
 
