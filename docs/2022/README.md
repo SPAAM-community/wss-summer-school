@@ -1,5 +1,12 @@
 # Introduction to Ancient Metagenomics Summer School - 2022
 
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;" src="assets/images/2022/FZZRKT6XEAA4Ids.jpeg">
+
+<p style="text-align:center"><b>Many thanks to all the instructors and students for making the first SPAAM summer school a success!</b></p>
+
 ## What
 
 The **Ancient Metagenomics Summer School** will be a 5 day **practical** workshop (block praktikum). Attendees who participate in the entire course will be eligible for 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
@@ -22,7 +29,7 @@ If you're not familiar with this platform please see the documentation on the ga
 
 ## When
 
-The summer school is being held between 1st-5th August, 09:00-17:00 CEST (Berlin Time).
+The summer school was held between 1st-5th August, 09:00-17:00 CEST (Berlin Time).
 
 Note the following additional dates:
 
@@ -54,7 +61,7 @@ Subject to change
 | 12:30-13:30 |                  | Lunch                        | Lunch                                                                   | Lunch                                                                                 | Lunch                                  | Lunch                    |
 | 13:30-15:30 | Practical        | 1C: BareBonesBash 2          | 2D: Introduction to nf-core/eager                                       | 3C: Taxonomic Profiling, OTU Tables and Visualisation                                 | 4C: Genome assembly                    | 5C: Functional Genomics  |
 | 15:30-15:45 |                  | Break                        | Break                                                                   | Break                                                                                 | Break                                  | Break                    |
-| 15:45-17:00 | Roundtable       | Introductions                | Project Organization                                                    | Taxonomic Classifiers                                                                 | Databases                              | Dinner (Leipzig Only)                   |
+| 15:45-17:00 | Roundtable       | Introductions                | Project Organization                                                    | Taxonomic Classifiers                                                                 | Databases                              | Dinner (Leipzig Only)    |
 
 All times CEST (Berlin Time)
 
@@ -93,7 +100,7 @@ Slides and materials for day 2 can be found [here](2022/day-2).
 
 - **Lecture** Introduction to Metagenomics: _Christina Warinner_
   - What are the questions tackled in metagenomics? What are the challenges?
-- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Nikolay Oskolkov_ / _Maxime Borry_
+- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Nikolay Oskolkov_ / _Maxime Borry and Alex Hübner_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions partcipants can choose which to attend based on their prior experience)
 - **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Irina Velsko_
