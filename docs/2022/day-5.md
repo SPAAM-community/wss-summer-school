@@ -12,6 +12,8 @@ The first section will introduce phylognenetic trees and a set of core terms and
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT3-tOQI6WIaZ6nUt-23Dl03me7tuyTkSCq-tad2KRrs5MqF92Ufsr3p1Ddsa5U_3Zr_7rDW5SnYOiS/embed?start=false&loop=true&delayms=3000" frameborder="0" width="1058" height="624" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5a-intro-to-evobio/SPAAM%20Summer%20School%202022%20-%205A%20-%20Evolutionary%20Biology%20and%20Phylogenetics.pdf).
+
 ### Resources
 
 ### Readings
@@ -20,7 +22,7 @@ The first section will introduce phylognenetic trees and a set of core terms and
 
 ## Software
 
-For today's practical sessions, please activate the `phylogenomics-functional` conda [environment](2022/resources#software-and-data)
+For today's practical sessions, please [activate](2022/resources#software-and-data) the `phylogenomics-functional` conda [environment](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day5.yml).
 
 ```bash
 conda activate phylogenomics-functional
@@ -38,6 +40,8 @@ In this session, we will introduce basic phylogenetic concepts and definitions, 
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSexn0hc-7Qt2o5jarBzZ3WMLZ4jcjj0fd_QgLYpm5y0tNC_KLnMT00pA6uvpOomQ/embed?start=false&loop=true&delayms=10000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/SPAAM%20Summer%20School%202022%20-%205B%20-%20Phylogenomics.pdf).
+
 ### Resources
 
 ### Readings
@@ -53,6 +57,8 @@ In this session, we will introduce basic phylogenetic concepts and definitions, 
 ### Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTbQRU__-fDvsJ09fd1KeZxGRDrtLD8Ab0ZLagN-4s9CKDfv4ekJlyv4RdQBkBPFj4hdjhY1Un4dRAg/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5c-intro-to-functional-analysis/SPAAM%20Summer%20School%202022%20-%205C%20-%20Function%20Analysis.pdf).
 
 ### Resources
 

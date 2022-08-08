@@ -14,6 +14,8 @@ In this lecture I will provide examples for how to utilise data from ancient gen
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS1q6ZwVnUVPge-kywBkxdv9gBl4pSnlZNd8YeZMkhy5CL1qRtP31J4spetCuujUmIVMPJ4f2LZAB5O/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4a-intro-to-microbial-genomics/SPAAM%20Summer%20School%202022%20-%204A%20-%20Intro%20to%20Microbial%20Genomics.pdf).
+
 ### Resources
 
 ### Readings
@@ -22,7 +24,7 @@ In this lecture I will provide examples for how to utilise data from ancient gen
 
 ## Software
 
-For today's practical sessions, please activate the `microbial-genomics` conda [environment](2022/resources#software-and-data)
+For today's practical sessions, please [activate](2022/resources#software-and-data) the `microbial-genomics` conda [environment](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day4.yml).
 
 ```bash
 conda activate microbial-genomics
@@ -38,9 +40,11 @@ For many applications involving comparative genomics these 'reads' have to be al
 
 In this session we will take a look at specific challenges during read mapping when dealing with aDNA. We will get an overview of common input and output formats and manually apply a read mapper to aDNA data studying the direct effects of variation in mapping parameters. We will conclude the session with an outlook on genotyping, which is an important follow-up analysis step, that in turn is very relevant for down-stream analyses such as phylogenetics.
 
-### Material
+### Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJ9ZUd53kHpZkROVNy_RDIv6XhtbHF5w_WAtEDm6_ZXb2zf0v8DZHLYIWyzzWjFc1fPn7J9fI8n_bN/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4b-intro-to-mapping/SPAAM%20Summer%20School%202022%20-%204B%20-%20Genome%20Mapping.pdf).
 
 ### Resources
 
@@ -70,6 +74,8 @@ In this session, we will show you how to prepare your sequencing data and subseq
 ### Slides
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiyXe-6yn1hfaoibwI8DBYHubQxEd_WEvXte6JqyyjnuY8DXfP64360tRvhmRxOPAoM4Gt6hqKG5ts/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4c-intro-to-denovoassembly/SPAAM%20Summer%20School%202022%20-%204C%20-%20Genome%20Assembly.pdf).
 
 ### Resources
 

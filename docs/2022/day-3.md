@@ -10,6 +10,8 @@
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSX9WVO_QLpx-xvJsaogt27Q3X3WW_wza9HWNuSuvcIWqPjEl_kqQ3Z_X45tbXZkQ7zDDFbCicd8e6h/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3a-intro-to-metagenomics/SPAAM%20Summer%20School%202022%20-%203A%20-%20Intro%20to%20Metagenomics.pdf).
+
 ### Resources
 
 ### Readings
@@ -18,7 +20,7 @@
 
 ## Software
 
-For today's practical sessions, please activate the `r-python` conda [environment](2022/resources#software-and-data)
+For today's practical sessions, please [activate](2022/resources#software-and-data) the `r-python` conda [environment](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day3.yml).
 
 ```bash
 conda activate r-python
@@ -65,6 +67,10 @@ This session is meant for participants with a basic experience in R/tidyverse, b
 
 <iframe src="assets/slides/2022/3b2-python-pandas/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/SPAAM%20Summer%20School%202022%20-%203B2%20-%20Intro%20to%20Python%20and%20Pandas.pdf).
+
+This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/intro-to-pandas-plotnine). However, it will already be installed on compute nodes during the summer school.
+
 ### Resources
 
 ### Readings
@@ -77,15 +83,19 @@ This session is meant for participants with a basic experience in R/tidyverse, b
 
 **Abstract**: TBC
 
+### Slides
+
+<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/SPAAM%20Summer%20School%202022%20-%203C%20-%20Intro%20to%20microbial%20ecology%20for%20ancient%20DNA.pdf?embedded=true" width="960" height="569"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/SPAAM%20Summer%20School%202022%20-%203C%20-%20Intro%20to%20microbial%20ecology%20for%20ancient%20DNA.pdf).
+
+This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/microbiome_tutorial). However, it will already be installed on compute nodes during the summer school.
+
 ### Resources
 
 ### Readings
 
 ### Questions to think about
-
-### Material
-
-This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/microbiome_tutorial). However, it will already be installed on compute nodes during the summer school.
 
 ### Roundtable: Taxonomic Classifers
 

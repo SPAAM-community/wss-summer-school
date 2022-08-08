@@ -68,6 +68,10 @@ PDF version of these slides can be downloaded from [here](https://raw.githubuser
 - Why is 'Index-Hopping' a problem?
 - What is good software to evaluate the quality of your sequencing runs?
 
+## Software
+
+For today's practical sessions, a standard UNIX environment with a (ba)sh shell is necessary (e.g. Linux, OSX) - no additional software is required.
+
 ## Practical 1B: Bare Bones Bash 1
 
 **Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
