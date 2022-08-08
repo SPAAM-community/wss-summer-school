@@ -50,8 +50,8 @@ PDF version of these slides can be downloaded from [here](<https://github.com/SP
 
 ### Resources
 
-- https://www.atlassian.com/git/tutorials
-- https://ohshitgit.com/
+- [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
+- [https://ohshitgit.com/](https://ohshitgit.com/)
 
 ### Readings
 
@@ -70,21 +70,15 @@ PDF version of these slides can be downloaded from [here](<https://github.com/SP
 
 AncientMetagenomeDir is a community project from the SPAAM community to make ancient metagenomic data more accessible. We curate a list of standardised metadata of all published ancient metagenomic samples and libraries, hosted on GitHub. In this session we will go through how to use the AncientMetagenomeDir repository and associated tools to find and download data for your own analyses. We will also discuss important things to consider when publishing your own data to make it more accessible for other researchers.
 
-### Slides
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/SPAAM%20Summer%20School%202022%20-%202C%20-%20AncientMetagenomeDir.pdf).
-
 ### Resources
 
-- https://github.com/SPAAM-community/AncientMetagenomeDir
-- https://github.com/SPAAM-community/AMDirT
+- [https://github.com/SPAAM-community/AncientMetagenomeDir](https://github.com/SPAAM-community/AncientMetagenomeDir)
+- [https://github.com/SPAAM-community/AMDirT](https://github.com/SPAAM-community/AMDirT)
 
 ### Readings
 
-- Fellows Yates, James A., Aida Andrades Valtueña, Åshild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-Lopez, et al. 2021. “Community-Curated and Standardised Metadata of Published Ancient Metagenomic Samples with AncientMetagenomeDir.” Scientific Data 8 (1): 31. https://doi.org/10.1038/s41597-021-00816-y.
-- Wilkinson, Mark D., Michel Dumontier, I. Jsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (March): 160018. https://doi.org/10.1038/sdata.2016.18.
+- Fellows Yates, James A., Aida Andrades Valtueña, Åshild J. Vågene, Becky Cribdon, Irina M. Velsko, Maxime Borry, Miriam J. Bravo-Lopez, et al. 2021. “Community-Curated and Standardised Metadata of Published Ancient Metagenomic Samples with AncientMetagenomeDir.” Scientific Data 8 (1): 31. [https://doi.org/10.1038/s41597-021-00816-y](https://doi.org/10.1038/s41597-021-00816-y).
+- Wilkinson, Mark D., Michel Dumontier, I. Jsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3 (March): 160018. [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18).
 
 ### Questions to think about
 
@@ -92,6 +86,286 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 - What are suitable places to upload your raw data?
 - How should you format your metadata?
 - Where should you upload metadata about your samples?
+
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/SPAAM%20Summer%20School%202022%20-%202C%20-%20AncientMetagenomeDir.pdf).
+
+### Walkthrough
+
+---
+
+<details>
+    <summary>Click me to view the walkthrough</summary>
+
+<div style="border-style: none none none solid;border-left-color:#74d1f6;border-left-width=2px;padding:10px">
+
+#### Introduction
+
+In most bioinformatic projects, we need to include publically available comparative data to expand or compare our newly generated data with.
+
+Including public data can benefit ancient metagenomic studies in a variety of ways. It can help increase our sample sizes (a common problem when dealing with rare archaeological samples) - thus providing stronger statistical power. Comparison with a range of previously published data of different preservational levels can allow an estimate on the quality of the new samples. When considering solely (re)using public data, we can consider that this can also spawn new ideas, projects, and meta analyses to allow further deeper exploration of ancient metagenomic data (e.g., looking for correlations between various environmental factors and preservation).
+
+Fortuately for us, genomicists and [particularly palaeogenomicists](http://dx.doi.org/10.1371/journal.pone.0121409) have been very good at uploading raw sequencing data to well-established databases.
+
+In the vast majority of cases you will be able to find publically available sequencing data on the [INSDC](https://www.insdc.org/) association of databases, namely the [EBI's European Nucleotide Archive](https://www.ebi.ac.uk/ena/) (ENA), and [NCBI](https://www.ncbi.nlm.nih.gov/sra) or [DDBJ's](https://www.ddbj.nig.ac.jp/dra/index-e.html) Sequence Read Archives (SRA). However, you may in some cases find ancient metagenomic data on institutional FTP servers, domain specific databases (e.g. [OAGR](https://oagr.org)), [Zenodo](https://zenodo.org), [Figshare](https://figshare.com), or [GitHub](https://github.com).
+
+But while the data is publically available, we need to ask whether it is 'FAIR'.
+
+#### Finding Ancient Metagenomic Data
+
+[FAIR principles](http://dx.doi.org/10.1038/sdata.2016.18) were defined by researchers, librarians, and industry in 2016 to improve the quality of data uploads - primarily by making data uploads more 'machine readable'. FAIR standards for:
+
+- Findable
+- Accessible
+- Interoperable
+- Reproducible
+
+And when we consider ancient metagenomic data, we are pretty close to this. Sequencing data is in most cases accessible (via the public databases like ENA, SRA), interoperable and reproducible because we use field standard formats such as FASTQ or BAM files. However _Findable_ remains an issue.
+
+This is because the _metadata_ about each data file is dispersed over many places, and very often not with the data files themselves.
+
+In this case I am referring to metadata such as: What is the sample's name? How old is it? Where is it from? Which enzymes were used for library construction? What sequencing machine was this library sequenced on?
+
+To find this information about a given data file, you have to search many places (main text, supplementary information, the database itself), for different types of metadata (as authors report different things), and also in different formats (text, tables, figures.
+
+This very heterogenous landscape makes it difficult for machines to index all this information (if at all), and thus means you cannot search for the data you want to use for your own reserch in online search engines.
+
+#### AncientMetagenomeDir
+
+This is where the SPAAM community project [AncientMetagenomeDir](https://github.com/spaam-community/AncientMetagenomeDir) comes in. AncientMetagenomeDir is a resource of lists of metadata of all publishing and publically available ancient metagenomes and microbial genome-level enriched samples.
+
+By aggregating and standardising metadata and accession codes of ancient metagenomic samples, the project aims to make it easier for people to find comparative data for their own projects, as well as help track the field over time and facilitate meta analyses.
+
+Currently the project is split over three main tables: host-associated metagenomes (e.g. ancient microbiomes), host-associated single-genomes (e.g. ancient pathogens), and environmental metagenomes (e.g. lakebed cores or cave sediment sequences).
+
+The repository already contains more than a thousand samples and span the entire globe and as far back as hundreds of thousands of years.
+
+To make the lists of samples and their metadata as accessible and interoperable as possible, we utilise simple text (TSV - tab separate value) files - files that can be opened by pretty much all spreadsheet tools (e.g., Microsoft Office excel, LibreOffice Calc) and languages (R, Python etc.).
+
+![Screenshot of small part of AncientMetagenomeDir table](assets/slides/2022/2c-intro-to-ancientmetagenomedir/ancientmetagenomedir-example.png)
+
+Criticially, by standardising the recorded all metadata across all publications this makes it much easier for researchers to filter for particular time periods, geographical regions, or sample types of their interest - and then use the also recorded accession numbers to efficiently download the data.
+
+At their core all different AncientMetagenomeDir tables must have at 6 minimum metadata sets:
+
+- Publication information (doi)
+- Sample name(s)
+- Geographic location (e.g. country, coordinates)
+- Age
+- Sample type (e.g. bone, sediment, etc.)
+- Data Archive and accessions
+
+Each table then has additional columns depending on the context (e.g. what time of microbiome is expected for host-associated metagenoes, or species name of the genome that was reconstructed).
+
+The AncientMetagenomeDir project already has 3 releases, and will continued to be regularly updated as the community continues to submit new metadata of samples of new publications as they come out.
+
+#### Further Improving Metadata Reporting in Ancient Metagenomics
+
+However, for researchers, sample-level metadata likely will not include all the information that is needed to include and process public data in their own projects.
+
+The SPAAM community have been busy over the last few months extending the types of metadata included in the AncientMetagenomeDir project, to include library level metadata.
+
+This metadata includes things such as whether a given set of data files contain sequencing data sequenced on which platform, whether the libraries have undergone damage treatment in the lab, or whether the uploaded data contains all or only mapped reads.
+
+We have also started a new project - a MIxS checklist currently entitled 'MINAS' - which we aim to make _the_ standard metadata reporting sheet for all ancient metagenomics and even for any ancient DNA sample. Such a checklist would be interegrated into services such as the ENA or SRA, and therefore would standardise metadata _alongside_ the raw data, and make ancient metagenomic data much more _findable_ with search engines.
+
+Finally, to make it easier for researchers who are not familiar with sequencing database infrastucture, we are in the process of building a new tool (something already in a usable state) called [AMDirT](https://github.com/SPAAM-community/AMDirT). This allows a web browser-based GUI to filter and select data, and produce scripts for you to download all the selected data (without having to go to the databases themselves).
+
+This is something we are going to try out now!
+
+#### Running AMDirT
+
+![Header of AMDirT GitHub repository](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-title.png)
+
+First, we will need to activate a conda environment, and then install the latest development version of the tool for you.
+
+> ⚠️ this tutorial will require a web-browser! Make sure to run on your local laptop/PC or on a server with X11 forwarding
+
+Open your terminal, and run the following two commands:
+
+```bash
+conda activate git-eager
+pip install --upgrade --force-reinstall git+https://github.com/SPAAM-community/AMDirT.git@dev
+```
+
+Once that (hopefully) installs correctly, we can load the tool by running
+
+```bash
+AMDirT filter
+```
+
+Your web browser should now load, and you should see a two panel page.
+
+![AMDirT Opening Page](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-firstpage.png)
+
+Under **Select a table** use the dropdown menu to select 'ancientsinglegenome-hostassociated'.
+
+You should then see a table, pretty similar what you are familiar with with spreadsheet tools such as Microsoft Excel or LibreOffice calc.
+
+![AMDirT interface overview](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter.png)
+
+To navigate, you can scroll down to see more rows, and press <kbd>shift</kbd> and scroll to see more columns, or use click on a cell and use your arrow keys (<kbd>⬆</kbd>,<kbd>⬇</kbd>,<kbd>⬅</kbd>,<kbd>➡</kbd>) to move around the table.
+
+You can reorder columns by clicking on the column name, and also filter by pressing the little 'burger' icon that appears on the column header when you hover over a given column.
+
+As an exercise, we will try filtering to a particular set of samples, then generate some download scripts, and download the files.
+
+First, filter the **project_name** column to 'Kocher2021'.
+
+![Project filtering buttons on AMDirT interface](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter2.png)
+
+Then scroll to the right, and filter the **geo_loc_name** to 'United Kingdom'.
+
+![Geographical location filtering buttons on AMDirT interface](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-geofilter.png)
+
+You should be left with 4 rows.
+
+Finally, scroll back to the first column and tick the boxes of these four samples.
+
+![AMDirT tick box selection](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-tickbox.png)
+
+Once you've selected the samples you want, you can press **Validate selection**. You should then see a series loading-spinner, and new buttons should appear!
+
+![Loading of dynamic AMDirT download buttons](assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png)
+
+You should have three main buttons:
+
+- **Download Curl sample download script**
+- **Download nf-core/eager input TSV**
+- **Download Citations as BibText**
+
+The first button is for generating a download script that will allow you to immediately download all sequencing data of the samples you selected. The second button is a pre-configured input file for use in the nf-core/eager ancient DNA pipeline, and finally, the third button generates a text file with (in most cases) all the citations of the data you downloaded, in a format accepted by most reference/citation managers.
+
+It's important to note you are not necessarily restricted to [Curl](https://curl.se/) for downloading the data, or [nf-core/eager](https://nf-co.re/eager) for running the files. AMDirT aims to add support for whatever tools or pipelines requested by the community. For example, an already supported download alternative is with the [nf-core/fetchNGS](https://nf-co.re/fetchngs) pipeline. You can select these using the drop-down menus on the left hand-side.
+
+Press the three buttons to make sure you download the files. And once this is done, you can close the tab of the web browser, and in the terminal you can press <kbd>ctrl</kbd> + <kbd>c</kbd> to shutdown the tool.
+
+#### Inspecting AMDirT Output
+
+Lets look at the files that AMDirT has generated for you.
+
+First you should `cd` into the directory that your web browser downloaded the files into (e.g. `cd ~/Downloads/`), then look inside the directory. You should see the following three files
+
+```bash
+$ ls
+ancientMetagenomeDir_curl_download_script.sh
+ancientMetagenomeDir_citations.bib
+ancientMetagenomeDir_eager_input.csv
+```
+
+We can simple run `cat` on each file to look inside. If you run `cat` on the curl download script, you should see a series of `curl` commands with the correct ENA links for you for each of the samples you wish to download.
+
+```bash
+$ cat ancientMetagenomeDir_curl_download_script.sh
+#!/usr/bin/env bash
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/009/ERR6053619/ERR6053619.fastq.gz -o ERR6053619.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/008/ERR6053618/ERR6053618.fastq.gz -o ERR6053618.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/005/ERR6053675/ERR6053675.fastq.gz -o ERR6053675.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/006/ERR6053686/ERR6053686.fastq.gz -o ERR6053686.fastq.gz
+```
+
+By providing this script for you, AMDirT facilitates fast download of files of interest by replacing the one-by-one download commands for each sample with a _single_ command!
+
+```bash
+$ bash ancientMetagenomeDir_curl_download_script.sh
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/009/ERR6053619/ERR6053619.fastq.gz -o ERR6053619.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/008/ERR6053618/ERR6053618.fastq.gz -o ERR6053618.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/005/ERR6053675/ERR6053675.fastq.gz -o ERR6053675.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR605/006/ERR6053686/ERR6053686.fastq.gz -o ERR6053686.fastq.gz
+```
+
+Running this command should result in progress logs of the downloading of the data of the four selected samples!
+
+Once the four samples are downloaded, AMDirT then facilitates fast processing of the data, as the _eager_ script can be given directly to nf-core/eager as input. Importantly by including the library metadata (mentioned above), researchers can leverage the complex automated processing that nf-core/eager can perform when given such relevant metadata.
+
+```bash
+$ cat ancientMetagenomeDir_eager_input.csv
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM
+I0157	ERR6053618	0	4	SE	Homo sapiens	double	unknown	ERX5692504_ERR6053618.fastq.gz	NA	NA
+I0161	ERR6053619	0	4	SE	Homo sapiens	double	unknown	ERX5692505_ERR6053619.fastq.gz	NA	NA
+OAI017	ERR6053675	0	4	SE	Homo sapiens	double	half	ERX5692561_ERR6053675.fastq.gz	NA	NA
+SED009	ERR6053686	0	4	SE	Homo sapiens	double	half	ERX5692572_ERR6053686.fastq.gz	NA	NA
+```
+
+Finally, we can look into the `citations file` which will provide you with the citation information of all the downloaded data and AncientMetagenomeDir itself.
+
+> ⚠️ the contents of this file is reliant on indexing of publications on CrossRef. In some cases not all citations will be present, so this should be double checked!
+
+```bash
+$ cat ancientMetagenomeDir_citations.bib
+
+@article{Fellows_Yates_2021,
+	doi = {10.1038/s41597-021-00816-y},
+	url = {https://doi.org/10.1038%2Fs41597-021-00816-y},
+	year = 2021,
+	month = {jan},
+	publisher = {Springer Science and Business Media {LLC}},
+	volume = {8},
+	number = {1},
+	author = {James A. Fellows Yates and Aida Andrades Valtue{\~{n}}a and {\AA}shild J. V{\aa}gene and
+	Becky Cribdon and Irina M. Velsko and Maxime Borry and Miriam J. Bravo-Lopez and Antonio Fernandez-Guerra
+	and Eleanor J. Green and Shreya L. Ramachandran and Peter D. Heintzman and Maria A. Spyrou and Alexander
+	Hübner and Abigail S. Gancz and Jessica Hider and Aurora F. Allshouse and Valentina Zaro and Christina Warinner},
+	title = {Community-curated and standardised metadata of published ancient metagenomic samples with {AncientMetagenomeDir}},
+	journal = {Scientific Data}
+}
+```
+
+This file can be easily loaded into most reference managers and then have all the citations quickly added to your manuscripts.
+
+#### Git Practise
+
+A critical factor of AncientMetagenomeDir is that it is community-based. The community curates all new submissions to the repository, and this all occurs with Git.
+
+The data is hosted and maintained on GitHub - new publications are evaluated on issues, submissions created on branches, made by pull requests, and PRs reviewed by other members of the community.
+
+You can see the workflow in the image below from the AncientMetageomeDir [publication](https://doi.org/10.1038/s41597-021-00816-y), and read more about the workflow on the AncientMetagenomeDir [wiki](https://github.com/SPAAM-community/AncientMetagenomeDir/wiki)
+
+<!-- INSERT IMAGE  HERE-->
+
+This means we can also use this repository to practise git!
+
+Your task (with `git` terms removed):
+
+1. Make a 'copy' the [jfy133/AncientMetagenomeDir](https://github.com/jfy133/AncientMetagenomeDir) repository to your account
+2. 'Download' the copied repo to your local machine
+3. 'Change' to the `dev` branch
+4. Modify ‘ancientsinglegenome-hostassociated_samples.tsv’
+   - Click [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
+5. 'Send' back to Git(Hub)
+6. Open a 'request' adding changes to the original repo
+   - Make sure to put 'Summer school' in the title of the 'Request'
+
+<details>
+    <summary>Click me to reveal the correct terminology</summary>
+
+1. **Fork** the [jfy133/AncientMetagenomeDir](https://github.com/jfy133/AncientMetagenomeDir) repository to your account
+2. **Clone** the copied repo to your local machine
+3. **Switch** to the `dev` branch
+4. Modify ‘ancientsinglegenome-hostassociated_samples.tsv’
+   - Click [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
+5. **Commit** and **Push** back to your **Fork** on Git(Hub)
+6. Open a **Pull Request** adding changes to the original jfy133/AncientMetagenomeDir repo
+   - Make sure to put 'Summer school' in the title of the pull request
+
+</details>
+
+#### Summary
+
+- Reporting of metadata messy! Consider when publishing your own work!
+  - Use AncientMetagenomeDir as a template
+- Use AncientMetagenomeDir and AMDirT (beta) to rapidly find public ancient metagenomic data
+- Contribute to AncientMetagenomeDir with git
+  - Community curated!
+
+</details>
+
+</div>
+
+---
 
 ## Practical 2D: Introduction to nf-core/eager
 
@@ -116,11 +390,11 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 ### Readings
 
-- Fellows Yates, James A., Thiseas C. Lamnidis, Maxime Borry, Aida Andrades Valtueña, Zandra Fagernäs, Stephen Clayton, Maxime U. Garcia, Judith Neukamm, and Alexander Peltzer. 2021. “Reproducible, Portable, and Efficient Ancient Genome Reconstruction with Nf-Core/eager.” PeerJ 9 (March): e10947. https://doi.org/10.7717/peerj.10947.
-- Peltzer, Alexander, Günter Jäger, Alexander Herbig, Alexander Seitz, Christian Kniep, Johannes Krause, and Kay Nieselt. 12/2016. “EAGER: Efficient Ancient Genome Reconstruction.” Genome Biology 17 (1). https://doi.org/10.1186/s13059-016-0918-z.
-- Schubert, Mikkel, Luca Ermini, Clio Der Sarkissian, Hákon Jónsson, Aurélien Ginolhac, Robert Schaefer, Michael D. Martin, et al. 2014. “Characterization of Ancient and Modern Genomes by SNP Detection and Phylogenomic and Metagenomic Analysis Using PALEOMIX.” Nature Protocols 9 (5): 1056–82. https://doi.org/10.1038/nprot.2014.063.
-- Orlando, Ludovic, Robin Allaby, Pontus Skoglund, Clio Der Sarkissian, Philipp W. Stockhammer, María C. Ávila-Arcos, Qiaomei Fu, et al. 2021. “Ancient DNA Analysis.” Nature Reviews Methods Primers 1 (1): 1–26. https://doi.org/10.1038/s43586-020-00011-0.
-- Warinner, Christina, Alexander Herbig, Allison Mann, James A. Fellows Yates, Clemens L. Weiß, Hernán A. Burbano, Ludovic Orlando, and Johannes Krause. 2017. “A Robust Framework for Microbial Archaeology.” Annual Review of Genomics and Human Genetics 18 (1): 321–56.https://doi.org/10.1146/annurev-genom-091416-035526.
+- Fellows Yates, James A., Thiseas C. Lamnidis, Maxime Borry, Aida Andrades Valtueña, Zandra Fagernäs, Stephen Clayton, Maxime U. Garcia, Judith Neukamm, and Alexander Peltzer. 2021. “Reproducible, Portable, and Efficient Ancient Genome Reconstruction with Nf-Core/eager.” PeerJ 9 (March): e10947. [https://doi.org/10.7717/peerj.10947](https://doi.org/10.7717/peerj.10947).
+- Peltzer, Alexander, Günter Jäger, Alexander Herbig, Alexander Seitz, Christian Kniep, Johannes Krause, and Kay Nieselt. 12/2016. “EAGER: Efficient Ancient Genome Reconstruction.” Genome Biology 17 (1). [https://doi.org/10.1186/s13059-016-0918-z](https://doi.org/10.1186/s13059-016-0918-z).
+- Schubert, Mikkel, Luca Ermini, Clio Der Sarkissian, Hákon Jónsson, Aurélien Ginolhac, Robert Schaefer, Michael D. Martin, et al. 2014. “Characterization of Ancient and Modern Genomes by SNP Detection and Phylogenomic and Metagenomic Analysis Using PALEOMIX.” Nature Protocols 9 (5): 1056-82. [https://doi.org/10.1038/nprot.2014.063](https://doi.org/10.1038/nprot.2014.063).
+- Orlando, Ludovic, Robin Allaby, Pontus Skoglund, Clio Der Sarkissian, Philipp W. Stockhammer, María C. Ávila-Arcos, Qiaomei Fu, et al. 2021. “Ancient DNA Analysis.” Nature Reviews Methods Primers 1 (1): 1-26. [https://doi.org/10.1038/s43586-020-00011-0](https://doi.org/10.1038/s43586-020-00011-0).
+- Warinner, Christina, Alexander Herbig, Allison Mann, James A. Fellows Yates, Clemens L. Weiß, Hernán A. Burbano, Ludovic Orlando, and Johannes Krause. 2017. “A Robust Framework for Microbial Archaeology.” Annual Review of Genomics and Human Genetics 18 (1): 321-56.[https://doi.org/10.1146/annurev-genom-091416-035526](https://doi.org/10.1146/annurev-genom-091416-035526).
 
 ### Questions to think about
 
