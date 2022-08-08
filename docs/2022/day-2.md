@@ -1,44 +1,14 @@
 # Day Two
 
-## Day Overview
-
-### Lecture 2A: Introduction to ancient DNA
+## Lecture 2A: Introduction to ancient DNA
 
 **Instructors**: Christina Warinner
 
-**Abstract**: TBC
+**Abstract**: This lecture introduces you to ancient DNA and the enormous technological changes that have taken place since the field’s origins in 1984. Starting with the quagga and proceeding to microbes, we discuss where ancient microbial DNA can be found in the archaeological record and examime how ancient DNA is defined by its condition, not by a fixed age. We next cover genome basics and take an in-depth look at the way DNA degrades over time. We detail the fundamentals of DNA damage, including the specific chemical processes that lead to DNA fragmentation and C->T miscoding lesions. We then demystify the DNA damage “smile plot” and explain the how the plot’s symmetry or asymmetry is related to the specific enzymes used to repair DNA during library construction. We discuss how DNA damage is and is not clock-like, how to interpret and troubleshoot DNA damage plots, and how DNA damage patters can be used to authenticate ancient samples, specific taxa, and even sequences. We cover laboratory strategies for removing or reducing damage for greater accuracy for genotype calling, and we discuss the pros and cons of single-stranded library protocols. We then take a closer look at proofreading and non-proofreading polymerases and note key steps in NGS library preparation during which enzyme selection is critical in ancient DNA studies. Finally, we examine the big picture of why DNA damage matters in ancient microbial studies, and its effects on taxonomic identification of sequences, accurate genome mapping, and metagenomic assembly.
 
-### Practical 2B: Introduction to Git(Hub)
+### Slides
 
-**Instructors**: Megan Michel
-
-**Abstract**: As the size and complexity of metagenomic analyses continues to expand, effectively organizing and tracking changes to scripts, code, and even data, continues to be a critical part of ancient metagenomic analyses. Furthermore, this complexity is leading to ever more collaborative projects, with input from multiple researchers.
-
-In this practical session, we will introduce 'Git', an extremely popular version control system used in bioinformatics and software development to store, track changes, and collaborate on scripts and code. We will also introduce, GitHub, a cloud-based service for Git repositories for sharing data and code, and where many bioinformatic tools are stored. We will learn how to access and navigate course materials stored on GitHub through the web interface as well as the command line, and we will create our own repositories to store and share the output of upcoming sessions.
-
-### Practical 2C: Introduction to AncientMetagenomeDir
-
-**Instructors**: James Fellows Yates
-
-**Abstract**: Finding relevent comparative data for your ancient metagenomic analysis is not trivial. While palaeogenomicists are very good at uploading their raw sequencing data to large sequencing data repositories such as the EBI's ENA or NCBI's SRA archives in standardised file formats, these files often have limited metadata. This often makes it difficult for researchers to search for and download relevent published data they wish to use use to augment their own analysis.
-
-AncientMetagenomeDir is a community project from the SPAAM community to make ancient metagenomic data more accessible. We curate a list of standardised metadata of all published ancient metagenomic samples and libraries, hosted on GitHub. In this session we will go through how to use the AncientMetagenomeDir repository and associated tools to find and download data for your own analyses. We will also discuss important things to consider when publishing your own data to make it more accessible for other researchers.
-
-### Practical 2D: Introduction to nf-core/eager
-
-**Instructors**: Megan Michel and James Fellows Yates
-
-**Abstract**: Analyses in the field of ancient DNA are growing, both in terms of the number of samples processed and in the diversity of our research questions and analytical methods. Computational pipelines are a solution to the challenges of big data, helping researchers to perform analyses efficiently and in a reproducible fashion. Today we will introduce nf-core/eager, one of several pipelines designed specifically for the preprocessing, analysis, and authentication of ancient next-generation sequencing data.
-
-In this practical session we will learn how to perform basic analyses with nf-core/eager, starting from raw data and performing preprocessing, alignment, and genotyping of several _Yersinia pestis_-positive samples. We will gain an appreciation of the diversity of analyses that can be performed within nf-core eager, as well as where to find additional information for customizing your own nf-core/eager runs. Finally, we will learn how to use nf-core/eager to evaluate the quality and authenticity of our ancient samples. After this session, you will be ready to strike out into the world of nf-core/eager and build your own analyses from scratch!
-
-### Roundtable: Project organisation
-
-**Chairs**: Alexander Hübner and James Fellows yates
-
-We will discuss the various ways how to structure analysis folders for your research in a manner that promotes portability and reproducibility. Participants can ask for advice and suggestions from the instructors for their specific research projects.
-
-## Lecture 2A: Introduction to ancient DNA
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQYqeq8LDnw-McfI8zRvEX2xL77awoP4BLGCBNPj2rorPOxFQOdwnhVosu8qqlnZKqDl5dd6SYt0qf/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Resources
 
@@ -54,10 +24,6 @@ We will discuss the various ways how to structure analysis folders for your rese
 
 ### Questions to think about
 
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQYqeq8LDnw-McfI8zRvEX2xL77awoP4BLGCBNPj2rorPOxFQOdwnhVosu8qqlnZKqDl5dd6SYt0qf/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Software
 
 For today's practical sessions, please activate the `git-eager` conda [environment](2022/resources#software-and-data)
@@ -67,6 +33,16 @@ conda activate git-eager
 ```
 
 ## Practical 2B: Introduction to Git(Hub)
+
+**Instructors**: Megan Michel
+
+**Abstract**: As the size and complexity of metagenomic analyses continues to expand, effectively organizing and tracking changes to scripts, code, and even data, continues to be a critical part of ancient metagenomic analyses. Furthermore, this complexity is leading to ever more collaborative projects, with input from multiple researchers.
+
+In this practical session, we will introduce 'Git', an extremely popular version control system used in bioinformatics and software development to store, track changes, and collaborate on scripts and code. We will also introduce, GitHub, a cloud-based service for Git repositories for sharing data and code, and where many bioinformatic tools are stored. We will learn how to access and navigate course materials stored on GitHub through the web interface as well as the command line, and we will create our own repositories to store and share the output of upcoming sessions.
+
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR07xSxl-AaB6df4Mu4BN4X41U5SM41fKy0gvZ7sSSPtqRoF2RqFth-aduhN9nkRpkdzP0N6fb5x5Ok/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Resources
 
@@ -82,11 +58,17 @@ conda activate git-eager
 1. Why is using a version control software for tracking data and code important?
 2. How can using Git(Hub) help me to collaborate on group projects?
 
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR07xSxl-AaB6df4Mu4BN4X41U5SM41fKy0gvZ7sSSPtqRoF2RqFth-aduhN9nkRpkdzP0N6fb5x5Ok/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Practical 2C: Introduction to AncientMetagenomeDir
+
+**Instructors**: James Fellows Yates
+
+**Abstract**: Finding relevent comparative data for your ancient metagenomic analysis is not trivial. While palaeogenomicists are very good at uploading their raw sequencing data to large sequencing data repositories such as the EBI's ENA or NCBI's SRA archives in standardised file formats, these files often have limited metadata. This often makes it difficult for researchers to search for and download relevent published data they wish to use use to augment their own analysis.
+
+AncientMetagenomeDir is a community project from the SPAAM community to make ancient metagenomic data more accessible. We curate a list of standardised metadata of all published ancient metagenomic samples and libraries, hosted on GitHub. In this session we will go through how to use the AncientMetagenomeDir repository and associated tools to find and download data for your own analyses. We will also discuss important things to consider when publishing your own data to make it more accessible for other researchers.
+
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Resources
 
@@ -100,11 +82,22 @@ conda activate git-eager
 
 ### Questions to think about
 
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+- Why is metadata critical for downloading public data?
+- What are suitable places to upload your raw data?
+- How should you format your metadata?
+- Where should you upload metadata about your samples?
 
 ## Practical 2D: Introduction to nf-core/eager
+
+**Instructors**: Megan Michel and James Fellows Yates
+
+**Abstract**: Analyses in the field of ancient DNA are growing, both in terms of the number of samples processed and in the diversity of our research questions and analytical methods. Computational pipelines are a solution to the challenges of big data, helping researchers to perform analyses efficiently and in a reproducible fashion. Today we will introduce nf-core/eager, one of several pipelines designed specifically for the preprocessing, analysis, and authentication of ancient next-generation sequencing data.
+
+In this practical session we will learn how to perform basic analyses with nf-core/eager, starting from raw data and performing preprocessing, alignment, and genotyping of several _Yersinia pestis_-positive samples. We will gain an appreciation of the diversity of analyses that can be performed within nf-core eager, as well as where to find additional information for customizing your own nf-core/eager runs. Finally, we will learn how to use nf-core/eager to evaluate the quality and authenticity of our ancient samples. After this session, you will be ready to strike out into the world of nf-core/eager and build your own analyses from scratch!
+
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Resources
 
@@ -127,6 +120,12 @@ conda activate git-eager
 2. How can the design of the nf-core/eager pipeline help researchers comply with the FAIR princples for management of scientific data?
 3. What metrics do you use to evaluate the success/failure of ancient DNA sequencing experiments? How can these measures be evaluated when using nf-core/eager for data preprocessing and analysis?
 
-### Material
+## Roundtable: Project organisation
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+**Chairs**: Alexander Hübner and James Fellows yates
+
+We will discuss the various ways how to structure analysis folders for your research in a manner that promotes portability and reproducibility. Participants can ask for advice and suggestions from the instructors for their specific research projects.
+
+### Resources
+
+- [https://github.com/paleobiotechnology/analysis-project-structure](https://github.com/paleobiotechnology/analysis-project-structure)

@@ -1,14 +1,30 @@
 # Day Three
 
-## Day Overview
-
-### Lecture 3A: Introduction to Metagenomics
+## Lecture 3A: Introduction to Metagenomics
 
 **Instructors**: Christina Warinner
 
-**Abstract**: TBC
+**Abstract**: This lecture introduces you to the basics of metagenomics, with an emphasis on tools and approaches that are used to study ancient metagenomes. We begin by covering the basic terminology used in metagenomics and microbiome research and discuss how the field has changed over time. We examine the species concept for microbes and challenges that arise in classifying microbial species with respect to taxonomy and phylogeny. We then proceed to taxonomic profiling and discuss the pros and cons of different taxonomic profilers. Afterwards, we explain how to estimate preservation in ancient metagenomic samples and how to clean up your datasets and remove contaminants. Finally, we discuss strategies for exploring and comparing the ecological diversity in your samples, including different strategies for data normalization, distance calculation, and ordination.
 
-### Practical 3B-1: Introduction to R and the tidyverse
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSX9WVO_QLpx-xvJsaogt27Q3X3WW_wza9HWNuSuvcIWqPjEl_kqQ3Z_X45tbXZkQ7zDDFbCicd8e6h/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Resources
+
+### Readings
+
+### Questions to think about
+
+## Software
+
+For today's practical sessions, please activate the `r-python` conda [environment](2022/resources#software-and-data)
+
+```bash
+conda activate r-python
+```
+
+## Practical 3B-1: Introduction to R and the tidyverse
 
 **Instructors**: Clemens Schmid and Nikolay Oskolkov
 
@@ -20,7 +36,19 @@ This session will be targeted at beginners without much previous experience with
 
 🛈 This session will be held in parallel to the Introduction to Python and Pandas. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you have no experience with neither R nor Python.
 
-### Practical 3B-2: - Introduction to Python and Pandas
+### Material
+
+<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nevrome/spaam_r_tidyverse_intro_2h/main/presentation.pdf&embedded=true" width="960" height="569"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf).
+
+### Resources & Readings
+
+- Grolemund, G., Wickham, H. 2017. R for Data Science. [Online Version available here](https://r4ds.had.co.nz)
+- Chang, W. 2013. R Graphics Cookbook. [Online Version available here](https://r-graphics.org)
+- Wickham, H. 2014. Tidy Data. Journal of Statistical Software, 59(10), 1–23. https://doi.org/10.18637/jss.v059.i10
+
+## Practical 3B-2: Introduction to Python and Pandas
 
 **Instructors**: _Maxime Borry_
 
@@ -33,65 +61,21 @@ This session is meant for participants with a basic experience in R/tidyverse, b
 
 🛈 This session will be held in parallel to the Introduction to R. Participants can chose which to attend based on their prior experience. We recommend the introduction to R session if you have no experience with neither R nor Python.
 
-### Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
+### Slides
+
+<iframe src="assets/slides/2022/3b2-python-pandas/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Resources
+
+### Readings
+
+### Questions to think about
+
+## Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
 
 **Instructors**: Maxime Borry and Irina Velsko
 
 **Abstract**: TBC
-
-### Roundtable: Taxonomic Classifers
-
-**Chairs**: Irina Velsko and James Fellows Yates
-
-Which taxonomic classifier to pick is a context dependent question. Each classifier will has it's advantages and disadvantages depending on the type of data you have, and what research question you have. In this round table participants can ask for advice as to what to consider when selecting a particular classifier or classifiers for their projects.
-
-## Lecture 3A: Introduction to Metagenomics
-
-### Resources
-
-### Readings
-
-### Questions to think about
-
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSX9WVO_QLpx-xvJsaogt27Q3X3WW_wza9HWNuSuvcIWqPjEl_kqQ3Z_X45tbXZkQ7zDDFbCicd8e6h/embed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Software
-
-For today's practical sessions, please activate the `r-python` conda [environment](2022/resources#software-and-data)
-
-```bash
-conda activate r-python
-```
-
-## Practical 3B-1: Introduction to R and the tidyverse
-
-### Resources & Readings
-
-- Grolemund, G., Wickham, H. 2017. R for Data Science. [Online Version available here](https://r4ds.had.co.nz)
-- Chang, W. 2013. R Graphics Cookbook. [Online Version available here](https://r-graphics.org)
-- Wickham, H. 2014. Tidy Data. Journal of Statistical Software, 59(10), 1–23. https://doi.org/10.18637/jss.v059.i10
-
-### Material
-
-<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nevrome/spaam_r_tidyverse_intro_2h/main/presentation.pdf&embedded=true" width="960" height="569"></iframe>
-
-<!--The material for this course is available [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h) with a rendered version of the presentation [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf). -->
-
-## Practical 3B-2: Introduction to Python and Pandas
-
-### Resources
-
-### Readings
-
-### Questions to think about
-
-### Material
-
-<iframe src="assets/slides/2022/3b2-python-pandas/tutorial.slides.html" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Practical 3C: Taxonomic Profiling, OTU Tables and Visualisation
 
 ### Resources
 
@@ -102,3 +86,9 @@ conda activate r-python
 ### Material
 
 This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/microbiome_tutorial). However, it will already be installed on compute nodes during the summer school.
+
+### Roundtable: Taxonomic Classifers
+
+**Chairs**: Irina Velsko and James Fellows Yates
+
+Which taxonomic classifier to pick is a context dependent question. Each classifier will has it's advantages and disadvantages depending on the type of data you have, and what research question you have. In this round table participants can ask for advice as to what to consider when selecting a particular classifier or classifiers for their projects.
