@@ -1,14 +1,18 @@
 # Day One
 
-## Day Overview
-
-### Welcome Introduction
+## Welcome Presentation
 
 **Instructors**: James Fellows Yates and Christina Warinner
 
 Introduction to the course and general organisation details.
 
-### Lecture 1A: Introduction to NGS data
+### Slides
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4BvNdBFVhar9tYMN_P2fESJV3jx4UNZtKwIBxA8uB8XDxDWUGE_6j-siqXuOTwCmI4Q21eRO9KbXJ/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/0a-welcome/SPAAM%20Summer%20School%202022%20-%200A%20-%20Welcome%20and%20Organisational.pdf).
+
+## Lecture 1A: Introduction to NGS data
 
 **Instructors**: James Fellows Yates
 
@@ -26,36 +30,9 @@ of Illumina sequences work, and how this can influence ancient DNA research. Fin
 introduce the structure of 'FASTQ' files, the most popular file format for representing the
 DNA sequence output of NGS sequencing machines.
 
-### Practical 1B: BareBonesBash 1
+### Slides
 
-**Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
-
-**Abstract**: Computational work in metagenomics often involves connecting to remote servers to run analyses via the use of command line tools. Bash is a programming language that is used as the main command line interface of most UNIX systems, and hence most remote servers a user will encounter. By learning bash, users can work more efficiently and reproducibly on these remote servers.
-
-In this session we will introduce the basic concepts of bash and the command line. Students will learn how to move around the filesystem and interact with files, how to chain multiple commands together using "pipes", and how to use loops and regular expressions to simplify the running of repetitive tasks.
-
-Finally, students will learn how to create a bash script of their own, that can run a set of commands in sequence. This session requires no prior knowledge of bash or the command line and is meant to serve as an entry-level introduction to basic programming concepts that can be applicable in other programming languages too.
-
-### Practical 1C: BareBonesBash 2
-
-**Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
-
-**Abstract**: See Above
-
-### Roundtable: Introductions
-
-**Chairs**: Tina Warinner and James Fellows Yates
-
-We will go around the group and introduce ourselves, to get familiar what the
-range of participants backgrounds and current research are.
-
-## Welcome Presentation
-
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR4BvNdBFVhar9tYMN_P2fESJV3jx4UNZtKwIBxA8uB8XDxDWUGE_6j-siqXuOTwCmI4Q21eRO9KbXJ/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-## Lecture 1A: Introduction to NGS data
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA8VEi99wl-vMrZDAItfQ7GlXEjyVJEm-Np6j-GBfzGWDz709lOh-IFh2LKzV3WJGUAQ9HvhxHfich/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Resources
 
@@ -89,11 +66,24 @@ range of participants backgrounds and current research are.
 - Why is 'Index-Hopping' a problem?
 - What is good software to evaluate the quality of your sequencing runs?
 
-### Material
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA8VEi99wl-vMrZDAItfQ7GlXEjyVJEm-Np6j-GBfzGWDz709lOh-IFh2LKzV3WJGUAQ9HvhxHfich/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Practical 1B: Bare Bones Bash 1
+
+**Instructors**: Aida Andrades Valtueña and Thiseas Lamnidis
+
+**Abstract**: Computational work in metagenomics often involves connecting to remote servers to run analyses via the use of command line tools. Bash is a programming language that is used as the main command line interface of most UNIX systems, and hence most remote servers a user will encounter. By learning bash, users can work more efficiently and reproducibly on these remote servers.
+
+In this session we will introduce the basic concepts of bash and the command line. Students will learn how to move around the filesystem and interact with files, how to chain multiple commands together using "pipes", and how to use loops and regular expressions to simplify the running of repetitive tasks.
+
+Finally, students will learn how to create a bash script of their own, that can run a set of commands in sequence. This session requires no prior knowledge of bash or the command line and is meant to serve as an entry-level introduction to basic programming concepts that can be applicable in other programming languages too.
+
+### Slides
+
+For a full screen version on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
+
+[Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/1bc-barebonesbash/bbb1/session1.html ":include :type=iframe width=100% height=600px")
+
+The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
+website](https://barebonesbash.github.io/)
 
 ### Resources
 
@@ -106,16 +96,9 @@ range of participants backgrounds and current research are.
 - [https://wiki.bash-hackers.org/](https://wiki.bash-hackers.org/)
 - [https://devhints.io/bash](https://devhints.io/bash)
 
-### Material
-
-For a full screen version on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
-
-[Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/1bc-barebonesbash/bbb1/session1.html ":include :type=iframe width=100% height=600px")
-
-The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
-website](https://barebonesbash.github.io/)
-
 ## Practical 1C: Bare Bones Bash 2
+
+### Slides
 
 For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
 
@@ -123,3 +106,21 @@ For a full screen version click on the presentation and press <kbd class="keybd"
 
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
+
+### Resources
+
+- [https://google.com](https://google.com) (no, not kidding, should always be your first solution!)
+- [https://wiki.bash-hackers.org/syntax/pe#substring_removal](https://wiki.bash-hackers.org/syntax/pe#substring_removal)
+- [https://linux.die.net/](https://linux.die.net/)
+- [https://barebonesbash.github.io](https://barebonesbash.github.io)
+- [https://regex.io/](https://regex.io/)
+- [https://stackoverflow.com/](https://stackoverflow.com/)
+- [https://wiki.bash-hackers.org/](https://wiki.bash-hackers.org/)
+- [https://devhints.io/bash](https://devhints.io/bash)
+
+## Roundtable: Introductions
+
+**Chairs**: Tina Warinner and James Fellows Yates
+
+We will go around the group and introduce ourselves, to get familiar what the
+range of participants backgrounds and current research are.
