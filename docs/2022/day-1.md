@@ -34,6 +34,8 @@ DNA sequence output of NGS sequencing machines.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA8VEi99wl-vMrZDAItfQ7GlXEjyVJEm-Np6j-GBfzGWDz709lOh-IFh2LKzV3WJGUAQ9HvhxHfich/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/1a-intro-to-ngs/SPAAM%20Summer%20School%202022%20-%201A%20-%20Introduction%20to%20NGS%20Data.pdf).
+
 ### Resources
 
 - https://www.youtube.com/watch?v=fCd6B5HRaZ8
@@ -82,6 +84,8 @@ For a full screen version on the presentation and press <kbd class="keybd">f</kb
 
 [Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/1bc-barebonesbash/bbb1/session1.html ":include :type=iframe width=100% height=600px")
 
+PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/1bc-barebonesbash/SPAAM%20Summer%20School%202022%20-%201B%20-%20BareBonesBash%201.pdf).
+
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
 
@@ -103,6 +107,8 @@ website](https://barebonesbash.github.io/)
 For a full screen version click on the presentation and press <kbd class="keybd">f</kbd> on your keyboard.
 
 [Intro to Bash](https://spaam-community.github.io/wss-summer-school/assets/slides/2022/1bc-barebonesbash/bbb2/session2.html ":include :type=iframe width=100% height=600px")
+
+PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/1bc-barebonesbash/SPAAM%20Summer%20School%202022%20-%201C%20-%20BareBonesBash%202.pdf).
 
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
