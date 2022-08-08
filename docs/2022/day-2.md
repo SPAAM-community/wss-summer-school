@@ -145,7 +145,7 @@ The repository already contains more than a thousand samples and span the entire
 
 To make the lists of samples and their metadata as accessible and interoperable as possible, we utilise simple text (TSV - tab separate value) files - files that can be opened by pretty much all spreadsheet tools (e.g., Microsoft Office excel, LibreOffice Calc) and languages (R, Python etc.).
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/ancientmetagenomedir-example.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/ancientmetagenomedir-example.png">
 
 Criticially, by standardising the recorded all metadata across all publications this makes it much easier for researchers to filter for particular time periods, geographical regions, or sample types of their interest - and then use the also recorded accession numbers to efficiently download the data.
 
@@ -178,7 +178,7 @@ This is something we are going to try out now!
 
 #### Running AMDirT
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-title.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-title.png">
 
 First, we will need to activate a conda environment, and then install the latest development version of the tool for you.
 
@@ -199,13 +199,13 @@ AMDirT filter
 
 Your web browser should now load, and you should see a two panel page.
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-firstpage.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-firstpage.png">
 
 Under **Select a table** use the dropdown menu to select 'ancientsinglegenome-hostassociated'.
 
 You should then see a table, pretty similar what you are familiar with with spreadsheet tools such as Microsoft Excel or LibreOffice calc.
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter.png">
 
 To navigate, you can scroll down to see more rows, and press <kbd>shift</kbd> and scroll to see more columns, or use click on a cell and use your arrow keys (<kbd>⬆</kbd>,<kbd>⬇</kbd>,<kbd>⬅</kbd>,<kbd>➡</kbd>) to move around the table.
 
@@ -215,21 +215,21 @@ As an exercise, we will try filtering to a particular set of samples, then gener
 
 First, filter the **project_name** column to 'Kocher2021'.
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter2.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter2.png">
 
 Then scroll to the right, and filter the **geo_loc_name** to 'United Kingdom'.
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-geofilter.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-geofilter.png">
 
 You should be left with 4 rows.
 
 Finally, scroll back to the first column and tick the boxes of these four samples.
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-tickbox.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-tickbox.png">
 
 Once you've selected the samples you want, you can press **Validate selection**. You should then see a series loading-spinner, and new buttons should appear!
 
-<img src="/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png">
+<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png">
 
 You should have three main buttons:
 
