@@ -10,7 +10,7 @@
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQYqeq8LDnw-McfI8zRvEX2xL77awoP4BLGCBNPj2rorPOxFQOdwnhVosu8qqlnZKqDl5dd6SYt0qf/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2a-intro-to-adna/SPAAM%20Summer%20School%202022%20-%202A%20-%20Intro%20to%20Ancient%20DNA.pdf).
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2a-intro-to-adna/SPAAM%20Summer%20School%202022%20-%202A%20-%20Intro%20to%20Ancient%20DNA.pdf).
 
 ### Resources
 
@@ -28,7 +28,7 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 ## Software
 
-For today's practical sessions, please [activate](2022/resources#software-and-data) the `git-eager` conda [environment](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/software/2022/day2.yml).
+For today's practical sessions, please [activate](2022/resources#software-and-data) the `git-eager` conda [environment](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/software/2022/day2.yml).
 
 ```bash
 conda activate git-eager
@@ -46,7 +46,7 @@ In this practical session, we will introduce 'Git', an extremely popular version
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR07xSxl-AaB6df4Mu4BN4X41U5SM41fKy0gvZ7sSSPtqRoF2RqFth-aduhN9nkRpkdzP0N6fb5x5Ok/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-PDF version of these slides can be downloaded from [here](<https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/SPAAM%20Summer%20School%202022%20-%202B%20-%20Introduction%20to%20Git(Hub).pdf>).
+PDF version of these slides can be downloaded from [here](<https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2b-intro-to-github/SPAAM%20Summer%20School%202022%20-%202B%20-%20Introduction%20to%20Git(Hub).pdf>).
 
 ### Resources
 
@@ -91,7 +91,7 @@ AncientMetagenomeDir is a community project from the SPAAM community to make anc
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/SPAAM%20Summer%20School%202022%20-%202C%20-%20AncientMetagenomeDir.pdf).
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/SPAAM%20Summer%20School%202022%20-%202C%20-%20AncientMetagenomeDir.pdf).
 
 ### Walkthrough
 
@@ -145,7 +145,7 @@ The repository already contains more than a thousand samples and span the entire
 
 To make the lists of samples and their metadata as accessible and interoperable as possible, we utilise simple text (TSV - tab separate value) files - files that can be opened by pretty much all spreadsheet tools (e.g., Microsoft Office excel, LibreOffice Calc) and languages (R, Python etc.).
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/ancientmetagenomedir-example.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/ancientmetagenomedir-example.png">
 
 Criticially, by standardising the recorded all metadata across all publications this makes it much easier for researchers to filter for particular time periods, geographical regions, or sample types of their interest - and then use the also recorded accession numbers to efficiently download the data.
 
@@ -178,7 +178,7 @@ This is something we are going to try out now!
 
 #### Running AMDirT
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-title.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-title.png">
 
 First, we will need to activate a conda environment, and then install the latest development version of the tool for you.
 
@@ -199,13 +199,13 @@ AMDirT filter
 
 Your web browser should now load, and you should see a two panel page.
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-firstpage.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-firstpage.png">
 
 Under **Select a table** use the dropdown menu to select 'ancientsinglegenome-hostassociated'.
 
 You should then see a table, pretty similar what you are familiar with with spreadsheet tools such as Microsoft Excel or LibreOffice calc.
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter.png">
 
 To navigate, you can scroll down to see more rows, and press <kbd>shift</kbd> and scroll to see more columns, or use click on a cell and use your arrow keys (<kbd>⬆</kbd>,<kbd>⬇</kbd>,<kbd>⬅</kbd>,<kbd>➡</kbd>) to move around the table.
 
@@ -215,21 +215,21 @@ As an exercise, we will try filtering to a particular set of samples, then gener
 
 First, filter the **project_name** column to 'Kocher2021'.
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter2.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-projectfilter2.png">
 
 Then scroll to the right, and filter the **geo_loc_name** to 'United Kingdom'.
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-geofilter.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-geofilter.png">
 
 You should be left with 4 rows.
 
 Finally, scroll back to the first column and tick the boxes of these four samples.
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-tickbox.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-tickbox.png">
 
 Once you've selected the samples you want, you can press **Validate selection**. You should then see a series loading-spinner, and new buttons should appear!
 
-<img src="wss-summer-school/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png">
 
 You should have three main buttons:
 
@@ -334,7 +334,7 @@ Your task (with `git` terms removed):
 2. 'Download' the copied repo to your local machine
 3. 'Change' to the `dev` branch
 4. Modify ‘ancientsinglegenome-hostassociated_samples.tsv’
-   - Click [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
+   - Click [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
 5. 'Send' back to Git(Hub)
 6. Open a 'request' adding changes to the original repo
    - Make sure to put 'Summer school' in the title of the 'Request'
@@ -346,7 +346,7 @@ Your task (with `git` terms removed):
 2. **Clone** the copied repo to your local machine
 3. **Switch** to the `dev` branch
 4. Modify ‘ancientsinglegenome-hostassociated_samples.tsv’
-   - Click [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
+   - Click [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/data/2022/ancientmetagenomedir_example.tsv) to get some example data to copy in to the end of the TSV file
 5. **Commit** and **Push** back to your **Fork** on Git(Hub)
 6. Open a **Pull Request** adding changes to the original jfy133/AncientMetagenomeDir repo
    - Make sure to put 'Summer school' in the title of the pull request
@@ -379,7 +379,7 @@ In this practical session we will learn how to perform basic analyses with nf-co
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2d-intro-to-nfcoreeager/SPAAM%20Summer%20School%202022%20-%202D%20-%20Introduction%20to%20nf-core_eager.pdf).
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2d-intro-to-nfcoreeager/SPAAM%20Summer%20School%202022%20-%202D%20-%20Introduction%20to%20nf-core_eager.pdf).
 
 ### Resources
 

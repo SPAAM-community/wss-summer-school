@@ -38,28 +38,28 @@ PDF version of these slides can be downloaded from [here](https://raw.githubuser
 
 ### Resources
 
-- https://www.youtube.com/watch?v=fCd6B5HRaZ8
-- https://emea.illumina.com/content/dam/illumina-marketing/documents/products/illumina_sequencing_introduction.pdf
+- [https://www.youtube.com/watch?v=fCd6B5HRaZ8](https://www.youtube.com/watch?v=fCd6B5HRaZ8)
+- [https://emea.illumina.com/content/dam/illumina-marketing/documents/products/illumina_sequencing_introduction.pdf](https://emea.illumina.com/content/dam/illumina-marketing/documents/products/illumina_sequencing_introduction.pdf)
 
 ### Readings
 
 #### Reviews
 
-- Schuster, Stephan C. 2008. “Next-Generation Sequencing Transforms Today’s Biology.” Nature Methods 5 (1): 16–18. https://doi.org/10.1038/nmeth1156.
-- Shendure, Jay, and Hanlee Ji. 2008. “Next-Generation DNA Sequencing.” Nature Biotechnology 26 (10): 1135–45. https://doi.org/10.1038/nbt1486.
-- Slatko, Barton E., Andrew F. Gardner, and Frederick M. Ausubel. 2018. “Overview of Next-Generation Sequencing Technologies.” Current Protocols in Molecular Biology / Edited by Frederick M. Ausubel... [et Al.] 122 (1): e59. https://doi.org/10.1002/cpmb.59.
-- Dijk, Erwin L. van, Hélène Auger, Yan Jaszczyszyn, and Claude Thermes. 2014. “Ten Years of next-Generation Sequencing Technology.” Trends in Genetics 30 (9): 418–26. https://doi.org/10.1016/j.tig.2014.07.001.
+- Schuster, Stephan C. 2008. “Next-Generation Sequencing Transforms Today’s Biology.” Nature Methods 5 (1): 16–18. [https://doi.org/10.1038/nmeth1156](https://doi.org/10.1038/nmeth1156).
+- Shendure, Jay, and Hanlee Ji. 2008. “Next-Generation DNA Sequencing.” Nature Biotechnology 26 (10): 1135–45. [https://doi.org/10.1038/nbt1486](https://doi.org/10.1038/nbt1486).
+- Slatko, Barton E., Andrew F. Gardner, and Frederick M. Ausubel. 2018. “Overview of Next-Generation Sequencing Technologies.” Current Protocols in Molecular Biology / Edited by Frederick M. Ausubel... [et Al.] 122 (1): e59. [https://doi.org/10.1002/cpmb.59](https://doi.org/10.1002/cpmb.59).
+- Dijk, Erwin L. van, Hélène Auger, Yan Jaszczyszyn, and Claude Thermes. 2014. “Ten Years of next-Generation Sequencing Technology.” Trends in Genetics 30 (9): 418–26. [https://doi.org/10.1016/j.tig.2014.07.001](https://doi.org/10.1016/j.tig.2014.07.001).
 
 #### Sequencing Library Construction
 
-- Kircher, Martin, Susanna Sawyer, and Matthias Meyer. 2012. “Double Indexing Overcomes Inaccuracies in Multiplex Sequencing on the Illumina Platform.” Nucleic Acids Research 40 (1): e3. https://doi.org/10.1093/nar/gkr771.
-- Meyer, Matthias, and Martin Kircher. 2010. “Illumina Sequencing Library Preparation for Highly Multiplexed Target Capture and Sequencing.” Cold Spring Harbor Protocols 2010 (6): db.prot5448. https://doi.org/10.1101/pdb.prot5448.
+- Kircher, Martin, Susanna Sawyer, and Matthias Meyer. 2012. “Double Indexing Overcomes Inaccuracies in Multiplex Sequencing on the Illumina Platform.” Nucleic Acids Research 40 (1): e3. [https://doi.org/10.1093/nar/gkr771](https://doi.org/10.1093/nar/gkr771).
+- Meyer, Matthias, and Martin Kircher. 2010. “Illumina Sequencing Library Preparation for Highly Multiplexed Target Capture and Sequencing.” Cold Spring Harbor Protocols 2010 (6): db.prot5448. [https://doi.org/10.1101/pdb.prot5448](https://doi.org/10.1101/pdb.prot5448).
 
 #### Errors and Considerations
 
-- Ma, Xiaotu, Ying Shao, Liqing Tian, Diane A. Flasch, Heather L. Mulder, Michael N. Edmonson, Yu Liu, et al. 2019. “Analysis of Error Profiles in Deep next-Generation Sequencing Data.” Genome Biology 20 (1): 50. https://doi.org/10.1186/s13059-019-1659-6.
-- Sinha, Rahul, Geoff Stanley, Gunsagar Singh Gulati, Camille Ezran, Kyle Joseph Travaglini, Eric Wei, Charles Kwok Fai Chan, et al. 2017. “Index Switching Causes ‘spreading-of-Signal’ among Multiplexed Samples in Illumina HiSeq 4000 DNA Sequencing.” bioRxiv. https://doi.org/10.1101/125724.
-- Valk, Tom van der, Francesco Vezzi, Mattias Ormestad, Love Dalén, and Katerina Guschanski. 2019. “Index Hopping on the Illumina HiseqX Platform and Its Consequences for Ancient DNA Studies.” Molecular Ecology Resources, March. https://doi.org/10.1111/1755-0998.13009.
+- Ma, Xiaotu, Ying Shao, Liqing Tian, Diane A. Flasch, Heather L. Mulder, Michael N. Edmonson, Yu Liu, et al. 2019. “Analysis of Error Profiles in Deep next-Generation Sequencing Data.” Genome Biology 20 (1): 50. [https://doi.org/10.1186/s13059-019-1659-6](https://doi.org/10.1186/s13059-019-1659-6).
+- Sinha, Rahul, Geoff Stanley, Gunsagar Singh Gulati, Camille Ezran, Kyle Joseph Travaglini, Eric Wei, Charles Kwok Fai Chan, et al. 2017. “Index Switching Causes ‘spreading-of-Signal’ among Multiplexed Samples in Illumina HiSeq 4000 DNA Sequencing.” bioRxiv. [https://doi.org/10.1101/125724](https://doi.org/10.1101/125724).
+- Valk, Tom van der, Francesco Vezzi, Mattias Ormestad, Love Dalén, and Katerina Guschanski. 2019. “Index Hopping on the Illumina HiseqX Platform and Its Consequences for Ancient DNA Studies.” Molecular Ecology Resources, March. [https://doi.org/10.1111/1755-0998.13009](https://doi.org/10.1111/1755-0998.13009.).
 
 ### Questions to think about
 
