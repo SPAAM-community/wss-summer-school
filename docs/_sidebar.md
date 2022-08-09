@@ -2,6 +2,7 @@
 
 - [Home](/)
 - [Apply](apply.md "Apply")
+- [2023 Syllabus](2023/ "2023")
 - [2022 Syllabus](2022/ "2022")
 <!-- - [Resources](resources.md "Resources") -->
 - [Code of Conduct](code-of-conduct.md "Code of Conduct")

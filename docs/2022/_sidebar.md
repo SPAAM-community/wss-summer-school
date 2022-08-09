@@ -2,6 +2,7 @@
 
 - [Home](/)
 - [Apply](apply)
+- [2023 Syllabus](2023/README.md)
 - [2022 Syllabus](2022/README.md)
   - [Resources](2022/resources)
   - [Instructors](2022/instructors)
