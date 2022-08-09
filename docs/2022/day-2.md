@@ -16,15 +16,29 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 ### Readings
 
-- Orlando, L., Allaby, R., Skoglund, P., Der Sarkissian, C., Stockhammer, P. W., Ávila-Arcos, M. C., ... & Warinner, C. (2021). Ancient DNA analysis. Nature Reviews Methods Primers, 1(1), 1-26.
+- Borry, M., Hübner, A., Rohrlach, A. B., & Warinner, C. (2021). PyDamage: automated ancient damage identification and estimation for contigs in ancient DNA de novo assembly. PeerJ, 9, e11845.
+- Briggs, A. W., Stenzel, U., Johnson, P. L., Green, R. E., Kelso, J., Prüfer, K., ... & Pääbo, S. (2007). Patterns of damage in genomic DNA sequences from a Neandertal. Proceedings of the National - Academy of Sciences, 104(37), 14616-14621.
+- Fellows Yates, J. A., Velsko, I. M., Aron, F., Posth, C., Hofman, C. A., Austin, R. M., ... & Warinner, C. (2021). The evolution and changing ecology of the African hominid oral microbiome. Proceedings - of the National Academy of Sciences, 118(20), e2021655118.
+- Gansauge, M.T. and Meyer, M., 2019. A method for single-stranded ancient DNA library preparation. In Ancient DNA (pp. 75-83). Humana Press, New York, NY.
 - Higuchi, R., Bowman, B., Freiberger, M., Ryder, O. A., & Wilson, A. C. (1984). DNA sequences from the quagga, an extinct member of the horse family. Nature, 312(5991), 282-284.
-- Briggs, A.W., Stenzel, U., Meyer, M., Krause, J., Kircher, M. and Pääbo, S., 2010. Removal of deaminated cytosines and detection of in vivo methylation in ancient DNA. Nucleic Acids Research, 38(6), pp.e87-e87.
-- Gansauge, M.T. and Meyer, M., 2013. Single-stranded DNA library preparation for the sequencing of ancient or damaged DNA. Nature Protocols, 8(4), pp.737-748.
-- Jónsson, H., Ginolhac, A., Schubert, M., Johnson, P. L., & Orlando, L. (2013). mapDamage2.0: fast approximate Bayesian estimates of ancient DNA damage parameters. Bioinformatics, 29(13), 1682-1684.
+- Hofreiter, M., Serre, D., Poinar, H.N., Kuch, M. and Pääbo, S., 2001. Ancient DNA. Nature Reviews Genetics, 2(5), pp.353-359.
+- Jónsson, H., Ginolhac, A., Schubert, M., Johnson, P. L., & Orlando, L. (2013). mapDamage2. 0: fast approximate Bayesian estimates of ancient DNA damage parameters. Bioinformatics, 29(13), 1682-1684.
 - Meyer, M. and Kircher, M., 2010. Illumina sequencing library preparation for highly multiplexed target capture and sequencing. Cold Spring Harbor Protocols, 2010(6), pp.pdb-prot5448.
-- Warinner, C., Herbig, A., Mann, A., Yates, J. A. F., Weiβ, C. L., Burbano, H. A., ... & Krause, J. (2017). A robust framework for microbial archaeology. Annual Review of Genomics and Human Genetics, 18, 321.
+- Orlando, L., Allaby, R., Skoglund, P., Der Sarkissian, C., Stockhammer, P. W., Ávila-Arcos, M. C., ... & Warinner, C. (2021). Ancient DNA analysis. Nature Reviews Methods Primers, 1(1), 1-26.
+- Rohland, N., Harney, E., Mallick, S., Nordenfelt, S. and Reich, D., 2015. Partial uracil-DNA-glycosylase treatment for screening of ancient DNA. Philosophical Transactions of the Royal Society B: - Biological Sciences, 370(1660), p.20130624.
+- Skoglund, P., Northoff, B. H., Shunkov, M. V., Derevianko, A. P., Pääbo, S., Krause, J., & Jakobsson, M. (2014). Separating endogenous ancient DNA from modern day contamination in a Siberian Neandertal.- Proceedings of the National Academy of Sciences, 111(6), 2229-2234.
+- Velsko, I. M., Frantz, L. A., Herbig, A., Larson, G., & Warinner, C. (2018). Selection of appropriate metagenome taxonomic classifiers for ancient microbiome research. mSystems, 3(4), e00080-18.
+- Warinner, C., Herbig, A., Mann, A., Yates, J. A. F., Weiβ, C. L., Burbano, H. A., ... & Krause, J. (2017). A robust framework for microbial archaeology. Annual Review of Genomics and Human Genetics,- 18, 321.
 
 ### Questions to think about
+
+- What is ancient DNA?
+- Where do we find ancient DNA from microbes?
+- How does DNA degrade?
+- How do I interpret a DNA damage plot?
+- How is DNA damage used to authenticate ancient genomes and samples?
+- What methods are available for managing DNA damage?
+- How does DNA damage matter for my analyses?
 
 ## Software
 

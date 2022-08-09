@@ -16,7 +16,31 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 ### Readings
 
+- Breitwieser, F. P., Baker, D. N., & Salzberg, S. L. (2018). KrakenUniq: confident and fast metagenomics classification using unique k-mer counts. Genome Biology, 19(1), 1-10.
+- Davis, N. M., Proctor, D. M., Holmes, S. P., Relman, D. A., & Callahan, B. J. (2018). Simple statistical identification and removal of contaminant sequences in marker-gene and metagenomics data.- Microbiome, 6(1), 1-14.
+- Fellows Yates, J. A., Lamnidis, T. C., Borry, M., Valtueña, A. A., Fagernäs, Z., Clayton, S., ... & Peltzer, A. (2021). Reproducible, portable, and efficient ancient genome reconstruction with nf-core/- eager. PeerJ, 9, e10947.
+- Huson, D. H., Auch, A. F., Qi, J., & Schuster, S. C. (2007). MEGAN analysis of metagenomic data. Genome Research, 17(3), 377-386.
+- Knights, D., Kuczynski, J., Charlson, E.S., Zaneveld, J., Mozer, M.C., Collman, R.G., Bushman, F.D., Knight, R. and Kelley, S.T., 2011. Bayesian community-wide culture-independent microbial source - tracking. Nature Methods, 8(9), pp.761-763.
+- Mann, A.E., Yates, J.A.F., Fagernäs, Z., Austin, R.M., Nelson, E.A. and Hofman, C.A., 2020. Do I have something in my teeth? The trouble with genetic analyses of diet from archaeological dental - calculus. Quaternary International.
+- Marchesi, J. R., & Ravel, J. (2015). The vocabulary of microbiome research: a proposal. Microbiome, 3(1), 1-3.
+- Pasolli, E., De Filippis, F., Mauriello, I. E., Cumbo, F., Walsh, A. M., Leech, J., ... & Ercolini, D. (2020). Large-scale genome-wide analysis links lactic acid bacteria from food with the gut - microbiome. Nature Communications, 11(1), 1-12.
+- Segata, N., Waldron, L., Ballarini, A., Narasimhan, V., Jousson, O., & Huttenhower, C. (2012). Metagenomic microbial community profiling using unique clade-specific marker genes. Nature Methods, 9(8), - 811-814.
+- Vågene, Å. J., Herbig, A., Campana, M. G., Robles García, N. M., Warinner, C., Sabin, S., ... & Krause, J. (2018). Salmonella enterica genomes from victims of a major sixteenth-century epidemic in - Mexico. Nature Ecology & Evolution, 2(3), 520-528.
+- Warinner, C., Herbig, A., Mann, A., Yates, J. A. F., Weiβ, C. L., Burbano, H. A., ... & Krause, J. (2017). A robust framework for microbial archaeology. Annual review of genomics and human genetics,- 18, 321.
+- Wood, D. E., Lu, J., & Langmead, B. (2019). Improved metagenomic analysis with Kraken 2. Genome Biology, 20(1), 1-13.
+
 ### Questions to think about
+
+- What is a metagenome? a microbiota? a microbiome?
+- What is ancient metagenomics?
+- What challenges do DNA degradation and sample decay pose for ancient metagenomics
+- How do you find out “who’s there” in your samples?
+- How do alignment based and k-mer based taxonomic profilers differ? What are the advantages and disadvantages of each?
+- Why does database selection matter?
+- How do you estimate the preservation and integrity of your ancient metagenome?
+- What are tools you can use to identify poorly preserved samples and remove contaminant taxa?
+- What aspects of diversity are important in investigating microbial communities?
+- Which distance metrics are commonly used to compare the beta-diversity of microbial communities and why? What are some advantages and disadvantages to these different approaches?
 
 ## Software
 
