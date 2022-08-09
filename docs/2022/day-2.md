@@ -243,7 +243,7 @@ Finally, scroll back to the first column and tick the boxes of these four sample
 
 Once you've selected the samples you want, you can press **Validate selection**. You should then see a series loading-spinner, and new buttons should appear!
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validate.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validated.png">
 
 You should have three main buttons:
 
