@@ -7,9 +7,13 @@
 
 <p style="text-align:center"><b>Many thanks to all the instructors and students for making the first SPAAM summer school a success!</b></p>
 
+All teaching _slides_ are now archived on Zenodo, and citable with:
+
+Fellows Yates, James A., Warinner, Christina, Andrades Valtueña, Aida, Herbig, Alexander, Hübner, Alexander, Hiß, Alina N., Kocher, Arthur, Schmid, Clemens, Velsko, Irina M., Borry, Maxime, Michel, Megan, Duchene, Sebastian, & Lamnidis, Thiseas C. (2022, August 10). SPAAM Summer School: Introduction to Ancient Metagenomics Teaching Slides. Zenodo. [https://doi.org/10.5281/zenodo.6976712](https://doi.org/10.5281/zenodo.6976712)
+
 ## What
 
-The **Ancient Metagenomics Summer School** will be a 5 day **practical** workshop (block praktikum). Attendees who participate in the entire course will be eligible for 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
+The **Ancient Metagenomics Summer School** was be a 5 day **practical** workshop (block praktikum). Attendees who participated in the entire course received 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
 
 The course is taught by scientific staff at the Max Planck Institute for Evolutionary Anthropology and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Prof. Dr. Christina Warinner (christina_warinner@eva.mpg.de) and James Fellows Yates (james_fellows_yates@eva.mpg.de).
 
