@@ -63,7 +63,9 @@ In this session we will map two samples to the _Yersinia pestis_ (plague) genome
 
 ##### Preparation
 
-To begin we will open a terminal and then navigate to the working directory of this session:
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983119](https://doi.org/10.5281/zenodo.6983119). See instructions on page.
+
+We will open a terminal and then navigate to the working directory of this session:
 
 ```bash
 cd /<path>/<to>/4b-genome-mapping/

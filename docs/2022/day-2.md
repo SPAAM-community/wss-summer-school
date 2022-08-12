@@ -116,6 +116,10 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 <div style="border-style: none none none solid;border-left-color:#74d1f6;border-left-width=2px;padding:10px">
 
+#### Preparation
+
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983119](https://doi.org/10.5281/zenodo.6983119). See instructions on page.
+
 #### Introduction
 
 In most bioinformatic projects, we need to include publically available comparative data to expand or compare our newly generated data with.
