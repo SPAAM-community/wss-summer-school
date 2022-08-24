@@ -63,7 +63,7 @@ In this session we will map two samples to the _Yersinia pestis_ (plague) genome
 
 ##### Preparation
 
-The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983119](https://doi.org/10.5281/zenodo.6983119). See instructions on page.
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983174](https://doi.org/10.5281/zenodo.6983174). See instructions on page.
 
 We will open a terminal and then navigate to the working directory of this session:
 
@@ -469,9 +469,9 @@ Such regions can be fairly large. For example, see this 20 kb region around posi
 - The chosen mapping parameters can have a strong influence on the results of any downstream analysis.
 - This is particularly true when dealing with ancient DNA samples as they tend to contain DNA from multiple organisms. This can lead to mismapped reads and therefore incorrect genotypes, which can further influence downstream analyses.
 
-</details>
-
 </div>
+
+</details>
 
 ---
 

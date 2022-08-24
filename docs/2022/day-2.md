@@ -118,7 +118,7 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 #### Preparation
 
-The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983119](https://doi.org/10.5281/zenodo.6983119). See instructions on page.
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983130](https://doi.org/10.5281/zenodo.6983130). See instructions on page.
 
 #### Introduction
 
@@ -379,9 +379,9 @@ Your task (with `git` terms removed):
 - Contribute to AncientMetagenomeDir with git
   - Community curated!
 
-</details>
-
 </div>
+
+</details>
 
 ---
 
