@@ -78,7 +78,11 @@ PDF version of these slides can be downloaded from [here](https://github.com/nev
 
 #### A crash course on R for data analysis
 
-Getting started for this workshop
+##### Preparation
+
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983148](https://doi.org/10.5281/zenodo.6983148). See instructions on page.
+
+##### Getting started for this workshop
 
 - Activate the relevant conda environment (don't forget to deactivate it later!)
 
