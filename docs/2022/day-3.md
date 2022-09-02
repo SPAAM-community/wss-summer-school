@@ -915,13 +915,15 @@ This session is run using a Jupyter notebook. This can be found [here](https://g
     <summary>Click me to view the walkthrough</summary>
         <div style="border-style: none none none solid;border-left-color:#74d1f6;border-left-width=2px;padding:10px">
 
-> ⚠️ We highly recommend viewing this walkthrough via the Jupyter notebook linked above!
+> ⚠️ We highly recommend viewing this walkthrough via the Jupyter notebook above!
+> The output of commands on the website for this walkthrough are displayed in their
+> own code blocks - be wary of what you copy-paste!
 
 ```python
 from IPython.core.display import SVG
 ```
 
-# Introduction to data manipulation in Python with Pandas and visulization with plotnine
+#### Introduction to data manipulation in Python with Pandas and visulization with plotnine
 
 Maxime Borry  
 SPAAM Summer School 2022
@@ -939,7 +941,7 @@ Today, we will do a quick introduction of the most popular libraries for data an
 - [pandas](https://pandas.pydata.org/), for reading and manipulation tabular data
 - [plotnine](https://plotnine.readthedocs.io/), the Python clone of ggplot2
 
-# Overview:
+#### Overview:
 
 - 0 - Foreword, working in a jupyter environment
 - 1 - Loading required libraries
@@ -952,9 +954,9 @@ Today, we will do a quick introduction of the most popular libraries for data an
 - 9 - Joining different tables
 - 10 - Visualization with Plotnine
 
-## 0 - Foreword, working in a jupyter environment
+##### 0 - Foreword, working in a jupyter environment
 
-### This is a markdown cell
+###### This is a markdown cell
 
 With some features of the markdown syntax, such as:
 
@@ -997,7 +999,7 @@ echo "in bash"
     This a multiline code cell
     in bash
 
-## 1 - Loading required libraries
+##### 1 - Loading required libraries
 
 ```python
 import pandas as pd
@@ -1023,21 +1025,23 @@ np.__version__
 
     plotnine                  0.9.0              pyhd8ed1ab_0    conda-forge
 
-## 2 - Foreword on Pandas
+##### 2 - Foreword on Pandas
 
-### Pandas terminology
+###### Pandas terminology
 
 ![](https://pandas.pydata.org/docs/_images/01_table_dataframe.svg)
 
 ![](https://pandas.pydata.org/docs/_images/01_table_series.svg)
 
-#### The pandas getting started tutorial: [pandas.pydata.org/docs/getting_started](https://pandas.pydata.org/docs/getting_started/index.html#)
+The pandas getting started tutorial: [pandas.pydata.org/docs/getting_started](https://pandas.pydata.org/docs/getting_started/index.html#)
 
-## 3 - Reading data with Pandas
+##### 3 - Reading data with Pandas
 
 ```python
-sample_table_url = "https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/b187df6ebd23dfeb42935fd5020cb615ead3f164/ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv"
-library_table_url = "https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/b187df6ebd23dfeb42935fd5020cb615ead3f164/ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv"
+sample_table_url = "https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/b187df6ebd23dfeb42935fd5020cb615ead3f164/
+ancientmetagenome-hostassociated/samples/ancientmetagenome-hostassociated_samples.tsv"
+library_table_url = "https://raw.githubusercontent.com/SPAAM-community/AncientMetagenomeDir/b187df6ebd23dfeb42935fd5020cb615ead3f164/
+ancientmetagenome-hostassociated/libraries/ancientmetagenome-hostassociated_libraries.tsv"
 ```
 
 Getting help in Python
@@ -1048,7 +1052,19 @@ help(pd.read_csv)
 
     Help on function read_csv in module pandas.io.parsers.readers:
 
-    read_csv(filepath_or_buffer: 'FilePath | ReadCsvBuffer[bytes] | ReadCsvBuffer[str]', sep=<no_default>, delimiter=None, header='infer', names=<no_default>, index_col=None, usecols=None, squeeze=None, prefix=<no_default>, mangle_dupe_cols=True, dtype: 'DtypeArg | None' = None, engine: 'CSVEngine | None' = None, converters=None, true_values=None, false_values=None, skipinitialspace=False, skiprows=None, skipfooter=0, nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False, skip_blank_lines=True, parse_dates=None, infer_datetime_format=False, keep_date_col=False, date_parser=None, dayfirst=False, cache_dates=True, iterator=False, chunksize=None, compression: 'CompressionOptions' = 'infer', thousands=None, decimal: 'str' = '.', lineterminator=None, quotechar='"', quoting=0, doublequote=True, escapechar=None, comment=None, encoding=None, encoding_errors: 'str | None' = 'strict', dialect=None, error_bad_lines=None, warn_bad_lines=None, on_bad_lines=None, delim_whitespace=False, low_memory=True, memory_map=False, float_precision=None, storage_options: 'StorageOptions' = None)
+    read_csv(filepath_or_buffer: 'FilePath | ReadCsvBuffer[bytes] | ReadCsvBuffer[str]',
+    sep=<no_default>, delimiter=None, header='infer', names=<no_default>, index_col=None,
+    usecols=None, squeeze=None, prefix=<no_default>, mangle_dupe_cols=True,
+    dtype: 'DtypeArg | None' = None, engine: 'CSVEngine | None' = None, converters=None,
+    true_values=None, false_values=None, skipinitialspace=False, skiprows=None, skipfooter=0,
+    nrows=None, na_values=None, keep_default_na=True, na_filter=True, verbose=False,
+    skip_blank_lines=True, parse_dates=None, infer_datetime_format=False, keep_date_col=False,
+     date_parser=None, dayfirst=False, cache_dates=True, iterator=False, chunksize=None,
+     compression: 'CompressionOptions' = 'infer', thousands=None, decimal: 'str' = '.',
+     lineterminator=None, quotechar='"', quoting=0, doublequote=True, escapechar=None,
+     comment=None, encoding=None, encoding_errors: 'str | None' = 'strict', dialect=None,
+     error_bad_lines=None, warn_bad_lines=None, on_bad_lines=None, delim_whitespace=False,
+     low_memory=True, memory_map=False, float_precision=None, storage_options: 'StorageOptions' = None)
         Read a comma-separated values (csv) file into DataFrame.
 
         Also supports optionally iterating or breaking of the file
@@ -1437,7 +1453,7 @@ library_df.project_name.nunique()
 
     43
 
-### Listing the columns of the sample dataframe
+###### Listing the columns of the sample dataframe
 
 ```python
 sample_df.columns
@@ -1449,7 +1465,7 @@ sample_df.columns
            'archive_project', 'archive_accession'],
           dtype='object')
 
-### Looking at the data type of the sample dataframe
+###### Looking at the data type of the sample dataframe
 
 ```python
 sample_df.dtypes
@@ -1477,7 +1493,7 @@ sample_df.dtypes
 - `floating64` is for floating point precision numbers, also known as double in some other programing languages
 - `object` is a general type in pandas for everything that is not a number, interval, categorical, or date
 
-### Let's inspect our data
+###### Let's inspect our data
 
 What is the size of our dataframe ?
 
@@ -1920,7 +1936,7 @@ sample_df.sample(n=5)
 </table>
 </div>
 
-### Accessing the data by index/columns
+###### Accessing the data by index/columns
 
 The are different way of selecting of subset of a dataframe
 
@@ -2647,7 +2663,7 @@ sample_df.drop('project_name', axis=1)
 <p>1060 rows × 15 columns</p>
 </div>
 
-## 4 - Dealing with missing data
+##### 4 - Dealing with missing data
 
 Checking is some entries if the table have missing data (NA or NaN)
 
@@ -2970,7 +2986,7 @@ What to do now ? The ideal scenario would be to correct or impute the data.
 However, sometimes, the only thing we can do is remove the row with missing data, with the `.dropna() function`.  
 Here, we're just going to ignore them, and deal with it individually if necessary
 
-## 5 - Computing basic statistics
+##### 5 - Computing basic statistics
 
 TLDR: use the `describe()` function, the equivalent of `summarize` in R
 
@@ -3071,7 +3087,10 @@ We can run them on the whole dataframe (for `int` or `float` columns), or on a s
 sample_df.mean()
 ```
 
-    /var/folders/1c/l1qb09f15jddsh65f6xv1n_r0000gp/T/ipykernel_69168/2260452167.py:1: FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None') is deprecated; in a future version this will raise TypeError.  Select only valid columns before calling the reduction.
+    /var/folders/1c/l1qb09f15jddsh65f6xv1n_r0000gp/T/ipykernel_69168/2260452167.py:1:
+    FutureWarning: Dropping of nuisance columns in DataFrame reductions (with 'numeric_only=None')
+    is deprecated; in a future version this will raise TypeError.  Select only valid columns
+    before calling the reduction.
 
 
 
@@ -3188,7 +3207,7 @@ sample_df['publication_year'].plot.hist()
 
 ![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/tutorial_files/tutorial_74_1.png)
 
-## 6 - Filtering
+##### 6 - Filtering
 
 There are different ways of filtering data with Pandas:
 
@@ -3919,7 +3938,7 @@ sample_df.query("publication_year < 2015 and longitude > 0 ")
 </table>
 </div>
 
-## 7 - GroupBy operations, and computing statistics on grouped values
+##### 7 - GroupBy operations, and computing statistics on grouped values
 
 The "groupBy" operation, as the name suggests, allows us to group values by a grouping key, and perform a groupwise operation.  
 For example, we can group by the `sample_host` and get the age of the **youngest** sample in each group
@@ -3990,11 +4009,11 @@ sample_df.groupby("sample_host")["sample_host"].count()
     Ursus arctos                       85
     Name: sample_host, dtype: int64
 
-## 8 - Reshaping data, from wide to long and back
+##### 8 - Reshaping data, from wide to long and back
 
 <img src="https://www.researchgate.net/publication/332048735/figure/fig1/AS:741418188406792@1553779279709/The-wide-versus-tidy-data-format-In-the-wide-spreadsheet-like-data-format-each-column.png" width="600">
 
-### From wide to long/tidy
+###### From wide to long/tidy
 
 The tidy format, or long format idea is that one column = one kind of data.  
 Unfortunately for this tutorial, the AncientMetagenomeDir tables are already in the tidy format (good), so we'll see an example or the wide format just below
@@ -4143,9 +4162,7 @@ tidy_df
 </table>
 </div>
 
-#### Bonus
-
-How to deal with a dataframe with the kind of data indicated in the column name, typically like so
+> Bonus: How to deal with a dataframe with the kind of data indicated in the column name, typically like so
 
 ```python
 wide_df = pd.DataFrame(
@@ -4283,7 +4300,7 @@ pd.wide_to_long(wide_df, ['year'], i='individual', j='birthyear', sep="-").renam
 </table>
 </div>
 
-### From long/tidy to wide format using the `.pivot()` function.
+###### From long/tidy to wide format using the `.pivot()` function.
 
 ```python
 tidy_df.pivot(index='individual', columns='birthyear', values='height')
@@ -4342,7 +4359,7 @@ tidy_df.pivot(index='individual', columns='birthyear', values='height')
 </table>
 </div>
 
-## 9 - Joining two different tables
+##### 9 - Joining two different tables
 
 In AncientMetagenomeDir, the information about each sample is located in sample table, and about the library in the library table.  
 To match these two together, we need to join the tables together.
@@ -4688,7 +4705,7 @@ merged_df
 <p>1807 rows × 31 columns</p>
 </div>
 
-## 10 - Visualizing some of the results with Plotnine
+##### 10 - Visualizing some of the results with Plotnine
 
 Plotnine is the Python clone of ggplot2, the syntax is identical, which makes it great if you're working with data in tidy/long format, and are already familiar with the ggplot2 syntax
 
@@ -4696,7 +4713,9 @@ Plotnine is the Python clone of ggplot2, the syntax is identical, which makes it
 ggplot(merged_df, aes(x='publication_year')) + geom_histogram() + theme_classic()
 ```
 
-    /Users/maxime/mambaforge/envs/intro-data/lib/python3.10/site-packages/plotnine/stats/stat_bin.py:95: PlotnineWarning: 'stat_bin()' using 'bins = 15'. Pick better value with 'binwidth'.
+    /Users/maxime/mambaforge/envs/intro-data/lib/python3.10/
+    site-packages/plotnine/stats/stat_bin.py:95:
+    PlotnineWarning: 'stat_bin()' using 'bins = 15'. Pick better value with 'binwidth'.
 
 ![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/tutorial_files/tutorial_111_1.png)
 
@@ -4709,7 +4728,8 @@ merged_df['publication_year'] = merged_df['publication_year'].astype('category')
 ```
 
 ```python
-ggplot(merged_df, aes(x='publication_year', y='np.log10(read_count)', fill='publication_year')) + geom_jitter(alpha=0.1) + geom_boxplot(alpha=0.8) + theme_classic()
+ggplot(merged_df, aes(x='publication_year', y='np.log10(read_count)', fill='publication_year')) +
+geom_jitter(alpha=0.1) + geom_boxplot(alpha=0.8) + theme_classic()
 ```
 
 ![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/tutorial_files/tutorial_114_0.png)
@@ -4796,7 +4816,7 @@ ggplot(avg_read_count_by_year, aes(x='publication_year', y='np.log10(read_count)
 
 **Your turn ! Make a plot to investigate the relation between the type of library treatment throughout the publication years**
 
-## 11 - Bonus, dealing with ill-formatted columns
+##### 11 - Bonus, dealing with ill-formatted columns
 
 Sometimes, colums can contains entries which could be split in multiple columns, typically values separated by a comma.
 In AncientMetagenomeDir, this is the case with the archive accession column.
