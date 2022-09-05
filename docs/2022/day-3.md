@@ -5148,8 +5148,10 @@ for f in glob.glob("../data/raw/*"):
     subsample(f, outdir)
 ```
 
-    seqtk sample -s42 ../data/raw/ERR5766177_PE.mapped.hostremoved.fwd.fq.gz 1000000 > ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq
-    seqtk sample -s42 ../data/raw/ERR5766177_PE.mapped.hostremoved.rev.fq.gz 1000000 > ../data/subsampled/ERR5766177_PE.mapped.hostremoved.rev.fq_subsample_1000000.fastq
+    seqtk sample -s42 ../data/raw/ERR5766177_PE.mapped.hostremoved.fwd.fq.gz 1000000 >
+    ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq
+    seqtk sample -s42 ../data/raw/ERR5766177_PE.mapped.hostremoved.rev.fq.gz 1000000 >
+    ../data/subsampled/ERR5766177_PE.mapped.hostremoved.rev.fq_subsample_1000000.fastq
 
 ```python
 ! gzip -f ../data/subsampled/*.fastq
@@ -5170,8 +5172,6 @@ In this tutorial, we're going to go through the steps necessary to:
 ##### 0. Quick intro to Jupyter Notebooks
 
 This a markdown cell
-
-cdcd
 
 ```python
 print("This is a python cell")
@@ -5202,12 +5202,17 @@ To do so, I've used [nf-core/eager](https://github.com/nf-core/eager)
 
 I've already pre-processed the data, and the resulting cleaned files are available in the [data/eager_cleaned](data/eager_cleaned), but the basic eager command to do so is:
 
-` nextflow run nf-core/eager -profile <docker/singularity/podman/conda/institute> --input '*_R{1,2}.fastq.gz' --fasta 'human_genome.fasta' --hostremoval_input_fastq`
+```
+nextflow run nf-core/eager -profile <docker/singularity/podman/conda/institute> --input '*_R{1,2}.fastq.gz' \
+--fasta 'human_genome.fasta' --hostremoval_input_fastq
+```
 
 ##### 2. Adapter sequence trimming and low-quality bases trimming
 
-Sequencing adapters are small DNA sequences adding prior to DNA sequencing to allow the DNA fragments to attach to the sequencing flow cells. Because these adapters could interfere with downtstream analyses, we need to remove them before proceeding any further.
-Furthermore, because the quality of the sequencing is not always optimal, we need to remove bases of lower sequencing quality to might lead to spurious results in downstream analyses.
+Sequencing adapters are small DNA sequences adding prior to DNA sequencing to allow the DNA fragments to attach to the
+sequencing flow cells. Because these adapters could interfere with downtstream analyses, we need to remove them before
+proceeding any further. Furthermore, because the quality of the sequencing is not always optimal, we need to remove bases
+of lower sequencing quality to might lead to spurious results in downstream analyses.
 
 To perform both of these tasks, we'll use the program [fastp](https://github.com/OpenGene/fastp).
 
@@ -5222,46 +5227,68 @@ To perform both of these tasks, we'll use the program [fastp](https://github.com
       -o, --out1                           read1 output file name (string [=])
       -I, --in2                            read2 input file name (string [=])
       -O, --out2                           read2 output file name (string [=])
-          --unpaired1                      for PE input, if read1 passed QC but read2 not, it will be written to unpaired1. Default is to discard it. (string [=])
-          --unpaired2                      for PE input, if read2 passed QC but read1 not, it will be written to unpaired2. If --unpaired2 is same as --unpaired1 (default mode), both unpaired reads will be written to this same file. (string [=])
-          --overlapped_out                 for each read pair, output the overlapped region if it has no any mismatched base. (string [=])
+          --unpaired1                      for PE input, if read1 passed QC but read2 not, it will be written to unpaired1.
+                                           Default is to discard it. (string [=])
+          --unpaired2                      for PE input, if read2 passed QC but read1 not, it will be written to unpaired2.
+                                           If --unpaired2 is same as --unpaired1 (default mode), both unpaired reads will be
+                                           written to this same file. (string [=])
+          --overlapped_out                 for each read pair, output the overlapped region if it has no any mismatched
+                                           base. (string [=])
           --failed_out                     specify the file to store reads that cannot pass the filters. (string [=])
-      -m, --merge                          for paired-end input, merge each pair of reads into a single read if they are overlapped. The merged reads will be written to the file given by --merged_out, the unmerged reads will be written to the files specified by --out1 and --out2. The merging mode is disabled by default.
-          --merged_out                     in the merging mode, specify the file name to store merged output, or specify --stdout to stream the merged output (string [=])
-          --include_unmerged               in the merging mode, write the unmerged or unpaired reads to the file specified by --merge. Disabled by default.
-      -6, --phred64                        indicate the input is using phred64 scoring (it'll be converted to phred33, so the output will still be phred33)
+      -m, --merge                          for paired-end input, merge each pair of reads into a single read if they are
+                                           overlapped. The merged reads will be written
+                                           to the file given by --merged_out, the unmerged reads will be written to the
+                                           files specified by --out1 and --out2. The merging mode is disabled by default.
+          --merged_out                     in the merging mode, specify the file name to store merged output, or specify
+                                           --stdout to stream the merged output (string [=])
+          --include_unmerged               in the merging mode, write the unmerged or unpaired reads to the file specified
+                                           by --merge. Disabled by default.
+      -6, --phred64                        indicate the input is using phred64 scoring (it'll be converted to phred33,
+                                           so the output will still be phred33)
       -z, --compression                    compression level for gzip output (1 ~ 9). 1 is fastest, 9 is smallest, default is 4. (int [=4])
           --stdin                          input from STDIN. If the STDIN is interleaved paired-end FASTQ, please also add --interleaved_in.
-          --stdout                         stream passing-filters reads to STDOUT. This option will result in interleaved FASTQ output for paired-end output. Disabled by default.
-          --interleaved_in                 indicate that <in1> is an interleaved FASTQ which contains both read1 and read2. Disabled by default.
+          --stdout                         stream passing-filters reads to STDOUT. This option will result in interleaved
+                                           FASTQ output for paired-end output. Disabled by default.
+          --interleaved_in                 indicate that <in1> is an interleaved FASTQ which contains both read1 and read2.
+                                           Disabled by default.
           --reads_to_process               specify how many reads/pairs to be processed. Default 0 means process all reads. (int [=0])
           --dont_overwrite                 don't overwrite existing files. Overwritting is allowed by default.
           --fix_mgi_id                     the MGI FASTQ ID format is not compatible with many BAM operation tools, enable this option to fix it.
       -V, --verbose                        output verbose log information (i.e. when every 1M reads are processed).
       -A, --disable_adapter_trimming       adapter trimming is enabled by default. If this option is specified, adapter trimming is disabled
-      -a, --adapter_sequence               the adapter for read1. For SE data, if not specified, the adapter will be auto-detected. For PE data, this is used if R1/R2 are found not overlapped. (string [=auto])
-          --adapter_sequence_r2            the adapter for read2 (PE data only). This is used if R1/R2 are found not overlapped. If not specified, it will be the same as <adapter_sequence> (string [=auto])
+      -a, --adapter_sequence               the adapter for read1. For SE data, if not specified, the adapter will be auto-detected.
+                                           For PE data, this is used if R1/R2 are found not overlapped. (string [=auto])
+          --adapter_sequence_r2            the adapter for read2 (PE data only). This is used if R1/R2 are found not overlapped.
+                                           If not specified, it will be the same as <adapter_sequence> (string [=auto])
           --adapter_fasta                  specify a FASTA file to trim both read1 and read2 (if PE) by all the sequences in this FASTA file (string [=])
-          --detect_adapter_for_pe          by default, the auto-detection for adapter is for SE data input only, turn on this option to enable it for PE data.
+          --detect_adapter_for_pe          by default, the auto-detection for adapter is for SE data input only, turn on this
+                                        option to enable it for PE data.
       -f, --trim_front1                    trimming how many bases in front for read1, default is 0 (int [=0])
       -t, --trim_tail1                     trimming how many bases in tail for read1, default is 0 (int [=0])
-      -b, --max_len1                       if read1 is longer than max_len1, then trim read1 at its tail to make it as long as max_len1. Default 0 means no limitation (int [=0])
+      -b, --max_len1                       if read1 is longer than max_len1, then trim read1 at its tail to make it as
+                                           long as max_len1. Default 0 means no limitation (int [=0])
       -F, --trim_front2                    trimming how many bases in front for read2. If it's not specified, it will follow read1's settings (int [=0])
       -T, --trim_tail2                     trimming how many bases in tail for read2. If it's not specified, it will follow read1's settings (int [=0])
-      -B, --max_len2                       if read2 is longer than max_len2, then trim read2 at its tail to make it as long as max_len2. Default 0 means no limitation. If it's not specified, it will follow read1's settings (int [=0])
+      -B, --max_len2                       if read2 is longer than max_len2, then trim read2 at its tail to make it as long as max_len2.
+                                           Default 0 means no limitation. If it's not specified, it will follow read1's settings (int [=0])
       -D, --dedup                          enable deduplication to drop the duplicated reads/pairs
-          --dup_calc_accuracy              accuracy level to calculate duplication (1~6), higher level uses more memory (1G, 2G, 4G, 8G, 16G, 24G). Default 1 for no-dedup mode, and 3 for dedup mode. (int [=0])
+          --dup_calc_accuracy              accuracy level to calculate duplication (1~6), higher level uses more memory (1G, 2G, 4G, 8G, 16G, 24G).
+                                           Default 1 for no-dedup mode, and 3 for dedup mode. (int [=0])
           --dont_eval_duplication          don't evaluate duplication rate to save time and use less memory.
       -g, --trim_poly_g                    force polyG tail trimming, by default trimming is automatically enabled for Illumina NextSeq/NovaSeq data
           --poly_g_min_len                 the minimum length to detect polyG in the read tail. 10 by default. (int [=10])
       -G, --disable_trim_poly_g            disable polyG tail trimming, by default trimming is automatically enabled for Illumina NextSeq/NovaSeq data
       -x, --trim_poly_x                    enable polyX trimming in 3' ends.
           --poly_x_min_len                 the minimum length to detect polyX in the read tail. 10 by default. (int [=10])
-      -5, --cut_front                      move a sliding window from front (5') to tail, drop the bases in the window if its mean quality < threshold, stop otherwise.
-      -3, --cut_tail                       move a sliding window from tail (3') to front, drop the bases in the window if its mean quality < threshold, stop otherwise.
-      -r, --cut_right                      move a sliding window from front to tail, if meet one window with mean quality < threshold, drop the bases in the window and the right part, and then stop.
+      -5, --cut_front                      move a sliding window from front (5') to tail, drop the bases in the window if
+                                           its mean quality < threshold, stop otherwise.
+      -3, --cut_tail                       move a sliding window from tail (3') to front, drop the bases in the window if
+                                           its mean quality < threshold, stop otherwise.
+      -r, --cut_right                      move a sliding window from front to tail, if meet one window with mean quality
+                                           < threshold, drop the bases in the window and the right part, and then stop.
       -W, --cut_window_size                the window size option shared by cut_front, cut_tail or cut_sliding. Range: 1~1000, default: 4 (int [=4])
-      -M, --cut_mean_quality               the mean quality requirement option shared by cut_front, cut_tail or cut_sliding. Range: 1~36 default: 20 (Q20) (int [=20])
+      -M, --cut_mean_quality               the mean quality requirement option shared by cut_front, cut_tail or cut_sliding.
+                                           Range: 1~36 default: 20 (Q20) (int [=20])
           --cut_front_window_size          the window size option of cut_front, default to cut_window_size if not specified (int [=4])
           --cut_front_mean_quality         the mean quality requirement option for cut_front, default to cut_mean_quality if not specified (int [=20])
           --cut_tail_window_size           the window size option of cut_tail, default to cut_window_size if not specified (int [=4])
@@ -5272,33 +5299,43 @@ To perform both of these tasks, we'll use the program [fastp](https://github.com
       -q, --qualified_quality_phred        the quality value that a base is qualified. Default 15 means phred quality >=Q15 is qualified. (int [=15])
       -u, --unqualified_percent_limit      how many percents of bases are allowed to be unqualified (0~100). Default 40 means 40% (int [=40])
       -n, --n_base_limit                   if one read's number of N base is >n_base_limit, then this read/pair is discarded. Default is 5 (int [=5])
-      -e, --average_qual                   if one read's average quality score <avg_qual, then this read/pair is discarded. Default 0 means no requirement (int [=0])
+      -e, --average_qual                   if one read's average quality score <avg_qual, then this read/pair is discarded.
+                                           Default 0 means no requirement (int [=0])
       -L, --disable_length_filtering       length filtering is enabled by default. If this option is specified, length filtering is disabled
       -l, --length_required                reads shorter than length_required will be discarded, default is 15. (int [=15])
           --length_limit                   reads longer than length_limit will be discarded, default 0 means no limitation. (int [=0])
-      -y, --low_complexity_filter          enable low complexity filter. The complexity is defined as the percentage of base that is different from its next base (base[i] != base[i+1]).
+      -y, --low_complexity_filter          enable low complexity filter. The complexity is defined as the percentage of base
+                                           that is different from its next base (base[i] != base[i+1]).
       -Y, --complexity_threshold           the threshold for low complexity filter (0~100). Default is 30, which means 30% complexity is required. (int [=30])
           --filter_by_index1               specify a file contains a list of barcodes of index1 to be filtered out, one barcode per line (string [=])
           --filter_by_index2               specify a file contains a list of barcodes of index2 to be filtered out, one barcode per line (string [=])
           --filter_by_index_threshold      the allowed difference of index barcode for index filtering, default 0 means completely identical. (int [=0])
       -c, --correction                     enable base correction in overlapped regions (only for PE data), default is disabled
-          --overlap_len_require            the minimum length to detect overlapped region of PE reads. This will affect overlap analysis based PE merge, adapter trimming and correction. 30 by default. (int [=30])
-          --overlap_diff_limit             the maximum number of mismatched bases to detect overlapped region of PE reads. This will affect overlap analysis based PE merge, adapter trimming and correction. 5 by default. (int [=5])
-          --overlap_diff_percent_limit     the maximum percentage of mismatched bases to detect overlapped region of PE reads. This will affect overlap analysis based PE merge, adapter trimming and correction. Default 20 means 20%. (int [=20])
+          --overlap_len_require            the minimum length to detect overlapped region of PE reads. This will affect overlap analysis based PE merge,
+                                           adapter trimming and correction. 30 by default. (int [=30])
+          --overlap_diff_limit             the maximum number of mismatched bases to detect overlapped region of PE reads.
+                                           This will affect overlap analysis based PE merge, adapter trimming and correction. 5 by default. (int [=5])
+          --overlap_diff_percent_limit     the maximum percentage of mismatched bases to detect overlapped region of PE reads.
+                                           This will affect overlap analysis based PE merge, adapter trimming and correction. Default 20 means 20%. (int [=20])
       -U, --umi                            enable unique molecular identifier (UMI) preprocessing
           --umi_loc                        specify the location of UMI, can be (index1/index2/read1/read2/per_index/per_read, default is none (string [=])
           --umi_len                        if the UMI is in read1/read2, its length should be provided (int [=0])
-          --umi_prefix                     if specified, an underline will be used to connect prefix and UMI (i.e. prefix=UMI, UMI=AATTCG, final=UMI_AATTCG). No prefix by default (string [=])
+          --umi_prefix                     if specified, an underline will be used to connect prefix and UMI (i.e.
+                                           prefix=UMI, UMI=AATTCG, final=UMI_AATTCG). No prefix by default (string [=])
           --umi_skip                       if the UMI is in read1/read2, fastp can skip several bases following UMI, default is 0 (int [=0])
       -p, --overrepresentation_analysis    enable overrepresented sequence analysis.
-      -P, --overrepresentation_sampling    one in (--overrepresentation_sampling) reads will be computed for overrepresentation analysis (1~10000), smaller is slower, default is 20. (int [=20])
+      -P, --overrepresentation_sampling    one in (--overrepresentation_sampling) reads will be computed for overrepresentation
+                                           analysis (1~10000), smaller is slower, default is 20. (int [=20])
       -j, --json                           the json format report file name (string [=fastp.json])
       -h, --html                           the html format report file name (string [=fastp.html])
       -R, --report_title                   should be quoted with ' or ", default is "fastp report" (string [=fastp report])
       -w, --thread                         worker thread number, default is 3 (int [=3])
-      -s, --split                          split output by limiting total split file number with this option (2~999), a sequential number prefix will be added to output name ( 0001.out.fq, 0002.out.fq...), disabled by default (int [=0])
-      -S, --split_by_lines                 split output by limiting lines of each file with this option(>=1000), a sequential number prefix will be added to output name ( 0001.out.fq, 0002.out.fq...), disabled by default (long [=0])
-      -d, --split_prefix_digits            the digits for the sequential number padding (1~10), default is 4, so the filename will be padded as 0001.xxx, 0 to disable padding (int [=4])
+      -s, --split                          split output by limiting total split file number with this option (2~999), a sequential number prefix
+                                           will be added to output name ( 0001.out.fq, 0002.out.fq...), disabled by default (int [=0])
+      -S, --split_by_lines                 split output by limiting lines of each file with this option(>=1000), a sequential number prefix will be
+                                           added to output name ( 0001.out.fq, 0002.out.fq...), disabled by default (long [=0])
+      -d, --split_prefix_digits            the digits for the sequential number padding (1~10), default is 4, so the filename will be padded as
+                                           0001.xxx, 0 to disable padding (int [=4])
           --cut_by_quality5                DEPRECATED, use --cut_front instead.
           --cut_by_quality3                DEPRECATED, use --cut_tail instead.
           --cut_by_quality_aggressive      DEPRECATED, use --cut_right instead.
@@ -5358,7 +5395,10 @@ fastp \
     JSON report: ../results/fastp/ERR5766177.fastp.json
     HTML report: ../results/fastp/ERR5766177.fastp.html
 
-    fastp --in1 ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq.gz --in2 ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq.gz --merge --merged_out ../results/fastp/ERR5766177.merged.fastq.gz --include_unmerged --dedup --json ../results/fastp/ERR5766177.fastp.json --html ../results/fastp/ERR5766177.fastp.html
+    fastp --in1 ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq.gz \
+    --in2 ../data/subsampled/ERR5766177_PE.mapped.hostremoved.fwd.fq_subsample_1000000.fastq.gz --merge \
+    --merged_out ../results/fastp/ERR5766177.merged.fastq.gz --include_unmerged --dedup \
+    --json ../results/fastp/ERR5766177.fastp.json --html ../results/fastp/ERR5766177.fastp.html
     fastp v0.23.2, time used: 11 seconds
 
 ##### 3. Taxonomic profiling with Metaphlan
@@ -5390,7 +5430,8 @@ fastp \
      MetaPhlAn version 3.1.0 (25 Jul 2022):
      METAgenomic PHyLogenetic ANalysis for metagenomic taxonomic profiling.
 
-    AUTHORS: Francesco Beghini (francesco.beghini@unitn.it),Nicola Segata (nicola.segata@unitn.it), Duy Tin Truong, Francesco Asnicar (f.asnicar@unitn.it), Aitor Blanco Miguez (aitor.blancomiguez@unitn.it)
+    AUTHORS: Francesco Beghini (francesco.beghini@unitn.it),Nicola Segata (nicola.segata@unitn.it), Duy Tin Truong,
+    Francesco Asnicar (f.asnicar@unitn.it), Aitor Blanco Miguez (aitor.blancomiguez@unitn.it)
 
     COMMON COMMANDS
 
@@ -5422,7 +5463,8 @@ fastp \
 
     *  You can also provide an externally BowTie2-mapped SAM if you specify this format with
        --input_type. Two steps: first apply BowTie2 and then feed MetaPhlAn with the obtained sam:
-    $ bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive -S metagenome.sam -x ${mpa_dir}/metaphlan_databases/mpa_v30_CHOCOPhlAn_201901 -U metagenome.fastq
+    $ bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive -S metagenome.sam -x \
+      ${mpa_dir}/metaphlan_databases/mpa_v30_CHOCOPhlAn_201901 -U metagenome.fastq
     $ metaphlan metagenome.sam --input_type sam -o profiled_metagenome.txt
 
     *  We can also natively handle paired-end metagenomes, and, more generally, metagenomes stored in
@@ -5463,7 +5505,8 @@ fastp \
        is reporting the presence/absence of the markers for the B. fragilis species and its strains
        the optional argument --min_ab specifies the minimum clade abundance for reporting the markers
 
-    $ metaphlan -t clade_specific_strain_tracker --clade s__Bacteroides_fragilis metagenome_outfmt.bz2 --input_type bowtie2out -o marker_abundance_table.txt
+    $ metaphlan -t clade_specific_strain_tracker --clade s__Bacteroides_fragilis metagenome_outfmt.bz2 --input_typ
+      bowtie2out -o marker_abundance_table.txt
 
     -------------------------------------------------------------------
 
@@ -5488,7 +5531,9 @@ fastp \
     Mapping arguments:
       --force               Force profiling of the input file by removing the bowtie2out file
       --bowtie2db METAPHLAN_BOWTIE2_DB
-                            Folder containing the MetaPhlAn database. You can specify the location by exporting the DEFAULT_DB_FOLDER variable in the shell.[default /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/metaphlan/metaphlan_databases]
+                            Folder containing the MetaPhlAn database. You can specify the location by exporting the
+                            DEFAULT_DB_FOLDER variable in the shell.
+                            [default /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/metaphlan/metaphlan_databases]
       -x INDEX, --index INDEX
                             Specify the id of the database version to use. If "latest", MetaPhlAn will get the latest version.
                             If an index name is provided, MetaPhlAn will try to use it, if available, and skip the online check.
@@ -5503,7 +5548,8 @@ fastp \
                              * very-sensitive-local
                             [default very-sensitive]
       --bowtie2_exe BOWTIE2_EXE
-                            Full path and name of the BowTie2 executable. This option allowsMetaPhlAn to reach the executable even when it is not in the system PATH or the system PATH is unreachable
+                            Full path and name of the BowTie2 executable. This option allowsMetaPhlAn to reach the
+                            executable even when it is not in the system PATH or the system PATH is unreachable
       --bowtie2_build BOWTIE2_BUILD
                             Full path to the bowtie2-build command to use, deafult assumes that 'bowtie2-build is present in the system path
       --bowtie2out FILE_NAME
@@ -5557,7 +5603,8 @@ fastp \
     Additional analysis types and arguments:
       -t ANALYSIS TYPE      Type of analysis to perform:
                              * rel_ab: profiling a metagenomes in terms of relative abundances
-                             * rel_ab_w_read_stats: profiling a metagenomes in terms of relative abundances and estimate the number of reads coming from each clade.
+                             * rel_ab_w_read_stats: profiling a metagenomes in terms of relative abundances and estimate
+                                                    the number of reads coming from each clade.
                              * reads_map: mapping from reads to clades (only reads hitting a marker)
                              * clade_profiles: normalized marker counts for clades with at least a non-null marker
                              * marker_ab_table: normalized marker counts (only when > 0.0 and normalized by metagenome size if --nreads is specified)
@@ -5597,7 +5644,8 @@ fastp \
       --install             Only checks if the MetaPhlAn DB is installed and installs it if not. All other parameters are ignored.
       --force_download      Force the re-download of the latest MetaPhlAn database.
       --read_min_len READ_MIN_LEN
-                            Specify the minimum length of the reads to be considered when parsing the input file with 'read_fastx.py' script, default value is 70
+                            Specify the minimum length of the reads to be considered when parsing the input file with
+                            'read_fastx.py' script, default value is 70
       -v, --version         Prints the current MetaPhlAn version and exit
       -h, --help            show this help message and exit
 
@@ -5609,7 +5657,8 @@ metaphlan ../results/fastp/ERR5766177.merged.fastq.gz  \
     > ../results/metaphlan/ERR5766177.metaphlan_profile.txt
 ```
 
-The main results files that we're interested in is located at [../results/metaphlan/ERR5766177.metaphlan_profile.txt](../results/metaphlan/ERR5766177.metaphlan_profile.txt)
+The main results files that we're interested in is located at
+[../results/metaphlan/ERR5766177.metaphlan_profile.txt](../results/metaphlan/ERR5766177.metaphlan_profile.txt)
 
 It's a tab separated file, with taxons in rows, with their relative abundance in the sample
 
@@ -5618,7 +5667,8 @@ It's a tab separated file, with taxons in rows, with their relative abundance in
 ```
 
     #mpa_v30_CHOCOPhlAn_201901
-    #/home/maxime_borry/.conda/envs/maxime/envs/summer_school_microbiome/bin/metaphlan ../results/fastp/ERR5766177.merged.fastq.gz --input_type fastq --bowtie2out ../results/metaphlan/ERR5766177.bt2.out --nproc 8
+    #/home/maxime_borry/.conda/envs/maxime/envs/summer_school_microbiome/bin/metaphlan ../results/fastp/ERR5766177.merged.fastq.gz \
+    --input_type fastq --bowtie2out ../results/metaphlan/ERR5766177.bt2.out --nproc 8
     #SampleID	Metaphlan_Analysis
     #clade_name	NCBI_tax_id	relative_abundance	additional_species
     k__Bacteria	2	82.23198
@@ -5670,7 +5720,8 @@ ktImportText -o ../results/krona/ERR5766177_krona.html ../results/krona/ERR57661
 
 ##### 5. Getting modern reference data
 
-In order to compare our sample with modern reference samples, I used the curatedMetagenomicsData package, which provides both curated metadata, and pre-computed metaphlan taxonomic profiles for published modern human samples.
+In order to compare our sample with modern reference samples, I used the curatedMetagenomicsData package,
+which provides both curated metadata, and pre-computed metaphlan taxonomic profiles for published modern human samples.
 The full R code to get these data is available in [curatedMetagenomics/get_sources.Rmd](./curatedMetagenomics/get_sources.Rmd)
 
 I pre-selected 200 gut microbiome samples from non-westernized (100) and westernized (100) from healthy, non-antibiotic users donors.
@@ -5699,8 +5750,10 @@ for (r in names(data_ranks)){
 
 ```
 
-- The resulting metaphlan taxonomic profiles (split by taxonomic ranks) are available at [../data/curated_metagenomics](../data/curated_metagenomics)
-- The associated metadata is available at [../data/metadata/curated_metagenomics_modern_sources.csv](../data/metadata/curated_metagenomics_modern_sources.csv)
+- The resulting metaphlan taxonomic profiles (split by taxonomic ranks) are available at
+- [../data/curated_metagenomics](../data/curated_metagenomics)
+- The associated metadata is available at
+- [../data/metadata/curated_metagenomics_modern_sources.csv](../data/metadata/curated_metagenomics_modern_sources.csv)
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Taxonomic_Rank_Graph.svg/800px-Taxonomic_Rank_Graph.svg.png" alt="Taxonomic ranks" width="400">
 
@@ -5732,7 +5785,8 @@ with gzip.open("../data/taxopy/taxdb.p.gz", 'rb') as tdb:
 ```
 
     #mpa_v30_CHOCOPhlAn_201901
-    #/home/maxime_borry/.conda/envs/maxime/envs/summer_school_microbiome/bin/metaphlan ../results/fastp/ERR5766177.merged.fastq.gz --input_type fastq --bowtie2out ../results/metaphlan/ERR5766177.bt2.out --nproc 8
+    #/home/maxime_borry/.conda/envs/maxime/envs/summer_school_microbiome/bin/metaphlan ../results/fastp/ERR5766177.merged.fastq.gz
+    --input_type fastq --bowtie2out ../results/metaphlan/ERR5766177.bt2.out --nproc 8
     #SampleID	Metaphlan_Analysis
     #clade_name	NCBI_tax_id	relative_abundance	additional_species
     k__Bacteria	2	82.23198
@@ -5743,7 +5797,10 @@ with gzip.open("../data/taxopy/taxdb.p.gz", 'rb') as tdb:
     k__Archaea|p__Euryarchaeota	2157|28890	17.76802
 
 ```python
-ancient_data = pd.read_csv("../results/metaphlan/ERR5766177.metaphlan_profile.txt", comment="#", delimiter="\t", names=['clade_name','NCBI_tax_id','relative_abundance','additional_species'])
+ancient_data = pd.read_csv("../results/metaphlan/ERR5766177.metaphlan_profile.txt",
+                            comment="#",
+                            delimiter="\t",
+                            names=['clade_name','NCBI_tax_id','relative_abundance','additional_species'])
 ```
 
 ```python
@@ -5919,7 +5976,8 @@ ancient_data.sample(10)
 </table>
 </div>
 
-Because for this analysis, we're only going to look at the relative abundance, we'll only this column, an the [TAXID](https://www.ncbi.nlm.nih.gov/taxonomy) information
+Because for this analysis, we're only going to look at the relative abundance, we'll only this column, an
+the [TAXID](https://www.ncbi.nlm.nih.gov/taxonomy) information
 
 ```python
 ancient_data = (
@@ -7023,7 +7081,9 @@ group_info = (
 group_info
 ```
 
-    /var/folders/1c/l1qb09f15jddsh65f6xv1n_r0000gp/T/ipykernel_40830/27419655.py:2: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    /var/folders/1c/l1qb09f15jddsh65f6xv1n_r0000gp/T/ipykernel_40830/27419655.py:2:
+    FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version.
+    Use pandas.concat instead.
       metadata['non_westernized']
 
 <div>
@@ -7110,7 +7170,8 @@ group_info
 <p>201 rows × 2 columns</p>
 </div>
 
-We need transform our data in [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) format to plot with [plotnine](https://plotnine.readthedocs.io/en/stable/), a python clone of [ggplot](https://ggplot2.tidyverse.org/index.html).  
+We need transform our data in [tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) format to
+plot with [plotnine](https://plotnine.readthedocs.io/en/stable/), a python clone of [ggplot](https://ggplot2.tidyverse.org/index.html).  
 We then add the group information (Westernized, non westernized, or ancient sample), and compute the mean abundance for each phylum.
 
 First we transpose the dataframe to have the samples as index, and the phylums as columns
@@ -7476,7 +7537,7 @@ ggplot(tidy_phylums, aes(x='group', y='relative_abundance', fill='Phylum')) \
 + theme_classic()
 ```
 
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_80_0.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_80_0.png)
 
     <ggplot: (406187548)>
 
@@ -7485,13 +7546,15 @@ ggplot(tidy_phylums, aes(x='group', y='relative_abundance', fill='Phylum')) \
 ####### 7.2.1 Alpha diversity
 
 Alpha diversity is the measure of diversity withing each sample. It is used to estimate how many species are present in a sample, and how diverse they are.  
-We'll use the python library [scikit-bio](http://scikit-bio.org/) to compute it, and the [plotnine](https://plotnine.readthedocs.io/) library (a python port of [ggplot2](https://ggplot2.tidyverse.org/reference/ggplot.html) to visualize the results).
+We'll use the python library [scikit-bio](http://scikit-bio.org/) to compute it, and the [plotnine](https://plotnine.readthedocs.io/) library
+(a python port of [ggplot2](https://ggplot2.tidyverse.org/reference/ggplot.html) to visualize the results).
 
 ```python
 import skbio
 ```
 
-Let's compute the [species richness](https://en.wikipedia.org/wiki/Species_richness), the [Shannon, and Simpson index of diversity](https://www.biologydiscussion.com/biodiversity/types/2-types-of-diversity-indices-of-biodiversity/8388) index
+Let's compute the [species richness](https://en.wikipedia.org/wiki/Species_richness), the
+[Shannon, and Simpson index of diversity](https://www.biologydiscussion.com/biodiversity/types/2-types-of-diversity-indices-of-biodiversity/8388) index
 
 ```python
 shannon = skbio.diversity.alpha_diversity(metric='shannon', counts=all_species.transpose(), ids=all_species.columns)
@@ -7852,20 +7915,13 @@ g += theme(subplots_adjust={'wspace': 0.15})
 g
 ```
 
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:152: PlotnineWarning: To compute the density of a group with only one value set the bandwidth manually. e.g `bw=0.1`
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:155: PlotnineWarning: Groups with fewer than 2 data points have been removed.
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:152: PlotnineWarning: To compute the density of a group with only one value set the bandwidth manually. e.g `bw=0.1`
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:155: PlotnineWarning: Groups with fewer than 2 data points have been removed.
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:152: PlotnineWarning: To compute the density of a group with only one value set the bandwidth manually. e.g `bw=0.1`
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/plotnine/stats/stat_density.py:155: PlotnineWarning: Groups with fewer than 2 data points have been removed.
-
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_91_1.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_91_1.png)
 
     <ggplot: (407407577)>
 
 **Pause and think: Why do we observe a smaller species richness and diversity in our sample ?**
 
-####### 7.2.2 Beta diversity
+###### 7.2.2 Beta diversity
 
 The Beta diversity is the measure of diversity between a pair of samples. It is used to compare the diversity between samples and see how they relate.
 
@@ -7899,7 +7955,10 @@ To visualize this distance matrix in a lower dimensional space, we'll use a [PCo
 pcoa = skbio.stats.ordination.pcoa(beta_diversity)
 ```
 
-    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:143: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.25334842745723996 and the largest is 10.204440747987945.
+    /Users/maxime/mambaforge/envs/summer_school_microbiome/lib/python3.9/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:143: RuntimeWarning:
+    The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues.
+    If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful.
+    See the Notes section for more details. The smallest eigenvalue is -0.25334842745723996 and the largest is 10.204440747987945.
 
 ```python
 pcoa.samples
@@ -8230,7 +8289,7 @@ ggplot(var_explained, aes(x='PC', y='variance explained', group=1)) \
 + theme_classic()
 ```
 
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_102_0.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_102_0.png)
 
     <ggplot: (407531271)>
 
@@ -8259,15 +8318,18 @@ ggplot(pcoa_embed, aes(x='PC1', y='PC2', color='group')) \
 + scale_color_manual({'ERR5766177':'#DB5F57','westernized':'#5F57DB','non_westernized':'#57DB5E'})
 ```
 
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_107_0.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_107_0.png)
 
     <ggplot: (407572134)>
 
 ```python
-ggplot(pcoa_embed, aes(x='PC1', y='PC3', color='group')) + geom_point() + theme_classic() + scale_color_manual({'ERR5766177':'#DB5F57','westernized':'#5F57DB','non_westernized':'#57DB5E'})
+ggplot(pcoa_embed, aes(x='PC1', y='PC3', color='group')) +
+geom_point() +
+theme_classic() +
+scale_color_manual({'ERR5766177':'#DB5F57','westernized':'#5F57DB','non_westernized':'#57DB5E'})
 ```
 
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_108_0.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_108_0.png)
 
     <ggplot: (407612651)>
 
@@ -8276,7 +8338,10 @@ Then with a 3d plot
 ```python
 import plotly.express as px
 
-fig = px.scatter_3d(pcoa_embed, x="PC1", y="PC2", z="PC3", color = "group", color_discrete_map={'ERR5766177':'#DB5F57','westernized':'#5F57DB','non_westernized':'#57DB5E'}, hover_name="sample")
+fig = px.scatter_3d(pcoa_embed, x="PC1", y="PC2", z="PC3",
+                  color = "group",
+                  color_discrete_map={'ERR5766177':'#DB5F57','westernized':'#5F57DB','non_westernized':'#57DB5E'},
+                  hover_name="sample")
 fig.show()
 ```
 
@@ -8308,7 +8373,7 @@ sns.clustermap(
 
     <seaborn.matrix.ClusterGrid at 0x185b56100>
 
-![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/analysis_files/analysis_115_1.png)
+![png](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3c-intro-to-taxprofiling/analysis_files/analysis_115_1.png)
 
 ##### 8. Additional steps
 
@@ -8339,7 +8404,9 @@ all_species_counts.to_csv("../results/sourcetracker2/all_species_counts.tsv", se
 Converting to [`biom` format](https://biom-format.org/)
 
 ```python
-!biom convert -i ../results/sourcetracker2/all_species_counts.tsv -o ../results/sourcetracker2/all_species_counts.biom --table-type="Taxon table" --to-hdf5
+!biom convert -i ../results/sourcetracker2/all_species_counts.tsv \
+-o ../results/sourcetracker2/all_species_counts.biom \
+--table-type="Taxon table" --to-hdf5
 ```
 
 Converting the metadata to Sourtracker format
@@ -8357,7 +8424,8 @@ st2_metadata = st2_metadata.groupby('Env').sample(10).reset_index()
 ```
 
 ```python
-st2_metadata = st2_metadata.append({'#SampleID':'ERR5766177', 'Env':'-','SourceSink':'sink'}, ignore_index=True)[['#SampleID','SourceSink','Env']].set_index('#SampleID')
+st2_metadata = st2_metadata.append({'#SampleID':'ERR5766177', 'Env':'-','SourceSink':'sink'},
+                                   ignore_index=True)[['#SampleID','SourceSink','Env']].set_index('#SampleID')
 ```
 
     /var/folders/1c/l1qb09f15jddsh65f6xv1n_r0000gp/T/ipykernel_40830/2882312005.py:1: FutureWarning:
