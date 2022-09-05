@@ -14,6 +14,8 @@ The first section will introduce phylognenetic trees and a set of core terms and
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5a-intro-to-evobio/SPAAM%20Summer%20School%202022%20-%205A%20-%20Evolutionary%20Biology%20and%20Phylogenetics.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/V5VG4aEBeWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 ### Readings
@@ -42,6 +44,8 @@ In this session, we will introduce basic phylogenetic concepts and definitions, 
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/SPAAM%20Summer%20School%202022%20-%205B%20-%20Phylogenomics.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/eg-0S5S7EpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 ### Readings
@@ -59,6 +63,8 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTbQRU__-fDvsJ09fd1KeZxGRDrtLD8Ab0ZLagN-4s9CKDfv4ekJlyv4RdQBkBPFj4hdjhY1Un4dRAg/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5c-intro-to-functional-analysis/SPAAM%20Summer%20School%202022%20-%205C%20-%20Function%20Analysis.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/WcwmfiasBGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Walkthrough
 

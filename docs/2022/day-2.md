@@ -12,6 +12,8 @@
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2a-intro-to-adna/SPAAM%20Summer%20School%202022%20-%202A%20-%20Intro%20to%20Ancient%20DNA.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/_8VE72Od7Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 ### Readings
@@ -62,6 +64,8 @@ In this practical session, we will introduce 'Git', an extremely popular version
 
 PDF version of these slides can be downloaded from [here](<https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2b-intro-to-github/SPAAM%20Summer%20School%202022%20-%202B%20-%20Introduction%20to%20Git(Hub).pdf>).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/Eh9TldDahW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 - [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
@@ -106,6 +110,8 @@ AncientMetagenomeDir is a community project from the SPAAM community to make anc
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkO7KH9YEmHCjMlCRhoxtZrDxZ0cKnsPazEAS3PspBGuhAtA9qhQ0wnPXg64cZrAJZQECngZFfjTRL/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/SPAAM%20Summer%20School%202022%20-%202C%20-%20AncientMetagenomeDir.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/3cYSJtqkNJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Walkthrough
 
@@ -398,6 +404,8 @@ In this practical session we will learn how to perform basic analyses with nf-co
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ96Xk7UUc71fwdjxCEgxPoGPLiO6xKRLAH5scnGnZrFm3WK5AEndp9mpwzWJQeD4SLjKhWU6BGs92t/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2d-intro-to-nfcoreeager/SPAAM%20Summer%20School%202022%20-%202D%20-%20Introduction%20to%20nf-core_eager.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/qDjkUfcGmmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resources
 

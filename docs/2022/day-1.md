@@ -12,6 +12,8 @@ Introduction to the course and general organisation details.
 
 PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/0a-welcome/SPAAM%20Summer%20School%202022%20-%200A%20-%20Welcome%20and%20Organisational.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/pHyMGa7U8sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Lecture 1A: Introduction to NGS data
 
 **Instructors**: James Fellows Yates
@@ -35,6 +37,8 @@ DNA sequence output of NGS sequencing machines.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQA8VEi99wl-vMrZDAItfQ7GlXEjyVJEm-Np6j-GBfzGWDz709lOh-IFh2LKzV3WJGUAQ9HvhxHfich/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/main/docs/assets/slides/2022/1a-intro-to-ngs/SPAAM%20Summer%20School%202022%20-%201A%20-%20Introduction%20to%20NGS%20Data.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/ZHlwjD08FBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resources
 
@@ -93,6 +97,8 @@ PDF version of these slides can be downloaded from [here](https://raw.githubuser
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/G-5mFVLHyno" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 - [https://google.com](https://google.com) (no, not kidding, should always be your first solution!)
@@ -116,6 +122,8 @@ PDF version of these slides can be downloaded from [here](https://raw.githubuser
 
 The teaching material for the FULL BareBonesBash course can be found on the [BareBonesBash
 website](https://barebonesbash.github.io/)
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/tskW3Ydu4X4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resources
 

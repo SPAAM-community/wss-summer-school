@@ -16,6 +16,8 @@ In this lecture I will provide examples for how to utilise data from ancient gen
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4a-intro-to-microbial-genomics/SPAAM%20Summer%20School%202022%20-%204A%20-%20Intro%20to%20Microbial%20Genomics.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/3To619V6BpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 ### Readings
@@ -45,6 +47,8 @@ In this session we will take a look at specific challenges during read mapping w
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSJ9ZUd53kHpZkROVNy_RDIv6XhtbHF5w_WAtEDm6_ZXb2zf0v8DZHLYIWyzzWjFc1fPn7J9fI8n_bN/embed?start=true&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4b-intro-to-mapping/SPAAM%20Summer%20School%202022%20-%204B%20-%20Genome%20Mapping.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/tavrcV2D5ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Walkthrough
 
@@ -505,6 +509,8 @@ In this session, we will show you how to prepare your sequencing data and subseq
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQiyXe-6yn1hfaoibwI8DBYHubQxEd_WEvXte6JqyyjnuY8DXfP64360tRvhmRxOPAoM4Gt6hqKG5ts/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/4c-intro-to-denovoassembly/SPAAM%20Summer%20School%202022%20-%204C%20-%20Genome%20Assembly.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/1-o4449Hu4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resources
 

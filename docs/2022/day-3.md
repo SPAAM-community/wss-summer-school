@@ -12,6 +12,8 @@
 
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3a-intro-to-metagenomics/SPAAM%20Summer%20School%202022%20-%203A%20-%20Intro%20to%20Metagenomics.pdf).
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/O5IE5wgckLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Resources
 
 ### Readings
@@ -67,6 +69,8 @@ This session will be targeted at beginners without much previous experience with
 <iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/nevrome/spaam_r_tidyverse_intro_2h/main/presentation.pdf&embedded=true" width="960" height="569"></iframe>
 
 PDF version of these slides can be downloaded from [here](https://github.com/nevrome/spaam_r_tidyverse_intro_2h/raw/main/presentation.pdf).
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/b32FRYWwSrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Walkthrough
 
@@ -906,6 +910,8 @@ This session is meant for participants with a basic experience in R/tidyverse, b
 PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/3b2-python-pandas/SPAAM%20Summer%20School%202022%20-%203B2%20-%20Intro%20to%20Python%20and%20Pandas.pdf).
 
 This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/intro-to-pandas-plotnine). However, it will already be installed on compute nodes during the summer school.
+
+<iframe width="560" height="630" src="https://www.youtube.com/embed/V_EKs_zlO1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Walkthrough
 
