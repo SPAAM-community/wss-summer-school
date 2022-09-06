@@ -97,15 +97,28 @@ Next, generate your own ssh key, replacing the email below with your own address
 	
 I recommend saving the file to the default location and skipping passphrase setup. To do this, simply press enter without typing anything.
 
-You should now (hopefully!) have generated an ssh key. To check that it worked, run the following commands to list the files containing your public and private keys and check that the ssh agent is running. 
+You should now (hopefully!) have generated an ssh key. To check that it worked, run the following commands to list the files containing your public and private keys and check that the ssh program is running. 
 
 ```
-	cd ~/.ssh/
-	ls id*
-	eval "$(ssh-agent -s)"
+cd ~/.ssh/
+ls id*
+eval "$(ssh-agent -s)"
 ```
 	
+Now you need to give ssh your key to record:
 
+```ssh-add ~/.ssh/id_ed15519```
+	
+Next, open your webbrowser and navigate to your github account. Go to settings -> SSH & GPG Keys -> New SSH Key. Give you key a title and paste the public key that you just generated on your local machine. 
+	
+```cat ~/.ssh/id_ed15519```
+
+Finally, press Add SSH key. To check that it worked, run the following command on your local machine. You should see a message telling you that you've successfully authenticated.
+	
+```ssh -T git@github.com```
+	
+For more information about setting up the SSH key, including instructions for different operating systems, check out github's documentation: [https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent] (https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+	
 </div>
 
 </details>
