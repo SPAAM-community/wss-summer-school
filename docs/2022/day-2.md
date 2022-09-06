@@ -80,6 +80,18 @@ PDF version of these slides can be downloaded from [here](<https://github.com/SP
 The conda environment `.yaml` file for this practical session can be downloaded from here: [https://zenodo.org/record/6983120#.YxdEaOxBz0o](https://zenodo.org/record/6983120#.YxdEaOxBz0o). See instructions on page.
 
 #### Introduction
+	
+In this walkthrough, we will introduce the version control system **Git** as well as **Github**, a remote hosting service for version controlled repositories. Git and Github are increasingly popular tools for tracking data, collaborating on research projects, and sharing data and code, and learning to use them will help in many aspects of your own research. For more information on the benefits of using version control systems, see the slides. 
+	
+#### SSH setup
+	
+To begin, we will set up an SSH key to facilitate easier authentication when transferring data between local and remote repositories. In other words, follow this section of the tutorial so that you never have to type in your github password again! 
+	
+Begin by activating the conda environment for this section (see **Preparation** section above). 
+	
+```conda activate git-eager```
+	
+
 
 </div>
 
