@@ -142,7 +142,7 @@ Next, let's **add** a new or modified file to our 'staging area' on our local ma
 ```
 cd vigilant-octo-journey
 echo "test_file" > file_A.txt
-echo "\nJust an example repo" >> README.md
+echo "Just an example repo" >> README.md
 git add file_A.txt
 ```
 	
@@ -152,7 +152,41 @@ Now we can check what files have been locally changed, staged, etc. with **statu
 
 You should see that `file_A.txt` is staged to be committed, but `README.md` is NOT. Try adding `README.md` and check the status again. 
 
+Now we need to package or save the changes into a **commit** with a message describing the changes we've made. Each commit comes with a unique hash ID and will be stored forever in git history.
 	
+```git commit -m "Add example file"```
+	
+Finally, let's **push** our local commit back to our remote repository. 
+	
+```git push```
+	
+What if we want to download new commits from our remote to our local repository? 
+	
+```git pull```
+	
+You should see that your repository is already up-to-date, since we have not made new changes to the remote repo. Let's try making a change to the remote repository's README file (as below). Then, back on the command line, pull the repository again. 
+	
+<img src="https://github.com/SPAAM-community/wss-summer-school/blob/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_pull.png">
+
+#### Working collaboratively
+
+Github facilitates simultaneous work by small teams through branching, which generates a copy of the main repository within the repository. This can be edited without breaking the 'master' version. 
+	
+First, back on github, make a new branch of your repository. 
+	
+<img src="https://github.com/SPAAM-community/wss-summer-school/blob/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_switch.png">
+	
+From the command line, you can create a new branch as follows: 
+	
+```git switch -c new_branch```
+	
+To switch back to the main branch, use ```git switch main```. Note that you **must commit changes** for them to be saved to the desired branch!
+	
+#### Pull requests
+	
+A **Pull request** (aka PR) is used to propose changes to a branch from another branch. Others can comment and make suggestinos before your changes are merged into the main branch.
+	
+For more information on creating a pull request, see github's documentation: [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 </div>
 
 </details>
