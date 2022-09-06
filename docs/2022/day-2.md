@@ -128,11 +128,29 @@ Now that you have set up your own SSH key, we can begin working on some version 
 **Note:** For the remainder of the session, replace the name of my repository (vigilant-octo-journey) with your own repo name.
 
 Change into the directory where you would like to work, and let's get started!
+	
+First, we will learn to **clone** a remote repository onto your local machine. Navigate to your new repo, select the *Code* dropdown menu, select SSH, and copy the address as shown below. 
 
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
 
-
+Back at your command line, clone the repo as follows: 
 	
+```git clone git@github.com:meganemichel/vigilant-octo-journey.git```
+	
+Next, let's **add** a new or modified file to our 'staging area' on our local machine. 
+
+```
+cd vigilant-octo-journey
+echo "test_file" > file_A.txt
+echo "\nJust an example repo" >> README.md
+git add file_A.txt
+```
+	
+Now we can check what files have been locally changed, staged, etc. with **status**. 
+
+```git status```
+
+You should see that `file_A.txt` is staged to be committed, but `README.md` is NOT. Try adding `README.md` and check the status again. 
 
 	
 </div>
