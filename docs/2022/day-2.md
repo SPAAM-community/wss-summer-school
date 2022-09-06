@@ -123,7 +123,7 @@ For more information about setting up the SSH key, including instructions for di
 
 Now that you have set up your own SSH key, we can begin working on some version controlled data! Navigate to your github homepage and create a new repository. You can choose any name for your new repo (including the default). Add a README file, then select Create Repository.
 	
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/create_repo.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/blob/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/create_repo.png">
 	
 **Note:** For the remainder of the session, replace the name of my repository (vigilant-octo-journey) with your own repo name.
 
@@ -131,7 +131,7 @@ Change into the directory where you would like to work, and let's get started!
 	
 First, we will learn to **clone** a remote repository onto your local machine. Navigate to your new repo, select the *Code* dropdown menu, select SSH, and copy the address as shown below. 
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/blob/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
 
 Back at your command line, clone the repo as follows: 
 	
