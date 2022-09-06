@@ -66,6 +66,23 @@ PDF version of these slides can be downloaded from [here](<https://github.com/SP
 
 <iframe width="560" height="630" src="https://www.youtube.com/embed/Eh9TldDahW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Walkthrough
+
+---
+
+<details>
+    <summary>Click me to view the walkthrough</summary>
+
+<div style="border-style: none none none solid;border-left-color:#74d1f6;border-left-width=2px;padding:10px">
+
+#### Preparation
+
+The conda environment `.yaml` file for this practical session can be downloaded from here: [https://zenodo.org/record/6983120#.YxdEaOxBz0o](https://zenodo.org/record/6983120#.YxdEaOxBz0o). See instructions on page.
+
+#### Introduction
+
+Intro
+
 ### Resources
 
 - [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials)
