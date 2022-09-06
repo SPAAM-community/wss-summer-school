@@ -91,7 +91,20 @@ Begin by activating the conda environment for this section (see **Preparation** 
 	
 ```conda activate git-eager```
 	
+Next, generate your own ssh key, replacing the email below with your own address. 
+	
+```ssh-keygen -t ed25519 -C "your_email@example.com"```
+	
+I recommend saving the file to the default location and skipping passphrase setup. To do this, simply press enter without typing anything.
 
+You should now (hopefully!) have generated an ssh key. To check that it worked, run the following commands to list the files containing your public and private keys and check that the ssh agent is running. 
+
+```
+	cd ~/.ssh/
+	ls id*
+	eval "$(ssh-agent -s)"
+```
+	
 
 </div>
 
