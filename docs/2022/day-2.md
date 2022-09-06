@@ -82,6 +82,7 @@ The conda environment `.yaml` file for this practical session can be downloaded 
 #### Introduction
 
 </div>
+</details>
 	
 Intro
 
