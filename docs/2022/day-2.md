@@ -85,9 +85,9 @@ In this walkthrough, we will introduce the version control system **Git** as wel
 	
 #### SSH setup
 	
-To begin, we will set up an SSH key to facilitate easier authentication when transferring data between local and remote repositories. In other words, follow this section of the tutorial so that you never have to type in your github password again! 
+To begin, you will set up an SSH key to facilitate easier authentication when transferring data between local and remote repositories. In other words, follow this section of the tutorial so that you never have to type in your github password again! 
 	
-Begin by activating the conda environment for this section (see **Preparation** section above). 
+Begin by activating the conda environment for this section (see **Preparation** above). 
 	
 ```conda activate git-eager```
 	
@@ -118,6 +118,22 @@ Finally, press Add SSH key. To check that it worked, run the following command o
 ```ssh -T git@github.com```
 	
 For more information about setting up the SSH key, including instructions for different operating systems, check out github's documentation: [https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+
+#### The only 6 commands you really need to know
+
+Now that you have set up your own SSH key, we can begin working on some version controlled data! Navigate to your github homepage and create a new repository. You can choose any name for your new repo (including the default). Add a README file, then select Create Repository.
+	
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/create_repo.png">
+	
+**Note:** For the remainder of the session, replace the name of my repository (vigilant-octo-journey) with your own repo name.
+
+Change into the directory where you would like to work, and let's get started!
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
+
+
+	
+
 	
 </div>
 
