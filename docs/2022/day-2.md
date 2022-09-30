@@ -559,6 +559,28 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 <iframe width="560" height="630" src="https://www.youtube.com/embed/qDjkUfcGmmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### Walkthrough
+
+---
+#### Introduction
+
+A **pipeline** is a series of linked computational steps, where the output of one process becomes the input of the next. Pipelines are critical for managing the huge quantities of data that are now being generated regularly as part of ancient DNA analyses. Today we will discuss one option for managing computational analyses of ancient next-generation sequencing datasets, nf-core/eager. Keep in mind that other tools, like the Paleomix pipeline, can also be used for similar applications.
+
+#### What is nf-core/eager? 
+
+nf-core/eager is a computational pipeline specifically designed for preprocessing and analysis of ancient DNA data. It is a reimplementation of the previously published EAGER (Efficient Ancient Genome Reconstruction) pipeline [(Peltzer *et al.* 2016)](https://doi.org/10.1186/s13059-016-0918-z) using **Nextflow**. The nf-core/eager pipeline was designed with the following aims in mind: 
+
+1. **Portability**- In order for our analyses to be reproducible, others should be able to easily implement our computational pipelines. nf-core/eager is highly portable, providing easy access to pipeline tools and facilitating use across multiple platforms. nf-core eager utilizes Docker, Conda, and Singularity for containerization, enabling distrubition of the pipeline in a self-contained bundle containing all the code, packages, and libraries needed to run it. 
+2. **Reproducibility**- nf-core/eager uses custom configuration profiles to specify both HPC-level parameters and analyses-specific options. These profiles can be shared alongside your publication, making it easier for others to reproduce your methodology!
+3. **New Tools**- Finally, nf-core/eager includes additional, novel methods and tools for analysis of ancient DNA data that were not included in previous versions. This is especially good news for folks interested in microbial sciences, who can take advantage of new analytical pathways for metagenomic analysis and pathogen screening. 
+
+#### Steps in the pipeline
+
+A detailed description of steps in the pipeline is available as part of nf-core/eager's extensive documentation. For more information, check out the usage documentation [here](https://nf-co.re/eager/2.4.5/usage).
+
+
+---
+
 ### Resources
 
 - nf-core/eager pipeline docuemntation: [https://nf-co.re/eager](https://nf-co.re/eager)
