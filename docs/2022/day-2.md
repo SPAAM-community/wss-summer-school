@@ -677,6 +677,16 @@ If you have GNU mail or sendmail set up on your system, you can add the followin
 
 4. Check out the EAGER GUI
 
+For folks who might be less comfortable with the command line, check out the nf-core/eager [GUI](https://nf-co.re/launch?id=1664901787_8f819102c461)! The GUI also provides a full list of options with short explanations for those interested in learning more about what the pipeline can do. 
+
+5. When something fails, all is not lost! 
+
+When individual jobs fail, nf-coreager will try to automatically resubmit that job with increased memory and CPUs (up to two times per job). When the whole pipeline crashes, you can save time and computational resources by resubmitting with the `-resume` flag. nf-core/eager will retrieve cached results from previous steps as long as the input is the same. 
+
+6. Monitor your pipeline in real time with the Nextflow Tower
+
+Regular users may be interested in checking out the Nextflow Tower, a tool for monitoring the progress of Nextflow pipelines in real time. Check [here](https://help.tower.nf/22.2/) for more information. 
+
 
 ---
 
