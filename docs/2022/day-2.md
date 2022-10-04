@@ -407,6 +407,7 @@ Once you've selected the samples you want, you can press **Validate selection**.
 
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2c-intro-to-ancientmetagenomedir/amdirt-validated.png">
 
+	
 You should have three main buttons:
 
 - **Download Curl sample download script**
@@ -562,13 +563,31 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 ### Walkthrough
 
 ---
+#### Preparation
+The conda environment .yaml file for this practical session can be downloaded from here: https://doi.org/10.5281/zenodo.6983130. See instructions on page.
+
+For this session we will be analyzing two ancient individuals that were positive for *Yersinia pestis*, the etiological agent of plague. Four libraries from these two samples were published in [Yu *et al.* 2020](https://pubmed.ncbi.nlm.nih.gov/32437661/) and [A. Valtueña *et al.* 2022](https://pubmed.ncbi.nlm.nih.gov/35412864/). Since the data are too large to be hosted on GitHub, we have provided a script for downloading them directly from NCBI. 
+
+To access this data, clone the *wss-summer-school* repo from github. For help on how to do this, see our tutorial **Introduction to Git(Hub)**. 
+
+Once you have successfully cloned the repository, navigate to the directory `/wss-summer-school/docs/assets/data/2022/eager_tutorial`. This is the directory in which we will perform the following analyses. 
+
+First, use the curl script provided to download fastq files from NCBI: 
+
+```
+cd data
+bash ancientMetagenomeDir_curl_download_script.sh 
+cd ..
+```
+Once this process executes successfully, you are ready to proceed with the rest of the tutorial!
+
 #### Introduction
 
-A **pipeline** is a series of linked computational steps, where the output of one process becomes the input of the next. Pipelines are critical for managing the huge quantities of data that are now being generated regularly as part of ancient DNA analyses. Today we will discuss one option for managing computational analyses of ancient next-generation sequencing datasets, nf-core/eager. Keep in mind that other tools, like the Paleomix pipeline, can also be used for similar applications.
+A **pipeline** is a series of linked computational steps, where the output of one process becomes the input of the next. Pipelines are critical for managing the huge quantities of data that are now being generated regularly as part of ancient DNA analyses. Today we will discuss one option for managing computational analyses of ancient next-generation sequencing datasets, nf-core/eager [@]. Keep in mind that other tools, like the Paleomix pipeline, can also be used for similar applications.
 
 #### What is nf-core/eager? 
 
-nf-core/eager is a computational pipeline specifically designed for preprocessing and analysis of ancient DNA data. It is a reimplementation of the previously published EAGER (Efficient Ancient Genome Reconstruction) pipeline [(Peltzer *et al.* 2016)](https://doi.org/10.1186/s13059-016-0918-z) using **Nextflow**. The nf-core/eager pipeline was designed with the following aims in mind: 
+nf-core/eager is a computational pipeline specifically designed for preprocessing and analysis of ancient DNA data. It is a reimplementation of the previously published EAGER (Efficient Ancient Genome Reconstruction) pipeline [(Peltzer *et al.* 2016)](https://pubmed.ncbi.nlm.nih.gov/27036623/) using **Nextflow**. The nf-core/eager pipeline was designed with the following aims in mind: 
 
 1. **Portability**- In order for our analyses to be reproducible, others should be able to easily implement our computational pipelines. nf-core/eager is highly portable, providing easy access to pipeline tools and facilitating use across multiple platforms. nf-core eager utilizes Docker, Conda, and Singularity for containerization, enabling distrubition of the pipeline in a self-contained bundle containing all the code, packages, and libraries needed to run it. 
 2. **Reproducibility**- nf-core/eager uses custom configuration profiles to specify both HPC-level parameters and analyses-specific options. These profiles can be shared alongside your publication, making it easier for others to reproduce your methodology!
@@ -576,7 +595,87 @@ nf-core/eager is a computational pipeline specifically designed for preprocessin
 
 #### Steps in the pipeline
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2d-intro-to-nfcoreeager/eager2_metromap_complex.png">
+
 A detailed description of steps in the pipeline is available as part of nf-core/eager's extensive documentation. For more information, check out the usage documentation [here](https://nf-co.re/eager/2.4.5/usage).
+
+Briefly, nf-core/eager takes standard input file types that are shared across the genomics field, including raw fastq fiels, aligned reads in bam format, and a reference fasta. nf-core/eager can perform preprocessing of this raw data, including adapter clipping, read merging, and quality control of adapter-trimmed data. Note that input files can be specified using wildcards OR a standardized tsv format file; the latter facilitates streamlined integration of multpile data types within a single EAGER run! More on this later. 
+
+nf-core/eager facilitates mapping using a variety of field-standard alignment tools with configurable parameters. An exciting new addition in nf-core/eager also enables analysis of off-target host DNA for all of you metagenomics folks out there. Be sure to check out the functionality available for metagenomic profiling (blue route in the 'tube map' above).
+
+nf-core/eager incorporates field-standard quality control tools designed for use with ancient DNA so that you can easily evaluate the success of your experiments. Multiple genotyping approaches and additional analyses are available depending on your input datatype, organism, and research questions. Importantly, all of these processes generate data that we need to compile and analyze in a coherent way. nf-core eager uses [MultiQC](https://multiqc.info/). to create an integrated html report that summarizes the output/results from each of the pipeline steps. Stay tuned for the practical portion of the walkthrough!
+
+#### How to build an EAGER command: A practical introduction
+
+For the practical portion of the walkthrough, we will utilize sequencing data from four aDNA libraries, which you should have already downloaded from NCBI. If not, please see the **Preparation** section above. 
+
+These four libraries come from from two ancient individuals, GLZ002 and KZL002. GLZ002 comes from the Neolithic Siberian site of Glazkovskoe predmestie adn was radiocarbon dated to 3081-2913 calBCE. KZL002 is an Iron Age individual from Kazakhstan, radiocarbon dated to 2736-2457 calBCE. Both individuals were infected with the so-called 'Stone Age Plague' of *Yersinia pestis*, and libraries from these individuals were processed using hybridization capture to increase the number of *Y. pestis* sequences available for analysis. 
+
+Our aims in the following tutorial are to: 
+1. Preprocess the fastq files by trimming adapters and merging paired-end reads
+2. Align reads to the *Y. pestis* reference and compute the endogenous DNA percentage
+3. Filter the aligned reads to remove host DNA
+4. Remove duplicate reads for accurate coverage estimation and genotyping
+5. Merge data by sample and perform genotyping on the combined dataset
+6. Review quality control data to evaluate the success of the previous steps
+
+Let's get started! 
+
+First, activate the conda environment that we downloaded during setup: 
+
+`conda activate git-eager`
+
+Next, download the latest version of the nf-core/eager repo (or check for updates if you have a previously-installed version): 
+
+`nextflow pull nf-core/eager`
+
+Finally, we will build our eager command: 
+
+```
+nextflow run nf-core/eager 	// Tells nextflow to execute the EAGER pipeline
+-r 2.4.5 -ds1l	// Specifies which pipeline and Nextflow versions to run for reproducibility
+-profile conda	// Profiles configure your analysis for specific computing environments/analyses
+--fasta ../reference/GCF_001293415.1_ASM129341v1_genomic.fna	// Sprecify reference in fasta format
+--input ancientMetagenomeDir_eager_input.tsv	// Specify input in tsv format or wildcards
+--run_bam_filtering --bam_unmapped_type fastq	// Filter unmapped reads and save in fastq format
+--run_genotyping --genotyping_tool ug --gatk_ug_out_mode EMIT_ALL_SITES	// Run genotyping with the GATK UnifiedGenotyper
+--run_bcftools_stats	// Generate variant calling statistics
+```
+
+For full parameter documentation, click [here](https://nf-co.re/eager/2.4.5/parameters).
+
+And now we wait... 
+
+#### Top Tips for EAGER success
+
+1. Screen sessions
+
+Depending on your input data, infrastructre, and analyses, running nf-core/eager can take hours or even days. To avoid crashed due to loss of power or network connectivity, try running nf-core/eager in a screen or tmux session: 
+
+`screen -R eager`
+
+2. Multiple ways to supply input data
+
+In this tutorial, a tsv file to specify our input data files and formats. This is a powerful approach that allows nf-core eager to intelligently apply analyses to certain files only (e.g. merging for paired-end but not single-end libraries). Check out the contents of our tsv input file using the following command: 
+
+`cat ancientMetagenomeDir_eager_input.tsv`
+
+Inputs can also be specified using wildcards, which can be useful for fast analyses with simple input data types (e.g. same sequencing configuration, file location, etc.). 
+
+```
+nextflow run nf-core/eager -r 2.4.5 -ds1l -profile conda --fasta ../reference/GCF_001293415.1_ASM129341v1_genomic.fna
+--input "data/*fastq.gz" ...
+```
+
+See the online nf-core/eager documentation for more details.
+
+3. Get your MultiQC report via email
+
+If you have GNU mail or sendmail set up on your system, you can add the following flag to send the MultiQC html to your email upon run completion: 
+
+`--email "your_address@something.com"`
+
+4. Check out the EAGER GUI
 
 
 ---
