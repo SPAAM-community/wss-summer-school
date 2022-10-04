@@ -92,7 +92,7 @@ A phylogenetic tree has different parts:
 - A **node** in the tree represents an ancestor (or ancestral sequences) shared by one or more tips. In the tree we see different nodes displayed, the most rightwards ones represent the ancestors between A and B; and C and D, and if we move toward the left we will see a node representing the ancestor of A,B,C and D, and the most leftwards node represent the common ancestor of all the sequences in our tree.
 - **Branches** are the part of the tree that connects each node to other nodes or to the leaves. These represent evolutionary paths between nodes/leaves. The length of these branches is called **branch length** and it can represent different measures depending on the algorithm that you use to infer the phylogenetic tree, such as the number of changes (in the case of for example Maximum Parsimony tree, see Character-based phylogenetic methods), genetic/evolutionary distance (for Neighbour-Joining, see distance-based phylogenetic methods, or for Maximum Likelihood method, see Character-based phylogenetic methods), or the time between two taxa or nodes (for example, trees inferred by BEAST, see Bayesian phylogenetic inference using _BEAST2_).
 
-![](/assets/images/slides/2022/5b-intro-to-phylogenomics/1.png)
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/1.png">
 
 ##### Types of trees: Ultrametric vs. non-ultrametric
 
@@ -100,6 +100,8 @@ We can have different types of trees depending on how the distance to the root (
 
 - In **ultrametric trees** the distance from the root to any of the tips in the tree is the **same**. One typical example of ultrametric tree will be a tree where the branch length represents time and all of our tips were samples in the present.
 - In **non-ultrametric trees** the distance from the root to the tips differ from tip to tip. We will find this type of tree when we use algorithms where the branch lengths are calculated based on genetic distance/number of changes.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/2.png">
 
 #### The start: DNA sequence alignment
 
@@ -122,9 +124,13 @@ In this practical session, we will be working with an alignment produced as you 
 
 We are going to start by exploring the alignment in _MEGA_. So open the _MEGA_ desktop application and load the alignment by clicking on File -> Open A File/Session -> Select the _snpAligment_session5.fasta_.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/3.png">
+
 It will you ask what you want to do with the alignment. In _MEGA_ you can also produce an alignment, however, since our sequences are already aligned we will press on _Analyze_.
 
 Then we will select _Nucleotide Sequences_ since we are working with a DNA alignment. Note that _MEGA_ can also work with Protein Sequences as well as Pairwise Distance Matrix (which we will cover shortly). In the same window, we will change the character for _Missing Data_ to **N** and click in _OK_.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/4.png">
 
 A window would open up asking if our alignment contains protein encoding sequences, and we will select _No_.
 
@@ -132,7 +138,11 @@ A window would open up asking if our alignment contains protein encoding sequenc
 
 To explore the alignment, you will then click on the box with _TA_
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/5.png">
+
 You will see an alignment containing sequences from the bacterial pathogen _Yersinia pestis_. Within the alignment, we have our sequences of interest (VLI092, CHC004, KZL002) that date between 5000-2000 years Before Present (BP), and we want to know how they relate to the rest of the _Yersinia pestis_ genomes in the alignment.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/6.png">
 
 What do you think the dots represent?
 
@@ -155,11 +165,15 @@ Distance-based methods calculate the tree from a pairwise distance matrix. The d
 
 For any of the phylogenetic methods, we can also take into account that different sites may evolve differently depending on their nucleotide composition. To take this into account, you will need to use **substitution models**. By applying different evolutionary models, one can take into account multiple consecutive mutations as well as different probabilities to observe a specific mutation given the specific character in this position. There are tools that allow you to choose the substitution model that it is more fitting to you specific alignment, such as jModelTest, ModelGenerator, etc.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/7.png">
+
 ##### Calculate a pairwise distance matrix
 
 To calculate a pairwise distance matrix, one will have to check the number of differences between all the possible pair combination between the sequences in the alignment, and in the case of a p-distance normalise the number of differences by the total number of sites. All this differences will be then stored in a matrix.
 
 _MEGA_ also provides a function to calculate Pairwise Distances, for that you will have to click into the Distance symbol, and select _Compute Pairwise Distances_, the output will be a matrix with all the pairwise distances. This will be the first step you will do if you wanted to compute a distance-based phylogeny with methods such as UPGMA or Neighbour-Joining. We will be covering the second method.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/8.png">
 
 ##### Calculating a Neighbour-Joining tree
 
@@ -172,11 +186,17 @@ Luckily, you won't have to do this by hand since _MEGA_ allows you to build a NJ
 
 For that go back to _MEGA_ and click on the _Phylogeny_ symbol and then select _Construct Neighbour Joining Tree_. In the window that would pop up, you will then chance the _Model/Method_ to _p-distance_ since we want to normalise by the total number of sites shared by sequences. Then press _OK_ and a window with the calculated phylogenetic tree will pop up.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/9.png">
+
 Since the tree is not easily visualised in _MEGA_, we will export it in newick format (an "standarised" format to write a tree in a computer-readable form) and explore our tree in _FigTree_. This tool has a better interface for visually manipulating trees and allows us to interact with the phylogenetic tree.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/10.png">
 
 To do that you will click on _File_, then _Export current tree (Newick)_ and click on _Branch Lengths_ to include those in the newick annotation. When you press _OK_, a new window with the tree in newick format will pop up and you will then press _File_ -> _Save_ and saved it as _NJ_tree.nwk_ (If you are doing this for your own project, please give your files informative names).
 
 As said above, we will explore own NJ tree in _FigTree_. Open the software and then open the NJ tree by clicking on _File_ -> _Open_ and selecting the file with the NJ tree _NJ_tree.nwk_
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/11.png">
 
 So, which type of tree is this?
 Before you answer this question, let me introduce you to another type of trees
@@ -186,12 +206,17 @@ Before you answer this question, let me introduce you to another type of trees
 - An _unrooted_ tree does not contain a root. It displays the relationships between our sequences but not the direction in time. In the example, we can not tell if human or chimpanzee or gorilla are more ancestral to each other.
 - A _rooted_ tree does contain a root. This root can be calculated based on the inclusion of an outgroup, a known sequenced to be older than any of the taxa in our tree, or by computational methods that can place the root by various methods, being one of such methods the Mid Point Rooting. A rooted tree represents the relationships and the direction in time. By rooting our example tree with the outgroup, we now can tell that gorilla is ancestral to both human and chimpanzees.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/12.png">
 ##### Let's make our own NJ tree
 
 So if we go back to our question, which type of tree is this?
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/13.png">
+
 Even though a root is displayed by default, this is actually an unrooted tree.
-We know that _Yersinia pseudotuberculosis_ (labelled here as _Y. pseudo_) is an outgroup to _Yersinia pestis_. You can reroot the tree by selecting _Y.pseudo_ and pressing _Reroot_.
+We know that _Yersinia pseudotuberculosis_ (labelled here as _Y. pseudotuberculosis_) is an outgroup to _Yersinia pestis_. You can reroot the tree by selecting _Y.pseudotuberculosis_ and pressing _Reroot_.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/14.png">
 
 Now we have the correct tree.
 
@@ -221,6 +246,8 @@ Which type of clade?
 - A **Paraphyletic clade** is a group of taxa including all the taxa with a common recent ancestor except one or more taxa. In the example, since A is missing from the clade selected, it won't be anymore a paraphyletic clade rather than a monophyletic. Another common example of paraphyletic clade would be selecting all the reptiles but excluding birds.
 - A **Polyphyletic clade** is a group of taxa from different monophyletic clades.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/15.png">
+
 ##### Lets make our own NJ tree
 
 Now regarding our question, which type of clade form KZL002, GZL002, CHC004 and VLI092?
@@ -229,11 +256,17 @@ Since they all share a common ancestor,they form a monophyletic clade.
 
 Until now we have learned how to explore a SNP alignment, the different part of the a phylogenetic tree and how to make a NJ tree. The NJ tree is based on pairwise distances, which is one of the simplest algorithms to build a tree and now you will see more complex algorithms for phylogenetic tree building.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/16.png">
+
 #### Character-based phylogenetic methods: maximum parsimony and probabilistic approaches
 
 Character-based methods are not based on pairwise distances but rather model the complete evolution of each character (e.g. DNA nucleotides at each position) along the phylogenetic tree.
 
 One of these methods is maximum parsimony and it consists in choosing the tree that underlies an evolutionary history with the least number of character changes.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/17.png">
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/18.png">
 
 Other types of character-based methods which are more commonly used today are probabilistic methods. In general, these are statistical techniques that are based on probabilistic models under which the data that we observe is generated following a probability distribution depending on a set of parameters which we want to estimate.
 
@@ -243,7 +276,14 @@ In a phylogenetic probabilistic model, the data is the sequence alignment and th
 
 One way we can make inferences from a probabilistic model is by finding the combination of parameters which maximises the likelihood. These parameter values are called maximum likelihood (ML) estimates. We are usually not able to compute the likelihood value for all possible combinations of parameters and have to rely on heuristic algorithms to find the maximum likelihood estimates.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/19.png">
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/20.png">
+
 The Maximum likelihood estimates are point estimates, i.e. single parameter values (for example, a tree), which does not allow to measure uncertainty. A classic method to measure the uncertainty of ML tree estimates is bootstrapping, which consists in repeatedly disturbing the alignment by masking sites from it and estimating a tree from each of these bootstrap alignments.
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/21.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/22.png">
 
 For each clade in the ML tree, a bootstrap support value is computed which corresponds to the proportion of bootstrap trees containing the clade. This gives an indication of how robustly the clade is supported by the data (i.e. whether it holds even after disturbing the dataset). Bootstrapping can be used to measure the topology uncertainty of trees estimated with any inference method.
 
@@ -281,15 +321,22 @@ We will estimate a time tree from our alignment using Bayesian inference instead
 
 Bayesian inference is a type of inference which is based on a probability distribution that is different from the likelihood: the posterior probability. The posterior probability is the probability of the parameters given the data. The posterior distribution is easier to interpret than the likelihood because it contains all the information about the parameters: point estimates such as the median or the mean can be directly estimated from it, but also percentile intervals which can be used to measure uncertainty.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/23.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/24.png">
+
 The Bayes theorem tells us that is proportional to the product of the likelihood and the "prior" probability of the data:
 
-$$P(\theta|D)\propto P(D|\theta).P(\theta)$$
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/equation.png">
 
 Therefore, for Bayesian inference, we need to complement our probabilistic model with prior distributions for all the parameters. Because we want to estimate a time tree, we also add another parameter: the molecular clock (average substitution rate in time units).
 
 To characterize the full posterior distribution of each parameter, we would need in theory to compute the posterior probability for each possible combination of parameters. This is impossible, and we will instead use an algorithm called Markov chain Monte Carlo (MCMC) to approximate the posterior distribution. The MCMC is an algorithm which iteratively samples values of the parameters from the posterior distribution. Therefore, if the MCMC has run long enough, the (marginal) posterior distribution of the parameters can be approximated by a histogram of the sampled values.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/25.png">
+
 The different components of the _BEAST2_ analysis can be set up in the program _BEAUti_:
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/26.png">
 
 - load the alignment in the "Partitions" tab
 - set the sampling dates in the "Tip dates" tab
@@ -297,6 +344,12 @@ The different components of the _BEAST2_ analysis can be set up in the program _
 - choose the molecular clock model in the "Clock model" tab
 - choose the prior distribution of parameters in the "Priors" tab
 - set up the MCMC in the "MCMC" tab
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/27.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/28.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/29.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/30.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/31.png">
 
 The ["taming the beast" website](https://taming-the-beast.org/tutorials/) has great tutorials to learn setting a _BEAST2_ analysis. In particular, the "Introduction to BEAST2", "Prior selection" and "Time-stamped data" are good starts.
 
@@ -311,7 +364,13 @@ Try running an analysis on the alignment without outgroup using the following:
 
 Once the analysis is completed, assess the posterior distribution sampling and parameter estimates by loading the obtained log file into _Tracer_, and generate a maximum clade credibility (MCC) tree using _treeAnnotator_.
 
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/32.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/33.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/34.png">
+
 What is your estimate of the substitution (mean clock) rate? What is the age of the common ancestor of all _Yersinia pestis_ strains?
+
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/35.png">
 
 </details>
 
