@@ -271,7 +271,7 @@ One of these methods is maximum parsimony and it consists in choosing the tree t
 Other types of character-based methods which are more commonly used today are probabilistic methods. In general, these are statistical techniques that are based on probabilistic models under which the data that we observe is generated following a probability distribution depending on a set of parameters which we want to estimate.
 
 In a phylogenetic probabilistic model, the data is the sequence alignment and the parameters, are the substitution matrix and the phylogenetic tree. The probability of the data given the model parameters is called the likelihood.
-            
+
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/19.png">            
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/20.png">
 
@@ -280,7 +280,7 @@ In a phylogenetic probabilistic model, the data is the sequence alignment and th
 One way we can make inferences from a probabilistic model is by finding the combination of parameters which maximises the likelihood. These parameter values are called maximum likelihood (ML) estimates. We are usually not able to compute the likelihood value for all possible combinations of parameters and have to rely on heuristic algorithms to find the maximum likelihood estimates.
 
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/21.png">
-            
+
 The Maximum likelihood estimates are point estimates, i.e. single parameter values (for example, a tree), which does not allow to measure uncertainty. A classic method to measure the uncertainty of ML tree estimates is bootstrapping, which consists in repeatedly disturbing the alignment by masking sites from it and estimating a tree from each of these bootstrap alignments.
 
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/22.png">
@@ -314,7 +314,7 @@ It is a good practice to assess if the genetic sequences that we analyse do inde
 - open tempest and load the re-rooted ML tree that we produced previously
 - click on "import dates" in the "sample dates" tab, select the sample_age.txt file, and then change to "dates specified as years before the present"
 - look at the root-to-tip regression: is there a positive correlation?
-            
+
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/Tempest.png">
 
 ###### Bayesian phylogenetic inference using _BEAST2_
@@ -366,27 +366,27 @@ Try running an analysis on the alignment without outgroup using the following:
 - use 300M iterations for the MCMC chain, and log the parameters and trees each 10,000th iteration
 
 Once the analysis is completed, assess the posterior distribution sampling and parameter estimates by loading the obtained log file into _Tracer_
-            
+
 First, look at the trace of the posterior to check if the MCMC has passed the burn-in phase, and if you have remove all burn-in iterations
 
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/32.png">
-            
-If so you can look at the trace and effective sample size (ESS) value of all parameters, to check that the MCMC has run long enough. The traces should look (more or less) like a "hairy caterpillar", and a rule of thumb is that all ESS values should be above 200. If this is not the case, you should run the MCMC longer (BEAST2 has a -resume option that you can use to extend the MCMC sampling without starting everything from the beginning).         
-            
+
+If so you can look at the trace and effective sample size (ESS) value of all parameters, to check that the MCMC has run long enough. The traces should look (more or less) like a "hairy caterpillar", and a rule of thumb is that all ESS values should be above 200. If this is not the case, you should run the MCMC longer (BEAST2 has a -resume option that you can use to extend the MCMC sampling without starting everything from the beginning).
+
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/33.png">
-            
-You can then look at the estimates of your parameter in the top-right panel (mean, median, 95% HPD interval, ...). Note that these are marginal estimates, i.e. integrated over all other parameters.           
-            
+
+You can then look at the estimates of your parameter in the top-right panel (mean, median, 95% HPD interval, ...). Note that these are marginal estimates, i.e. integrated over all other parameters.
+
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/34.png">
 
 What is your estimate of the substitution (mean clock) rate?
 
 You can then generate a maximum clade credibility (MCC) tree using _treeAnnotator_.
-            
+
 <img src="https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/5b-intro-to-phylogenomics/MCC.png">
-            
+
 What is your mean estimate for the age of the common ancestor of all _Yersinia pestis_ strains? To which parameter (displayed in beauti) does this corresponds?
-            
+
 </details>
 
 ---
