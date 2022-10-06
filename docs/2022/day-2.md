@@ -132,14 +132,14 @@ For more information about setting up the SSH key, including instructions for di
 
 Now that you have set up your own SSH key, we can begin working on some version controlled data! Navigate to your github homepage and create a new repository. You can choose any name for your new repo (including the default). Add a README file, then select Create Repository.
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/create_repo.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/master/docs/assets/slides/2022/2b-intro-to-github/create_repo.png">
 
 **Note:** For the remainder of the session, replace the name of my repository (vigilant-octo-journey) with your own repo name.
 
 Change into the directory where you would like to work, and let's get started!
 First, we will learn to **clone** a remote repository onto your local machine. Navigate to your new repo, select the _Code_ dropdown menu, select SSH, and copy the address as shown below.
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/master/docs/assets/slides/2022/2b-intro-to-github/git_clone.png">
 
 Back at your command line, clone the repo as follows:
 
@@ -184,14 +184,14 @@ git pull
 
 You should see that your repository is already up-to-date, since we have not made new changes to the remote repo. Let's try making a change to the remote repository's README file (as below). Then, back on the command line, pull the repository again.
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_pull.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/master/docs/assets/slides/2022/2b-intro-to-github/git_pull.png">
 
 #### Working collaboratively
 
 Github facilitates simultaneous work by small teams through branching, which generates a copy of the main repository within the repository. This can be edited without breaking the 'master' version.
 First, back on github, make a new branch of your repository.
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2b-intro-to-github/git_switch.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/master/docs/assets/slides/2022/2b-intro-to-github/git_switch.png">
 
 From the command line, you can create a new branch as follows:
 
