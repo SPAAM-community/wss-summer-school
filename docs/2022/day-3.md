@@ -5111,6 +5111,8 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 This session is run using a Jupyter notebook. This can be found [here](https://github.com/maxibor/microbiome_tutorial). However, it will already be installed on compute nodes during the summer school.
 
+<iframe width="560" height="630" src="https://www.youtube.com/embed/zp3fmPAZnBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Walkthrough
 
 ---
