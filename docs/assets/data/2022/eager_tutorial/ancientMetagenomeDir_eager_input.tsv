@@ -1,0 +1,12 @@
+Sample_Name	Library_ID	Lane	Colour_Chemistry	SeqType	Organism	Strandedness	UDG_Treatment	R1	R2	BAM
+GLZ002	ERR4093962	0	4	PE	Homo sapiens	double	full	
+./data/ERR4093962_1.fastq.gz	./data/ERR4093962_2.fastq.gz	
+NA
+OBS137	ERR1193541	0	4	SE	Homo sapiens	double	full	
+./data/ERR1193541.fastq.gNA	NA
+KZL002	ERR8958768	0	4	PE	Homo sapiens	double	half	
+./data/ERR8958768_1.fastq.gz	./data/ERR8958768_2.fastq.gz	
+NA
+KZL002	ERR8958769	0	4	PE	Homo sapiens	double	half	
+./data/ERR8958769_1.fastq.gz	./data/ERR8958769_2.fastq.gz	
+NA
