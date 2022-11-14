@@ -574,11 +574,12 @@ The conda environment .yaml file for this practical session can be downloaded fr
 
 For this session we will be analyzing two ancient individuals that were positive for _Yersinia pestis_, the etiological agent of plague. Four libraries from these two samples were published in [Yu _et al._ 2020](https://pubmed.ncbi.nlm.nih.gov/32437661/) and [Andrades Valtueña _et al._ 2022](https://pubmed.ncbi.nlm.nih.gov/35412864/). Since the data are too large to be hosted on GitHub, we have provided a script for downloading them directly from NCBI.
 
-To access this data, clone the _wss-summer-school_ repo from github. For help on how to do this, see our tutorial **Introduction to Git(Hub)**.
-
-Once you have successfully cloned the repository, navigate to the directory `/wss-summer-school/docs/assets/data/2022/eager_tutorial`. This is the directory in which we will perform the following analyses.
-
-First, use the curl script provided to download fastq files from NCBI:
+First, navigate to the directory in which you would like to perform your analyses. Then use the following command to download scripts needed for the following analyses: 
+	
+`wget https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/master/docs/assets/data/2022/eager_tutorial/ancientMetagenomeDir_eager_input.tsv https://raw.githubusercontent.com/SPAAM-community/wss-summer-school/master/docs/assets/data/2022/eager_tutorial/data/ancientMetagenomeDir_curl_download_script.sh
+`
+	
+Next, use the curl script provided to download fastq files from NCBI:
 
 ```
 cd data
@@ -590,7 +591,7 @@ Once this process executes successfully, you are ready to proceed with the rest 
 
 #### Introduction
 
-A **pipeline** is a series of linked computational steps, where the output of one process becomes the input of the next. Pipelines are critical for managing the huge quantities of data that are now being generated regularly as part of ancient DNA analyses. Today we will discuss one option for managing computational analyses of ancient next-generation sequencing datasets, nf-core/eager [@]. Keep in mind that other tools, like the Paleomix pipeline, can also be used for similar applications.
+A **pipeline** is a series of linked computational steps, where the output of one process becomes the input of the next. Pipelines are critical for managing the huge quantities of data that are now being generated regularly as part of ancient DNA analyses. Today we will discuss one option for managing computational analyses of ancient next-generation sequencing datasets, [nf-core/eager](https://nf-co.re/eager). Keep in mind that other tools, like the [Paleomix](https://paleomix.readthedocs.io/en/stable/) pipeline, can also be used for similar applications.
 
 #### What is nf-core/eager?
 
@@ -602,7 +603,7 @@ nf-core/eager is a computational pipeline specifically designed for preprocessin
 
 #### Steps in the pipeline
 
-<img src="https://github.com/SPAAM-community/wss-summer-school/raw/megan_walkthrough/docs/assets/slides/2022/2d-intro-to-nfcoreeager/eager2_metromap_complex.png">
+<img src="https://github.com/SPAAM-community/wss-summer-school/raw/master/docs/assets/slides/2022/2d-intro-to-nfcoreeager/eager2_metromap_complex.png">
 
 A detailed description of steps in the pipeline is available as part of nf-core/eager's extensive documentation. For more information, check out the usage documentation [here](https://nf-co.re/eager/2.4.5/usage).
 
@@ -640,14 +641,14 @@ Next, download the latest version of the nf-core/eager repo (or check for update
 Finally, we will build our eager command:
 
 ```bash
-nextflow run nf-core/eager 	// Tells nextflow to execute the EAGER pipeline
--r 2.4.5 -ds1l	// Specifies which pipeline and Nextflow versions to run for reproducibility
--profile conda	// Profiles configure your analysis for specific computing environments/analyses
---fasta ../reference/GCF_001293415.1_ASM129341v1_genomic.fna	// Sprecify reference in fasta format
---input ancientMetagenomeDir_eager_input.tsv	// Specify input in tsv format or wildcards
---run_bam_filtering --bam_unmapped_type fastq	// Filter unmapped reads and save in fastq format
---run_genotyping --genotyping_tool ug --gatk_ug_out_mode EMIT_ALL_SITES	// Run genotyping with the GATK UnifiedGenotyper
---run_bcftools_stats	// Generate variant calling statistics
+nextflow run nf-core/eager \ #Tells nextflow to execute the EAGER pipeline
+-r 2.4.5 -ds1l \ #Specifies which pipeline and Nextflow versions to run for reproducibility
+-profile conda	\ #Profiles configure your analysis for specific computing environments/analyses
+--fasta ../reference/GCF_001293415.1_ASM129341v1_genomic.fna \ #Specify reference in fasta format
+--input ancientMetagenomeDir_eager_input.tsv \ #Specify input in tsv format or wildcards
+--run_bam_filtering --bam_unmapped_type fastq \ #Filter unmapped reads and save in fastq format
+--run_genotyping --genotyping_tool ug --gatk_ug_out_mode EMIT_ALL_SITES	\ #Run genotyping with the GATK UnifiedGenotyper
+--run_bcftools_stats #Generate variant calling statistics
 ```
 
 For full parameter documentation, click [here](https://nf-co.re/eager/2.4.5/parameters).
