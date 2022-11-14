@@ -606,7 +606,7 @@ nf-core/eager is a computational pipeline specifically designed for preprocessin
 
 A detailed description of steps in the pipeline is available as part of nf-core/eager's extensive documentation. For more information, check out the usage documentation [here](https://nf-co.re/eager/2.4.5/usage).
 
-Briefly, nf-core/eager takes standard input file types that are shared across the genomics field, including raw fastq fiels, aligned reads in bam format, and a reference fasta. nf-core/eager can perform preprocessing of this raw data, including adapter clipping, read merging, and quality control of adapter-trimmed data. Note that input files can be specified using wildcards OR a standardized tsv format file; the latter facilitates streamlined integration of multpile data types within a single EAGER run! More on this later.
+Briefly, nf-core/eager takes standard input file types that are shared across the genomics field, including raw fastq files, aligned reads in bam format, and a reference fasta. nf-core/eager can perform preprocessing of this raw data, including adapter clipping, read merging, and quality control of adapter-trimmed data. Note that input files can be specified using wildcards OR a standardized tsv format file; the latter facilitates streamlined integration of multpile data types within a single EAGER run! More on this later.
 
 nf-core/eager facilitates mapping using a variety of field-standard alignment tools with configurable parameters. An exciting new addition in nf-core/eager also enables analysis of off-target host DNA for all of you metagenomics folks out there. Be sure to check out the functionality available for metagenomic profiling (blue route in the 'tube map' above).
 
