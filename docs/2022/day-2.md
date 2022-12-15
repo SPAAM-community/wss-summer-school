@@ -10,7 +10,7 @@
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRQYqeq8LDnw-McfI8zRvEX2xL77awoP4BLGCBNPj2rorPOxFQOdwnhVosu8qqlnZKqDl5dd6SYt0qf/embed?start=false&loop=true&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/raw/main/docs/assets/slides/2022/2a-intro-to-adna/SPAAM%20Summer%20School%202022%20-%202A%20-%20Intro%20to%20Ancient%20DNA.pdf).
+PDF version of these slides can be downloaded from [here](https://github.com/SPAAM-community/wss-summer-school/raw/main/docs/assets/slides/2022/2a-intro-to-adna/SPAAM%20Summer%20School%202022%20-%202A%20-%20Intro%20to%20Ancient%20DNA.pdf).
 
 <iframe width="560" height="630" src="https://www.youtube.com/embed/_8VE72Od7Cg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
