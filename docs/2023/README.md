@@ -8,13 +8,13 @@ You can send your application on the following form: [https://survey.academicclo
 
 ## What
 
-The **Ancient Metagenomics Summer School** was be a 5 day **practical** workshop (block praktikum). Attendees who participated in the entire course received 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
+The **Ancient Metagenomics Summer School** is a 5 day **practical** workshop (block praktikum). Attendees who participated in the entire course will receive 1.5 ECTS points (40 hours of instruction and **practicals**, 5 hours of coursework).
 
 The course is taught by active researchers of the SPAAM Community (including MPI-EVA in Germany, Harvard University in the US, SciLifeLab in Sweden, and University of Vienna in Austria) and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Dr. James Fellows Yates (james_fellows_yates@eva.mpg.de) and Prof. Dr. Christina Warinner (christina_warinner@eva.mpg.de).
 
 ## Who
 
-The course is aimed at masters students and early-stage PhD students, to a maximum of 40 participants.
+The course is aimed at Masters or early-stage PhD students (or equivalent), to a maximum of 40 participants.
 
 You can meet the instructors [here](/2023/instructors.md).
 
