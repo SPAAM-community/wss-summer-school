@@ -1,5 +1,8 @@
 # Apply
 
-Applications for the 2022 edition of the **Introduction to Ancient Metagenomics** is now closed.
+Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now open!
 
-Please keep an eye on the [SPAAM slack, twitter, and mailing lists](https://spaam-community.github.io/about/) for announcements for the 2023 edition of hte Summer School.
+You can send your application on the following form: [https://survey.academiccloud.de/index.php/773422](https://survey.academiccloud.de/index.php/773422)
+
+**Applications close**: 26th May 2023
+
