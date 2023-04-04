@@ -56,12 +56,12 @@ ancient metagenomics in the 2022 edition of the summer school.
 <div class="avatar">
 
 <div class ="member">
-<div class="square"><a href="https://twitter.com/Kevinnota93" target="_blank"><img src="https://pbs.twimg.com/profile_images/1476190692229660684/R9D8vwGl_400x400.jpg" alt="Avatar" /></a></div>
+<div class="square"><a href="https://twitter.com/Kevinnota93" target="_blank"><img src="assets/images/headshots/NOTA_Kevin.jpg" alt="Avatar" /></a></div>
 <p>Kevin Nota</p>
 </div>
 
 <div class ="member">
-<div class="square"><a href="https://www.heas.at/about/members/meriam-guellil/" target="_blank"><img src="https://www.heas.at/wp-content/uploads/2022/09/Meriam.2-1.jpg" alt="Avatar" /></a></div>
+<div class="square"><a href="https://www.heas.at/about/members/meriam-guellil/" target="_blank"><img src="assets/images/headshots/GUELLIL_Meriam.jpg" alt="Avatar" /></a></div>
 <p>Meriam Guellil</p>
 </div>
 
@@ -71,7 +71,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 </div>
 
 <div class ="member">
-<div class="square"><a href="https://www.eva.mpg.de/genetics/ancient-environmental-genomics/overview/" target="_blank"><img src="https://i.guim.co.uk/img/media/acb1627786c251362c4bc87c1f53fa39b49d8d3d/274_0_821_1026/master/821.jpg?width=700&quality=85&auto=format&fit=max&s=c15b1226144de3c52be32fe46f81f52d" alt="Avatar" /></a></div>
+<div class="square"><a href="https://www.eva.mpg.de/genetics/ancient-environmental-genomics/overview/" target="_blank"><img src="assets/images/headshots/WARNER_Robin.jpg" alt="Avatar" /></a></div>
 <p>Robin Warner</p>
 </div>
 
@@ -92,13 +92,13 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
 
-🏴‍☠️ **Kevin Nota** has a PhD in molecular paleoecology from Uppsala University. Currently he is a postdoc in the Max Planck Research Group for Ancient Environmental Genomics. His main research interest is in population genomics from ancient environmental samples.
+🇳🇱 **Kevin Nota** has a PhD in molecular paleoecology from Uppsala University. Currently he is a postdoc in the Max Planck Research Group for Ancient Environmental Genomics. His main research interest is in population genomics from ancient environmental samples.
 
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1. 
 
 🇷🇺 **Nikolay Oskolkov** is a bioinformatician at Lund University and the bioinformatics platform of SciLifeLab, Sweden. He defended his PhD in theoretical physics in 2007, and switched to life sciences in 2012. His research interests include mathematical statistics and machine learning applied to genetics and genomics, single cell and ancient metagenomics data analysis.
 
-🏴‍☠️ **Robin Wariner** _under construction_
+🇩🇪 **Robin Warner**  is a MSc bioinformatics student at the Leipzig University. He is currently writing his master's thesis in the Max Planck Research Group for Ancient Environmental Genomics about the comparison of ancient sedimentary DNA capture methods and shotgun sequencing.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
