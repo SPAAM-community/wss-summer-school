@@ -101,7 +101,7 @@ You can see the contents of [last years summer school](/2022/README) to get an i
 
 - **Lecture** Introduction to Metagenomics: _Christina Warinner_
   - What are the questions tackled in metagenomics? What are the challenges?
-- **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Nikolay Oskolkov and Kevin Nota_
+- **Practical** Taxonomic Profiling, OTU Tables and Visualisation: _Maxime Borry and Kevin Nota_
   - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Practical** Genome mapping: _Alina Hiss and Alexander Herbig_
   - Why and how do we map against a reference? What parameters are important for aDNA?
@@ -112,7 +112,7 @@ You can see the contents of [last years summer school](/2022/README) to get an i
 
 - **Lecture** Introduction to microbial genomics: _Meriam Guellil_
   - How can we learn from studying the genomes of microbes? What questions can we ask?
-- **Practical** Genome assembly: _Nikolay Oskolkov and Aida Andrades Valtueña_
+- **Practical** Genome assembly: _Nikolay Oskolkov and Alex Hübner_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Practical** Phylogenomics: _Arthur Kocher and Alexander Herbig_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
