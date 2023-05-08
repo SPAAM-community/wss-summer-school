@@ -112,7 +112,7 @@ You can see the contents of [last years summer school](/2022/README) to get an i
 
 - **Lecture** Introduction to microbial genomics: _Meriam Guellil_
   - How can we learn from studying the genomes of microbes? What questions can we ask?
-- **Practical** Genome assembly: _Nikolay Oskolkov and Alex Hübner_
+- **Practical** Genome assembly: _Alex Hübner and Nikolay Oskolkov_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Practical** Phylogenomics: _Arthur Kocher and Alexander Herbig_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
