@@ -2,9 +2,11 @@
 
 ## Latest
 
-Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now open!
+Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now **closed**!
 
-You can send your application on the following form: [https://survey.academiccloud.de/index.php/773422](https://survey.academiccloud.de/index.php/773422)
+We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.
+
+<!-- You can send your application on the following form: [https://survey.academiccloud.de/index.php/773422](https://survey.academiccloud.de/index.php/773422) -->
 
 ## What
 
