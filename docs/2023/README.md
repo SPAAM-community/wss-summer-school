@@ -28,7 +28,7 @@ Note the following additional dates:
 
 - **Applications open**: 3rd April 2023
 - **Applications close**: 26th May 2023
-- **Decision notifications**: 5th June 2023
+- **Decision notifications**: from 5th June 2023 onwards 
 
 ## Where
 
