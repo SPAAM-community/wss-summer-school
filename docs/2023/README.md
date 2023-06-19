@@ -74,7 +74,7 @@ You can see the contents of [last years summer school](/2022/README) to get an i
 
 ### DAY 1
 
-- **Lecture** Introduction to NGS data: _TBC_
+- **Lecture** Introduction to NGS data: _James Fellows Yates_
   - What is NGS sequencing and what does its data look like?
 - **Practical** BareBonesBash: _Aida Andrades Valtueña and Thiseas Lamnidis_
   - Introduction to the UNIX command line.
@@ -125,7 +125,7 @@ You can see the contents of [last years summer school](/2022/README) to get an i
 
 - **Lecture** Evolutionary Biology: _Alexander Herbig_
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
-- **Practical** Authentication and Decontamination: _James Fellows Yates and Nikolay Oskolkov_
+- **Practical** Authentication and Decontamination: _Nikolay Oskolkov and James Fellows Yates 
   - How can I validate my DNA is ancient? What sort of analyses can convice ourselves and a reviewer we have good preservation?
 - **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Nikolay Oskolkov_
   - What pipelines exist for specifically ancient DNA and ancient metagenomic data?
