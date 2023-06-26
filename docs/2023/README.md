@@ -40,17 +40,16 @@ If you're not familiar with this platform please see the documentation on the ga
 
 ## What
 
-You will need access to the internet, and a modern web browser - either Google Chrome or Firefox. Please note, if using Firefox, please turn on clipboard support using [these](https://sudoedit.com/firefox-async-clipboard/) instructions.
+You will need access to the internet, and a modern web browser - either Google Chrome, Chromium or Microsoft Edge. 
+Firefox, is also possible, but makes copy-pasting difficult (you will need to press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> a lot...). Safari isn't recommended.
 
 Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
 
-<!--
 Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2023/denbi-registration).
 
 Once you've recieved your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 
-If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials'.
--->
+If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
 
 ## Schedule
 
