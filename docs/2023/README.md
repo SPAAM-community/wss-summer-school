@@ -52,21 +52,19 @@ If you get a message about permissions for 'colour mangement', please use the pa
 
 ## Schedule
 
-Subject to change!
-
-| **Session Type** | **Day 1**                                                                             | **Day 2**                                                                             | **Day 3**                                             | **Day 4**                              | **Day 5**                              |
-|------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------|----------------------------------------|
-| Theoretical      | 1A: Introduction to NGS data                                                          | 2A: Introduction to ancient DNA                                                       | 3A: Introduction to Metagenomics                      | 4A: Introduction to microbial genomics | 5A: Evolutionary Biology               |
-|                  | Break                                                                                 | Break                                                                                 | Break                                                 | Break                                  | Break                                  |
-| Practical        | 1B: BareBonesBash                                                                     | 1C-1: Introduction to R and the tidyverse & 1C-2: - Introduction to Python and Pandas | 3B: Taxonomic Profiling, OTU Tables and Visualisation | 4B: Genome assembly                    | 5B: Decontamination and authentication |
-|                  | Lunch                                                                                 | Lunch                                                                                 | Lunch                                                 | Lunch                                  | Lunch                                  |
-| Practical        | 1C-1: Introduction to R and the tidyverse & 1C-2: - Introduction to Python and Pandas | 2B: Introduction to Git(Hub) & 2C: Introduction to AncientMetagenomeDir (1hr)         | 3C: Genome mapping                                    | 4C: Phylogenomics                      | 5C: Ancient Metagenomic Pipelines      |
-|                  | Break                                                                                 | Break                                                                                 | Break                                                 | Break                                  | Break                                  |
-| Roundtable       | Introductions                                                                         | Project Organization                                                                  | Taxonomic Classifiers                                 | Databases                              | Dinner (Leipzig Only)                  |
+| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                               |
+| ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | --------------------------------------- |
+| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to Metagenomics                      | Introduction to microbial genomics | Evolutionary Biology                    |
+| 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              | Break                                   |
+| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas | Taxonomic Profiling, OTU Tables and Visualisation | Genome assembly                    | Decontamination and authentication      |
+| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                   | Lunch                                             | Lunch                              | Lunch                                   |
+| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                    | Phylogenomics                      | Ancient Metagenomic Pipelines & Wrap Up |
+| 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              |
+| 15:45-17:00 | Roundtable       | Introductions                                                           | Project Organization                                                    | Taxonomic Classifiers                             | Databases                          | Dinner (Leipzig Only)                   |
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
-You can see the contents of [last years summer school](/2022/README) to get an idea of what material will be covered.
+\* All times are in CEST (Leipzig, Germany)!
 
 ## Contents Overview
 
