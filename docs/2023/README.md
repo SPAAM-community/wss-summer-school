@@ -2,9 +2,11 @@
 
 ## Latest
 
-Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now open!
+Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now **closed**!
 
-You can send your application on the following form: [https://survey.academiccloud.de/index.php/773422](https://survey.academiccloud.de/index.php/773422)
+We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.
+
+<!-- You can send your application on the following form: [https://survey.academiccloud.de/index.php/773422](https://survey.academiccloud.de/index.php/773422) -->
 
 ## What
 
@@ -26,7 +28,7 @@ Note the following additional dates:
 
 - **Applications open**: 3rd April 2023
 - **Applications close**: 26th May 2023
-- **Decision notifications**: 5th June 2023
+- **Decision notifications**: from 5th June 2023 onwards
 
 ## Where
 
@@ -38,17 +40,16 @@ If you're not familiar with this platform please see the documentation on the ga
 
 ## What
 
-You will need access to the internet, and a modern web browser - either Google Chrome or Firefox. Please note, if using Firefox, please turn on clipboard support using [these](https://sudoedit.com/firefox-async-clipboard/) instructions.
+You will need access to the internet, and a modern web browser - either Google Chrome, Chromium or Microsoft Edge.
+Firefox, is also possible, but makes copy-pasting difficult (you will need to press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> a lot...). Safari isn't recommended.
 
 Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
 
-<!--
 Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2023/denbi-registration).
 
 Once you've recieved your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 
-If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials'.
--->
+If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
 
 ## Schedule
 
@@ -70,7 +71,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 ### DAY 1
 
-- **Lecture** Introduction to NGS data: _TBC_
+- **Lecture** Introduction to NGS data: _James Fellows Yates_
   - What is NGS sequencing and what does its data look like?
 - **Practical** BareBonesBash: _Aida Andrades Valtueña and Thiseas Lamnidis_
   - Introduction to the UNIX command line.
@@ -110,7 +111,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 - **Lecture** Introduction to microbial genomics: _Meriam Guellil_
   - How can we learn from studying the genomes of microbes? What questions can we ask?
-- **Practical** Genome assembly: _Nikolay Oskolkov and Alex Hübner_
+- **Practical** Genome assembly: _Alex Hübner and Nikolay Oskolkov_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Practical** Phylogenomics: _Arthur Kocher and Alexander Herbig_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
@@ -121,7 +122,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 - **Lecture** Evolutionary Biology: _Alexander Herbig_
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
-- **Practical** Authentication and Decontamination: _James Fellows Yates and Nikolay Oskolkov_
+- **Practical** Authentication and Decontamination: \_Nikolay Oskolkov and James Fellows Yates
   - How can I validate my DNA is ancient? What sort of analyses can convice ourselves and a reviewer we have good preservation?
 - **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Nikolay Oskolkov_
   - What pipelines exist for specifically ancient DNA and ancient metagenomic data?
