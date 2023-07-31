@@ -14,6 +14,8 @@ The **Ancient Metagenomics Summer School** is a 5 day **practical** workshop (bl
 
 The course is taught by active researchers of the SPAAM Community (including MPI-EVA in Germany, Harvard University in the US, SciLifeLab in Sweden, and University of Vienna in Austria) and supported by the Werner Siemens Foundation, in collaboration with the Max Planck Harvard Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), the Leibniz Institute for Natural Product Research and Infection Biology, and the Jena School for Microbial Communications. The course coordinators are Dr. James Fellows Yates (james_fellows_yates@eva.mpg.de) and Prof. Dr. Christina Warinner (christina_warinner@eva.mpg.de).
 
+The course will be following the content in the (draft) [Introduction to Ancient Metagenomics textbook](https://www.spaam-community.org/intro-to-ancient-metagenomics-book/).
+
 ## Who
 
 The course is aimed at Masters or early-stage PhD students (or equivalent), to a maximum of 40 participants.
