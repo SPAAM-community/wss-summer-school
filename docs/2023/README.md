@@ -49,9 +49,9 @@ Each participant will being given a cloud computing node kindly provided by the 
 
 Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2023/denbi-registration).
 
-Once you've recieved your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
+Once you've received your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 
-If you get a message about permissions for 'colour mangement', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
+If you get a message about permissions for 'colour management', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
 
 ## Schedule
 
