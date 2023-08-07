@@ -1,5 +1,12 @@
 # Introduction to Ancient Metagenomics Summer School - 2023
 
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;" src="assets/images/2023/summerschool2023-photo1.png">
+
+<p style="text-align:center"><b>Many thanks to all the instructors and students for making the first SPAAM summer school a success!</b></p>
+
 ## Latest
 
 Applications for the 2023 Introduction to Ancient Metagenomics Summer school is now **closed**!
