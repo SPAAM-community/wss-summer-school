@@ -2,7 +2,10 @@
 
 - [Home](/)
 - [Apply](apply)
+- [2024 Syllabus](2024/README.md)
 - [2023 Syllabus](2023/README.md)
+  - [Teaching Material](2023/teaching-material.md)
+  - [Meet the Instructors](2023/instructors.md)
 - [2022 Syllabus](2022/README.md)
   <!-- - [Resources](resources) -->
 - [Code of Conduct](code-of-conduct)
