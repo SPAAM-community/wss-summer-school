@@ -24,7 +24,7 @@ For the practical sessions, we refer you to the (draft) [Introduction to Ancient
 
 ### Introduction to evolutionary biology
 
-<!-- TODO -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRsCy7WnR9lPFqb6z4gPyvS3jpRwoZpeBA9VJ2V0ZA7G8FSHV9Y_LjeVZjcT49gdQbJuJGiSXDMz5jd/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Practical Sessions
 
@@ -54,7 +54,7 @@ There were no specific slides for this session. Please see the relevant chapter 
 
 ### Genome mapping
 
-<!-- TODO -->
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR_V1YjaVThl0EGzgNsdt_EbP0zCZZ1e7BRPHNYF4IhgMz464uZh-AV5c_oid1WMjW_f8cIE16tBoxq/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Genome assembly
 
