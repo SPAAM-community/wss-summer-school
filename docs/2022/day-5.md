@@ -421,7 +421,7 @@ PDF version of these slides can be downloaded from [here](https://github.com/SPA
 
 #### Preparation
 
-The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.6983188](https://doi.org/10.5281/zenodo.6983188). See instructions on page.
+The data and conda environment `.yaml` file for this practical session can be downloaded from here: [https://doi.org/10.5281/zenodo.8412642](https://doi.org/10.5281/zenodo.8412642). See instructions on page.
 
 Change into the session directory
 
