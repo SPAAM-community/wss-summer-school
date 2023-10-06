@@ -8,7 +8,7 @@ dependencies:
   - conda-forge::r-tidyverse
   - bioconda::beast2
   - bioconda::tracer
-  - bioconda::humann
+  #- bioconda::humann
   - bioconda::figtree
   - conda-forge::r-knitr
   - conda-forge::r-decontam

@@ -432,7 +432,7 @@ cd /<path>/<to>/5c-functional-genomics/
 Load the conda environment.
 
 ```bash
-conda activate phylogenomics-functional
+conda activate functional-profiling
 ```
 
 Open R Studio from within the conda environment, and we can load the required libraries for this walkthrough.
