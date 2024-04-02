@@ -75,7 +75,7 @@ ancient metagenomics in the 2022 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
+    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/FRANGENBERG_Jasmin.jpeg" alt="Avatar" /></a></div>
     <p>Jasmin Frangenberg</p>
   </div>
 
@@ -119,7 +119,7 @@ ancient metagenomics in the 2022 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
+    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ZEIBIG_Tessa.jpg" alt="Avatar" /></a></div>
     <p>Tessa Zeibig</p>
   </div>
 
@@ -146,13 +146,13 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇩🇪 **Gunnar Neumann** _(background in preparation)_
 
-🇩🇪 **Jasmin Frangenberg** _(background in preparation)_
+🇩🇪 **Jasmin Frangenberg** is a computational biologist, who originally studied Molecular Biology and Evolution. For her PhD in the Paleobiotechnology department at the Leibniz Institute for Natural Product Research and Infection Biology (HKI) in Jena, she characterizes antibiotic resistance in ancient microbial DNA and develops nf-core/funcscan, a best-practice analysis pipeline for the screening of nucleotide sequences for antimicrobial peptides, antibiotic resistance genes and biosynthetic gene clusters.
 
 🇺🇸 **Keri Burge** _(background in preparation)_
 
 🇳🇱 **Kevin Nota** has a PhD in molecular paleoecology from Uppsala University. Currently he is a postdoc in the Max Planck Research Group for Ancient Environmental Genomics. His main research interest is in population genomics from ancient environmental samples.
 
-🇫🇷 **Maxime Borry** is a doctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he is now working on the completion of his PhD, focused on developing new tools and data analysis of ancient metagenomic samples.
+🇫🇷 **Maxime Borry** is a postdoctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he is now working after completion of his PhD on developing new tools and data analysis of ancient metagenomic samples.
 
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1.
 
@@ -162,7 +162,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
-🇩🇪 **Tessa Zeibig** _(background in preparation)_
+🇩🇪 **Tessa Zeibig** is a trained Microbiologist, she’s currently pursuing her PhD in the Computational Pathogenomics Group led by Alexander Herbig at the Max Planck Institute for Evolutionary Anthropology. Her focus is on human viruses, seeking to understand their evolution and development, using ancient genomic data.
 
 🇨🇱 **Vilma Pérez** _(background in preparation)_
 
