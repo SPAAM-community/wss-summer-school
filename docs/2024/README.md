@@ -79,7 +79,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - What is NGS sequencing and what does its data look like?
 - **Practical** BareBonesBash: _Aida Andrades Valtueña and Thiseas Lamnidis_
   - Introduction to the UNIX command line.
-- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Kevin Nota and Remi Denise_
+- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Kevin Nota and Rémi Denise_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions participants can choose which to attend based on their prior experience)
 - **Round table** TBC
@@ -88,7 +88,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 - **Lecture** Introduction to ancient DNA: _Christina Warinner_
   - How to identify and handle DNA from ancient contexts
-- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Kevin Nota and Remi Denise_
+- **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Kevin Nota and Rémi Denise_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions participants can choose which to attend based on their prior experience)
 - **Practical** Bytesize git: _James Fellows Yates_
