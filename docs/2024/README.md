@@ -47,7 +47,7 @@ Firefox, is also possible, but makes copy-pasting difficult (you will need to pr
 
 Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
 
-Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2023/denbi-registration).
+Registration links will be sent via email all participants, however detailed instructions on registration procedure can be seen [here](2024/denbi-registration).
 
 Once you've received your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 

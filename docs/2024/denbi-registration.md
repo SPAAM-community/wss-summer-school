@@ -4,7 +4,7 @@ For the 2024 edition of the summer school, we will again be using cloud computin
 
 For the use of the computing nodes you will need to sign up for the services.
 
-A walkthrough from deNBI is available here: [https://cloud.denbi.de/wiki/registration/](https://cloud.denbi.de/wiki/registration/), but you will need to star tthe process from the following registration link here <!-- [here](TO-UPDATE-SPAAMSumScho23)--> to start the process!
+A walkthrough from deNBI is available here: [https://cloud.denbi.de/wiki/registration/](https://cloud.denbi.de/wiki/registration/), but you will need to start the process from the following registration link here <!-- [here](TO-UPDATE-SPAAMSumScho23)--> to start the process! Note that the link will only be active from the once acceptance emails have been sent out.
 
 The process will take you through:
 
