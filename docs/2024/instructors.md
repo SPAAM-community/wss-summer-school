@@ -110,7 +110,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
   <div class ="member">
     <div class="square"><a href="https://rdenise.github.io/" target="_blank"><img src="assets/images/headshots/DENISE_Remi.jpg" alt="Avatar" /></a></div>
-    <p>Remi Denise</p>
+    <p>Rémi Denise</p>
   </div>
 
   <div class ="member">
@@ -158,7 +158,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇷🇺 **Nikolay Oskolkov** is a bioinformatician at Lund University and the bioinformatics platform of SciLifeLab, Sweden. He defended his PhD in theoretical physics in 2007, and switched to life sciences in 2012. His research interests include mathematical statistics and machine learning applied to genetics and genomics, single cell and ancient metagenomics data analysis.
 
-🇫🇷 **Remi Denise** is a postdoctoral researcher in bioinformatics at APC Microbiome Ireland, University College Cork. During his PhD he studied the evolution of the type IV filaments in Bacteria and Archaea using phylogenomics to understand how this family evolved in multiple different systems. He secured a MSCA Postdoctoral Fellowship to study the viral diversity in the ancient metagenomes and how this viral population interacts with the environment and helps shape the microbial community.
+🇫🇷 **Rémi Denise** is a postdoctoral researcher in bioinformatics at APC Microbiome Ireland, University College Cork. During his PhD he studied the evolution of the type IV filaments in Bacteria and Archaea using phylogenomics to understand how this family evolved in multiple different systems. He secured a MSCA Postdoctoral Fellowship to study the viral diversity in the ancient metagenomes and how this viral population interacts with the environment and helps shape the microbial community.
 
 🇬🇷 **Thiseas Lamnidis** is a human population geneticist interested in European population history after the Bronze Age. To gain the required resolution to differentiate between Iron Age European populations, he is developing analytical methods based on the sharing of rare variation between individuals. He has also contributed to pipelines that streamline the processing and analysis of genetic data in a reproducible manner, while also facilitating dissemination of information among interdisciplinary colleagues.
 
