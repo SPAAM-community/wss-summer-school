@@ -152,7 +152,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇳🇱 **Kevin Nota** has a PhD in molecular paleoecology from Uppsala University. Currently he is a postdoc in the Max Planck Research Group for Ancient Environmental Genomics. His main research interest is in population genomics from ancient environmental samples.
 
-🇫🇷 **Maxime Borry** is a postdoctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he is now working after completion of his PhD on developing new tools and data analysis of ancient metagenomic samples.
+🇫🇷 **Maxime Borry** is a postdoctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he graduated from the University of Jena with a PhD in bioinformatics, focused on ancient DNA metagenomics.
 
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1.
 
