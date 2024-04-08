@@ -19,7 +19,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 </div>
 
-🇬🇧 **James Fellows Yates** is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches and high-quality pipelines for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
+🇬🇧 **James Fellows Yates** (he/him) is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches and high-quality pipelines for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
 
 🇺🇸 **Christina Warinner** is Group Leader of Microbiome Sciences at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and Associate Professor of Anthropology at Harvard University. She serves on the Leadership Team of the Max Planck-Harvard Research Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), and is a Professor in the Faculty of Biological Sciences at Friedrich Schiller University in Jena, Germany. Her research focuses on the use of metagenomics and paleoproteomics to better understand past human diet, health, and the evolution of the human microbiome.
 
@@ -129,7 +129,7 @@ ancient metagenomics in the 2022 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
+    <div class="square"><a href="https://twitter.com/VilmaPrez9" target="_blank"><img src="assets/images/headshots/PEREZ_Vilma.JPG" alt="Avatar" /></a></div>
     <p>Vilma Pérez</p>
   </div>
 
@@ -171,7 +171,7 @@ ancient metagenomics in the 2022 edition of the summer school.
 
 🇩🇪 **Tessa Zeibig** is a trained Microbiologist, she’s currently pursuing her PhD in the Computational Pathogenomics Group led by Alexander Herbig at the Max Planck Institute for Evolutionary Anthropology. Her focus is on human viruses, seeking to understand their evolution and development, using ancient genomic data.
 
-🇨🇱 **Vilma Pérez** _(background in preparation)_
+🇨🇱 **Vilma Pérez** is a microbial ecologist at the Australian Centre for Ancient DNA, University of Adelaide. Her research focuses on reconstructing microbial communities from present and past environments using environmental DNA techniques. Her objective is to use this information as bioindicators, providing insights into how environments have changed or responded to disturbances over time.
 
 <style>
 .member {
