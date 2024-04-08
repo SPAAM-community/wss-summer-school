@@ -124,7 +124,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
 - **Practical** Authentication and Decontamination (microb(iom)es): _Nikolay Oskolkov and James Fellows Yates_
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
-- **Practical** Authentication and Decontamination (eukaryotes): _Giulia Zampirolo and TBC_
+- **Practical** Authentication and Decontamination (eukaryotes): _Giulia Zampirolo and Aleksandra Laura Pach_
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
 - **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Jasmin Frangenberg_
   - What pipelines exist for specifically ancient DNA and ancient metagenomic data?
