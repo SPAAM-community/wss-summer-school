@@ -24,7 +24,7 @@ You can meet the instructors [here](/2024/instructors.md).
 
 ## When
 
-The summer school was held between 5th-9th August 2024, 09:00-17:00 CEST (Berlin Time).
+The summer school will be held between 5th-9th August 2024, 09:00-17:00 CEST (Berlin Time).
 
 Note the following additional dates:
 
@@ -57,15 +57,15 @@ If you get a message about permissions for 'colour management', please use the p
 
 The PROVISIONAL schedule for the summer school is as follows:
 
-| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                               |
-| ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | --------------------------------------- |
-| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to metagenomics                      | Introduction to microbial genomics | Introduction to eDNA                    |
-| 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              | Break                                   |
-| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas | Taxonomic Profiling, OTU Tables and Visualisation | Genome assembly                    | Phylogenomics                           |
-| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                   | Lunch                                             | Lunch                              | Lunch                                   |
-| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                    | Decontamination and authentication | Ancient Metagenomic Pipelines & Wrap Up |
-| 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              |
-| 15:45-17:00 | Roundtable       | TBC                                                                     | TBC                                                                     | TBC                                               | TBC                                | Dinner (Leipzig Only)                   |
+| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                                      |
+| ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ---------------------------------------------- |
+| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to metagenomics                      | Introduction to microbial genomics | Introduction to eDNA                           |
+| 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              | Break                                          |
+| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas | Taxonomic Profiling, OTU Tables and Visualisation | Genome assembly                    | Decontamination / Authentication               |
+| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                   | Lunch                                             | Lunch                              | Lunch                                          |
+| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                    | Phylogenomics                      | Authentication / Ancient Metagenomic Pipelines |
+| 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              |                                                |
+| 15:45-17:00 | Roundtable       | TBC                                                                     | TBC                                                                     | TBC                                               | TBC                                | Dinner (Leipzig Only)                          |
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
