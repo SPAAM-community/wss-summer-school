@@ -2,9 +2,7 @@
 
 All teaching slides and videos (lectures only) from the 2024 summer school can be found here.
 
-For the practical sessions, we refer you to the (draft) [Introduction to Ancient Metagenomics textbook](https://www.spaam-community.org/intro-to-ancient-metagenomics-book).
-
-The material will be posted at the end of the 2024 summer school. In the meantime, please see previous years material.
+The material will be posted at the end of the 2024 summer school.
 
 ## Lectures
 

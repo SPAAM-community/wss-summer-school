@@ -2,11 +2,10 @@
 
 ## Latest
 
-Applications for the 2024 Introduction to Ancient Metagenomics Summer school is now **open**!
+Applications for the 2024 Introduction to Ancient Metagenomics Summer school are now **closed**!
 
-<!--We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.-->
+We were over subscribed with almost 100 applications. Thank you for your interest :D
 
-You can send your application on the following form: [here](https://survey.academiccloud.de/index.php/2024?lang=en).
 
 ## What
 
@@ -18,29 +17,23 @@ The course will be following the content in the (draft) [Introduction to Ancient
 
 ## Who
 
-The course is aimed at Masters or early-stage PhD students (or equivalent), to a maximum of 40 participants.
+The course is aimed at Masters or early-stage PhD students and early-stage researchers.
 
 You can meet the instructors [here](/2024/instructors.md).
 
 ## When
 
-The summer school will be held between 5th-9th August 2024, 09:00-17:00 CEST (Berlin Time).
-
-Note the following additional dates:
-
-- **Applications open**: 2nd April 2024
-- **Applications close**: 31th May 2024
-- **Decision notifications**: from second to third week of June 2024
+The summer school will be held between 17th-19th June 2024, 09:00-17:00 CEST (Berlin Time).
 
 ## Where
 
-We will be running this virtual edition of the SPAAM Summer School Introduction to Metagenomics on [Gather.Town](https://gather.town), on the SPAAM workspace [here](https://app.gather.town/app/PlXjb0deog0B4JCq/spaam-community).
+We will be running this virtual edition of the HAAM Summer School on [Gather.Town](https://gather.town), on the SPAAM workspace [here](https://app.gather.town/app/3vMfPC4aqk2kPq3c/HAAM-Summer%20School). <!-- Check the layout here! -->
 
 If you're not familiar with this platform please see the documentation on the gather.town website, or [this 'Quick Start' video from nf-core](https://nf-co.re/events/2022/bytesize-37-gathertown).
 
 > ⚠️ If you're using Mac/OSX we highly recommend using the desktop app of gather.town rather than your web browser, for optimisation purposes.
 
-## What
+<!-- ## What
 
 You will need access to the internet, and a modern web browser - either Google Chrome, Chromium or Microsoft Edge.
 Firefox, is also possible, but makes copy-pasting difficult (you will need to press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> a lot...). Safari isn't recommended.
@@ -51,13 +44,13 @@ Registration links will be sent via email all participants, however detailed ins
 
 Once you've received your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 
-If you get a message about permissions for 'colour management', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
+If you get a message about permissions for 'colour management', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above. -->
 
 ## Schedule
 
-The PROVISIONAL schedule for the summer school is as follows:
+The schedule for the summer school is as follows:
 
-| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                                      |
+<!-- | **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                                      |
 | ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ---------------------------------------------- |
 | 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to metagenomics                      | Introduction to microbial genomics | Introduction to eDNA                           |
 | 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              | Break                                          |
@@ -66,6 +59,9 @@ The PROVISIONAL schedule for the summer school is as follows:
 | 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                    | Phylogenomics                      | Authentication / Ancient Metagenomic Pipelines |
 | 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              |                                                |
 | 15:45-17:00 | Roundtable       | TBC                                                                     | TBC                                                                     | TBC                                               | TBC                                | Dinner (Leipzig Only)                          |
+-->
+
+
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
