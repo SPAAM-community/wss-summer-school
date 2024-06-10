@@ -1,7 +1,7 @@
 # Instructors
 
 Meet your instructors! This page introduces you to the people guiding you through
-ancient metagenomics in the 2022 edition of the summer school.
+ancient metagenomics in the 2024 edition of the summer school.
 
 ## Organisers
 

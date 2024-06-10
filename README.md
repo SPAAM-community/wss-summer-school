@@ -1,6 +1,6 @@
-# Website for the SPAAM x Werner Siemens-Stiftung Summer School: Introduction to Ancient Metagenomics
+# Website for the HAAM Summer School: Connecting the past, present, and future
 
-See: [https://spaam-community.github.io/wss-summer-school/](https://spaam-community.github.io/wss-summer-school/) for website.
+See: [https://haam-community.github.io/haam-summer-school/](https://haam-community.github.io/haam-summer-school/) for website.
 
 Website is hosted using GitHub Pages and [Docsify](https://docsify.js.org/#/quickstart)
 
