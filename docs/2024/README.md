@@ -42,8 +42,7 @@ If you're not familiar with this platform please see the documentation on the ga
 
 ## What
 
-You will need access to the internet, and a modern web browser - either Google Chrome, Chromium or Microsoft Edge.
-Firefox, is also possible, but makes copy-pasting difficult (you will need to press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> a lot...). Safari isn't recommended.
+You will need access to the internet, and a modern web browser - either Google Chrome, Chromium, Microsoft Edge, or Firefox. Safari isn't recommended.
 
 Each participant will being given a cloud computing node kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud) for the duration of the summer school.
 
@@ -51,7 +50,9 @@ Registration links will be sent via email all participants, however detailed ins
 
 Once you've received your link, each participant will need to open the link in their browser. On the Guacamole page please use the username/password und 'Login credentials' [here](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole). You should then see a desktop environment.
 
-If you get a message about permissions for 'colour management', please use the password described for the 'Ubuntu User' in the next code block below the 'Login Credentials' in the instructions above.
+If you get a message about permissions for 'colour management', please use the password `denbi`.
+
+If you have issues copy and pasting, make sure in Chromium based browsers that you have given permissions. In Firefox, you may need to type `about:config` in the URL, accept the risk, type 'clipboard' in the resulting search bar, and set `dom.events.asyncClipboard.readText` and `dom.events.testing.asyncClipboard` to true. You may need to restart your browser after.
 
 ## Schedule
 
