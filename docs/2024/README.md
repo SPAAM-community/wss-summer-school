@@ -57,15 +57,15 @@ If you get a message about permissions for 'colour management', please use the p
 
 The PROVISIONAL schedule for the summer school is as follows:
 
-| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                         | **Day 4**                          | **Day 5**                                      |
-| ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ---------------------------------------------- |
-| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to metagenomics                      | Introduction to microbial genomics | Introduction to eDNA                           |
-| 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              | Break                                          |
-| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas | Taxonomic Profiling, OTU Tables and Visualisation | Genome assembly                    | Decontamination / Authentication               |
-| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                   | Lunch                                             | Lunch                              | Lunch                                          |
-| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                    | Phylogenomics                      | Authentication / Ancient Metagenomic Pipelines |
-| 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                             | Break                              |                                                |
-| 15:45-17:00 | Roundtable       | TBC                                                                     | TBC                                                                     | TBC                                               | TBC                                | Dinner (Leipzig Only)                          |
+| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                               | **Day 3**                                                | **Day 4**                          | **Day 5**                                      |
+| ----------- | ---------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------- | ---------------------------------------------- |
+| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                             | Introduction to metagenomics                             | Introduction to microbial genomics | Introduction to eDNA                           |
+| 10:15-10:30 |                  | Break                                                                   | Break                                                                   | Break                                                    | Break                              | Break                                          |
+| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas | Taxonomic Profiling, OTU Tables and Visualisation        | Genome assembly                    | Decontamination / Authentication               |
+| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                   | Lunch                                                    | Lunch                              | Lunch                                          |
+| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | Introduction to Git(Hub) & Introduction to AncientMetagenomeDir (1hr)   | Genome mapping                                           | Phylogenomics                      | Authentication / Ancient Metagenomic Pipelines |
+| 13:30-15:45 |                  | Break                                                                   | Break                                                                   | Break                                                    | Break                              |                                                |
+| 15:45-17:00 | Roundtable       | Poster Session                                                          | Social Activity                                                         | Talk from [NFDI4Microbiota](https://nfdi4microbiota.de/) | Instructor Office Hours            | Dinner (Leipzig Only)                          |
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
@@ -82,7 +82,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Kevin Nota and Rémi Denise_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions participants can choose which to attend based on their prior experience)
-- **Round table** TBC
+- **Round table** Poster session: practise networking, and get familiar with your peers' current and upcoming research!
 
 ### DAY 2
 
@@ -96,7 +96,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Practical** AncientMetagenomeDir: _James Fellows Yates_
   - Where to get ancient metagenomic comparative data, and why is metadata important?
   - Git practice
-- **Round table** TBC
+- **Round table** Social activity: we will do a few light-hearted fun mini fun group activities to further get to know each other
 
 ### DAY 3
 
@@ -106,7 +106,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Practical** Genome mapping: _Tessa Zeibig and Alexander Herbig_
   - Why and how do we map against a reference? What parameters are important for aDNA?
-- **Round table** TBC
+- **Round table** Talk from the [NFDI4Microbiota](https://nfdi4microbiota.de/) about their open science initiatives, analysis workflows, and how to use electronic lab notebooks.
 
 ### DAY 4
 
@@ -116,7 +116,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Practical** Phylogenomics: _Arthur Kocher and Gunnar Neumann_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
-- **Roundtable** TBC
+- **Roundtable** (Provisional) Instructor Office Hours: Ask the instructors anything about you learnt during the week or to get advice on your own research!
 
 ### DAY 5
 
@@ -128,4 +128,4 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
 - **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Jasmin Frangenberg_
   - What pipelines exist for specifically ancient DNA and ancient metagenomic data?
-- **Round table** TBC
+- **Round table** (Leipzig only) Dinner for Students and Instructors.
