@@ -107,7 +107,11 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Practical** Genome mapping: _Tessa Zeibig and Alexander Herbig_
   - Why and how do we map against a reference? What parameters are important for aDNA?
-- **Round table** Talk from the [NFDI4Microbiota](https://nfdi4microbiota.de/) about their open science initiatives, analysis workflows, and how to use electronic lab notebooks.
+- **Round table** NFDI4Microbiota - Public infrastructure for making your research data Open and FAIR: _Konrad Förstner, Hesahm Almessady, and Justine Vandendorpe_
+  - Three external talks from members the [NFDI4Microbiota](https://nfdi4microbiota.de/) consortium:
+    - Introduction to NFDI4Microbiota (Konrad Förstner)
+    - Overview of best practice workflows (Hesahm Almessady)
+    - Introduction to the use of electronic Lab Notebooks (Justine Vandendorpe)
 
 ### DAY 4
 
