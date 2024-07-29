@@ -6,7 +6,7 @@ Applications for the 2024 Introduction to Ancient Metagenomics Summer school is 
 
 <!--We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.-->
 
-You can send your application on the following form: [here](https://survey.academiccloud.de/index.php/2024?lang=en).
+Applications are now closed. We were again highly over-subscribed with more than 100 applications.
 
 ## What
 
