@@ -110,7 +110,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Round table** NFDI4Microbiota - Public infrastructure for making your research data Open and FAIR: _Konrad Förstner, Hesahm Almessady, and Justine Vandendorpe_
   - Three external talks from members the [NFDI4Microbiota](https://nfdi4microbiota.de/) consortium:
     - Introduction to NFDI4Microbiota (Konrad Förstner)
-    - Overview of best practice workflows (Hesahm Almessady)
+    - Overview of best practice workflows (Hesham Almessady)
     - Introduction to the use of electronic Lab Notebooks (Justine Vandendorpe)
 
 ### DAY 4
