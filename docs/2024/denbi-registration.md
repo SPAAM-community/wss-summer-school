@@ -4,7 +4,7 @@ For the 2024 edition of the summer school, we will again be using cloud computin
 
 For the use of the computing nodes you will need to sign up for the services.
 
-You will need to start the process from the following registration link here [here](https://simplevm.denbi.de/portal/webapp/#/workshops/invitation/10927e3ca3f5463d9718363c01a9a4e0), and if anything is unclear, follow the instructions in walkthrough from deNBI is available here: [https://cloud.denbi.de/wiki/registration/](https://cloud.denbi.de/wiki/registration/).
+You will need to start the process from the following registration link here here, and if anything is unclear, follow the instructions in walkthrough from deNBI is available here: [https://cloud.denbi.de/wiki/registration/](https://cloud.denbi.de/wiki/registration/).
 
 The final step of the registration process will be to send your registration to the SimpleVM SPAAMSumScho2024 workshop. Make sure to continue the process until you get to this point!
 

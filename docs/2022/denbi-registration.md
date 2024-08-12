@@ -12,7 +12,7 @@ This can be summarised as follows:
 
 The procedure may seem a little convoluted at first, so we provide detailed instructions below. This walkthrough has 18 steps, please make sure you complete all 18.
 
-Note you can only proceed with the instructions after recieveing an email from the Summer School organisers containing the registration link.
+Note you can only proceed with the instructions after receiving an email from the Summer School organisers containing the registration link.
 
 ## Registration on Life Sciences Research Infrastructure
 
@@ -118,7 +118,7 @@ This procedure is similar to that for ELIXIR.
 
 17. Select your login provider as peformed above, and this time you will be asked to consent for deNBI to access your ELXLIR information.
 
-    We recommend selecting 'forever' for convienence, but this is not required.
+    We recommend selecting 'forever' for convenience, but this is not required.
 
     ⚠️ This step is critical for ensuring that the organisers get your request for the workshop.
 
@@ -132,8 +132,8 @@ This procedure is similar to that for ELIXIR.
 
 ## Finish
 
-In total, you can expect to have recieved the following emails
+In total, you can expect to have received the following emails
 
 <img style="display: block; margin-left: auto; margin-right: auto;" width="75%" src="assets/images/2022/denbi_registration/23-email_overview.png">
 
-With this, you should be all set up to go. You will recieve further instructions from the organisers how to access your personal computing nodes via email before the summer school.
+With this, you should be all set up to go. You will receive further instructions from the organisers how to access your personal computing nodes via email before the summer school.
