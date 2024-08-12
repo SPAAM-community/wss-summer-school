@@ -7,4 +7,4 @@
 
 [About](#about)
 [Apply](apply.md)
-[Next Event](/2024/README)
+[Next Event](/2025/README)
