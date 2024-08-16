@@ -5,7 +5,7 @@
   margin-right: auto;
   width: 30%;" src="assets/images/2023/summerschool2023-photo1.png">
 
-<p style="text-align:center"><b>Many thanks to all the instructors and students for making the first SPAAM summer school a success!</b></p>
+<p style="text-align:center"><b>Many thanks to all the instructors and students for making the second SPAAM summer school a success!</b></p>
 
 ## Latest
 

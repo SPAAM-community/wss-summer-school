@@ -1,12 +1,19 @@
 # Introduction to Ancient Metagenomics Summer School - 2024
 
+<img style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;" src="assets/images/2024/lecture.png">
+
+<p style="text-align:center"><b>Many thanks to all the instructors and students for making the third SPAAM summer school a success!</b></p>
+
 ## Latest
 
-Applications for the 2024 Introduction to Ancient Metagenomics Summer school is now **open**!
+Applications for the 2024 Introduction to Ancient Metagenomics Summer school is now **closed**!
 
 <!--We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.-->
 
-Applications are now closed. We were again highly over-subscribed with more than 100 applications.
+We were again highly over-subscribed with more than 100 applications.
 
 ## What
 
@@ -58,15 +65,15 @@ If you have issues copy and pasting, make sure in Chromium based browsers that y
 
 The PROVISIONAL schedule for the summer school is as follows:
 
-| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                                       | **Day 3**                                                | **Day 4**                          | **Day 5**                                                                                                                  |
-| ----------- | ---------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                                     | Introduction to metagenomics                             | Introduction to microbial genomics |  - Decontamination (30m)<br>- General Authentication Lecture and Practical (1h) <br>                                                                                                       |
-| 10:15-10:30 |                  | Break                                                                   | Break                                                                           | Break                                                    | Break                              | Break                                                                                                                      |
-| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas         | Taxonomic Profiling, OTU Tables and Visualisation        | Genome assembly                    | - Introduction to eDNA (1h) <br> - Authentication at Scale Lecture (30m) |
-| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                           | Lunch                                                    | Lunch                              | Lunch                                                                                                                      |
-| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | - Introduction to Git(Hub) (1h)<br>- Introduction to AncientMetagenomeDir (1hr) | Genome mapping                                           | Phylogenomics                      | - Authentication at Scale Practical (1h) <br>- Ancient Metagenomic Pipelines (1h)                                          |
-| 15:30-15:45 |                  | Break                                                                   | Break                                                                           | Break                                                    | Break                              |                                                                                                                            |
-| 15:45-17:00 | Roundtable       | Poster Session                                                          | Social Activity                                                                 | Talk from [NFDI4Microbiota](https://nfdi4microbiota.de/) | Instructor Office Hours            | Dinner (Leipzig Only)                                                                                                      |
+| **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                                       | **Day 3**                                                | **Day 4**                          | **Day 5**                                                                           |
+| ----------- | ---------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------- |
+| 09:00-10:15 | Theoretical      | Welcome & Introduction to NGS data                                      | Introduction to ancient DNA                                                     | Introduction to metagenomics                             | Introduction to microbial genomics | - Decontamination (30m)<br>- General Authentication Lecture and Practical (1h) <br> |
+| 10:15-10:30 |                  | Break                                                                   | Break                                                                           | Break                                                    | Break                              | Break                                                                               |
+| 10:30-12:30 | Practical        | BareBonesBash                                                           | Introduction to R and the tidyverse & Introduction to Python and Pandas         | Taxonomic Profiling, OTU Tables and Visualisation        | Genome assembly                    | - Introduction to eDNA (1h) <br> - Authentication at Scale Lecture (30m)            |
+| 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                           | Lunch                                                    | Lunch                              | Lunch                                                                               |
+| 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | - Introduction to Git(Hub) (1h)<br>- Introduction to AncientMetagenomeDir (1hr) | Genome mapping                                           | Phylogenomics                      | - Authentication at Scale Practical (1h) <br>- Ancient Metagenomic Pipelines (1h)   |
+| 15:30-15:45 |                  | Break                                                                   | Break                                                                           | Break                                                    | Break                              |                                                                                     |
+| 15:45-17:00 | Roundtable       | Poster Session                                                          | Social Activity                                                                 | Talk from [NFDI4Microbiota](https://nfdi4microbiota.de/) | Instructor Office Hours            | Dinner (Leipzig Only)                                                               |
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
