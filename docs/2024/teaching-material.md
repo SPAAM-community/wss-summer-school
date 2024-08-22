@@ -26,8 +26,7 @@ The material will be posted at the end of the 2024 summer school. In the meantim
 
 ### Introduction to eDNA
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTkbZfJ6X2197pjUjtO9llseK4hBARqmaghk8v2JVuAoGQhd2PH7k2dqClgnjsoLDclIbz1I1JUg2go/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<iframe src="https://docs.google.com/presentation/d/1VdNIyBkToTF995-e8MTH-ZpBttUhBDcPdVPqHB5pHJ8/embed?start=false&loop=false&delayms=3000" frameborder="0"  width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ## Practical Sessions
 
 ### BareBonesBash (introduction to the UNIX command line)
