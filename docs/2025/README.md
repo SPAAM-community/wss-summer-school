@@ -1,6 +1,6 @@
 # Introduction to Ancient Metagenomics Summer School - 2025
 
-The 2025 edition of the Werner Siemens-Stiftung funded SPAAM Summer School: Introduction to Ancient Metagenomics is currently in preparation.
+The 2025 edition of the Werner Siemens-Stiftung funded SPAAM Summer School: Introduction to Ancient Metagenomics will take place 4-8 August 2025. More information about how to apply for the course and the application deadline will be posted soon. 
 
 Please monitor this page, as well as [SPAAM social media and communication channels](https://www.spaam-community.org/about/) for updates!
 
