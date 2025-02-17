@@ -16,6 +16,8 @@ The course is taught by active researchers of the SPAAM Community (including MPI
 
 The course will be following the content in the (draft) [Introduction to Ancient Metagenomics textbook](https://www.spaam-community.org/intro-to-ancient-metagenomics-book/).
 
+For the contents of the course, please see the [schedule](2025/schedule.md).
+
 ## Who
 
 The course is aimed at Masters or early-stage PhD students (or equivalent), to a maximum of 40 participants.
@@ -31,6 +33,8 @@ Note the following additional dates:
 - **Applications open**: 31st March 2025
 - **Applications close**: 30th May 2025
 - **Decision notifications**: from second to third week of June 2025
+
+To see the provisional schedule, please see the [here](2025/schedule.md).
 
 ## Where
 
