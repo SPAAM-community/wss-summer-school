@@ -1,7 +1,7 @@
 # Instructors
 
 Meet your instructors! This page introduces you to the people guiding you through
-ancient metagenomics in the 2024 edition of the summer school.
+ancient metagenomics in the 2025 edition of the summer school.
 
 ## Organisers
 
@@ -19,7 +19,7 @@ ancient metagenomics in the 2024 edition of the summer school.
 
 </div>
 
-🇬🇧 **James Fellows Yates** (he/him) is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics, and is recently pivoting to bioinformatics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches and high-quality pipelines for validating and analysing ancient (oral) microbiomes and palaeogenomic data.
+🇬🇧 **James Fellows Yates** (he/him) is an archaeology-trained biomolecular archaeologist and convert to palaeogenomics. He since has since pivoted to developing bioinformatic tooling and infrastructure for (ancient) metagenomics. He specialises in ancient metagenomics analysis, generating tools and high-throughput approaches and high-quality pipelines for validating and analysing ancient (oral) microbiomes and palaeogenomic data, as well as developing standards for metadata reporting of any type of ancient DNA sequence.
 
 🇺🇸 **Christina Warinner** is Group Leader of Microbiome Sciences at the Max Planck Institute for Evolutionary Anthropology in Leipzig, Germany, and Associate Professor of Anthropology at Harvard University. She serves on the Leadership Team of the Max Planck-Harvard Research Center for the Archaeoscience of the Ancient Mediterranean (MHAAM), and is a Professor in the Faculty of Biological Sciences at Friedrich Schiller University in Jena, Germany. Her research focuses on the use of metagenomics and paleoproteomics to better understand past human diet, health, and the evolution of the human microbiome.
 
@@ -40,11 +40,6 @@ ancient metagenomics in the 2024 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="https://github.com/AleksandraLaura" target="_blank"><img src="assets/images/headshots/PACH_Aleksandra_Laura.jpg" alt="Avatar" /></a></div>
-    <p>Aleksandra Laura Pach</p>
-  </div>
-
-  <div class ="member">
     <div class="square"><a href="https://www.eva.mpg.de/archaeogenetics/research-groups/computational-pathogenomics/" target="_blank"><img src="assets/images/headshots/HERBIG_Alexander.webp" alt="Avatar" /></a></div>
     <p>Alexander Herbig</p>
   </div>
@@ -55,23 +50,18 @@ ancient metagenomics in the 2024 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="https://www.researchgate.net/profile/Arthur-Kocher" target="_blank"><img src="assets/images/headshots/KOCHER_Arthur.jpg" alt="Avatar" /></a></div>
-    <p>Arthur Kocher</p>
-  </div>
-
-  <div class ="member">
     <div class="square"><a href="https://nevrome.de" target="_blank"><img src="assets/images/headshots/SCHMID_Clemens.JPG" alt="Avatar" /></a></div>
     <p>Clemens Schmid</p>
   </div>
 
   <div class ="member">
-    <div class="square"><a href="https://twitter.com/GiuliaZampirolo" target="_blank"><img src="assets/images/headshots/ZAMPIROLO_Giulia.png" alt="Avatar" /></a></div>
-    <p>Giulia Zampirolo</p>
+    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
+    <p>Freya Steinhagen</p>
   </div>
 
   <div class ="member">
-    <div class="square"><a href="https://twitter.com/gunnar_neumann" target="_blank"><img src="assets/images/headshots/NEUMANN_Gunnar.jpeg" alt="Avatar" /></a></div>
-    <p>Gunnar Neumann</p>
+    <div class="square"><a href="https://twitter.com/GiuliaZampirolo" target="_blank"><img src="assets/images/headshots/ZAMPIROLO_Giulia.png" alt="Avatar" /></a></div>
+    <p>Giulia Zampirolo</p>
   </div>
 
   <div class ="member">
@@ -89,13 +79,8 @@ ancient metagenomics in the 2024 edition of the summer school.
 <div class="avatar">
 
   <div class ="member">
-    <div class="square"><a href="https://twitter.com/Kevinnota93" target="_blank"><img src="assets/images/headshots/NOTA_Kevin.jpg" alt="Avatar" /></a></div>
-    <p>Kevin Nota</p>
-  </div>
-
-  <div class ="member">
-    <div class="square"><a href="https://maximeborry.com/" target="_blank"><img src="assets/images/headshots/BORRY_Maxime.png" alt="Avatar" /></a></div>
-    <p>Maxime Borry</p>
+    <div class="square"><a href="https://scholar.harvard.edu/megan-michel/home" target="_blank"><img src="assets/images/headshots/MICHEL_Megan.jpg" alt="Avatar" /></a></div>
+    <p>Megan Michel</p>
   </div>
 
   <div class ="member">
@@ -132,27 +117,21 @@ ancient metagenomics in the 2024 edition of the summer school.
 
 🇪🇸 **Aida Andrades Valtueña** is a geneticist interested in pathogen evolution, with particular interest in prehistoric pathogens. She has been exploring new methods to analyse ancient pathogen data to understand their past function and ecology to inform models of pathogen emergence.
 
-🇵🇱🇩🇰 **Aleksandra Laura Pach** is a bioinformatician currently working on a PhD at the Schroeder and Racimo groups at section for Ecology and Evolution, Globe institute, University of Copenhagen. Her research centers around ancient metagenomics specifically focusing on inference of eukaryotes and methodologies.
-
 🇩🇪 **Alexander Herbig** is a bioinformatician and group leader for Computational Pathogenomics at the Max Planck Institute for Evolutionary Anthropology. His main interest is in studying the evolution of human pathogens and in methods development for pathogen detection and bacterial genomics.
 
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
 
-🇫🇷 **Arthur Kocher** initially trained as a veterinarian. He then pursued a PhD in the field of disease ecology, during which he studied the impact of biodiversity changes on the transmission of zoonotic diseases using molecular tools such as DNA metabarcoding. During his Post-Docs, he extended his research focus to evolutionary aspects of pathogens, which he currently investigates using ancient genomic data and Bayesian phylogenetics.
-
 🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
 
-🇮🇹 **Giulia Zampirolo** is a postdoctoral researcher specialised in ancient metagenomics, with a background in both archaeology and paleogenomics. During her PhD at the Centre for GeoGenetics (University of Copenhagen), she utilised sedimentary ancient DNA across different types of deposits to investigate past human-environment interactions. Currently based at the Globe Institute, University of Copenhagen, she works in Kristine Bohmann’s research group, contributing to the project [SEACHANGE](https://seachange-erc.eu/research/wp1-researche), which explores the evolution of past marine ecosystems and biodiversity. Her research interests lie in the interdisciplinary intersection of archaeology, ancient DNA, and ecology to trace human-induced environmental changes over time.
+🇩🇪 **Freya Steinhagen** _(background in preparation)_
 
-🇩🇪 **Gunnar Neumann** (he/him) a geneticist with a background in biochemistry, archaeological sciences, and art history, is currently pursuing his Ph.D at the Max Planck Institute for evolutionary Anthropology. His primary research focus lies in the study of ancient pathogens and their evolution, particularly from the Bronze Age, and it includes work on Yersinia pestis, Salmonella enterica, and Brucella.
+🇮🇹 **Giulia Zampirolo** is a postdoctoral researcher specialised in ancient metagenomics, with a background in both archaeology and paleogenomics. During her PhD at the Centre for GeoGenetics (University of Copenhagen), she utilised sedimentary ancient DNA across different types of deposits to investigate past human-environment interactions. Currently based at the Globe Institute, University of Copenhagen, she works in Kristine Bohmann’s research group, contributing to the project [SEACHANGE](https://seachange-erc.eu/research/wp1-researche), which explores the evolution of past marine ecosystems and biodiversity. Her research interests lie in the interdisciplinary intersection of archaeology, ancient DNA, and ecology to trace human-induced environmental changes over time.
 
 🇩🇪 **Jasmin Frangenberg** is a computational biologist, who originally studied Molecular Biology and Evolution. For her PhD in the Paleobiotechnology department at the Leibniz Institute for Natural Product Research and Infection Biology (HKI) in Jena, she characterizes antibiotic resistance in ancient microbial DNA and develops nf-core/funcscan, a best-practice analysis pipeline for the screening of nucleotide sequences for antimicrobial peptides, antibiotic resistance genes and biosynthetic gene clusters.
 
 🇺🇸 **Keri Burge** is a second-year graduate student pursuing a PhD in the Department of Anthropology at Harvard University. She received a BA in Anthropology with a minor in Biological Sciences at the University of Tennessee, Knoxville in May of 2022. Now at Harvard, Keri is advised by Dr. Tina Warinner and is working with the Microbiome Sciences group at the Max Planck Institute for Evolutionary Anthropology. Her research interests include the evolution of the oral microbiome and prehistoric health.
 
-🇳🇱 **Kevin Nota** has a PhD in molecular paleoecology from Uppsala University. Currently he is a postdoc in the Max Planck Research Group for Ancient Environmental Genomics. His main research interest is in population genomics from ancient environmental samples.
-
-🇫🇷 **Maxime Borry** is a postdoctoral researcher in bioinformatics at the Max Planck Institute for Evolutionary Anthropology in Germany. After an undergraduate in life sciences and a master in Ecology, followed by a master in bioinformatics, he graduated from the University of Jena with a PhD in bioinformatics, focused on ancient DNA metagenomics.
+🇺🇸 **Megan Michel** _(background in preparation)_
 
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1.
 
