@@ -6,7 +6,7 @@ The 2025 edition of the Werner Siemens-Stiftung funded SPAAM Summer School: Intr
 
 We are happy to announce that the 4th edition of the summer school will be held in 2025 between the 4th-8th August.
 
-Applications are expected to be opened on **1st April**
+Applications are expected to be opened on **31st March**
 
 ## What
 
