@@ -55,6 +55,11 @@ ancient metagenomics in the 2025 edition of the summer school.
   </div>
 
   <div class ="member">
+    <div class="square"><a href="https://science.psu.edu/user/20121" target="_blank"><img src="assets/images/headshots/MEMAR_MOSHREFI_Dina.JPG" alt="Avatar" /></a></div>
+    <p>Dina Memar Moshrefi</p>
+  </div>
+
+  <div class ="member">
     <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
     <p>Freya Steinhagen</p>
   </div>
@@ -122,6 +127,8 @@ ancient metagenomics in the 2025 edition of the summer school.
 🇩🇪 **Alex Hübner** is a computational biologist, who originally studied biotechnology, before switching to evolutionary biology during his PhD. For his postdoc in the Warinner lab, he focuses on investigating whether new methods in the field of modern metagenomics can be directly applied to ancient DNA data. Here, he is particularly interested in the _de novo_ assembly of ancient metagenomic sequencing data and the subsequent analysis of its results.
 
 🇩🇪 **Clemens Schmid** is a computational archaeologist pursuing a PhD in the group of Stephan Schiffels at the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. He is trained both in archaeology and computer science and currently develops computational methods for the spatiotemporal co-analysis of archaeological and ancient genomic data. He worked in research projects on the European Neolithic, Copper and Bronze age and maintains research software in R, C++ and Haskell.
+
+🇮🇷 **Dina Memar Moshrefi** is a physical anthropologist with a BA in Archaeology from the University of Tehran (2022) and a third-year PhD student at the Pennsylvania State University under Dr. Christian Huber. Pursuing a dual-title degree in Biology and Microbiome Sciences, my research explores how environmental shifts, particularly dietary changes, influenced the oral microbiome and oral diseases in ancient populations of Mesopotamia, the Levant, and the Iranian Plateau.
 
 🇩🇪 **Freya Steinhagen** _(background in preparation)_
 
