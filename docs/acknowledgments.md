@@ -6,12 +6,21 @@ We would like to thank
 
 ## **Financial Support**
 
+<dev style="display: flex">
 <p>
 	<a  href="https://www.wernersiemens-stiftung.ch/"><img src="assets/images/logos/WSS_Logo_16mm_600_rgb.png" height=100px padding=5px margin=10px></a>
 	<br>
 	This summer school is supported by the Werner Siemens-Stiftung (Grant: Paleobiotechnology, awarded
 to Pierre Stallforth, Hans-Knöll Institute, and Christina Warinner, Max Planck Institute for Evolutionary Anthropology)
 </p>
+
+<p>
+	<a  href="https://www.wernersiemens-stiftung.ch/"><img src="assets/images/logos/nfdi4microbiota_Logo_.png" height=100px padding=5px margin=10px></a>
+	<br>
+	The 2025 edition of the summer school was also supported by the NFDI4Microbiota (Grant: FlexFund project 'EnterArchaeo', awarded
+to James Fellows Yates and Christina Warinner, Hans-Knöll Institute)
+</p>
+</span>
 
 ## **Institutional Support**
 
