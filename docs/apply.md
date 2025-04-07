@@ -1,6 +1,6 @@
 # Apply
 
-Applications for the 20245 Introduction to Ancient Metagenomics Summer school is now open!
+Applications for the 2025 Introduction to Ancient Metagenomics Summer school is now open!
 
 You can send your application on the following form: [https://survey.academiccloud.de/index.php/331266?lang=en](https://survey.academiccloud.de/index.php/331266?lang=en)
 
