@@ -99,7 +99,7 @@ ancient metagenomics in the 2025 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="https://github.com/rozwalak" target="_blank"><img src="assets/images/headshots/ROZWALAK_Piotr.jpg" alt="Avatar" /></a></div>
+    <div class="square"><a href="https://bsky.app/profile/prozwalak.bsky.social" target="_blank"><img src="assets/images/headshots/ROZWALAK_Piotr.jpg" alt="Avatar" /></a></div>
     <p>Piotr Rozwalak</p>
   </div>
 
