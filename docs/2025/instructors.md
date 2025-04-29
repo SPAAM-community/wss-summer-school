@@ -99,6 +99,11 @@ ancient metagenomics in the 2025 edition of the summer school.
   </div>
 
   <div class ="member">
+    <div class="square"><a href="https://github.com/rozwalak" target="_blank"><img src="assets/images/headshots/ROZWALAK_Piotr.jpg" alt="Avatar" /></a></div>
+    <p>Piotr Rozwalak</p>
+  </div>
+
+  <div class ="member">
     <div class="square"><a href="https://rdenise.github.io/" target="_blank"><img src="assets/images/headshots/DENISE_Remi.jpg" alt="Avatar" /></a></div>
     <p>Rémi Denise</p>
   </div>
@@ -143,6 +148,8 @@ ancient metagenomics in the 2025 edition of the summer school.
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1.
 
 🇷🇺 **Nikolay Oskolkov** is a bioinformatician at Lund University and the bioinformatics platform of SciLifeLab, Sweden. He defended his PhD in theoretical physics in 2007, and switched to life sciences in 2012. His research interests include mathematical statistics and machine learning applied to genetics and genomics, single cell and ancient metagenomics data analysis.
+
+🇵🇱 **Piotr Rozwalak** is a PhD candidate in the Viral Ecology and Omics Group at Friedrich Schiller University in Jena, Germany. His main research focus is on studying bacteriophages and other mobile genetic elements in ancient metagenomes. He is also interested in sedimentary ancient DNA and its potential for reconstructing past microbiomes.
 
 🇫🇷 **Rémi Denise** is a postdoctoral researcher in bioinformatics at APC Microbiome Ireland, University College Cork. During his PhD he studied the evolution of the type IV filaments in Bacteria and Archaea using phylogenomics to understand how this family evolved in multiple different systems. He secured a MSCA Postdoctoral Fellowship to study the viral diversity in the ancient metagenomes and how this viral population interacts with the environment and helps shape the microbial community.
 
