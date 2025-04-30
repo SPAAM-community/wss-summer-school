@@ -60,7 +60,7 @@ ancient metagenomics in the 2025 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/ACCOUNT_Anonymous.png" alt="Avatar" /></a></div>
+    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/STEINHAGEN_Freya.jpgg" alt="Avatar" /></a></div>
     <p>Freya Steinhagen</p>
   </div>
 
@@ -135,7 +135,7 @@ ancient metagenomics in the 2025 edition of the summer school.
 
 🇮🇷 **Dina Memar Moshrefi** is a physical anthropologist with a BA in Archaeology from the University of Tehran (2022) and a third-year PhD student at the Pennsylvania State University under Dr. Christian Huber. Pursuing a dual-title degree in Biology and Microbiome Sciences, my research explores how environmental shifts, particularly dietary changes, influenced the oral microbiome and oral diseases in ancient populations of Mesopotamia, the Levant, and the Iranian Plateau.
 
-🇩🇪 **Freya Steinhagen** _(background in preparation)_
+🇩🇪 **Freya Steinhagen** is a second-year PhD student at the University of Tübingen in the Paleogenetics department. She is a trained archaeologist and, with a nudge for all things earthy, her research focuses on metagenomics of ancient sediments. She is mostly interested in exploring the impact of human populations on their surrounding ecosystems, especially on different mammalian cave communities.
 
 🇮🇹 **Giulia Zampirolo** is a postdoctoral researcher specialised in ancient metagenomics, with a background in both archaeology and paleogenomics. During her PhD at the Centre for GeoGenetics (University of Copenhagen), she utilised sedimentary ancient DNA across different types of deposits to investigate past human-environment interactions. Currently based at the Globe Institute, University of Copenhagen, she works in Kristine Bohmann’s research group, contributing to the project [SEACHANGE](https://seachange-erc.eu/research/wp1-researche), which explores the evolution of past marine ecosystems and biodiversity. Her research interests lie in the interdisciplinary intersection of archaeology, ancient DNA, and ecology to trace human-induced environmental changes over time.
 
