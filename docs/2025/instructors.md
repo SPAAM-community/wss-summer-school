@@ -60,7 +60,7 @@ ancient metagenomics in the 2025 edition of the summer school.
   </div>
 
   <div class ="member">
-    <div class="square"><a href="<URL>" target="_blank"><img src="assets/images/headshots/STEINHAGEN_Freya.jpgg" alt="Avatar" /></a></div>
+    <div class="square"><a href="https://www.linkedin.com/in/freya-steinhagen-4309a4115/" target="_blank"><img src="assets/images/headshots/STEINHAGEN_Freya.jpg" alt="Avatar" /></a></div>
     <p>Freya Steinhagen</p>
   </div>
 
