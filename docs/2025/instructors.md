@@ -151,7 +151,7 @@ ancient metagenomics in the 2025 edition of the summer school.
 
 🇺🇸 **Keri Burge** is a second-year graduate student pursuing a PhD in the Department of Anthropology at Harvard University. She received a BA in Anthropology with a minor in Biological Sciences at the University of Tennessee, Knoxville in May of 2022. Now at Harvard, Keri is advised by Dr. Tina Warinner and is working with the Microbiome Sciences group at the Max Planck Institute for Evolutionary Anthropology. Her research interests include the evolution of the oral microbiome and prehistoric health.
 
-🇺🇸 **Megan Michel** _(background in preparation)_
+🇺🇸 **Megan Michel** is an evolutionary biologist interested in leveraging ancient genomic data to explore the impact of infectious disease on past human populations. She completed her PhD at the Max Planck Institute for Evolutionary Anthropology in Leipzig, where she focused primarily on recovering and analyzing ancient DNA from human malaria parasites. Megan is currently continuing her work on ancient pathogenomics as a postdoctoral researcher in David Reich’s group at Harvard University.
 
 🇦🇹 **Meriam Guellil** is an expert in ancient microbial phylogenomics and metagenomics, particularly of human pathogens. She is particularly interested in the study of diseases that are invisible in the archaeological and osteological record, and the study of their evolution throughout human history. Her previous research includes studies on microbial species such as Yersinia pestis, Haemophilus influenzae, Borrelia recurrentis and Herpes simplex 1.
 
