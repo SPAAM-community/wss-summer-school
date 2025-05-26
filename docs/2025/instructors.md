@@ -63,10 +63,17 @@ ancient metagenomics in the 2025 edition of the summer school.
     <div class="square"><a href="https://www.linkedin.com/in/freya-steinhagen-4309a4115/" target="_blank"><img src="assets/images/headshots/STEINHAGEN_Freya.jpg" alt="Avatar" /></a></div>
     <p>Freya Steinhagen</p>
   </div>
+</div>
 
+<div class="avatar">
   <div class ="member">
     <div class="square"><a href="https://twitter.com/GiuliaZampirolo" target="_blank"><img src="assets/images/headshots/ZAMPIROLO_Giulia.png" alt="Avatar" /></a></div>
     <p>Giulia Zampirolo</p>
+  </div>
+
+  <div class ="member">
+  <div class="square"><a href="https://twitter.com/FzzyToothSweatr" target="_blank"><img src="assets/images/headshots/VELSKO_Irina.jpeg" alt="Avatar" /></a></div>
+  <p>Irina Velsko</p>
   </div>
 
   <div class ="member">
@@ -79,10 +86,6 @@ ancient metagenomics in the 2025 edition of the summer school.
     <p>Keri Burge</p>
   </div>
 
-</div>
-
-<div class="avatar">
-
   <div class ="member">
     <div class="square"><a href="https://scholar.harvard.edu/megan-michel/home" target="_blank"><img src="assets/images/headshots/MICHEL_Megan.jpg" alt="Avatar" /></a></div>
     <p>Megan Michel</p>
@@ -92,6 +95,9 @@ ancient metagenomics in the 2025 edition of the summer school.
     <div class="square"><a href="https://www.heas.at/about/members/meriam-guellil/" target="_blank"><img src="assets/images/headshots/GUELLIL_Meriam.jpg" alt="Avatar" /></a></div>
     <p>Meriam Guellil</p>
   </div>
+</div>
+
+<div class="avatar">
 
   <div class ="member">
     <div class="square"><a href="https://twitter.com/nikolayoskolkov" target="_blank"><img src="assets/images/headshots/OSKOLKOV_Nikolay.jpg" alt="Avatar" /></a></div>
@@ -138,6 +144,8 @@ ancient metagenomics in the 2025 edition of the summer school.
 🇩🇪 **Freya Steinhagen** is a second-year PhD student at the University of Tübingen in the Paleogenetics department. She is a trained archaeologist and, with a nudge for all things earthy, her research focuses on metagenomics of ancient sediments. She is mostly interested in exploring the impact of human populations on their surrounding ecosystems, especially on different mammalian cave communities.
 
 🇮🇹 **Giulia Zampirolo** is a postdoctoral researcher specialised in ancient metagenomics, with a background in both archaeology and paleogenomics. During her PhD at the Centre for GeoGenetics (University of Copenhagen), she utilised sedimentary ancient DNA across different types of deposits to investigate past human-environment interactions. Currently based at the Globe Institute, University of Copenhagen, she works in Kristine Bohmann’s research group, contributing to the project [SEACHANGE](https://seachange-erc.eu/research/wp1-researche), which explores the evolution of past marine ecosystems and biodiversity. Her research interests lie in the interdisciplinary intersection of archaeology, ancient DNA, and ecology to trace human-induced environmental changes over time.
+
+🇺🇸 **Irina Velsko** is a postdoc in the Microbiome group of the department of Archaeogenetics at the Max Planck Institute for Evolutionary Anthropology. She did her PhD work on oral microbiology and immunology of the living, and now works on oral microbiomes of the living and the dead. Her work focuses on the evolution and ecology of dental plaque biofilms, both modern and ancient, and the complex interplay between microbiomes and their hosts.
 
 🇩🇪 **Jasmin Frangenberg** is a computational biologist, who originally studied Molecular Biology and Evolution. For her PhD in the Paleobiotechnology department at the Leibniz Institute for Natural Product Research and Infection Biology (HKI) in Jena, she characterizes antibiotic resistance in ancient microbial DNA and develops nf-core/funcscan, a best-practice analysis pipeline for the screening of nucleotide sequences for antimicrobial peptides, antibiotic resistance genes and biosynthetic gene clusters.
 
