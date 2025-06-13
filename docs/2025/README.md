@@ -4,9 +4,13 @@ The 2025 edition of the Werner Siemens-Stiftung funded SPAAM Summer School (this
 
 ## Latest
 
-We are happy to announce that the 4th edition of the summer school will be held in 2025 between the 4th-8th August.
+<!-- We are happy to announce that the 4th edition of the summer school will be held in 2025 between the 4th-8th August.-->
 
-Applications are now open, and will close on the **30th May 2025**. You can apply [here](https://survey.academiccloud.de/index.php/331266?lang=en).
+Applications for the 2025 Introduction to Ancient Metagenomics Summer school is now **closed**!
+
+We were once again over subscribed with almost 100 applications. Decision emails will be sent in a few weeks.
+
+<!-- We were again highly over-subscribed with more than 100 applications. -->
 
 If you have any issues or questions about the application, please contact James Fellows Yates ([james_fellows_yates@eva.mpg.de](mailto:james_fellows_yates@eva.mpg.de)).
 
