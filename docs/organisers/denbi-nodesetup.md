@@ -9,26 +9,35 @@
   - Projects on Side Bar > Select Project > New Workshop
 - Tutor workflow (required extra step to allow access to all nodes)
   - On deNBI Portal > Projects > Add Members to see instructions
-  - [New tutor] Send deNBI LifeSciences sign up link
-  - [New and old tutors] Once signed up follow participants workflow invite link (See next step in instructions)
-  - [Admin] may need to make tutors 'admins' also on deNBI project too
-- Send to ALL participants and tutors workshop invite link (all need elixir account (orcid etc.))
+  - [New tutor] Send deNBI LifeSicnceRI sign up link
+  - [New and old tutors] Send deNBI project sign up link
+  - [Admin] Check emails for joining, accept requests
+- Student workflow (send to ALL participants)
   - Go to [SimpleVM portal](https://simplevm.denbi.de)
   - Go to _workshop_ on sidebar
-  - Send 'Create invitation' link to all students
-- Participant (Student) workflow
-  - Go to SimpleVM invite link
-  - Pick log-in and/or register with system of choice
-  - Register elixir
-  - Confirm email
-  - T&Cs Elixir
-  - T&Cs Denbi
-  - Email for SPAAMsumScho
-  - Confirm email
-  - [Admin approve] (SimpleVM Portal -> Project -> <Project Name/> -> Project Member List > See Applications)
+  - Get both Portal and Share invitation links, send to all participants with instructions on website with workflow instructions
+    - Go to SimpleVM invite link
+    - Pick log-in and/or register with system of choice
+    - Register elixir
+    - Confirm email
+    - T&Cs Elixir
+    - T&Cs Denbi
+    - Email for SPAAMsumScho
+    - Confirm email
+    - [Admin approve] (SimpleVM Portal -> Project -> <Project Name/> -> Project Member List > See Applications)
 - Once all invited
   - [Admin] SimpleVM: Accept all participant requests on project
   - [Admin] SimpleVM: On workspace page, 'show addable Tutors' and add tutors (remember must still be on the deNBI project too!)
+
+## Creating SimplVM workshop
+
+1. On the [SimpleVM portal](https://simplevm.denbi.de/), go to the 'Projects' section on the sidebar and select SPAAMSumSchoXX
+2. Press 'New Workshop'
+3. Fill in the form:
+   1. Workshop name: `SPAAM Summer School 20XX` (where XX is the year of the summer school)
+   2. Short name: `SPAAMSumSchoXX` (where XX is
+   3. Workshop description: (Copy from [https://www.spaam-community.org/wss-summer-school/#/?id=about](https://www.spaam-community.org/wss-summer-school/#/?id=about))
+   4. Press 'Submit Workshop'
 
 ## Base Snapshot VM Set up
 
