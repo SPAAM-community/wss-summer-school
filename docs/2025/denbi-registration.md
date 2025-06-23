@@ -1,7 +1,5 @@
 # Registration for deNBI Cloud
 
-!> **These instructions are from the 2024 edition of the summer school may be out of date. They will be updated prior the 2025 edition.**
-
 For the 2025 edition of the summer school, we will again be using cloud computing nodes kindly provided by the German [deNBI infrastructure](https://www.denbi.de/cloud).
 
 For the use of the computing nodes you will need to sign up for the services.
