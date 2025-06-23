@@ -142,7 +142,7 @@ Install bioinformatics software
   - Download the environment ymls from https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/tree/main/assets/envs, and create each env
 
     ```bash
-    wget https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/raw/main/assets/envs/{accessing-ancient-metagenomic-data,ancient-metagenomic-pipelines,authentication,bare-bones-bash,contamination,genome-mapping,git-github,phylogenomics,python-pandas,r-tidyverse,taxonomic-profiling}.yml ## denovo-assembly, coming later! removed from list - 2024-05-29
+    wget https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/raw/main/assets/envs/{accessing-ancient-metagenomic-data,ancient-metagenomic-pipelines,authentication,bare-bones-bash,contamination,denovo-assembly,genome-mapping,git-github,phylogenomics,python-pandas,r-tidyverse,taxonomic-profiling}.yml ## denovo-assembly, coming later! removed from list - 2024-05-29
 
     for i in *.yml; do
         printf "\n###### PREPARING $i #######\n"
@@ -150,8 +150,9 @@ Install bioinformatics software
     done
     ```
 
-    > ⚠️ monitor to look for failures in log!
+    > ⚠️ monitor to look for failures in log! (2025: denovo-assembly.yml -> TO FIX)
 
+<!-- IN 2025 - Docker was already installed on the VM by default!
 - Install [docker](https://docs.docker.com/engine/install/ubuntu/)
 
   ```bash
@@ -183,6 +184,7 @@ Install bioinformatics software
   ## Retest
   docker run hello-world
   ```
+  -->
 
 - Install rename
 
@@ -193,8 +195,11 @@ Install bioinformatics software
   > ⚠️ you may get weird kernal/reboot quesitons, went with default... it didn't cause any problems for me...
 
 - Download and install (move to bin, remove any additional)
+
   - [PHYLOGENOMICS ONLY] Tempest:
+
     - Manually download using the Guacamole firefox instance from
+
       ```bash
       wget https://github.com/beast-dev/Tempest/releases/download/v1.5.3/TempEst_v1.5.3.tgz
       tar -xf TempEst_v1.5.3.tgz
@@ -202,14 +207,18 @@ Install bioinformatics software
       echo "alias tempest='bash /home/ubuntu/bin/TempEst_v1.5.3/bin/tempest'" >> ~/.bashrc && source ~/.bashrc
       tempest ## test that opens window
       ```
+
   - [PHYLOGENOMICS ONLY] MEGAX
+
     ```bash
     wget https://www.megasoftware.net/releases/mega_11.0.13-1_amd64.deb
     sudo dpkg -i mega_11.0.13-1_amd64.deb
     rm mega_11.0.13-1_amd64.deb
     which mega ## test that opens window
     ```
+
     > ⚠️ you may get weird kernal/reboot quesitons, went with default... it didn't cause any problems for me...
+
 - [FUNCTIONAL PROFILING ONLY] Install humann3 database to volume (note need to have mounted VM before!)
   ```
   humann3_databases --download uniref uniref90_ec_filtered_diamond /vol/volume/5c-functional-genomics/humann3_db
