@@ -7,29 +7,32 @@
 - Have requested and been granted a deNBI project on [deNBI portal](https://cloud.denbi.de/portal/)
 - Create workshop on [SimpleVM portal](https://simplevm.denbi.de)
   - Projects on Side Bar > Select Project > New Workshop
-- Tutor workflow (required extra step to allow access to all nodes)
+- Go to Workshops side bar > SPAAMSumScho25 > Get invitation link (send to participants and tutors)
+- Tutor workflow (this required extra step to allow access to all nodes)
   - On deNBI Portal > Projects > Add Members to see instructions
   - [New tutor] Send deNBI LifeSicnceRI sign up link
   - [New and old tutors] Send deNBI project sign up link
   - [Admin] Check emails for joining, accept requests
+  - DO NOT MAKE ALL TUTOTRS deNBI ADMIN - OTHER THAN PEOPLE FAMILIAR WITH DENBI PORTAL!
+    - Anyone in the deNBI portal project, can act as tutors in the workshop itself
 - Student workflow (send to ALL participants)
   - Go to [SimpleVM portal](https://simplevm.denbi.de)
   - Go to _workshop_ on sidebar
   - Get both Portal and Share invitation links, send to all participants with instructions on website with workflow instructions
     - Go to SimpleVM invite link
     - Pick log-in and/or register with system of choice
+    - Register LifeScienceRI AAI
+    - Confirm email
     - Register elixir
-    - Confirm email
     - T&Cs Elixir
-    - T&Cs Denbi
-    - Email for SPAAMsumScho
-    - Confirm email
+    - T&Cs Denbi / SimplVM release
+    - Send request to join workshop
     - [Admin approve] (SimpleVM Portal -> Project -> <Project Name/> -> Project Member List > See Applications)
-- Once all invited
+- Once all invited and accepted for the _workshop_ (deNBI portal project alone insufficient!), go to SimpleVM portal.
   - [Admin] SimpleVM: Accept all participant requests on project
   - [Admin] SimpleVM: On workspace page, 'show addable Tutors' and add tutors (remember must still be on the deNBI project too!)
 
-## Creating SimplVM workshop
+## Creating SimpleVM workshop
 
 1. On the [SimpleVM portal](https://simplevm.denbi.de/), go to the 'Projects' section on the sidebar and select SPAAMSumSchoXX
 2. Press 'New Workshop'
@@ -48,27 +51,34 @@
 > The snapshot is: SPAAMSumScho24-FinalPatch1
 
 - Log into [SimpleVM portal](https://simplevm.denbi.de)
-- Go to workshops on side bar
-- 'Create new instances' section > 'New Instance' > Follow workflow
+- Go to workshops on side bar > Select the SpaamSumScho25 > 'Create new instances' section > 'New Instance' > Follow workflow
+  - Select workshop
+  - Create a machine:
+    - de.NBI medium + ephemeral: 14 VCPUs - 32 GB RAM - 50 GB root disk + 150 GB ephemeral disk
+    - Research environment: [Guacamole](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole))
+    - New volume
+      - Volume Name: `SPAAMSumScho20250623`
+      - Mountpath: `/vol/volume`
+      - Volume size 80
+    - Add user (yourself)
+    - Start VM
 
-Create a machine:
+Switch to Instance tab, and wait for VM to spin up
 
-- de.NBI medium + ephemeral: 14 VCPUs - 32 GB RAM - 50 GB root disk + 150 GB ephemeral disk
-- Research environment: [Guacamole](https://cloud.denbi.de/wiki/simple_vm/customization/#apache-guacamole))
-- Add user (yourself)
-- Start VM
-
-Once spun up, log in and clean up desktop environment
-
+- Once VM is running, expand info of VM
+- Switch to the 'guacamole' tab
+- Open the link
 - Guacamole user: denbi, denbi
-- Select Ubuntu Server US Keyboard Layout (can also be the recent connection one)
+- Select Ubuntu Server UK Keyboard Layout (can also be the recent connection one)
   - If asked to authenticate color managed device use password below
-- Ubuntu user pass: `denbi` (old: `ogvkyf`)
-- Deactivate screensaver/lockscreen & apperance dark mode
-  - X applications (top left menu on desktop) -> Settings -> Screensaver -> (Tab) Screensaver Disable
+- Ubuntu user pass: `denbi`
+- Deactivate screensaver/lockscreen & appearance dark mode
+  - X applications (top left menu on desktop) -> Settings -> Xfce Screensaver > (Tab) Screensaver Disable
   - X applications (top left menu on desktop) -> Settings -> (Tab) Lock Screen -> Disable
   - X applications (top left menu on desktop) -> Appearance -> Greybird-dark
-- Download and set wallpaper from SPAAM summer school website github repo (assets/media/spaam-background-dark.png - 1920 x 965)
+- Download and set wallpaper from SPAAM summer school website github repo
+  - Download from [here](https://github.com/SPAAM-community/spaam-community.github.io/blob/master/assets/media/spaam-background-darkmode.png) (1920 x 965)
+  - Right click on desktop -> Desktop Settings -> Background -> Select the downloaded image > STyle Centered
 - Turn off unsafe paste warnings in terminal
   - Open Terminal -> Edit -> Preferences -> 'Untick Show unsafe paste dialog'
 
@@ -99,28 +109,34 @@ Now install required general software
 
 Install bioinformatics software
 
-- Install Conda & libmamba
+- Install miniforge (conda)
+
   ```bash
    mkdir ~/bin
    cd ~/bin
-   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-  bash Miniconda3-latest-Linux-x86_64.sh
+   wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+  bash Miniforge3-Linux-x86_64.sh
   ```
-  - Install into `/home/ubuntu/bin/miniconda3`
-  - Run init(ialise): Yes
+
+  - Install into `/home/ubuntu/bin/miniforge3`
+  - Run init(ialise): `yes`
   - To load conda into PATH:`source ~/.bashrc`
   - To turn off base: `conda config --set auto_activate_base false`
   - Restart terminal
-  - Delete Miniconda SH
+  - Delete miniforge SH
+
     ```bash
     cd ~/bin
-    rm Miniconda3-latest-Linux-x86_64.sh
+    rm Miniforge3-Linux-x86_64.sh
     ```
+
   - Set up channels
+
     ```bash
     conda config --add channels bioconda
     conda config --add channels conda-forge
     ```
+
 - Create session conda environments
 
   - Download the environment ymls from https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/tree/main/assets/envs, and create each env
@@ -279,7 +295,7 @@ On simpleVM workspace
 - Need to mount the volumne (to be created)
 
   - Must contain all software, data
-  - bashrc needs to be updated to point to miniconda install on volume
+  - bashrc needs to be updated to point to miniforge install on volume
 
 - Volume for data/software/saving
   - https://cloud.denbi.de/wiki/simple_vm/volumes/#create-the-volume-file-system-once
