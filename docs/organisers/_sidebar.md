@@ -16,6 +16,7 @@
   <!-- - [Resources](resources) -->
 - [Organiser Information](organisers/README.md)
   - [Milestones and Timeline](organisers/milestones.md)
+  - [deNBI project request](organisers/denbi-project-request.md)
   - [deNBI node setup](organisers/denbi-nodesetup.md)
 - [Code of Conduct](code-of-conduct)
 - [Acknowledgments](acknowledgments)
