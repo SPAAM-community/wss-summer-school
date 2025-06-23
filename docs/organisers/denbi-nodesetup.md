@@ -8,9 +8,9 @@
 - Create workshop on [SimpleVM portal](https://simplevm.denbi.de)
   - Projects on Side Bar > Select Project > New Workshop
 - Tutor workflow (required extra step to allow access to all nodes)
-  - On deNBI Portal > Projects > Add Members
-  - Send deNBI LifeSicnceRI sign up link
-  - Once signed up follow participants workflow invite link (See next step)
+  - On deNBI Portal > Projects > Add Members to see instructions
+  - [New tutor] Send deNBI LifeSciences sign up link
+  - [New and old tutors] Once signed up follow participants workflow invite link (See next step in instructions)
   - [Admin] may need to make tutors 'admins' also on deNBI project too
 - Send to ALL participants and tutors workshop invite link (all need elixir account (orcid etc.))
   - Go to [SimpleVM portal](https://simplevm.denbi.de)
