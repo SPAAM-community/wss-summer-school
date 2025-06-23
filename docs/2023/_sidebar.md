@@ -9,5 +9,6 @@
   - [Meet the Instructors](2023/instructors.md)
 - [2022 Syllabus](2022/README.md)
   <!-- - [Resources](resources) -->
+- [Organiser Information](organisers/README.md)
 - [Code of Conduct](code-of-conduct)
 - [Acknowledgments](acknowledgments)

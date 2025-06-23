@@ -10,5 +10,6 @@
 - [2023 Syllabus](2023/README.md)
 - [2022 Syllabus](2022/README.md)
   <!-- - [Resources](resources) -->
+- [Organiser Information](organisers/README.md)
 - [Code of Conduct](code-of-conduct)
 - [Acknowledgments](acknowledgments)
