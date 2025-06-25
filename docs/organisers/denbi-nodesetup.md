@@ -150,7 +150,10 @@ Install bioinformatics software
     done
     ```
 
-    > ⚠️ monitor to look for failures in log! (2025: denovo-assembly.yml -> TO FIX)
+    > ⚠️ monitor to look for failures in log!
+    > 2025:
+    >
+    > - denovo-assembly.yml -> tried adding binette but causes conflict with concoct, comment out concoct first, then inside environment after construction install with `conda install concoct`. However left as original for now
 
 <!-- IN 2025 - Docker was already installed on the VM by default!
 - Install [docker](https://docs.docker.com/engine/install/ubuntu/)
@@ -234,7 +237,9 @@ Install bioinformatics software
   echo "export PATH=$PATH:~/bin/metaWRAP/bin" >> ~/.bashrc && source ~/.bashrc
   ```
 
-- Set up Volume (NOTE: this now may happen automatically on instance generation, however instructions here in case you reboot and have to remount)
+- Set up Volume
+
+  NOTE: **this now may happen automatically on instance generation**, however instructions here in case you reboot and have to remount)
 
   - Cloud Portal > Virtual Machines > Instances > Volumes > Create and Attach Volume
     - Specify e.g. roughly total amount divided by number of nodes
@@ -242,6 +247,7 @@ Install bioinformatics software
   - Go back to VM and follow these [instructions](https://cloud.denbi.de/wiki/simple_vm/volumes/#mount-a-volume)
 
     ```bash
+    ## THIS WAS AUTOM
     lsblk -o NAME,SIZE,MOUNTPOINT,FSTYPE,TYPE | egrep -v "^loop"
     ## Record NAME column i.d, e.g. `vdd`
     sudo mkfs.ext4 /dev/<NAME> ## Don't do if already existing
@@ -259,7 +265,7 @@ Install bioinformatics software
 
   - Inside `/vol/volume` make a directory for each of the sessions, then download the required data.
 
-    e.g. to download from the [Zenodo archives](https://zenodo.org/communities/spaam-community/records?q=%22Introduction%20to%20Ancient%20Metagenomics%20Textbook%20%28Edition%202023%29%22&l=list&p=1&s=10&sort=bestmatch) from 2023
+    e.g. to download from the [Zenodo archives](https://zenodo.org/communities/spaam-community/records?q=%22Introduction%20to%20Ancient%20Metagenomics%20Textbook%20%28Edition%202023%29%22&l=list&p=1&s=10&sort=bestmatch) from 2024
 
     ```bash
     cd /vol/volume/
