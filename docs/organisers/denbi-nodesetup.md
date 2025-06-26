@@ -268,28 +268,65 @@ Install bioinformatics software
     e.g. to download from the [Zenodo archives](https://zenodo.org/communities/spaam-community/records?q=%22Introduction%20to%20Ancient%20Metagenomics%20Textbook%20%28Edition%202023%29%22&l=list&p=1&s=10&sort=bestmatch) from 2024
 
     ```bash
-    cd /vol/volume/
+
     mkdir <SESSION>/
     cd <SESSION>/
-    wget <ZENODO_URL WITHOUT ?download=1 at the end>
-    tar xzvf *.tar.gz && mv */* .
-    rm -r <UNTARRED_ZENODO_FILENAME>* day*.yml README.md
     ```
 
-      <!-- TODO 2024: split authentication and decontamination! -->
-      <!-- TODO 2024: minimise pipelines -->
-      <!-- TODO 2024: get denovo assembly when ready -->
+    And download
 
-    > :warning: In some cases (r-tidyverse, taxonomic-profiling), this may require a clone from elsewhere
+    ```bash
+    cd /vol/volume/
 
-      <!-- TODO ADD ISNTRUCTORS TO TEST -->
+    for i in 13759270/files/bare-bones-bash.tar.gz 13758879/files/r-tidyverse.tar.gz 11394586/files/python-pandas.tar.gz 13759333/files/git-github.tar.gz 13759163/files/accessing-ancient-metagenomic-data.tar.gz 13760277/files/taxonomic-profiling.tar.gz 13759321/files/genome-mapping.tar.gz 13759302/files/denovo-assembly.tar.gz 13759782/files/phylogenomics.tar.gz 13759285/files/contamination.tar.gz 13759228/files/authentication.tar.gz 13759228/files/authentication.tar.gz 13759201/files/ancient-metagenomic-pipelines.tar.gz; do
+      archive=$(echo $i | rev | cut -f 1 -d '/' | rev)
+      session=${archive%%.tar.gz}
+      wget https://zenodo.org/records/$i
+      tar xzvf $archive
+      rm -r "$session".tar.gz "$session"/*.yml "$session"/README.md
+    done
+    ```
 
-- Once installation and volume set up is finished, go back to deNBI cloud portal dashboard, find the VM, stop the VM running (don't delete!) Once stopped, Actions > Create SNapShot
+    > ⚠️ some cases (r-tidyverse, taxonomic-profiling), this may require a clone from elsewhere
 
-<!-- TODO: DATA! -->
+- If running nf-core/eager in the pipelines session, run test profile to pull the container image once
+
+  ```bash
+  cd /vol/volume/ancient-metagenomic-pipelines/nf-core-eager/
+  conda activate ancient-metagenomic-pipelines
+  nextflow run nf-core/eager -profile test,docker
+  rm -r results/ work/ .nex*
+  ```
+
+  If you get a a 'GitHub API limit exceeded' error, you will need to follow the solution [here](https://github.com/nextflow-io/nextflow/discussions/2459#discussioncomment-13342927), and creating a temporary PAT token via your GitHub account [here](https://github.com/settings/tokens/new) (you just need a token, no extra permissions).
+
+## Setting up test nodes to Instructors
+
+Once installation and volume setup is finished we need to prepare the testing nodes for instructors.
+
+- Go back to the SimpleVM portal
+- Go to the SPAAMSumScho25 1workshop
+- Go to instances
+- Stop node (yellow button!)
+- Make a snapshot (camera icon)
+  - Call the snapshot something generic and in a way to allow iteration when changes are requested `SPAAMSumScho25-1`
+- While the snapshot image is uploading, go to 'Instance Management'
+- Volumes
+- Find the existing volume generated for the node used for installing
+- Press the 'edit' button (pencil icon), and rename to a generic name for iteration, e.g. `SPAAMSumScho25Beta1`
+  - Note: volume names cannot contain any punctuation, only A-Z, a-z, 0-9 characters.
+- Go back to instances, and monitor until image is uploaded
+- Once uploaded, first make sure all tutors are added under 'Workshops > SPAAMSumSchoXX > Tutors > Show Hidable tutors, and add all missing
+- Go to Workshops > Instances > Details ([i] icon) > Volumes tab > Select volume > Detach (yellow chain with line through icon)
+- Go to 'Start Workshop Instances'
+  - Select workshop
+  - Select de.NBI medium + epehemeral
+  - Image > Snapshots > SPAAMSumScho2025-1
+  - Additional settings > Volumes > (!! Important!) **Available** volumes > SAAMSumSchoXXBetaX > mount path: `/vol/volume`
+- Available participants/tutors > Add all tutors
+- Start instances
+- Once spun up - send information mails
 <!-- TODO: pipelines conda env installation! -->
-
-- Creae
 
 ## Spinning up Participant VM
 
