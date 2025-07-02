@@ -237,6 +237,49 @@ Install bioinformatics software
   echo "export PATH=$PATH:~/bin/metaWRAP/bin" >> ~/.bashrc && source ~/.bashrc
   ```
 
+- [AUTHENTICATION ONLY] & and only **if old version of metaDMG required** (latest in 2025 - 0.4.1 - now in conda env):
+
+  ````
+  ### METADMG
+
+  ```bash
+  (authentication) ubuntu@james-fellows-yates-ca0f5:~/bin$ cat metadmg.yml
+  name: metaDMG
+  channels:
+    - conda-forge
+    - bioconda
+    - defaults
+  dependencies:
+    - conda-forge::python=3.9.15
+    - bioconda::htslib=1.17
+    - conda-forge::eigen=3.4.0
+    - conda-forge::cxx-compiler=1.5.2
+    - conda-forge::c-compiler=1.5.2
+    - conda-forge::gsl=2.7
+    - conda-forge::iminuit=2.17.0
+    - conda-forge::numpyro=0.10.
+    - conda-forge::joblib=1.2.0
+    - conda-forge::numba=0.56.2
+    - conda-forge::flatbuffers=22.9.24
+    - conda-forge::psutil=5.9.4
+
+  conda env create -f metadmg.yml
+  conda activate metaDMG
+  git clone https://github.com/metaDMG-dev/metaDMG-cpp.git
+  cd metaDMG-cpp
+  make clean && make CPPFLAGS="-L${CONDA_PREFIX}/lib -I${CONDA_PREFIX}/include" HTSSRC=systemwide -j 8
+  #git checkout abd303e808c7d74166f305ac88ef538af9b1d44d
+  pip install git+https://github.com/metaDMG-dev/metaDMG-core #@stopiferrors_branch
+  pip install metaDMG[viz]
+  conda deactivate
+
+  ## DIDNT WORK
+  echo "alias metaDMG-cpp='/home/ubuntu/bin/metaDMG-cpp/metaDMG-cpp'" >> ~/.bashrc && source ~/.bashrc
+
+  ##BETTER -> So use proper path update in bashrc
+  export PATH="$PATH:/home/ubuntu/bin/metaDMG-cpp"
+  ````
+
 - Set up Volume
 
   NOTE: **this now may happen automatically on instance generation**, however instructions here in case you reboot and have to remount)
@@ -244,7 +287,7 @@ Install bioinformatics software
   - Cloud Portal > Virtual Machines > Instances > Volumes > Create and Attach Volume
     - Specify e.g. roughly total amount divided by number of nodes
     - Attach to the setup VM
-  - Go back to VM and follow these [instructions](https://cloud.denbi.de/wiki/simple_vm/volumes/#mount-a-volume)
+  - Go back to VM and follow these [instructions](https://simplevm.denbi.de/wiki/simple_vm/volumes/)
 
     ```bash
     ## THIS WAS AUTOM
@@ -300,6 +343,12 @@ Install bioinformatics software
 
   If you get a a 'GitHub API limit exceeded' error, you will need to follow the solution [here](https://github.com/nextflow-io/nextflow/discussions/2459#discussioncomment-13342927), and creating a temporary PAT token via your GitHub account [here](https://github.com/settings/tokens/new) (you just need a token, no extra permissions).
 
+- Run a conda-clean up to save you some space
+
+  ```bash
+  conda clean --all
+  ```
+
 ## Setting up test nodes to Instructors
 
 Once installation and volume setup is finished we need to prepare the testing nodes for instructors.
@@ -354,43 +403,3 @@ On simpleVM workspace
   - Make it once (create file system),
   - then each time spinning up node will need to make mount point and mount the node
 - Use snapshot to include all the software etc?
-
-### METADMG
-
-```bash
-(authentication) ubuntu@james-fellows-yates-ca0f5:~/bin$ cat metadmg.yml
-name: metaDMG
-channels:
-  - conda-forge
-  - bioconda
-  - defaults
-dependencies:
-  - conda-forge::python=3.9.15
-  - bioconda::htslib=1.17
-  - conda-forge::eigen=3.4.0
-  - conda-forge::cxx-compiler=1.5.2
-  - conda-forge::c-compiler=1.5.2
-  - conda-forge::gsl=2.7
-  - conda-forge::iminuit=2.17.0
-  - conda-forge::numpyro=0.10.
-  - conda-forge::joblib=1.2.0
-  - conda-forge::numba=0.56.2
-  - conda-forge::flatbuffers=22.9.24
-  - conda-forge::psutil=5.9.4
-
-conda env create -f metadmg.yml
-conda activate metaDMG
-git clone https://github.com/metaDMG-dev/metaDMG-cpp.git
-cd metaDMG-cpp
-make clean && make CPPFLAGS="-L${CONDA_PREFIX}/lib -I${CONDA_PREFIX}/include" HTSSRC=systemwide -j 8
-#git checkout abd303e808c7d74166f305ac88ef538af9b1d44d
-pip install git+https://github.com/metaDMG-dev/metaDMG-core #@stopiferrors_branch
-pip install metaDMG[viz]
-conda deactivate
-
-## DIDNT WORK
-echo "alias metaDMG-cpp='/home/ubuntu/bin/metaDMG-cpp/metaDMG-cpp'" >> ~/.bashrc && source ~/.bashrc
-
-##BETTER -> So use proper path update in bashrc
-export PATH="$PATH:/home/ubuntu/bin/metaDMG-cpp"
-```
