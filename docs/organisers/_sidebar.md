@@ -6,13 +6,6 @@
 - [2024 Syllabus](2024/README.md)
 - [2023 Syllabus](2023/README.md)
 - [2022 Syllabus](2022/README.md)
-  - [Resources](2022/resources)
-  - [Instructors](2022/instructors)
-  - [Day One](2022/day-1)
-  - [Day Two](2022/day-2?id=day-two)
-  - [Day Three](2022/day-3)
-  - [Day Four](2022/day-4)
-  - [Day Five](2022/day-5)
   <!-- - [Resources](resources) -->
 - [Organiser Information](organisers/README.md)
   - [Milestones and Timeline](organisers/milestones.md)

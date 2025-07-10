@@ -142,11 +142,11 @@ Install bioinformatics software
   - Download the environment ymls from https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/tree/main/assets/envs, and create each env
 
     ```bash
-    wget https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/raw/main/assets/envs/{accessing-ancient-metagenomic-data,ancient-metagenomic-pipelines,authentication,bare-bones-bash,contamination,denovo-assembly,genome-mapping,git-github,phylogenomics,python-pandas,r-tidyverse,taxonomic-profiling}.yml ## denovo-assembly, coming later! removed from list - 2024-05-29
+    wget https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/raw/main/assets/envs/{accessing-ancient-metagenomic-data,ancient-metagenomic-pipelines,authentication,bare-bones-bash,contamination,denovo-assembly,genome-mapping,git-github,phylogenomics,python-pandas,r-tidyverse,taxonomic-profiling}.yml
 
     for i in *.yml; do
         printf "\n###### PREPARING $i #######\n"
-        conda env create -q -f "$i"
+        conda env create -v -q -f "$i"
     done
     ```
 
@@ -237,7 +237,8 @@ Install bioinformatics software
   echo "export PATH=$PATH:~/bin/metaWRAP/bin" >> ~/.bashrc && source ~/.bashrc
   ```
 
-- [AUTHENTICATION ONLY] & and only **if old version of metaDMG required** (latest in 2025 - 0.4.1 - now in conda env):
+<!--
+- [AUTHENTICATION ONLY] & and only **if old version of metaDMG required** (latest in 2025 - 0.4.1 - now in conda env, and apparently works!):
 
   ````
   ### METADMG
@@ -279,6 +280,8 @@ Install bioinformatics software
   ##BETTER -> So use proper path update in bashrc
   export PATH="$PATH:/home/ubuntu/bin/metaDMG-cpp"
   ````
+
+  -->
 
 - Set up Volume
 
@@ -403,3 +406,14 @@ On simpleVM workspace
   - Make it once (create file system),
   - then each time spinning up node will need to make mount point and mount the node
 - Use snapshot to include all the software etc?
+
+<!--
+Changes from 2024:
+
+- Remi: wanted polars (added, but won't be taught)
+- Clemens: will maybe teach purrr (doesn't require any changes)
+- Giulia: wanted latest version on metaDMG which is on bioconda
+- Alex:
+  - optionally try with binnette to replace metawrap (didn't work because gunc has overly strict pinning )
+  - latest visidata (via pip)
+-->
