@@ -412,8 +412,13 @@ Changes from 2024:
 
 - Remi: wanted polars (added, but won't be taught)
 - Clemens: will maybe teach purrr (doesn't require any changes)
-- Giulia: wanted latest version on metaDMG which is on bioconda
+- Giulia:
+  - wanted latest version on metaDMG which is now on bioconda
+  -
 - Alex:
   - optionally try with binnette to replace metawrap (didn't work because gunc has overly strict pinning )
   - latest visidata (via pip)
+  - Add markdown file with commands
+  - Redownload k8s calN50.js file
+- Tessa: pin to ancient IGV (2.4) and GATK to v8
 -->
