@@ -208,6 +208,7 @@ Install bioinformatics software
       tar -xf TempEst_v1.5.3.tgz
       rm TempEst_v1.5.3.tgz
       echo "alias tempest='bash /home/ubuntu/bin/TempEst_v1.5.3/bin/tempest'" >> ~/.bashrc && source ~/.bashrc
+      conda activate phylogenomics ## Required to have a working java version
       tempest ## test that opens window
       ```
 
@@ -379,6 +380,16 @@ Once installation and volume setup is finished we need to prepare the testing no
 - Start instances
 - Once spun up - send information mails
 <!-- TODO: pipelines conda env installation! -->
+
+## Recreating exact environments
+
+For future reference, we can re-create a 'complete' environment file with all specific versions of packages installed in the conda environments, by running the following command in each conda environment:
+
+```bash
+for i in accessing-ancient-metagenomic-data ancient-metagenomic-pipelines authentication bare-bones-bash contamination denovo-assembly genome-mapping git-github phylogenomics python-pandas r-tidyverse taxonomic-profiling; do
+  conda env export -n $i -f "$i"_withversions.yml
+done
+```
 
 ## Spinning up Participant VM
 
