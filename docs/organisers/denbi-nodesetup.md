@@ -81,6 +81,7 @@ Switch to Instance tab, and wait for VM to spin up
   - Right click on desktop -> Desktop Settings -> Background -> Select the downloaded image > STyle Centered
 - Turn off unsafe paste warnings in terminal
   - Open Terminal -> Edit -> Preferences -> 'Untick Show unsafe paste dialog'
+- In file browser navigate to `/vol/volume/` and bookmark to the side bar by pressing 'Bookmarks' menu and 'Add Bookmark' (or <kbd>Ctrl</kbd> + <kbd>D</kbd>)
 
 Now install required general software
 
@@ -93,10 +94,21 @@ Now install required general software
   Once made, can also drag and drop to the desktop from X Applications > Office > Document Viewer (click on the desktop shortcut once and 'mark as executable')
 
 - Install general useful extras
+
   ```bash
   sudo apt install tree
   sudo apt install rename
   ```
+
+- Install extra packages for basic functionality to work
+
+  ```bash
+  sudo apt install libqt5svg5 ## for below
+  sudo apt install xdg-desktop-portal xdg-desktop-portal-kde xdg-desktop-portal-gtk ## for pavian to work
+  ```
+
+  Restart!
+
 - Install additional libraries (required for Tempest and MEGAX etc.)
 
   ```bash
@@ -432,4 +444,7 @@ Changes from 2024:
   - Add markdown file with commands
   - Redownload k8s calN50.js file
 - Tessa: pin to ancient IGV (2.4) and GATK to v8
+- Keri
+  - New taxdb file
+  - New analyslys.pynbnb file
 -->
