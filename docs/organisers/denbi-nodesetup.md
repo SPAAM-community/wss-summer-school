@@ -117,7 +117,7 @@ Now install required general software
   sudo apt install libgsl-dev libeigen3-dev ## metadmg
   ```
 
-- Bookmark textbook to Firefox webbrowser
+- Bookmark textbook and summer school website to Firefox webbrowser
 
 Install bioinformatics software
 
@@ -149,6 +149,14 @@ Install bioinformatics software
     conda config --add channels conda-forge
     ```
 
+- Clean up environment to preserve space (useful when running on a different site with less root disk space)
+
+  ```bash
+  sudo apt-get clean
+  sudo apt-get autoclean
+  sudo apt-get autoremove
+  ```
+
 - Create session conda environments
 
   - Download the environment ymls from https://github.com/SPAAM-community/intro-to-ancient-metagenomics-book/tree/main/assets/envs, and create each env
@@ -159,6 +167,7 @@ Install bioinformatics software
     for i in *.yml; do
         printf "\n###### PREPARING $i #######\n"
         conda env create -v -q -f "$i"
+        conda clean all -y
     done
     ```
 
@@ -351,7 +360,7 @@ Install bioinformatics software
 - If running nf-core/eager in the pipelines session, run test profile to pull the container image once
 
   ```bash
-  cd /vol/volume/ancient-metagenomic-pipelines/nf-core-eager/
+  cd /vol/volume/ancient-metagenomic-pipelines/eager/
   conda activate ancient-metagenomic-pipelines
   nextflow run nf-core/eager -profile test,docker
   rm -r results/ work/ .nex*
@@ -403,6 +412,14 @@ for i in accessing-ancient-metagenomic-data ancient-metagenomic-pipelines authen
 done
 ```
 
+We can also record the structure of all the `/vol/volume/` sessions, by running the following command:
+
+```bash
+for i in accessing-ancient-metagenomic-data ancient-metagenomic-pipelines authentication bare-bones-bash contamination denovo-assembly genome-mapping git-github phylogenomics python-pandas r-tidyverse taxonomic-profiling; do
+  tree $i/ > "$i"_treestructure.txt
+done
+```
+
 ## Spinning up Participant VM
 
 On simpleVM workspace
@@ -419,7 +436,7 @@ On simpleVM workspace
 
 ## Misc
 
-- Need to mount the volumne (to be created)
+- Need to mount the volume (to be created)
 
   - Must contain all software, data
   - bashrc needs to be updated to point to miniforge install on volume
@@ -432,7 +449,7 @@ On simpleVM workspace
 
 <!--
 Changes from 2024:
-
+mi
 - Remi: wanted polars (added, but won't be taught)
 - Clemens: will maybe teach purrr (doesn't require any changes)
 - Giulia:
@@ -447,4 +464,7 @@ Changes from 2024:
 - Keri
   - New taxdb file
   - New analyslys.pynbnb file
+  - Check pavian in firefox file upload works
+- Nikolay
+  - Added the plotPMD.v2.R script directly to /vol/volume as bioconda version is broken
 -->
