@@ -52,6 +52,7 @@
 - [ ] **Participants:** send final reminder about organisational details
 - [ ] **Organisers:** make dinner reservations (don’t leave to 1 week before!)
 - [ ] **Organisers:** request EVA WiFi vouchers
+- [ ] **Organisers** Prepare particify.de
 
 ## T-Minus 1 week before (JULY/AUGUST)
 
@@ -65,6 +66,7 @@
 
 ## LIFTOFF
 
+- [ ] Collect WiFi vouchers
 - [ ] Print off attendance sheet
 - [ ] Get water jug and glasses
 - [ ] Check screen recording is set up properly and recording for each session (rename)
