@@ -2,7 +2,7 @@
 
 ## Overview
 
-The PROVISIONAL schedule for the summer school is as follows:
+The schedule for the summer school is as follows:
 
 | **Time**    | **Session Type** | **Day 1**                                                               | **Day 2**                                                                       | **Day 3**                                         | **Day 4**                          | **Day 5**                                                                           |
 | ----------- | ---------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ The PROVISIONAL schedule for the summer school is as follows:
 | 12:30-13:30 |                  | Lunch                                                                   | Lunch                                                                           | Lunch                                             | Lunch                              | Lunch                                                                               |
 | 13:30-15:30 | Practical        | Introduction to R and the tidyverse & Introduction to Python and Pandas | - Introduction to Git(Hub) (1h)<br>- Introduction to AncientMetagenomeDir (1hr) | Genome mapping                                    | Phylogenomics                      | - Authentication at Scale Practical (1h) <br>- Ancient Metagenomic Pipelines (1h)   |
 | 15:30-15:45 |                  | Break                                                                   | Break                                                                           | Break                                             | Break                              |                                                                                     |
-| 15:45-17:00 | Roundtable       | TBC                                                                     | TBC Activity                                                                    | TBC                                               | Instructor Office Hours            | Dinner (Leipzig Only)                                                               |
+| 15:45-17:00 | Roundtable       | Lightning talks                                                         | Team activity (your perfect bioinformatic tool)                                 | Instructor Office Hours                           | Instructor Office Hours            | Dinner (Leipzig Only)                                                               |
 
 Lectures and Practical sessions are typically 2 hours, and round-table discussions 1 hour.
 
@@ -29,7 +29,8 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Rémi Denise and Freya Steinhagen_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions participants can choose which to attend based on their prior experience)
-- **Round table** TBC
+- **Round table** Lightning talks
+  - To get to know each other, all students will give a 1 minute lightning talk about themselves and their research topics and interests.
 
 ### DAY 2
 
@@ -43,7 +44,9 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Practical** AncientMetagenomeDir: _James Fellows Yates and Megan Michal_
   - Where to get ancient metagenomic comparative data, and why is metadata important?
   - Git practice
-- **Round table** TBC
+- **Round table** Team activity
+  - To building networks amongst your peers, students will put into groups
+  - They will have to think what is their biggest issues in bioinformatics, design a the 'perfect' tool to solve it, and come up with a fun naming scheme (and logo!)
 
 ### DAY 3
 
@@ -53,7 +56,8 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - Python practice. How to normalise OTU tables and perform microbial ecology analyses.
 - **Practical** Genome mapping: _Tessa Zeibig and Alexander Herbig_
   - Why and how do we map against a reference? What parameters are important for aDNA?
-- **Round table** TBC
+- **Round table** Instructor open hours
+  - An opportunity for students to ask the instructors any questions about the content they have learnt so far, or to get advice on their own research.
 
 ### DAY 4
 
@@ -63,7 +67,8 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
 - **Practical** Phylogenomics: _Arthur Kocher and Aida Andrades Valtueña_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
-- **Roundtable** Instructor Office Hours: Ask the instructors anything about you learnt during the week or to get advice on your own research!
+- **Round table** Instructor open hours
+- An opportunity for students to ask the instructors any questions about the content they have learnt so far, or to get advice on their own research.
 
 ### DAY 5
 

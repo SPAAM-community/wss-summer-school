@@ -34,13 +34,15 @@ You can meet the instructors [here](/2024/instructors.md).
 
 The summer school will be held between 4th-8th August 2024, 09:00-17:00 CEST (Berlin Time).
 
+Applications for the 2025 Introduction to Ancient Metagenomics Summer school are now **closed**!
+
 Note the following additional dates:
 
 - **Applications open**: 31st March 2025
 - **Applications close**: 30th May 2025
 - **Decision notifications**: from second to third week of June 2025
 
-To see the provisional schedule, please see the [here](2025/schedule.md).
+To see the schedule, please see the [here](2025/schedule.md).
 
 ## Where
 

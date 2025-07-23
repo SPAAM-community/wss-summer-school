@@ -51,6 +51,7 @@
 - [ ] **Organisers:** spin up nodes for each person; mount volumes; set all teachers as admins
 - [ ] **Participants:** send final reminder about organisational details
 - [ ] **Organisers:** make dinner reservations (don’t leave to 1 week before!)
+- [ ] **Organisers:** request EVA WiFi vouchers
 
 ## T-Minus 1 week before (JULY/AUGUST)
 
