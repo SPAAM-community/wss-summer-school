@@ -24,7 +24,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 - **Lecture** Introduction to NGS data: _James Fellows Yates_
   - What is NGS sequencing and what does its data look like?
-- **Practical** BareBonesBash: _Aida Andrades Valtueña and Thiseas Lamnidis_
+- **Practical** BareBonesBash: _Thiseas Lamnidis and Aida Andrades Valtueña_
   - Introduction to the UNIX command line.
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Rémi Denise and Freya Steinhagen_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
@@ -65,7 +65,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - How can we learn from studying the genomes of microbes? What questions can we ask?
 - **Practical** Genome assembly: _Alex Hübner and Jasmin Frangenberg_
   - De novo methods for obtaining metagenomically assembled genomes (MAGs). What are the best pipelines and parameters for ancient DNA?
-- **Practical** Phylogenomics: _Arthur Kocher and Aida Andrades Valtueña_
+- **Practical** Phylogenomics: _Aida Andrades Valtueña and Megan Michel_
   - How to perform phylogenetic analysis. What to consider when dealing with low coverage data
 - **Round table** Instructor open hours
 - An opportunity for students to ask the instructors any questions about the content they have learnt so far, or to get advice on their own research.
@@ -74,10 +74,11 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 
 - **Lecture** Introduction to eDNA: _Vilma Pérez_
   - How have microbes and microbial communities evolved and changed through time? How does this inform our current understanding of the relationships among microbes?
-- **Practical** Authentication and Decontamination (microb(iom)es): _Nikolay Oskolkov, Freya Steinhagen, and James Fellows Yates_
+- **Practical** Authentication and Decontamination (microb(iom)es): _Nikolay Oskolkov, Freya Steinhagen_
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
 - **Practical** Authentication and Decontamination (eukaryotes): _Giulia Zampirolo and James Fellows Yates_
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
-- **Practical** Ancient Metagenomic Pipelines: _Nikolay Oskolkov, James Fellows Yates_
-  - What pipelines exist for specifically ancient DNA and ancient metagenomic data?
+- **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Nikolay Oskolkov_
+  - What pipelines exist for specifically ancient DNA and ancient metagenomic data, e.g. nf-core/eager, aMeta, and nf-core/mag?
+  - 2025: How to run nf-core/eager
 - **Round table** (Leipzig only) Dinner for Students and Instructors.
