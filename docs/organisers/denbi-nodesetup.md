@@ -449,8 +449,10 @@ On simpleVM workspace
 
 <!--
 Changes from 2024:
-mi
-- Remi: wanted polars (added, but won't be taught)
+
+- Remi:
+  - wanted polars (added, but won't be taught)
+  - Added the ancientmetagenome-hostassociated-samples.tsv AND libraries file wihtin `python-pandas_lecture`
 - Clemens: will maybe teach purrr (doesn't require any changes)
 - Giulia:
   - wanted latest version on metaDMG which is now on bioconda
