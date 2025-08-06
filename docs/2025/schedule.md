@@ -39,9 +39,9 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
 - **Practical** Introduction to R and the tidyverse / Introduction to Python and Pandas: _Clemens Schmid and Keri Burge_ / _Rémi Denise and Freya Steinhagen_
   - How to read/write files and run statistical analyses? How to make figures with ggplot2/plotnine
   - (Note: Parallel sessions participants can choose which to attend based on their prior experience)
-- **Practical** Bytesize git: _James Fellows Yates and Megan Michal_
+- **Practical** Bytesize git: _James Fellows Yates and Megan Michel_
   - What is git and github? How to clone a repository? What does commit/pull/push mean?
-- **Practical** AncientMetagenomeDir: _James Fellows Yates and Megan Michal_
+- **Practical** AncientMetagenomeDir: _James Fellows Yates and Megan Michel_
   - Where to get ancient metagenomic comparative data, and why is metadata important?
   - Git practice
 - **Round table** Team activity
