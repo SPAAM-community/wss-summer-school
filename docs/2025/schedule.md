@@ -78,7 +78,7 @@ Lectures and Practical sessions are typically 2 hours, and round-table discussio
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
 - **Practical** Authentication and Decontamination (eukaryotes): _Giulia Zampirolo and James Fellows Yates_
   - How can I validate my DNA is ancient? What sort of analyses can convince ourselves and a reviewer we have good preservation?
-- **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Nikolay Oskolkov_
+- **Practical** Ancient Metagenomic Pipelines: _James Fellows Yates and Megan Michel_
   - What pipelines exist for specifically ancient DNA and ancient metagenomic data, e.g. nf-core/eager, aMeta, and nf-core/mag?
   - 2025: How to run nf-core/eager
 - **Round table** (Leipzig only) Dinner for Students and Instructors.
