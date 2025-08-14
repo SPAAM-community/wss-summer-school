@@ -78,7 +78,8 @@
 ## T-plus 1 week after
 
 - [ ] **Organisers:** update website (apply, year, any home/covers)
-- [ ] **Organisers:** contact JSMC coordinator to confirm list of JSMC students and can re-use JSMC Head’s signature
+- [ ] **Organisers:** prepare certificates (JSMC: unsigned!)
+- [ ] **Organisers:** contact [JSMC scientific manager](https://www.jsmc-phd.de/contact.html) to confirm list of JSMC students and for signing of JSMC certificates
 - [ ] **Organisers:** send email to instructors for deadline for corrections
 - [ ] **Organisers:** Send initial feedback form
 - [ ] **Organisers:** Issue ECTS points/certificates
