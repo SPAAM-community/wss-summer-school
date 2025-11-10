@@ -16,7 +16,7 @@ If you get stuck at any point following these steps, follow the instructions in 
 
 ## Instructions
 
-1. Open the registration link [here](https://simplevm.denbi.de/portal/webapp/#/workshops/invitation/095dae97d9f14107bce2f965f7bb6358) <!-- This link should come from the SimpleVM workshop overview page - NOT on the central deNBI portal!-->
+1. Open the registration link you recieved in the email from the summer school organisers <!-- This link should come from the SimpleVM workshop overview page - NOT on the central deNBI portal!-->
    1. You will be redirected to the SimpleVM portal to register
 2. Select an identity provider of an existing account (e.g. institutional account, ORCiD, Google)
 
