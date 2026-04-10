@@ -25,7 +25,6 @@ If you get stuck at any point following these steps, follow the instructions in 
    > As a last resort, you can create an account via the LifeScienceHostel
 
 3. Register/link this account with LifeSciences AAI/Login (this is a centralised EU level single-sign-on service for EU biology related infrastructure)
-
    1. If via the Institutional route you get a 'No user account found' error, press 'Proceed to register for an account'
    2. If you get a 'Access denied' error, press 'Proceed to register for an account', continue with 'Proceed to registration'
       1. This will send happen on the RI Registrar, to register you to the LifeScience Community

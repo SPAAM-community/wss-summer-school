@@ -6,6 +6,6 @@
 - Learn how to run a project analysis from A-Z
 
 [About](#about)
+[Next Event](/2026/README)
 
 <!--[Apply](apply.md)-->
-<!--[Next Event](/2025/README)-->
