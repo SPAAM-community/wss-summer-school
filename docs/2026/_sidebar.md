@@ -1,5 +1,3 @@
-<!-- docs/_sidebar.md -->
-
 - [Home](/)
 - [Apply](apply.md "Apply")
 - [2026](2026/README.md)
